@@ -1,0 +1,1 @@
+mkdir -p /Users/edisonzhang/Documents/Projects/stardew_tools/stardew_recipes_counter/data/zh

@@ -1,0 +1,937 @@
+TOTAL 156
+
+1. FlashShifter.StardewValleyExpandedCP_Frog_Legs
+商店：AdventureShop
+条件：None
+PerItemCondition：None
+价格：2000
+
+2. FlashShifter.StardewValleyExpandedCP_Mushroom_Berry_Rice
+商店：AdventureShop
+条件：None
+PerItemCondition：None
+价格：1500
+
+3. (BC)143
+商店：Carpenter
+条件：None
+PerItemCondition：None
+价格：-1
+
+4. (BC)144
+商店：Carpenter
+条件：None
+PerItemCondition：None
+价格：-1
+
+5. (BC)145
+商店：Carpenter
+条件：None
+PerItemCondition：None
+价格：-1
+
+6. (BC)147
+商店：Carpenter
+条件：None
+PerItemCondition：None
+价格：-1
+
+7. (BC)148
+商店：Carpenter
+条件：None
+PerItemCondition：None
+价格：-1
+
+8. (BC)149
+商店：Carpenter
+条件：None
+PerItemCondition：None
+价格：-1
+
+9. (BC)150
+商店：Carpenter
+条件：None
+PerItemCondition：None
+价格：-1
+
+10. (BC)151
+商店：Carpenter
+条件：None
+PerItemCondition：None
+价格：-1
+
+11. (BC)152
+商店：Carpenter
+条件：None
+PerItemCondition：None
+价格：-1
+
+12. (BC)153
+商店：Carpenter
+条件：None
+PerItemCondition：None
+价格：-1
+
+13. (BC)BigChest
+商店：Carpenter
+条件：None
+PerItemCondition：None
+价格：5000
+
+14. (O)293
+商店：Carpenter
+条件：None
+PerItemCondition：None
+价格：500
+
+15. (O)328
+商店：Carpenter
+条件：None
+PerItemCondition：None
+价格：100
+
+16. (O)329
+商店：Carpenter
+条件：None
+PerItemCondition：None
+价格：100
+
+17. (O)401
+商店：Carpenter
+条件：None
+PerItemCondition：None
+价格：200
+
+18. (O)409
+商店：Carpenter
+条件：None
+PerItemCondition：None
+价格：200
+
+19. (O)415
+商店：Carpenter
+条件：None
+PerItemCondition：None
+价格：100
+
+20. (O)840
+商店：Carpenter
+条件：None
+PerItemCondition：None
+价格：200
+
+21. (O)841
+商店：Carpenter
+条件：None
+PerItemCondition：None
+价格：200
+
+22. FlashShifter.StardewValleyExpandedCP_Small_Hardwood_Fence_Tilesheet
+商店：Carpenter
+条件：None
+PerItemCondition：None
+价格：7000
+
+23. DN.SnS_ElysiumBlade
+商店：DN.SnS_LMArmory
+条件：PLAYER_HAS_SEEN_EVENT Any SnS.Ch4.Dandelion.7, !PLAYER_HAS_CRAFTING_RECIPE Current DN.SnS_ElysiumBlade
+PerItemCondition：None
+价格：15000
+
+24. DN.SnS_mushroomtreeseed
+商店：DN.SnS_LMArmory
+条件：PLAYER_HAS_SEEN_EVENT Any SnS.Ch4.Dandelion.7
+PerItemCondition：None
+价格：1000
+
+25. DN.SnS_farafieldsnack
+商店：DN.SnS_LMCafe
+条件：PLAYER_HAS_SEEN_EVENT Any SnS.Ch4.Dandelion.7
+PerItemCondition：None
+价格：1000
+
+26. (O)261
+商店：DesertTrade
+条件：None
+PerItemCondition：None
+价格：-1
+
+27. (BC)BigStoneChest
+商店：Dwarf
+条件：PLAYER_HAS_CRAFTING_RECIPE Current Stone Chest
+PerItemCondition：None
+价格：5000
+
+28. (O)331
+商店：Dwarf
+条件：None
+PerItemCondition：None
+价格：500
+
+29. FlashShifter.StardewValleyExpandedCP_Chocolate_Truffle_Bar
+商店：Festival_FestivalOfIce_TravelingMerchant
+条件：None
+PerItemCondition：None
+价格：12000
+
+30. (BC)108
+商店：Festival_FlowerDance_Pierre
+条件：None
+PerItemCondition：None
+价格：1000
+
+31. FlashShifter.StardewValleyExpandedCP_Ice_Cream_Sundae
+商店：Festival_Luau_Pierre
+条件：None
+PerItemCondition：None
+价格：2000
+
+32. (O)746
+商店：Festival_SpiritsEve_Pierre
+条件：None
+PerItemCondition：None
+价格：2000
+
+33. FlashShifter.StardewValleyExpandedCP_Prismatic_Pop
+商店：Festival_StardewValleyFair_StarTokens
+条件：YEAR 2 99
+PerItemCondition：None
+价格：3000
+
+34. (BC)FishSmoker
+商店：FishShop
+条件：None
+PerItemCondition：None
+价格：10000
+
+35. FlashShifter.StardewValleyExpandedCP_Seaweed_Salad
+商店：FishShop
+条件：None
+PerItemCondition：None
+价格：1250
+
+36. FlashShifter.StardewValleyExpandedCP_Baked_Berry_Oatmeal
+商店：FlashShifter.StardewValleyExpandedCP_BearVendor
+条件：None
+PerItemCondition：None
+价格：12500
+
+37. FlashShifter.StardewValleyExpandedCP_Flower_Cookie
+商店：FlashShifter.StardewValleyExpandedCP_BearVendor
+条件：None
+PerItemCondition：None
+价格：8750
+
+38. (O)904
+商店：IslandTrade
+条件：None
+PerItemCondition：None
+价格：-1
+
+39. (O)920
+商店：IslandTrade
+条件：None
+PerItemCondition：None
+价格：-1
+
+40. (O)EastScarp_Scarp_Warp_Totem
+商店：Lemurkat.EastScarp_InnShop
+条件：None
+PerItemCondition：None
+价格：1250
+
+41. (O)Lemurkat.EastScarp_GlassTile
+商店：Lemurkat.EastScarp_InnShop
+条件：None
+PerItemCondition：None
+价格：750
+
+42. (BC)Lumisteria.MtVapius_InsectHotel
+商店：Lumisteria.MtVapius_AsterShop
+条件：!false
+PerItemCondition：None
+价格：-1
+
+43. Lumisteria.MtVapius_Cooking_RyeBread
+商店：Lumisteria.MtVapius_GroceryShop
+条件：None
+PerItemCondition：None
+价格：-1
+
+44. (O)Lumisteria.MtVapius_OwlCarving
+商店：Lumisteria.MtVapius_MariamShop
+条件：None
+PerItemCondition：None
+价格：1000
+
+45. None
+商店：Lumisteria.MtVapius_MoiraShop
+条件：DAY_OF_WEEK Tuesday, PLAYER_SPECIAL_ORDER_ACTIVE Target Lumisteria.MtVapiusSpecialOrders.MtVapiusMusicBandFood
+PerItemCondition：None
+价格：-1
+
+46. None
+商店：Lumisteria.MtVapius_MoiraShop
+条件：DAY_OF_WEEK Tuesday
+PerItemCondition：None
+价格：-1
+
+47. None
+商店：Lumisteria.MtVapius_MoiraShop
+条件：DAY_OF_WEEK Tuesday
+PerItemCondition：None
+价格：-1
+
+48. (BC)Lumisteria.MtVapius_MaturingShelves
+商店：Lumisteria.MtVapius_MoiraShop
+条件：None
+PerItemCondition：None
+价格：5000
+
+49. RANDOM_ITEMS (O)
+商店：Lumisteria.MtVapius_MoiraShop
+条件：DAY_OF_WEEK Tuesday, PLAYER_HEARTS Current MoiraDuboisVMV 2, !false
+PerItemCondition：ITEM_ID_PREFIX Target Lumisteria.MtVapius_Cooking_, ITEM_CONTEXT_TAG Target mt_vapius_marketrecipe
+价格：-1
+
+50. (BC)Lumisteria.MtVapius_JewelerWorkshop
+商店：Lumisteria.MtVapius_NaveenShop
+条件：None
+PerItemCondition：None
+价格：-1
+
+51. MadDog.HashtagBearFam_Dylan_Tea
+商店：MadDog.HashtagBearFam_CaritasBakeryShop
+条件：None
+PerItemCondition：None
+价格：1000
+
+52. MadDog.HashtagBearFam_Eli_Cookie
+商店：MadDog.HashtagBearFam_CaritasBakeryShop
+条件：None
+PerItemCondition：None
+价格：1000
+
+53. MadDog.HashtagBearFam_RoseysLatkes
+商店：MadDog.HashtagBearFam_CaritasBakeryShop
+条件：None
+PerItemCondition：None
+价格：1000
+
+54. MadDog.HashtagBearFam_TerenBakes_ApricotDonut
+商店：MadDog.HashtagBearFam_CaritasBakeryShop
+条件：None
+PerItemCondition：None
+价格：1000
+
+55. MadDog.HashtagBearFam_TerenBakes_AutumnPumpkinCookie
+商店：MadDog.HashtagBearFam_CaritasBakeryShop
+条件：SEASON Fall
+PerItemCondition：None
+价格：1000
+
+56. MadDog.HashtagBearFam_TerenBakes_BlueberrySpongeCake
+商店：MadDog.HashtagBearFam_CaritasBakeryShop
+条件：None
+PerItemCondition：None
+价格：1000
+
+57. MadDog.HashtagBearFam_TerenBakes_ButtermilkCrescentRoll
+商店：MadDog.HashtagBearFam_CaritasBakeryShop
+条件：None
+PerItemCondition：None
+价格：1000
+
+58. MadDog.HashtagBearFam_TerenBakes_CaramelFlan
+商店：MadDog.HashtagBearFam_CaritasBakeryShop
+条件：None
+PerItemCondition：None
+价格：1000
+
+59. MadDog.HashtagBearFam_TerenBakes_CaramelOrangeRoll
+商店：MadDog.HashtagBearFam_CaritasBakeryShop
+条件：None
+PerItemCondition：None
+价格：1000
+
+60. MadDog.HashtagBearFam_TerenBakes_CherryLayerCake
+商店：MadDog.HashtagBearFam_CaritasBakeryShop
+条件：None
+PerItemCondition：None
+价格：1000
+
+61. MadDog.HashtagBearFam_TerenBakes_CinnaSpiceRoll
+商店：MadDog.HashtagBearFam_CaritasBakeryShop
+条件：None
+PerItemCondition：None
+价格：1000
+
+62. MadDog.HashtagBearFam_TerenBakes_CookiesnCremeCake
+商店：MadDog.HashtagBearFam_CaritasBakeryShop
+条件：None
+PerItemCondition：None
+价格：1000
+
+63. MadDog.HashtagBearFam_TerenBakes_DecadentCheesecake
+商店：MadDog.HashtagBearFam_CaritasBakeryShop
+条件：None
+PerItemCondition：None
+价格：1000
+
+64. MadDog.HashtagBearFam_TerenBakes_HazelnutCroissant
+商店：MadDog.HashtagBearFam_CaritasBakeryShop
+条件：None
+PerItemCondition：None
+价格：1000
+
+65. MadDog.HashtagBearFam_TerenBakes_HeartHealthCookies
+商店：MadDog.HashtagBearFam_CaritasBakeryShop
+条件：None
+PerItemCondition：None
+价格：1000
+
+66. MadDog.HashtagBearFam_TerenBakes_PDFruitScone
+商店：MadDog.HashtagBearFam_CaritasBakeryShop
+条件：None
+PerItemCondition：None
+价格：1000
+
+67. MadDog.HashtagBearFam_TerenBakes_PlumRiceBalls
+商店：MadDog.HashtagBearFam_CaritasBakeryShop
+条件：None
+PerItemCondition：None
+价格：1000
+
+68. MadDog.HashtagBearFam_TerenBakes_PomegranateEclair
+商店：MadDog.HashtagBearFam_CaritasBakeryShop
+条件：None
+PerItemCondition：None
+价格：1000
+
+69. MadDog.HashtagBearFam_TerenBakes_RainbowCake
+商店：MadDog.HashtagBearFam_CaritasBakeryShop
+条件：None
+PerItemCondition：None
+价格：1000
+
+70. MadDog.HashtagBearFam_TerenBakes_RainbowChipCookies
+商店：MadDog.HashtagBearFam_CaritasBakeryShop
+条件：None
+PerItemCondition：None
+价格：1000
+
+71. MadDog.HashtagBearFam_TerenBakes_RedVelvetCookie
+商店：MadDog.HashtagBearFam_CaritasBakeryShop
+条件：None
+PerItemCondition：None
+价格：1000
+
+72. MadDog.HashtagBearFam_TerenBakes_SpringMacarons
+商店：MadDog.HashtagBearFam_CaritasBakeryShop
+条件：SEASON Spring
+PerItemCondition：None
+价格：1000
+
+73. MadDog.HashtagBearFam_TerenBakes_SummerCakePopsicle
+商店：MadDog.HashtagBearFam_CaritasBakeryShop
+条件：SEASON Summer
+PerItemCondition：None
+价格：1000
+
+74. MadDog.HashtagBearFam_TerenBakes_WildPlumDonut
+商店：MadDog.HashtagBearFam_CaritasBakeryShop
+条件：None
+PerItemCondition：None
+价格：1000
+
+75. MadDog.HashtagBearFam_TerenBakes_WinterGingerBread
+商店：MadDog.HashtagBearFam_CaritasBakeryShop
+条件：SEASON Winter
+PerItemCondition：None
+价格：1000
+
+76. MadDog.HashtagBearFam_TerenBakes_ZuzuPretzel
+商店：MadDog.HashtagBearFam_CaritasBakeryShop
+条件：None
+PerItemCondition：None
+价格：1000
+
+77. MadDog.HashtagBearFam_TerenMakes_GarlicSquoodles
+商店：MadDog.HashtagBearFam_CaritasBakeryShop
+条件：None
+PerItemCondition：None
+价格：1000
+
+78. MadDog.HashtagBearFam_TerenMakes_JerkVeggiesandSalsa
+商店：MadDog.HashtagBearFam_CaritasBakeryShop
+条件：None
+PerItemCondition：None
+价格：1000
+
+79. MadDog.HashtagBearFam_TerenMakes_MushroomSteakBurger
+商店：MadDog.HashtagBearFam_CaritasBakeryShop
+条件：None
+PerItemCondition：None
+价格：1000
+
+80. MadDog.HashtagBearFam_TerenMakes_PeachyLemonade
+商店：MadDog.HashtagBearFam_CaritasBakeryShop
+条件：None
+PerItemCondition：None
+价格：1000
+
+81. MadDog.HashtagBearFam_TerenMakes_TomatoCoconutBisque
+商店：MadDog.HashtagBearFam_CaritasBakeryShop
+条件：None
+PerItemCondition：None
+价格：1000
+
+82. MadDog.HashtagBearFam_TerenMakes_TooMuchFruitSmoothie
+商店：MadDog.HashtagBearFam_CaritasBakeryShop
+条件：None
+PerItemCondition：None
+价格：1000
+
+83. MadDog.HashtagBearFam_TerenMakes_VeggieSkewer
+商店：MadDog.HashtagBearFam_CaritasBakeryShop
+条件：None
+PerItemCondition：None
+价格：1000
+----------↓------------//3月3日
+84. MadDog.HashtagBearFam_Citrus_City_Gin_Sour
+商店：MadDog.HashtagBearFam_GunShop
+条件：PLAYER_HEARTS Current MadDog.HashtagBearFam.Gunnar 8
+PerItemCondition：None
+价格：1500
+
+85. MadDog.HashtagBearFam_Honey_OldFashioned
+商店：MadDog.HashtagBearFam_GunShop
+条件：PLAYER_HEARTS Current MadDog.HashtagBearFam.Sigurd 8
+PerItemCondition：None
+价格：1500
+
+86. MadDog.HashtagBearFam_RegenPotions_AngelWingPotion
+商店：MadDog.HashtagBearFam_GunShop
+条件：PLAYER_HEARTS current MadDog.HashtagBearFam.Gunnar 4
+PerItemCondition：None
+价格：10000
+
+87. MadDog.HashtagBearFam_RegenPotions_DigitalMindWavePotion
+商店：MadDog.HashtagBearFam_GunShop
+条件：PLAYER_HEARTS current MadDog.HashtagBearFam.Gunnar 6
+PerItemCondition：None
+价格：10000
+
+88. MadDog.HashtagBearFam_RegenPotions_FantasiaPotion
+商店：MadDog.HashtagBearFam_GunShop
+条件：PLAYER_HEARTS current MadDog.HashtagBearFam.Gunnar 5
+PerItemCondition：None
+价格：10000
+
+89. MadDog.HashtagBearFam_RegenPotions_FreeEnergyPotion
+商店：MadDog.HashtagBearFam_GunShop
+条件：PLAYER_HEARTS current MadDog.HashtagBearFam.Gunnar 4
+PerItemCondition：None
+价格：10000
+
+90. MadDog.HashtagBearFam_RegenPotions_GlaiveArtsPotion
+商店：MadDog.HashtagBearFam_GunShop
+条件：PLAYER_HEARTS current MadDog.HashtagBearFam.Gunnar 6
+PerItemCondition：None
+价格：10000
+
+91. MadDog.HashtagBearFam_RegenPotions_GreatGospelPotion
+商店：MadDog.HashtagBearFam_GunShop
+条件：PLAYER_HEARTS current MadDog.HashtagBearFam.Gunnar 7
+PerItemCondition：None
+价格：10000
+
+92. MadDog.HashtagBearFam_RegenPotions_NordswainsGlowPotion
+商店：MadDog.HashtagBearFam_GunShop
+条件：PLAYER_HEARTS current MadDog.HashtagBearFam.Gunnar 8
+PerItemCondition：None
+价格：25000
+
+93. MadDog.HashtagBearFam_RegenPotions_TidesofFatePotion
+商店：MadDog.HashtagBearFam_GunShop
+条件：PLAYER_HEARTS current MadDog.HashtagBearFam.Gunnar 5
+PerItemCondition：None
+价格：10000
+
+94. MadDog.HashtagBearFam_Zuzu_Mule
+商店：MadDog.HashtagBearFam_GunShop
+条件：PLAYER_HEARTS Current MadDog.HashtagBearFam.Teren 8
+PerItemCondition：None
+价格：1500
+--------↑------------//3月3日
+95. (BC)264
+商店：QiGemShop
+条件：None
+PerItemCondition：None
+价格：-1
+
+96. (BC)275
+商店：QiGemShop
+条件：None
+PerItemCondition：None
+价格：-1
+
+97. (O)908
+商店：QiGemShop
+条件：None
+PerItemCondition：None
+价格：-1
+
+98. (O)918
+商店：QiGemShop
+条件：None
+PerItemCondition：None
+价格：-1
+
+99. (O)919
+商店：QiGemShop
+条件：None
+PerItemCondition：None
+价格：-1
+
+100. (O)BlueGrassStarter
+商店：QiGemShop
+条件：None
+PerItemCondition：None
+价格：-1
+
+101. (O)Rafseazz.RSVCP_Apricot_Juice
+商店：RSVMalayaRecipes
+条件：None
+PerItemCondition：None
+价格：-1
+
+102. (O)Rafseazz.RSVCP_Clementine_Juice
+商店：RSVMalayaRecipes
+条件：None
+PerItemCondition：None
+价格：-1
+
+103. (O)Rafseazz.RSVCP_Ginger_Rangpur_Meringue
+商店：RSVMalayaRecipes
+条件：None
+PerItemCondition：None
+价格：-1
+
+104. (O)Rafseazz.RSVCP_Hundred_Flavor_Doughnut
+商店：RSVMalayaRecipes
+条件：None
+PerItemCondition：None
+价格：-1
+
+105. (O)Rafseazz.RSVCP_Kedi_Delight
+商店：RSVMalayaRecipes
+条件：None
+PerItemCondition：None
+价格：-1
+
+106. (O)Rafseazz.RSVCP_Kek_s_Small_Dream
+商店：RSVMalayaRecipes
+条件：None
+PerItemCondition：None
+价格：-1
+
+107. (O)Rafseazz.RSVCP_Kek_s_Style_Shortcake
+商店：RSVMalayaRecipes
+条件：None
+PerItemCondition：None
+价格：-1
+
+108. (O)Rafseazz.RSVCP_Pillowsoft_Cheezy_Sandwich
+商店：RSVMalayaRecipes
+条件：None
+PerItemCondition：None
+价格：-1
+
+109. (O)Rafseazz.RSVCP_Pink_Frosted_Sprinkled_Doughnut
+商店：RSVMalayaRecipes
+条件：None
+PerItemCondition：None
+价格：-1
+
+110. (O)Rafseazz.RSVCP_Wild_Apple_Juice
+商店：RSVMalayaRecipes
+条件：None
+PerItemCondition：None
+价格：-1
+
+111. (O)Rafseazz.RSVCP_Arugula_Roll
+商店：RSVPikaRecipes
+条件：None
+PerItemCondition：None
+价格：-1
+
+112. (O)Rafseazz.RSVCP_Autumn_Dew_Drop_Juice
+商店：RSVPikaRecipes
+条件：None
+PerItemCondition：None
+价格：-1
+
+113. (O)Rafseazz.RSVCP_Autumnal_Serenity
+商店：RSVPikaRecipes
+条件：PLAYER_HAS_MAIL Current RSV.PikaFall
+PerItemCondition：None
+价格：-1
+
+114. (O)Rafseazz.RSVCP_Cherry_Berry_Shakey
+商店：RSVPikaRecipes
+条件：None
+PerItemCondition：None
+价格：-1
+
+115. (O)Rafseazz.RSVCP_Fried_Fish_a_la_Ridge
+商店：RSVPikaRecipes
+条件：None
+PerItemCondition：None
+价格：-1
+
+116. (O)Rafseazz.RSVCP_Fried_Mountain_Greens
+商店：RSVPikaRecipes
+条件：None
+PerItemCondition：None
+价格：-1
+
+117. (O)Rafseazz.RSVCP_Ginger_Arugula_Fried_Rice
+商店：RSVPikaRecipes
+条件：None
+PerItemCondition：None
+价格：-1
+
+118. (O)Rafseazz.RSVCP_Highland_Ice_Cream
+商店：RSVPikaRecipes
+条件：None
+PerItemCondition：None
+价格：-1
+
+119. (O)Rafseazz.RSVCP_Honey_Ginger_Whitefish
+商店：RSVPikaRecipes
+条件：None
+PerItemCondition：None
+价格：-1
+
+120. (O)Rafseazz.RSVCP_Honey_Glazed_Salad
+商店：RSVPikaRecipes
+条件：None
+PerItemCondition：None
+价格：-1
+
+121. (O)Rafseazz.RSVCP_Ridge_Fruity_Plate
+商店：RSVPikaRecipes
+条件：None
+PerItemCondition：None
+价格：-1
+
+122. (O)Rafseazz.RSVCP_Ridgeside_Shaketini
+商店：RSVPikaRecipes
+条件：None
+PerItemCondition：None
+价格：-1
+
+123. (O)Rafseazz.RSVCP_Snow_Bowl_Surprise
+商店：RSVPikaRecipes
+条件：None
+PerItemCondition：None
+价格：-1
+
+124. (O)Rafseazz.RSVCP_Snowball_Slurpee
+商店：RSVPikaRecipes
+条件：None
+PerItemCondition：None
+价格：-1
+
+125. (O)Rafseazz.RSVCP_Springtime_Primetime
+商店：RSVPikaRecipes
+条件：PLAYER_HAS_MAIL Current RSV.PikaSpring
+PerItemCondition：None
+价格：-1
+
+126. (O)Rafseazz.RSVCP_Summer_Mountain_Blessing
+商店：RSVPikaRecipes
+条件：PLAYER_HAS_MAIL Current RSV.PikaSummer
+PerItemCondition：None
+价格：-1
+
+127. (O)Rafseazz.RSVCP_Summit_Iced_Tea
+商店：RSVPikaRecipes
+条件：None
+PerItemCondition：None
+价格：-1
+
+128. (O)Rafseazz.RSVCP_Winter_Night_Feast
+商店：RSVPikaRecipes
+条件：PLAYER_HAS_MAIL Current RSV.PikaWinter
+PerItemCondition：None
+价格：-1
+
+129. (O)Rafseazz.RSVCP_Zesty_Tuna
+商店：RSVPikaRecipes
+条件：None
+PerItemCondition：None
+价格：-1
+
+130. (O)907
+商店：ResortBar
+条件：None
+PerItemCondition：None
+价格：2000
+
+131. None
+商店：Saloon
+条件：SYNCED_RANDOM day lumisteria.mtvapius_saloonrecipe 0.2, !DAY_OF_WEEK Thursday
+PerItemCondition：None
+价格：-1
+
+132. None
+商店：Saloon
+条件：SYNCED_RANDOM day lumisteria.mtvapius_saloonrecipe 0.6, DAY_OF_WEEK Thursday
+PerItemCondition：None
+价格：-1
+
+133. (O)195
+商店：Saloon
+条件：None
+PerItemCondition：None
+价格：100
+
+134. (O)206
+商店：Saloon
+条件：None
+PerItemCondition：None
+价格：150
+
+135. (O)210
+商店：Saloon
+条件：None
+PerItemCondition：None
+价格：50
+
+136. (O)211
+商店：Saloon
+条件：None
+PerItemCondition：None
+价格：100
+
+137. (O)216
+商店：Saloon
+条件：None
+PerItemCondition：None
+价格：100
+
+138. (O)223
+商店：Saloon
+条件：PLAYER_HAS_SEEN_EVENT Current 19
+PerItemCondition：None
+价格：300
+
+139. (O)228
+商店：Saloon
+条件：None
+PerItemCondition：None
+价格：300
+
+140. (O)229
+商店：Saloon
+条件：None
+PerItemCondition：None
+价格：100
+
+141. (O)253
+商店：Saloon
+条件：None
+PerItemCondition：None
+价格：5000
+
+142. FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger
+商店：Saloon
+条件：None
+PerItemCondition：None
+价格：3000
+
+143. FlashShifter.StardewValleyExpandedCP_Candy
+商店：Saloon
+条件：None
+PerItemCondition：None
+价格：10000
+
+144. FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish
+商店：Saloon
+条件：None
+PerItemCondition：None
+价格：6000
+
+145. FlashShifter.StardewValleyExpandedCP_Mixed_Berry_Pie
+商店：Saloon
+条件：None
+PerItemCondition：None
+价格：5000
+
+146. FlashShifter.StardewValleyExpandedCP_Vegan_Cone
+商店：Sandy
+条件：None
+PerItemCondition：None
+价格：3000
+
+147. (BC)Dehydrator
+商店：SeedShop
+条件：!PLAYER_HAS_CRAFTING_RECIPE Current Dehydrator
+PerItemCondition：None
+价格：5000
+
+148. (O)297
+商店：SeedShop
+条件：None
+PerItemCondition：None
+价格：1000
+
+149. FlashShifter.StardewValleyExpandedCP_Birch_Syrup
+商店：SeedShop
+条件：None
+PerItemCondition：None
+价格：2500
+
+150. (BC)83
+商店：ShadowShop
+条件：None
+PerItemCondition：None
+价格：1000
+
+151. (O)333
+商店：ShadowShop
+条件：None
+PerItemCondition：None
+价格：500
+
+152. FlashShifter.StardewValleyExpandedCP_Void_Delight
+商店：ShadowShop
+条件：PLAYER_HEARTS Any Krobus 10
+PerItemCondition：None
+价格：5000
+
+153. FlashShifter.StardewValleyExpandedCP_Void_Salmon_Sushi
+商店：ShadowShop
+条件：None
+PerItemCondition：None
+价格：5000
+
+154. (O)801
+商店：Traveler
+条件：IS_MULTIPLAYER
+PerItemCondition：None
+价格：500
+
+155. (O)886
+商店：VolcanoShop
+条件：None
+PerItemCondition：None
+价格：10000
+
+156. (O)903
+商店：VolcanoShop
+条件：None
+PerItemCondition：None
+价格：1000

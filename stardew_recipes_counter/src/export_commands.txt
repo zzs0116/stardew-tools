@@ -1,0 +1,276 @@
+patch export "Cornucopia.ArtisanMachines/Objects" image
+patch export "Cornucopia.MoreCrops/Objects" image
+patch export "Cornucopia.MoreCrops/Objects-Artisan" image
+patch export "Cornucopia.MoreFlowers/Objects" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Ackee" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Angelfish" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Araza" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/BLT" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Big Burger" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Bubblegum Ice Cream" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Cherimoya" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Chicken Drumstick" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Chocolate Ice Cream" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Chocolate Slice" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Cider" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Clownfish" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Downtown Dog" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Earth's Essence" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Fire Jellyfish" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Granary Stack" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Ice Delight" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Jackfruit" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Joja Cocktail" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Joja Fries" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Joja Soda" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Lemon Drizzle Cheesecake" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Lotus Crystal" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Marine Dragon" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Marine Gold" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Moonstone" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Mozzarella Slice" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Popcorn" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Qi Crystal" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Sapphire Starfish" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Serpent Fragment" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Spanish Lime" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Stargazer's Ore" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Strawberry Daiquiri" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Strawberry Popsicle" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Sunset Fragment" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Vampire Squid" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Zuzu Carp" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Zuzu Champagne" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Zuzu Ice Cream" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Zuzu Milkshake" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Zuzu Signature Cocktail" image
+patch export "Mods/Draylon.ForeverFallsCP/Objects" image
+patch export "Mods/EnD/Objects" image
+patch export "Mods/Squeaks.MGC.CP/Objects" image
+patch export "Mods/Wildflour.SASS/Objects" image
+patch export "Mods\BagiNoraCP\FoodAdjacent" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Aegis Elixir" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Aged Blue Moon Wine" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Alligator" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Amber" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Ancient Ferns Seed" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Ancient Fiber" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Armor Elixir" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Arrowhead Shark" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Aurora Vineyard Property Deed" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Baby Lunaloo" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Baked Berry Oatmeal Supreme" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Baked Potato" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Barbarian Elixir" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Barred Knifejaw" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Bearberrys" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Big Bark Burger" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Big Conch" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Birch Seed" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Birch Syrup" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Birch Water" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Blue Moon Wine" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Blue Tang" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Bombardier Elixir" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Bonefish" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Boomerang" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Bull Trout" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Butter" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Butterfish" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Butternut Squash" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Butternut Squash Seed" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Camel Wool" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Candy" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Castle_Village_Outpost_Vendor_Schedule" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Cheese Charcuterie" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Chocolate Truffle Bar" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Clownfish" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Cucumber" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Cucumber Seed" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Daggerfish" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Dewdrop Berry" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Diamond Carp" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Diamond Flower" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Dried Sand Dollar" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Dulse Seaweed" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Faded Button" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Ferngill Primrose" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Fiber Goby" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Fir Cone" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Fir Wax" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Fish Dumpling" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Flower Cookie" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Fossilized Apple" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Frog" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Frog Legs" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Fungus Seed" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Galdoran Gem" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Gar" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Gemfish" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Gingerbread Man" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Glazed Butterfish" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Glazed Pear" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Gold Carrot" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Gold Carrot Seed" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Gold Slime Egg" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Golden Goose Egg" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Golden Ocean Flower" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\GoldenKey" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Goldenfish" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Goldenrod" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Goldfish" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Goose Egg" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Goose Mayonnaise" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Grampleton Orange Chicken" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Grass Carp" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Gravity Elixir" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Green Mushroom" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Grilled Cheese Sandwich" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Haste Elixir" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Hedge Fence" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Hero Elixir" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Highlands Bass" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Honey Jar" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Ice Cream Sundae" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Joja Berry" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Joja Berry Starter" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Joja Veggie" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Joja Veggie Seeds" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\King Salmon" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Kittyfish" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Lance's_Schedule" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Lightning Elixir" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Lucky Four Leaf Clover" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Lunaloo" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Magic Lamp" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Marsh Tonic" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Mega Purple Mushroom" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Mermaid's Bracelet" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Meteor Carp" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Minnow" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Mixed Berry Pie" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Money Bag" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Monster Fruit" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Monster Mushroom" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Mushroom Berry Rice" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Mushroom Colony" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Nectarine" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Nectarine Fruit Bread" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Nectarine Sapling" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Ocean Sunfish" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Old Coin" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Ornate Treasure Chest" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Pear" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Pear Sapling" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Persimmon" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Persimmon Sapling" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Pineapple Custard Crepe" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Poison Mushroom" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Prismatic Pop" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Property Deed" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Puppyfish" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Radioactive Bass" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Ramen" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Razor Trout" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Red Baneberry" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Rusty Blade" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Rusty Shield" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Salal Berry" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Sea Sponge" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Seahorse" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Seaweed Salad" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Seed Cookie" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Shark" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Shark Tooth" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Shiny Lunaloo" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Shrub Seed" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Slime Berry" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Slime Seed" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Sludge" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Small Hardwood Fence" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Smelly Rafflesia" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Snatcher Worm" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Sports Drink" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Stalk Seed" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Stamina Capsule" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Starfish" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Stone of Yoba" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Stuffed Persimmon" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Sun Totem" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Super Joja Cola" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Super Starfruit" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Supernatural Goo" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Swamp Crab" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Swamp Essence" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Swamp Flower" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Sweet Potato" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Sweet Potato Seed" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Swirl Stone" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Tadpole" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Thistle" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Torpedo Trout" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Tree Coin" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Turretfish" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Undeadfish" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Vegan Cone" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Viper Eel" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Void Delight" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Void Eel" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Void Pebble" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Void Root" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Void Salmon Sushi" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Void Seed" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Void Shard" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Void Soul" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\VoidMayoSandwich" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Water Grub" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Wind Totem" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Winter Star Rose" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Wolf Snapper" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Yarn" image
+patch export "Mods\HimeTarts.ARV\Objects" image
+patch export "Mods\Lemurkat.EastScarp\esobjects" image
+patch export "Mods\Lumisteria.MtVapius\AnimalProducts" image
+patch export "Mods\Lumisteria.MtVapius\ArtisanGoods" image
+patch export "Mods\Lumisteria.MtVapius\Candy" image
+patch export "Mods\Lumisteria.MtVapius\Decor" image
+patch export "Mods\Lumisteria.MtVapius\Dishes" image
+patch export "Mods\Lumisteria.MtVapius\Fishes" image
+patch export "Mods\Lumisteria.MtVapius\Forage" image
+patch export "Mods\Lumisteria.MtVapius\Gems" image
+patch export "Mods\Lumisteria.MtVapius\Jewels" image
+patch export "Mods\Lumisteria.MtVapius\Objects" image
+patch export "Mods\Lumisteria.MtVapius\Ores" image
+patch export "Mods\Lumisteria.MtVapius\Plants" image
+patch export "Mods\Lumisteria.MtVapius\Seeds" image
+patch export "Mods\Lumisteria.MtVapius\Treasures" image
+patch export "Mods\MNF.MoreNewFish\Objects\Objects" image
+patch export "Mods\MadDogBearFam\Coffees" image
+patch export "Mods\MadDogBearFam\CropObject" image
+patch export "Mods\MadDogBearFam\Equipment" image
+patch export "Mods\MadDogBearFam\FoodAdjacent" image
+patch export "Mods\MadDogBearFam\NonWeaponEquipment" image
+patch export "Mods\MadDogBearFam\Sapling" image
+patch export "Mods\MadDogBearFam\SeedPacket" image
+patch export "Mods\Rafseazz.RSVCP\Objects\FruitTreeSaplings" image
+patch export "Mods\Rafseazz.RSVCP\Objects\Objects" image
+patch export "Mods\atelier99.SBV.NPCLani\Soju" image
+patch export "Mods\skellady.SBVCP\AnimalProduce" image
+patch export "Mods\skellady.SBVCP\Fish" image
+patch export "Mods\skellady.SBVCP\Food" image
+patch export "Mods\skellady.SBVCP\GemsArtifacts" image
+patch export "Mods\skellady.SBVCP\GenericObjects" image
+patch export "Mods\skellady.SBVCP\MiscItems" image
+patch export "Mods\skellady.SBVCP\Nodes" image
+patch export "Mods\skellady.SBVCP\Produce" image
+patch export "Mods\skellady.SBVCP\Seeds" image
+patch export "SMAPI/thefrenchdodo.rodneyobrien/Assets/Items/Autographs/Vanilla/AGenuineAutograph.png" image
+patch export "SMAPI/thefrenchdodo.rodneyobrien/Assets/Items/Autographs/Vanilla/AnAutographedPhoto.png" image
+patch export "Textures/7thAxis.LitD/Objects" image
+patch export "Textures/DN.SnS/SnSArsenal" image
+patch export "Textures/DN.SnS/SnSBooks" image
+patch export "Textures/DN.SnS/SnSObjects" image
+patch export "Textures/DN.SnS/TeleportCircle" image
+patch export "Textures/DN.SnS/VioletMoonFood" image
+patch export "TileSheets\Objects_2" image
+patch export "maps/DeepDark-rocks" image

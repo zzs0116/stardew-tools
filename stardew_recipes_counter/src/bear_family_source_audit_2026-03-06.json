@@ -1,0 +1,2136 @@
+{
+  "generated_at": "2026-03-06",
+  "scope": "Bear Family recipes found in Data_CookingRecipes (MadDog.HashtagBearFam_*)",
+  "count": 80,
+  "notes": [
+    "Fersken Peach Cobbler / Sliced Peaches 在Mail中是 item id，不是 cookingRecipe。",
+    "source_token 为 null/none 时优先用 IsRecipe 商店规则，其次用 Mail(cookingRecipe) 规则。"
+  ],
+  "records": [
+    {
+      "name": "Joja 冰淇淋苏打",
+      "recipe_id": "MadDog.HashtagBearFam_JojaFloat",
+      "source_token": "null",
+      "current_source": {
+        "type": "other",
+        "description": "其他途径",
+        "details": {
+          "original": "null"
+        }
+      },
+      "suggested_source": {
+        "type": "mail",
+        "description": "邮件获得",
+        "details": {
+          "mail_keys": [
+            "Teren.JojaFloat"
+          ]
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [
+          "Teren.JojaFloat"
+        ],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "三角烤奶酪三明治",
+      "recipe_id": "MadDog.HashtagBearFam_TriangleGrilledCheese",
+      "source_token": "default",
+      "current_source": {
+        "type": "default",
+        "description": "初始拥有",
+        "details": {}
+      },
+      "suggested_source": {
+        "type": "default",
+        "description": "初始拥有",
+        "details": {}
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "三重诱惑布朗尼",
+      "recipe_id": "MadDog.HashtagBearFam_TTBrownies",
+      "source_token": "null",
+      "current_source": {
+        "type": "other",
+        "description": "其他途径",
+        "details": {
+          "original": "null"
+        }
+      },
+      "suggested_source": {
+        "type": "other",
+        "description": "其他途径",
+        "details": {
+          "condition": "未在Bear Family源数据中找到直接解锁规则"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "九香草韵拼盘",
+      "recipe_id": "MadDog.HashtagBearFam_NineHerbsCharm",
+      "source_token": "e MadDog.BearFam.16193004",
+      "current_source": {
+        "type": "event",
+        "description": "事件触发",
+        "details": {
+          "condition": "熊家剧情：\"冈纳被投诉\"事件后邮件获得。"
+        }
+      },
+      "suggested_source": {
+        "type": "event",
+        "description": "事件触发",
+        "details": {
+          "event_id": "MadDog.BearFam.16193004"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [
+          "bearfam.gunnarnineherbcharm"
+        ],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "伟大福音药剂",
+      "recipe_id": "MadDog.HashtagBearFam_RegenPotions_GreatGospelPotion",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "condition": "与冈纳的好感度达到7颗心",
+          "shop": "冈纳的小摊",
+          "price": 10000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_GunShop",
+          "condition": "PLAYER_HEARTS current MadDog.HashtagBearFam.Gunnar 7"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_GunShop",
+          "condition_raw": "PLAYER_HEARTS current MadDog.HashtagBearFam.Gunnar 7"
+        }
+      }
+    },
+    {
+      "name": "冈纳的万能药",
+      "recipe_id": "MadDog.HashtagBearFam_GunnarRemedyAll",
+      "source_token": "e MadDog.BearFam.16193006",
+      "current_source": {
+        "type": "event",
+        "description": "事件触发",
+        "details": {
+          "condition": "熊家剧情：\"冈纳回归店铺\"事件后邮件获得。"
+        }
+      },
+      "suggested_source": {
+        "type": "event",
+        "description": "事件触发",
+        "details": {
+          "event_id": "MadDog.BearFam.16193006"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [
+          "bearfam.gunnarremedyall"
+        ],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "冈纳的不死鸟之尾",
+      "recipe_id": "MadDog.HashtagBearFam_GunnarPhoenixDown",
+      "source_token": "e MadDog.BearFam.16193008",
+      "current_source": {
+        "type": "event",
+        "description": "事件触发",
+        "details": {
+          "condition": "熊家剧情：\"地下室洞穴触手怪\"事件后邮件获得。"
+        }
+      },
+      "suggested_source": {
+        "type": "event",
+        "description": "事件触发",
+        "details": {
+          "event_id": "MadDog.BearFam.16193008"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [
+          "bearfam.gunnarphoenixdown"
+        ],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "冈纳的劣质药剂",
+      "recipe_id": "MadDog.HashtagBearFam_GunnarBadPotion",
+      "source_token": "null",
+      "current_source": {
+        "type": "other",
+        "description": "其他途径",
+        "details": {
+          "original": "null"
+        }
+      },
+      "suggested_source": {
+        "type": "other",
+        "description": "其他途径",
+        "details": {
+          "condition": "未在Bear Family源数据中找到直接解锁规则"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "冈纳的古怪药剂",
+      "recipe_id": "MadDog.HashtagBearFam_GunnarWeirdPotion",
+      "source_token": "null",
+      "current_source": {
+        "type": "other",
+        "description": "其他途径",
+        "details": {
+          "original": "null"
+        }
+      },
+      "suggested_source": {
+        "type": "other",
+        "description": "其他途径",
+        "details": {
+          "condition": "未在Bear Family源数据中找到直接解锁规则"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "冈纳的完美拉面",
+      "recipe_id": "MadDog.HashtagBearFam_GunnarPerfectRamen",
+      "source_token": "e MadDog.BearFam.16197003",
+      "current_source": {
+        "type": "event",
+        "description": "事件触发",
+        "details": {
+          "condition": "观看完熊家的\"半夜厨房事故\"事件后习得"
+        }
+      },
+      "suggested_source": {
+        "type": "event",
+        "description": "事件触发",
+        "details": {
+          "event_id": "MadDog.BearFam.16197003"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [
+          "bearfam.gunnarramen"
+        ],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "冈纳的完美药剂",
+      "recipe_id": "MadDog.HashtagBearFam_GunnarPerfectPotion",
+      "source_token": "e MadDog.BearFam.16193010",
+      "current_source": {
+        "type": "event",
+        "description": "事件触发",
+        "details": {
+          "condition": "熊家剧情：\"冈纳整理旧物并放下旧婚约\"事件后邮件获得。"
+        }
+      },
+      "suggested_source": {
+        "type": "event",
+        "description": "事件触发",
+        "details": {
+          "event_id": "MadDog.BearFam.16193010"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [
+          "bearfam.gunnarperfectpotion"
+        ],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "冈纳的神秘药剂",
+      "recipe_id": "MadDog.HashtagBearFam_GunnarMysteryPotion",
+      "source_token": "null",
+      "current_source": {
+        "type": "other",
+        "description": "其他途径",
+        "details": {
+          "original": "null"
+        }
+      },
+      "suggested_source": {
+        "type": "other",
+        "description": "其他途径",
+        "details": {
+          "condition": "未在Bear Family源数据中找到直接解锁规则"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "冈纳的第一种药剂",
+      "recipe_id": "MadDog.HashtagBearFam_GunnarFirstPotion",
+      "source_token": "null",
+      "current_source": {
+        "type": "other",
+        "description": "其他途径",
+        "details": {
+          "original": "null"
+        }
+      },
+      "suggested_source": {
+        "type": "other",
+        "description": "其他途径",
+        "details": {
+          "condition": "未在Bear Family源数据中找到直接解锁规则"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "冈纳的第三种药剂",
+      "recipe_id": "MadDog.HashtagBearFam_GunnarThirdPotion",
+      "source_token": "null",
+      "current_source": {
+        "type": "other",
+        "description": "其他途径",
+        "details": {
+          "original": "null"
+        }
+      },
+      "suggested_source": {
+        "type": "other",
+        "description": "其他途径",
+        "details": {
+          "condition": "未在Bear Family源数据中找到直接解锁规则"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "冈纳的第二种药剂",
+      "recipe_id": "MadDog.HashtagBearFam_GunnarSecondPotion",
+      "source_token": "null",
+      "current_source": {
+        "type": "other",
+        "description": "其他途径",
+        "details": {
+          "original": "null"
+        }
+      },
+      "suggested_source": {
+        "type": "other",
+        "description": "其他途径",
+        "details": {
+          "condition": "未在Bear Family源数据中找到直接解锁规则"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "冬日姜饼人",
+      "recipe_id": "MadDog.HashtagBearFam_TerenBakes_WinterGingerBread",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "original": "null",
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "price": 1000,
+          "condition": "SEASON Winter"
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition": "SEASON Winter"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition_raw": "SEASON Winter"
+        }
+      }
+    },
+    {
+      "name": "切片桃子",
+      "recipe_id": "MadDog.HashtagBearFam_SlicedPeaches",
+      "source_token": "null",
+      "current_source": {
+        "type": "other",
+        "description": "其他途径",
+        "details": {
+          "condition": "当前数据中未找到直接解锁食谱的记录"
+        }
+      },
+      "suggested_source": {
+        "type": "other",
+        "description": "邮件赠送成品",
+        "details": {
+          "condition": "邮件送成品，不是食谱"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "北境发光药剂",
+      "recipe_id": "MadDog.HashtagBearFam_RegenPotions_NordswainsGlowPotion",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "condition": "与冈纳的好感度达到8颗心",
+          "shop": "冈纳的小摊",
+          "price": 25000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_GunShop",
+          "condition": "PLAYER_HEARTS current MadDog.HashtagBearFam.Gunnar 8"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_GunShop",
+          "condition_raw": "PLAYER_HEARTS current MadDog.HashtagBearFam.Gunnar 8"
+        }
+      }
+    },
+    {
+      "name": "南瓜味 Joja 可乐",
+      "recipe_id": "MadDog.HashtagBearFam_PumpkinJoja",
+      "source_token": "e MadDog.BearFam.16191007",
+      "current_source": {
+        "type": "event",
+        "description": "事件触发",
+        "details": {
+          "event_id": "MadDog.BearFam.16191007"
+        }
+      },
+      "suggested_source": {
+        "type": "event",
+        "description": "事件触发",
+        "details": {
+          "event_id": "MadDog.BearFam.16191007"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [
+          "bearfam.pumpkinjojacola"
+        ],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "古娟的完美拉面",
+      "recipe_id": "MadDog.HashtagBearFam_GudrunPerfectRamen",
+      "source_token": "e MadDog.BearFam.16197003",
+      "current_source": {
+        "type": "event",
+        "description": "事件触发",
+        "details": {
+          "condition": "观看完熊家的\"半夜厨房事故\"事件后习得"
+        }
+      },
+      "suggested_source": {
+        "type": "event",
+        "description": "事件触发",
+        "details": {
+          "event_id": "MadDog.BearFam.16197003"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [
+          "bearfam.gudrunramen"
+        ],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "命运潮汐药剂",
+      "recipe_id": "MadDog.HashtagBearFam_RegenPotions_TidesofFatePotion",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "condition": "与冈纳的好感度达到5颗心",
+          "shop": "冈纳的小摊",
+          "price": 10000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_GunShop",
+          "condition": "PLAYER_HEARTS current MadDog.HashtagBearFam.Gunnar 5"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_GunShop",
+          "condition_raw": "PLAYER_HEARTS current MadDog.HashtagBearFam.Gunnar 5"
+        }
+      }
+    },
+    {
+      "name": "夏日蛋糕冰棒",
+      "recipe_id": "MadDog.HashtagBearFam_TerenBakes_SummerCakePopsicle",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "original": "null",
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "price": 1000,
+          "condition": "SEASON Summer"
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition": "SEASON Summer"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition_raw": "SEASON Summer"
+        }
+      }
+    },
+    {
+      "name": "天使之翼药剂",
+      "recipe_id": "MadDog.HashtagBearFam_RegenPotions_AngelWingPotion",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "condition": "与冈纳的好感度达到4颗心",
+          "shop": "冈纳的小摊",
+          "price": 10000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_GunShop",
+          "condition": "PLAYER_HEARTS current MadDog.HashtagBearFam.Gunnar 4"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_GunShop",
+          "condition_raw": "PLAYER_HEARTS current MadDog.HashtagBearFam.Gunnar 4"
+        }
+      }
+    },
+    {
+      "name": "奥利奥奶油蛋糕",
+      "recipe_id": "MadDog.HashtagBearFam_TerenBakes_CookiesnCremeCake",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "original": "null",
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "price": 1000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition_raw": null
+        }
+      }
+    },
+    {
+      "name": "布拉泽秘制白酱",
+      "recipe_id": "MadDog.HashtagBearFam_BrazierSecretAlfredo",
+      "source_token": "PLAYER_FARMHOUSE_UPGRADE Current 1",
+      "current_source": {
+        "type": "upgrade",
+        "description": "农舍升级后获得",
+        "details": {
+          "original": "PLAYER_FARMHOUSE_UPGRADE Current 1"
+        }
+      },
+      "suggested_source": {
+        "type": "upgrade",
+        "description": "农舍升级后获得",
+        "details": {
+          "condition": "PLAYER_FARMHOUSE_UPGRADE Current 1"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [
+          "bearfam.brazieralfredo"
+        ],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "幻想药剂",
+      "recipe_id": "MadDog.HashtagBearFam_RegenPotions_FantasiaPotion",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "condition": "与冈纳的好感度达到5颗心",
+          "shop": "冈纳的小摊",
+          "price": 10000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_GunShop",
+          "condition": "PLAYER_HEARTS current MadDog.HashtagBearFam.Gunnar 5"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_GunShop",
+          "condition_raw": "PLAYER_HEARTS current MadDog.HashtagBearFam.Gunnar 5"
+        }
+      }
+    },
+    {
+      "name": "彩虹巧克力曲奇",
+      "recipe_id": "MadDog.HashtagBearFam_TerenBakes_RainbowChipCookies",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "original": "null",
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "price": 1000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition_raw": null
+        }
+      }
+    },
+    {
+      "name": "彩虹蛋糕",
+      "recipe_id": "MadDog.HashtagBearFam_TerenBakes_RainbowCake",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "original": "null",
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "price": 1000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition_raw": null
+        }
+      }
+    },
+    {
+      "name": "德雷克港水果司康",
+      "recipe_id": "MadDog.HashtagBearFam_TerenBakes_PDFruitScone",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "original": "null",
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "price": 1000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition_raw": null
+        }
+      }
+    },
+    {
+      "name": "戈特洛式奢华芝士蛋糕",
+      "recipe_id": "MadDog.HashtagBearFam_TerenBakes_DecadentCheesecake",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "original": "null",
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "price": 1000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition_raw": null
+        }
+      }
+    },
+    {
+      "name": "数字思维波动药剂",
+      "recipe_id": "MadDog.HashtagBearFam_RegenPotions_DigitalMindWavePotion",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "condition": "与冈纳的好感度达到6颗心",
+          "shop": "冈纳的小摊",
+          "price": 10000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_GunShop",
+          "condition": "PLAYER_HEARTS current MadDog.HashtagBearFam.Gunnar 6"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_GunShop",
+          "condition_raw": "PLAYER_HEARTS current MadDog.HashtagBearFam.Gunnar 6"
+        }
+      }
+    },
+    {
+      "name": "春日粉彩马卡龙",
+      "recipe_id": "MadDog.HashtagBearFam_TerenBakes_SpringMacarons",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "original": "null",
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "price": 1000,
+          "condition": "SEASON Spring"
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition": "SEASON Spring"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition_raw": "SEASON Spring"
+        }
+      }
+    },
+    {
+      "name": "杏子糖霜甜甜圈",
+      "recipe_id": "MadDog.HashtagBearFam_TerenBakes_ApricotDonut",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "original": "null",
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "price": 1000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition_raw": null
+        }
+      }
+    },
+    {
+      "name": "柑橘城金酒酸",
+      "recipe_id": "MadDog.HashtagBearFam_Citrus_City_Gin_Sour",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "condition": "与冈纳的好感度达到8颗心",
+          "shop": "冈纳的小摊",
+          "price": 1500
+        }
+      },
+      "suggested_source": {
+        "type": "other",
+        "description": "其他途径",
+        "details": {
+          "condition": "未在Bear Family源数据中找到直接解锁规则"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "桃子味 Joja 可乐",
+      "recipe_id": "MadDog.HashtagBearFam_PeachJoja",
+      "source_token": "e MadDog.BearFam.16191008",
+      "current_source": {
+        "type": "event",
+        "description": "事件触发",
+        "details": {
+          "event_id": "MadDog.BearFam.16191008"
+        }
+      },
+      "suggested_source": {
+        "type": "event",
+        "description": "事件触发",
+        "details": {
+          "event_id": "MadDog.BearFam.16191008"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [
+          "bearfam.peachjojacola"
+        ],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "桑德拉的冬日奇趣棒",
+      "recipe_id": "MadDog.HashtagBearFam_SondraWinterBar",
+      "source_token": "SEASON_DAY winter 10",
+      "current_source": {
+        "type": "seasonal",
+        "description": "冬季第10天",
+        "details": {
+          "season": "winter",
+          "day": 10
+        }
+      },
+      "suggested_source": {
+        "type": "seasonal",
+        "description": "冬季第10天",
+        "details": {
+          "season": "winter",
+          "day": 10
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [
+          "bearfam.winterwonderbar"
+        ],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "桑德拉的夏日点心蛋糕",
+      "recipe_id": "MadDog.HashtagBearFam_SondraSummerCake",
+      "source_token": "SEASON_DAY summer 10",
+      "current_source": {
+        "type": "seasonal",
+        "description": "夏季第10天",
+        "details": {
+          "season": "summer",
+          "day": 10
+        }
+      },
+      "suggested_source": {
+        "type": "seasonal",
+        "description": "夏季第10天",
+        "details": {
+          "season": "summer",
+          "day": 10
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [
+          "bearfam.summersnackcake"
+        ],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "桑德拉的完美拉面",
+      "recipe_id": "MadDog.HashtagBearFam_SondraPerfectRamen",
+      "source_token": "e MadDog.BearFam.16197003",
+      "current_source": {
+        "type": "event",
+        "description": "事件触发",
+        "details": {
+          "condition": "观看完熊家的\"半夜厨房事故\"事件后习得"
+        }
+      },
+      "suggested_source": {
+        "type": "event",
+        "description": "事件触发",
+        "details": {
+          "event_id": "MadDog.BearFam.16197003"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [
+          "bearfam.sondraramen"
+        ],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "桑德拉的春日酥饼",
+      "recipe_id": "MadDog.HashtagBearFam_SondraSpringtimeShortbread",
+      "source_token": "SEASON_DAY spring 10",
+      "current_source": {
+        "type": "seasonal",
+        "description": "春季第10天",
+        "details": {
+          "season": "spring",
+          "day": 10
+        }
+      },
+      "suggested_source": {
+        "type": "seasonal",
+        "description": "春季第10天",
+        "details": {
+          "season": "spring",
+          "day": 10
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [
+          "bearfam.springtimeshortbread"
+        ],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "桑德拉的秋日苹果曲奇",
+      "recipe_id": "MadDog.HashtagBearFam_SondraAutumnCookie",
+      "source_token": "SEASON_DAY fall 10",
+      "current_source": {
+        "type": "seasonal",
+        "description": "秋季第10天",
+        "details": {
+          "season": "fall",
+          "day": 10
+        }
+      },
+      "suggested_source": {
+        "type": "seasonal",
+        "description": "秋季第10天",
+        "details": {
+          "season": "fall",
+          "day": 10
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [
+          "bearfam.autumnapplecookie"
+        ],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "梅子饭团",
+      "recipe_id": "MadDog.HashtagBearFam_TerenBakes_PlumRiceBalls",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "original": "null",
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "price": 1000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition_raw": null
+        }
+      }
+    },
+    {
+      "name": "榛子夹心可颂",
+      "recipe_id": "MadDog.HashtagBearFam_TerenBakes_HazelnutCroissant",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "original": "null",
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "price": 1000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition_raw": null
+        }
+      }
+    },
+    {
+      "name": "樱桃千层蛋糕",
+      "recipe_id": "MadDog.HashtagBearFam_TerenBakes_CherryLayerCake",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "original": "null",
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "price": 1000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition_raw": null
+        }
+      }
+    },
+    {
+      "name": "水果爆炸奶昔",
+      "recipe_id": "MadDog.HashtagBearFam_TerenMakes_TooMuchFruitSmoothie",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "original": "null",
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "price": 1000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition_raw": null
+        }
+      }
+    },
+    {
+      "name": "海雾薄荷茶",
+      "recipe_id": "MadDog.HashtagBearFam_Dylan_Tea",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "original": "null",
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "price": 1000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition_raw": null
+        }
+      }
+    },
+    {
+      "name": "焦糖布丁",
+      "recipe_id": "MadDog.HashtagBearFam_TerenBakes_CaramelFlan",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "original": "null",
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "price": 1000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition_raw": null
+        }
+      }
+    },
+    {
+      "name": "焦糖香橙卷",
+      "recipe_id": "MadDog.HashtagBearFam_TerenBakes_CaramelOrangeRoll",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "original": "null",
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "price": 1000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition_raw": null
+        }
+      }
+    },
+    {
+      "name": "爱心曲奇",
+      "recipe_id": "MadDog.HashtagBearFam_TerenBakes_HeartHealthCookies",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "original": "null",
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "price": 1000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition_raw": null
+        }
+      }
+    },
+    {
+      "name": "牙买加风味时蔬搭菠萝辣酱",
+      "recipe_id": "MadDog.HashtagBearFam_TerenMakes_JerkVeggiesandSalsa",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "original": "null",
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "price": 1000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition_raw": null
+        }
+      }
+    },
+    {
+      "name": "玉米松糕",
+      "recipe_id": "MadDog.HashtagBearFam_CornbreadMuffins",
+      "source_token": "null",
+      "current_source": {
+        "type": "other",
+        "description": "其他途径",
+        "details": {
+          "original": "null"
+        }
+      },
+      "suggested_source": {
+        "type": "other",
+        "description": "其他途径",
+        "details": {
+          "condition": "未在Bear Family源数据中找到直接解锁规则"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "玫瑰纸杯蛋糕",
+      "recipe_id": "MadDog.HashtagBearFam_RoseCupcakes",
+      "source_token": "null",
+      "current_source": {
+        "type": "other",
+        "description": "其他途径",
+        "details": {
+          "original": "null"
+        }
+      },
+      "suggested_source": {
+        "type": "other",
+        "description": "其他途径",
+        "details": {
+          "condition": "未在Bear Family源数据中找到直接解锁规则"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "番茄椰香浓汤",
+      "recipe_id": "MadDog.HashtagBearFam_TerenMakes_TomatoCoconutBisque",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "original": "null",
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "price": 1000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition_raw": null
+        }
+      }
+    },
+    {
+      "name": "石榴糖霜闪电泡芙",
+      "recipe_id": "MadDog.HashtagBearFam_TerenBakes_PomegranateEclair",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "original": "null",
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "price": 1000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition_raw": null
+        }
+      }
+    },
+    {
+      "name": "祖祖城骡子酒",
+      "recipe_id": "MadDog.HashtagBearFam_Zuzu_Mule",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "condition": "与特伦的好感度达到8颗心",
+          "shop": "冈纳的小摊",
+          "price": 1500
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_GunShop",
+          "condition": "PLAYER_HEARTS Current MadDog.HashtagBearFam.Teren 8"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_GunShop",
+          "condition_raw": "PLAYER_HEARTS Current MadDog.HashtagBearFam.Teren 8"
+        }
+      }
+    },
+    {
+      "name": "神秘生物脆饼",
+      "recipe_id": "MadDog.HashtagBearFam_Eli_Cookie",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "original": "null",
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "price": 1000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition_raw": null
+        }
+      }
+    },
+    {
+      "name": "秋日南瓜曲奇",
+      "recipe_id": "MadDog.HashtagBearFam_TerenBakes_AutumnPumpkinCookie",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "original": "null",
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "price": 1000,
+          "condition": "SEASON Fall"
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition": "SEASON Fall"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition_raw": "SEASON Fall"
+        }
+      }
+    },
+    {
+      "name": "红丝绒曲奇",
+      "recipe_id": "MadDog.HashtagBearFam_TerenBakes_RedVelvetCookie",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "original": "null",
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "price": 1000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition_raw": null
+        }
+      }
+    },
+    {
+      "name": "肉桂香卷",
+      "recipe_id": "MadDog.HashtagBearFam_TerenBakes_CinnaSpiceRoll",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "original": "null",
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "price": 1000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition_raw": null
+        }
+      }
+    },
+    {
+      "name": "自由能量药剂",
+      "recipe_id": "MadDog.HashtagBearFam_RegenPotions_FreeEnergyPotion",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "condition": "与冈纳的好感度达到4颗心",
+          "shop": "冈纳的小摊",
+          "price": 10000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_GunShop",
+          "condition": "PLAYER_HEARTS current MadDog.HashtagBearFam.Gunnar 4"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_GunShop",
+          "condition_raw": "PLAYER_HEARTS current MadDog.HashtagBearFam.Gunnar 4"
+        }
+      }
+    },
+    {
+      "name": "芝麻黑麦面包",
+      "recipe_id": "MadDog.HashtagBearFam_SesameBrownBread",
+      "source_token": "null",
+      "current_source": {
+        "type": "other",
+        "description": "其他途径",
+        "details": {
+          "original": "null"
+        }
+      },
+      "suggested_source": {
+        "type": "other",
+        "description": "其他途径",
+        "details": {
+          "condition": "未在Bear Family源数据中找到直接解锁规则"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "荆棘莓果酱",
+      "recipe_id": "MadDog.HashtagBearFam_StoneBrambleJam",
+      "source_token": "null",
+      "current_source": {
+        "type": "other",
+        "description": "其他途径",
+        "details": {
+          "original": "null"
+        }
+      },
+      "suggested_source": {
+        "type": "mail",
+        "description": "邮件获得",
+        "details": {
+          "mail_keys": [
+            "Gudrun.BrambleJam"
+          ]
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [
+          "Gudrun.BrambleJam"
+        ],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "荆棘莓派",
+      "recipe_id": "MadDog.HashtagBearFam_BrambleBerryPie",
+      "source_token": "null",
+      "current_source": {
+        "type": "other",
+        "description": "其他途径",
+        "details": {
+          "original": "null"
+        }
+      },
+      "suggested_source": {
+        "type": "mail",
+        "description": "邮件获得",
+        "details": {
+          "mail_keys": [
+            "Gudrun.BrambleBerryPie"
+          ]
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [
+          "Gudrun.BrambleBerryPie"
+        ],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "莫德女王布丁",
+      "recipe_id": "MadDog.HashtagBearFam_DronningMaud",
+      "source_token": "null",
+      "current_source": {
+        "type": "other",
+        "description": "其他途径",
+        "details": {
+          "original": "null"
+        }
+      },
+      "suggested_source": {
+        "type": "mail",
+        "description": "邮件获得",
+        "details": {
+          "mail_keys": [
+            "Gudrun.DronningMaud"
+          ]
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [
+          "Gudrun.DronningMaud"
+        ],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "萝西的土豆煎饼",
+      "recipe_id": "MadDog.HashtagBearFam_RoseysLatkes",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "original": "null",
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "price": 1000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition_raw": null
+        }
+      }
+    },
+    {
+      "name": "蒜香南瓜面",
+      "recipe_id": "MadDog.HashtagBearFam_TerenMakes_GarlicSquoodles",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "original": "null",
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "price": 1000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition_raw": null
+        }
+      }
+    },
+    {
+      "name": "蓝莓海绵蛋糕",
+      "recipe_id": "MadDog.HashtagBearFam_TerenBakes_BlueberrySpongeCake",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "original": "null",
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "price": 1000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition_raw": null
+        }
+      }
+    },
+    {
+      "name": "蔬菜烤串",
+      "recipe_id": "MadDog.HashtagBearFam_TerenMakes_VeggieSkewer",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "original": "null",
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "price": 1000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition_raw": null
+        }
+      }
+    },
+    {
+      "name": "蘑菇牛排汉堡",
+      "recipe_id": "MadDog.HashtagBearFam_TerenMakes_MushroomSteakBurger",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "original": "null",
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "price": 1000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition_raw": null
+        }
+      }
+    },
+    {
+      "name": "蜂蜜全麦面包",
+      "recipe_id": "MadDog.HashtagBearFam_HoneyWheatBread",
+      "source_token": "null",
+      "current_source": {
+        "type": "other",
+        "description": "其他途径",
+        "details": {
+          "original": "null"
+        }
+      },
+      "suggested_source": {
+        "type": "other",
+        "description": "其他途径",
+        "details": {
+          "condition": "未在Bear Family源数据中找到直接解锁规则"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "蜂蜜古典鸡尾酒",
+      "recipe_id": "MadDog.HashtagBearFam_Honey_OldFashioned",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "condition": "与西格的好感度达到8颗心",
+          "shop": "冈纳的小摊",
+          "price": 1500
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_GunShop",
+          "condition": "PLAYER_HEARTS Current MadDog.HashtagBearFam.Sigurd 8"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_GunShop",
+          "condition_raw": "PLAYER_HEARTS Current MadDog.HashtagBearFam.Sigurd 8"
+        }
+      }
+    },
+    {
+      "name": "蜂蜜蓝莓蛋糕",
+      "recipe_id": "MadDog.HashtagBearFam_HoneyCakes",
+      "source_token": "null",
+      "current_source": {
+        "type": "other",
+        "description": "其他途径",
+        "details": {
+          "original": "null"
+        }
+      },
+      "suggested_source": {
+        "type": "other",
+        "description": "其他途径",
+        "details": {
+          "condition": "未在Bear Family源数据中找到直接解锁规则"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "蜜桃柠檬水",
+      "recipe_id": "MadDog.HashtagBearFam_TerenMakes_PeachyLemonade",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "original": "null",
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "price": 1000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition_raw": null
+        }
+      }
+    },
+    {
+      "name": "西格的完美拉面",
+      "recipe_id": "MadDog.HashtagBearFam_SigurdPerfectRamen",
+      "source_token": "e MadDog.BearFam.16197003",
+      "current_source": {
+        "type": "event",
+        "description": "事件触发",
+        "details": {
+          "condition": "观看完熊家的\"半夜厨房事故\"事件后习得"
+        }
+      },
+      "suggested_source": {
+        "type": "event",
+        "description": "事件触发",
+        "details": {
+          "event_id": "MadDog.BearFam.16197003"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [
+          "bearfam.sigramen"
+        ],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "费什肯桃蜂蜜酒大酒杯",
+      "recipe_id": "MadDog.HashtagBearFam_FerskenPeach_Mead_Tankard",
+      "source_token": "null",
+      "current_source": {
+        "type": "other",
+        "description": "其他途径",
+        "details": {
+          "original": "null"
+        }
+      },
+      "suggested_source": {
+        "type": "other",
+        "description": "其他途径",
+        "details": {
+          "condition": "未在Bear Family源数据中找到直接解锁规则"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "费什肯蜜桃馅饼",
+      "recipe_id": "MadDog.HashtagBearFam_FerskenPeachCobbler",
+      "source_token": "null",
+      "current_source": {
+        "type": "other",
+        "description": "邮件赠送",
+        "details": {
+          "condition": "西格通过邮件赠送成品；当前数据中未找到直接解锁食谱的记录"
+        }
+      },
+      "suggested_source": {
+        "type": "other",
+        "description": "邮件赠送成品",
+        "details": {
+          "condition": "邮件送成品，不是食谱"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": null
+      }
+    },
+    {
+      "name": "酪乳新月卷",
+      "recipe_id": "MadDog.HashtagBearFam_TerenBakes_ButtermilkCrescentRoll",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "original": "null",
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "price": 1000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition_raw": null
+        }
+      }
+    },
+    {
+      "name": "野梅糖霜甜甜圈",
+      "recipe_id": "MadDog.HashtagBearFam_TerenBakes_WildPlumDonut",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "original": "null",
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "price": 1000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition_raw": null
+        }
+      }
+    },
+    {
+      "name": "长戟艺术药剂",
+      "recipe_id": "MadDog.HashtagBearFam_RegenPotions_GlaiveArtsPotion",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "condition": "与冈纳的好感度达到6颗心",
+          "shop": "冈纳的小摊",
+          "price": 10000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_GunShop",
+          "condition": "PLAYER_HEARTS current MadDog.HashtagBearFam.Gunnar 6"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_GunShop",
+          "condition_raw": "PLAYER_HEARTS current MadDog.HashtagBearFam.Gunnar 6"
+        }
+      }
+    },
+    {
+      "name": "隧道队比赛日椒盐卷饼",
+      "recipe_id": "MadDog.HashtagBearFam_TerenBakes_ZuzuPretzel",
+      "source_token": "null",
+      "current_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "original": "null",
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "price": 1000
+        }
+      },
+      "suggested_source": {
+        "type": "purchase",
+        "description": "购买",
+        "details": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": {
+          "shop": "MadDog.HashtagBearFam_CaritasBakeryShop",
+          "condition_raw": null
+        }
+      }
+    },
+    {
+      "name": "香蕉面包",
+      "recipe_id": "MadDog.HashtagBearFam_BananaBread",
+      "source_token": "null",
+      "current_source": {
+        "type": "other",
+        "description": "其他途径",
+        "details": {
+          "original": "null"
+        }
+      },
+      "suggested_source": {
+        "type": "other",
+        "description": "其他途径",
+        "details": {
+          "condition": "未在Bear Family源数据中找到直接解锁规则"
+        }
+      },
+      "evidence": {
+        "in_mail_recipe_keys": [],
+        "in_shop_isrecipe": null
+      }
+    }
+  ]
+}

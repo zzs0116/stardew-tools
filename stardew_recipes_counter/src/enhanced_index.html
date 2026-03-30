@@ -1,0 +1,1155 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>星露谷食谱百科 (1.6 + Mods)</title>
+    
+    <!-- Import Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-color: #8bb0c0;
+            --wood-dark: #5c3c26;
+            --wood-mid: #85583b;
+            --wood-light: #a47050;
+            --paper-bg: #fffbf0;
+            --paper-border: #d4cba8;
+            --text-main: #4a3627;
+            --accent-blue: #407fa7;
+            --accent-green: #6a9e38;
+            --accent-red: #c94a3d;
+            --shadow: rgba(68, 45, 30, 0.25);
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Noto Sans SC', sans-serif;
+            background-color: var(--bg-color);
+            background-image:
+                linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 75%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0.1)),
+                linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 75%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0.1));
+            background-size: 40px 40px;
+            background-position: 0 0, 20px 20px;
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Main Container - The "Bulletin Board" */
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 40px 20px;
+            background: var(--wood-mid);
+            border: 8px solid var(--wood-dark);
+            border-radius: 16px;
+            box-shadow:
+                inset 0 0 0 4px var(--wood-light),
+                0 20px 40px rgba(0, 0, 0, 0.3);
+            position: relative;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            min-height: 80vh;
+        }
+
+        /* Nail decoration */
+        .nail {
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            background: #3e2723;
+            border-radius: 50%;
+            box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.3), 2px 2px 4px rgba(0, 0, 0, 0.4);
+            z-index: 10;
+        }
+        .nail.tl { top: 12px; left: 12px; }
+        .nail.tr { top: 12px; right: 12px; }
+        .nail.bl { bottom: 12px; left: 12px; }
+        .nail.br { bottom: 12px; right: 12px; }
+
+        /* Header (Paper style) */
+        header {
+            text-align: center;
+            padding: 20px;
+            background: var(--paper-bg);
+            border: 2px solid var(--paper-border);
+            border-radius: 4px;
+            box-shadow: 0 4px 8px var(--shadow);
+            margin: 20px auto;
+            position: relative;
+            transform: rotate(-1deg);
+            max-width: 800px;
+            width: 100%;
+        }
+
+        .tape {
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 120px;
+            height: 30px;
+            background: rgba(255, 255, 255, 0.4);
+            border-left: 1px dashed rgba(0, 0, 0, 0.1);
+            border-right: 1px dashed rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            margin: 0;
+            font-family: 'ZCOOL KuaiLe', cursive;
+            font-size: 36px;
+            color: var(--wood-dark);
+            text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
+        }
+
+        .stats-text {
+            font-size: 14px;
+            color: var(--wood-light);
+            margin-top: 5px;
+            font-weight: bold;
+        }
+
+        /* Home Button */
+        .home-btn {
+            position: absolute;
+            top: 24px;
+            left: 24px;
+            background: var(--accent-green);
+            color: white;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-weight: bold;
+            border: 2px solid #4a7729;
+            box-shadow: 0 4px 0 #4a7729;
+            z-index: 100;
+            font-family: 'ZCOOL KuaiLe', cursive;
+            transition: all 0.1s;
+            font-size: 16px;
+        }
+        .home-btn:hover {
+            background: #7cb342;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 0 #4a7729;
+        }
+        .home-btn:active {
+            transform: translateY(2px);
+            box-shadow: 0 0 0 #4a7729;
+        }
+
+        /* Controls / Search Bar */
+        .controls {
+            background: var(--paper-bg);
+            border: 2px dashed var(--wood-light);
+            border-radius: 8px;
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto 10px;
+            width: 100%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            position: relative;
+        }
+        .controls::after {
+            content: '🍳';
+            position: absolute;
+            top: -15px;
+            right: 20px;
+            font-size: 24px;
+            transform: rotate(15deg);
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 14px 18px;
+            border: 2px solid var(--paper-border);
+            border-radius: 8px;
+            font-size: 16px;
+            font-family: 'Noto Sans SC', sans-serif;
+            background: #fff;
+            color: var(--text-main);
+            outline: none;
+        }
+        .search-input:focus {
+            border-color: var(--accent-blue);
+            box-shadow: 0 0 0 3px rgba(64, 127, 167, 0.2);
+        }
+
+        /* Stats Panel (Ingredient Stats) */
+        .stats-panel {
+            background: var(--paper-bg);
+            border: 1px solid var(--paper-border);
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .stats-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+            color: var(--wood-dark);
+            font-weight: bold;
+            font-family: 'ZCOOL KuaiLe', cursive;
+            font-size: 18px;
+        }
+        
+        .stats-meta {
+            font-size: 0.8em;
+            color: var(--wood-light);
+            font-family: 'Noto Sans SC', sans-serif;
+        }
+        
+        .stats-toggle {
+            background: var(--wood-mid);
+            color: #fff;
+            border: 2px solid var(--wood-dark);
+            border-radius: 20px;
+            padding: 4px 12px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: bold;
+            transition: all 0.2s;
+            font-family: 'Noto Sans SC', sans-serif;
+        }
+        .stats-toggle:hover {
+            background: var(--wood-light);
+        }
+
+        .stats-body { display: none; }
+        .stats-body.is-open { display: block; }
+        
+        .stats-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 8px 12px;
+            max-height: 320px;
+            overflow: auto;
+            padding-right: 4px;
+        }
+        
+        .stats-item {
+            display: flex;
+            justify-content: space-between;
+            gap: 8px;
+            padding: 6px 10px;
+            border-radius: 6px;
+            background: #fff;
+            border: 1px solid var(--paper-border);
+            font-size: 0.9em;
+        }
+        .stats-item strong { color: var(--wood-dark); }
+
+        /* Recipe Grid */
+        .recipe-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding-bottom: 20px;
+            width: 100%;
+        }
+
+        /* Recipe Card */
+        .card {
+            background: #fff;
+            border: 4px solid var(--wood-dark);
+            border-radius: 8px;
+            padding: 16px;
+            position: relative;
+            transition: transform 0.2s;
+            box-shadow: 0 4px 0 rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            animation: fadeIn 0.3s ease-in;
+        }
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+            margin-bottom: 12px;
+            font-size: 1.2em;
+            color: var(--wood-dark);
+            border-bottom: 2px dashed var(--paper-border);
+            padding-bottom: 12px;
+            font-family: 'ZCOOL KuaiLe', cursive;
+        }
+
+        .icon-box {
+            width: 32px;
+            height: 32px;
+            overflow: hidden;
+            flex-shrink: 0;
+            margin-right: 12px;
+            background: rgba(0, 0, 0, 0.05);
+            border-radius: 4px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+        }
+
+        .sprite {
+            image-rendering: pixelated;
+            display: block;
+            max-width: none !important;
+            max-height: none !important;
+            border: none;
+        }
+
+        .ing-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .ing-item {
+            display: flex;
+            align-items: center;
+            background: var(--paper-bg);
+            border: 1px solid var(--paper-border);
+            border-radius: 6px;
+            padding: 6px;
+            font-size: 0.95em;
+        }
+
+        .ing-name {
+            flex-grow: 1;
+            margin-left: 12px;
+            color: var(--text-main);
+        }
+
+        .ing-count {
+            background: var(--wood-light);
+            color: white;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            font-weight: bold;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--wood-light);
+            font-size: 1.2em;
+            width: 100%;
+            grid-column: 1 / -1;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 60px 20px;
+            font-size: 1.2em;
+            color: var(--wood-light);
+            width: 100%;
+            grid-column: 1 / -1;
+        }
+
+        /* Filter Controls */
+        .filter-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 12px;
+            align-items: center;
+        }
+
+        .filter-group {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 8px 16px;
+            border: 2px solid var(--paper-border);
+            border-radius: 20px;
+            background: #fff;
+            color: var(--text-main);
+            cursor: pointer;
+            font-size: 14px;
+            font-family: 'Noto Sans SC', sans-serif;
+            transition: all 0.2s;
+            font-weight: 500;
+        }
+        .filter-btn:hover {
+            border-color: var(--accent-blue);
+            background: rgba(64, 127, 167, 0.1);
+        }
+        .filter-btn.active {
+            background: var(--accent-blue);
+            color: white;
+            border-color: var(--accent-blue);
+        }
+
+        .reset-btn {
+            padding: 8px 16px;
+            border: 2px solid var(--accent-red);
+            border-radius: 20px;
+            background: #fff;
+            color: var(--accent-red);
+            cursor: pointer;
+            font-size: 14px;
+            font-family: 'Noto Sans SC', sans-serif;
+            transition: all 0.2s;
+            font-weight: bold;
+            margin-left: auto;
+        }
+        .reset-btn:hover {
+            background: var(--accent-red);
+            color: white;
+        }
+
+        .progress-info {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            color: var(--text-main);
+            font-weight: 500;
+        }
+        .progress-bar {
+            width: 120px;
+            height: 10px;
+            background: #e0e0e0;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent-green), #8bc34a);
+            transition: width 0.3s ease;
+            border-radius: 5px;
+        }
+
+        /* Recipe Card Made Checkbox */
+        .card-made-toggle {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            cursor: pointer;
+            user-select: none;
+            z-index: 5;
+        }
+
+        .card-made-toggle input {
+            display: none;
+        }
+
+        .made-checkbox {
+            width: 24px;
+            height: 24px;
+            border: 2px solid var(--paper-border);
+            border-radius: 6px;
+            background: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s;
+            font-size: 14px;
+        }
+        .made-checkbox::before {
+            content: '';
+        }
+        .card-made-toggle input:checked + .made-checkbox {
+            background: var(--accent-green);
+            border-color: #4a7729;
+        }
+        .card-made-toggle input:checked + .made-checkbox::before {
+            content: '✓';
+            color: white;
+            font-weight: bold;
+        }
+
+        .card-made-toggle:hover .made-checkbox {
+            border-color: var(--accent-green);
+            box-shadow: 0 0 0 3px rgba(106, 158, 56, 0.2);
+        }
+
+        .card.is-made {
+            background: linear-gradient(135deg, #f0fff0 0%, #fff 100%);
+            border-color: var(--accent-green);
+        }
+        .card.is-made::after {
+            content: '✓ 已制作';
+            position: absolute;
+            bottom: 8px;
+            right: 8px;
+            font-size: 11px;
+            color: var(--accent-green);
+            font-weight: bold;
+            background: rgba(106, 158, 56, 0.15);
+            padding: 2px 8px;
+            border-radius: 10px;
+        }
+
+        /* Source Tag Styles */
+        .source-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 500;
+            margin-top: 8px;
+        }
+        .source-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-top: 8px;
+        }
+        .source-tags .source-tag {
+            margin-top: 0;
+        }
+        .source-tag.default {
+            background: #e8f5e9;
+            color: #2e7d32;
+        }
+        .source-tag.friendship {
+            background: #fce4ec;
+            color: #c2185b;
+        }
+        .source-tag.skill {
+            background: #e3f2fd;
+            color: #1565c0;
+        }
+        .source-tag.level {
+            background: #fff3e0;
+            color: #e65100;
+        }
+        .source-tag.tv {
+            background: #f3e5f5;
+            color: #7b1fa2;
+        }
+        .source-tag.event {
+            background: #e0f2f1;
+            color: #00695c;
+        }
+        .source-tag.quest {
+            background: #e8eaf6;
+            color: #3949ab;
+        }
+        .source-tag.book {
+            background: #f1f8e9;
+            color: #33691e;
+        }
+        .source-tag.purchase {
+            background: #e8f5e9;
+            color: #2f7d32;
+        }
+        .source-tag.seasonal {
+            background: #fff8e1;
+            color: #ff8f00;
+        }
+        .source-tag.upgrade {
+            background: #efebe9;
+            color: #5d4037;
+        }
+        .source-tag.other {
+            background: #f5f5f5;
+            color: #616161;
+        }
+        .source-tag.unknown {
+            background: #fafafa;
+            color: #9e9e9e;
+        }
+
+        /* Tooltip 样式 */
+        .source-tag {
+            position: relative;
+            cursor: default;
+        }
+        .source-tag[data-tooltip]:hover::after {
+            content: attr(data-tooltip);
+            position: absolute;
+            bottom: 100%;
+            left: 0;
+            background: rgba(50, 40, 30, 0.95);
+            color: #fff;
+            padding: 6px 10px;
+            border-radius: 6px;
+            font-size: 11px;
+            font-weight: normal;
+            white-space: pre-line;
+            line-height: 1.4;
+            width: max-content;
+            max-width: min(320px, calc(100vw - 32px));
+            overflow-wrap: break-word;
+            z-index: 100;
+            margin-bottom: 6px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+            pointer-events: none;
+        }
+        .source-tag[data-tooltip]:hover::before {
+            content: '';
+            position: absolute;
+            bottom: 100%;
+            left: 12px;
+            border: 5px solid transparent;
+            border-top-color: rgba(50, 40, 30, 0.95);
+            z-index: 100;
+            pointer-events: none;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 800px) {
+            .home-btn {
+                position: relative;
+                top: 0;
+                left: 0;
+                display: inline-block;
+                margin-bottom: 10px;
+                width: 100%;
+                text-align: center;
+            }
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                margin: 10px;
+                padding: 10px;
+                width: auto;
+                border-width: 4px;
+            }
+            header h1 {
+                font-size: 28px;
+            }
+        }
+
+        /* 返回顶部按钮样式 */
+        #backToTop {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background: #68CAF2;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 24px;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 8px var(--shadow);
+            transition: all 0.3s ease;
+            z-index: 1000;
+            font-weight: bold;
+        }
+
+        #backToTop:hover {
+            background: #4BAED8;
+            transform: translateY(-4px);
+            box-shadow: 0 6px 12px var(--shadow);
+        }
+
+        #backToTop:active {
+            transform: translateY(-2px);
+            box-shadow: 0 2px 4px var(--shadow);
+        }
+
+        #backToTop.show {
+            display: flex;
+            animation: fadeInUp 0.3s ease;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 600px) {
+            #backToTop {
+                width: 45px;
+                height: 45px;
+                bottom: 20px;
+                right: 20px;
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Nails -->
+        <div class="nail tl"></div>
+        <div class="nail tr"></div>
+        <div class="nail bl"></div>
+        <div class="nail br"></div>
+
+        <header>
+            <div class="tape"></div>
+            <a href="../../index.html" class="home-btn">🏡 返回主页</a>
+            <h1>🍲 星露谷食谱百科</h1>
+            <div class="stats-text">
+                <span id="totalCount">加载中...</span> | 支持 1.6 版本及所有 Mod
+            </div>
+        </header>
+        
+        <div class="controls">
+            <input type="text" class="search-input" id="searchInput" placeholder="🔍 搜索食谱或原料...（例如：煎蛋、蘑菇、面粉）">
+            <div class="filter-row">
+                <div class="filter-group">
+                    <button class="filter-btn active" data-filter="all">📋 全部</button>
+                    <button class="filter-btn" data-filter="made">✅ 已制作</button>
+                    <button class="filter-btn" data-filter="unmade">⬜ 未制作</button>
+                </div>
+                <div class="progress-info">
+                    <span id="progressText">0 / 0</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+                    </div>
+                </div>
+                <button class="reset-btn" id="resetBtn" title="重置所有已制作状态">🔄 一键重置</button>
+            </div>
+        </div>
+        
+        <div class="stats-panel">
+            <div class="stats-header">
+                <div class="stats-title">
+                    <span>📝 食材总数统计</span>
+                    <span class="stats-meta" id="statsMeta">加载中...</span>
+                </div>
+                <button class="stats-toggle" id="statsToggle" type="button">展开</button>
+            </div>
+            <div class="stats-body" id="statsBody">
+                <div id="statsList" class="stats-list"></div>
+            </div>
+        </div>
+        
+        <div id="list" class="recipe-grid">
+            <div class="loading">正在加载食谱数据...</div>
+        </div>
+    </div>
+
+    <button id="backToTop" title="返回顶部">
+        <img src="../../data/arrow_up.png" alt="返回顶部" style="width: 100%; height: 100%; object-fit: contain;">
+    </button>
+
+    <script>
+        let allRecipes = [];
+        let currentFilter = 'all'; // 'all', 'made', 'unmade'
+        const STORAGE_KEY = 'stardew_recipes_made';
+        
+        // 获取已制作列表
+        function getMadeRecipes() {
+            try {
+                const data = localStorage.getItem(STORAGE_KEY);
+                return data ? JSON.parse(data) : [];
+            } catch {
+                return [];
+            }
+        }
+        
+        // 保存已制作列表
+        function saveMadeRecipes(madeList) {
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(madeList));
+        }
+        
+        // 切换食谱已制作状态
+        function toggleMade(recipeName) {
+            const madeList = getMadeRecipes();
+            const index = madeList.indexOf(recipeName);
+            if (index > -1) {
+                madeList.splice(index, 1);
+            } else {
+                madeList.push(recipeName);
+            }
+            saveMadeRecipes(madeList);
+            updateProgress();
+            
+            // 如果当前有筛选，重新渲染
+            if (currentFilter !== 'all') {
+                applyFilters();
+            }
+        }
+        
+        // 更新进度显示
+        function updateProgress() {
+            const madeList = getMadeRecipes();
+            const madeCount = madeList.length;
+            const totalCount = allRecipes.length;
+            const percent = totalCount > 0 ? Math.round((madeCount / totalCount) * 100) : 0;
+            
+            document.getElementById('progressText').textContent = `${madeCount} / ${totalCount} (${percent}%)`;
+            document.getElementById('progressFill').style.width = `${percent}%`;
+        }
+        
+        // 一键重置
+        function resetAllMade() {
+            if (confirm('确定要重置所有已制作状态吗？此操作不可撤销！')) {
+                saveMadeRecipes([]);
+                updateProgress();
+                applyFilters();
+            }
+        }
+        
+        // 应用筛选
+        function applyFilters() {
+            const query = document.getElementById('searchInput').value.toLowerCase().trim();
+            filterRecipes(query);
+        }
+        
+        async function init() {
+            try {
+                const res = await fetch('final_recipes.json');
+                allRecipes = await res.json();
+                
+                document.getElementById('totalCount').textContent = `共 ${allRecipes.length} 个食谱`;
+                updateProgress();
+                filterRecipes('');
+                
+                // 搜索功能
+                document.getElementById('searchInput').addEventListener('input', (e) => {
+                    const query = e.target.value.toLowerCase().trim();
+                    filterRecipes(query);
+                });
+                
+                // 筛选按钮
+                document.querySelectorAll('.filter-btn').forEach(btn => {
+                    btn.addEventListener('click', () => {
+                        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                        btn.classList.add('active');
+                        currentFilter = btn.dataset.filter;
+                        applyFilters();
+                    });
+                });
+                
+                // 重置按钮
+                document.getElementById('resetBtn').addEventListener('click', resetAllMade);
+                
+                // 统计展开收起
+                const statsToggle = document.getElementById('statsToggle');
+                const statsBody = document.getElementById('statsBody');
+                statsToggle.addEventListener('click', () => {
+                    const isOpen = statsBody.classList.toggle('is-open');
+                    statsToggle.textContent = isOpen ? '收起' : '展开';
+                });
+            } catch (e) {
+                console.error(e);
+                document.getElementById('list').innerHTML = '<div class="no-results">❌ 加载失败，请检查控制台</div>';
+            }
+        }
+        
+        function filterRecipes(query) {
+            const madeList = getMadeRecipes();
+            let filtered = allRecipes;
+            
+            // 文本搜索
+            if (query) {
+                filtered = filtered.filter(r => 
+                    r.name.toLowerCase().includes(query) ||
+                    r.ingredients.some(i => i.name.toLowerCase().includes(query))
+                );
+            }
+            
+            // 已制作/未制作筛选
+            if (currentFilter === 'made') {
+                filtered = filtered.filter(r => madeList.includes(r.name));
+            } else if (currentFilter === 'unmade') {
+                filtered = filtered.filter(r => !madeList.includes(r.name));
+            }
+            
+            renderRecipes(filtered);
+            renderIngredientStats(filtered);
+        }
+
+        function renderIngredientStats(recipes) {
+            const totals = new Map();
+            
+            recipes.forEach(recipe => {
+                recipe.ingredients.forEach(ing => {
+                    const count = parseInt(ing.count, 10) || 0;
+                    totals.set(ing.name, (totals.get(ing.name) || 0) + count);
+                });
+            });
+            
+            const items = Array.from(totals.entries())
+                .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'zh-Hans-CN'));
+            
+            document.getElementById('statsMeta').textContent = `${recipes.length} 个食谱 · ${items.length} 种食材`;
+            
+            const list = document.getElementById('statsList');
+            if (items.length === 0) {
+                list.innerHTML = '<div class="no-results">暂无食材统计</div>';
+                return;
+            }
+            
+            list.innerHTML = items.map(([name, count]) => `
+                <div class="stats-item">
+                    <span>${name}</span>
+                    <strong>×${count.toLocaleString()}</strong>
+                </div>
+            `).join('');
+        }
+        
+        function renderRecipes(recipes) {
+            const container = document.getElementById('list');
+            const madeList = getMadeRecipes();
+            
+            if (recipes.length === 0) {
+                container.innerHTML = '<div class="no-results">😢 没有找到匹配的食谱</div>';
+                return;
+            }
+            
+            container.innerHTML = '';
+            
+            const renderIcon = (item, size) => {
+                const scale = size / 16;
+                const sw = item.sw * scale;
+                const x = item.x * scale;
+                const y = item.y * scale;
+
+                return `
+                    <div class="icon-box" style="width:${size}px; height:${size}px">
+                        <img class="sprite" src="assets/${item.texture}" 
+                             style="width: ${sw}px; margin-left: -${x}px; margin-top: -${y}px;">
+                    </div>
+                `;
+            };
+
+            const normalizeSources = (recipe) => {
+                if (Array.isArray(recipe.sources)) {
+                    return recipe.sources.filter(item => item && typeof item === 'object');
+                }
+
+                const sources = [];
+
+                if (Array.isArray(recipe.source)) {
+                    sources.push(...recipe.source.filter(item => item && typeof item === 'object'));
+                } else if (recipe.source && typeof recipe.source === 'object') {
+                    sources.push(recipe.source);
+                }
+
+                if (Array.isArray(recipe.alternate_sources)) {
+                    sources.push(...recipe.alternate_sources.filter(item => item && typeof item === 'object'));
+                }
+
+                if (sources.length === 0) {
+                    sources.push({ type: 'other', description: '其他途径', details: {} });
+                }
+
+                return sources;
+            };
+
+            const sourceIcons = {
+                'default': '🎁',
+                'friendship': '❤️',
+                'skill': '⭐',
+                'level': '📈',
+                'tv': '📺',
+                'event': '🎭',
+                'quest': '📜',
+                'book': '📘',
+                'purchase': '🛒',
+                'seasonal': '🗓️',
+                'upgrade': '🏠',
+                'other': '📦',
+                'unknown': '❓'
+            };
+
+            const getSourceTooltip = (source) => {
+                const details = source.details || {};
+                let tooltip = '';
+
+                switch(source.type) {
+                    case 'friendship':
+                        if (details.npc_cn && details.hearts) {
+                            tooltip = `与 ${details.npc_cn} 达到 ${details.hearts} 颗心后邮件获得`;
+                        }
+                        break;
+                    case 'skill':
+                        if (details.skill_cn && details.level) {
+                            tooltip = `${details.skill_cn}技能升至 ${details.level} 级时获得`;
+                        }
+                        break;
+                    case 'level':
+                        if (details.level) {
+                            tooltip = `玩家等级达到 ${details.level} 级时获得`;
+                        }
+                        break;
+                    case 'tv':
+                        if (details.episode && details.air_date) {
+                            tooltip = `「女王的酱汁」第 ${details.episode} 集\n播出时间: ${details.air_date}`;
+                        }
+                        break;
+                    case 'seasonal': {
+                        const seasonNames = {spring: '春季', summer: '夏季', fall: '秋季', winter: '冬季'};
+                        if (details.season && details.day) {
+                            tooltip = `${seasonNames[details.season] || details.season}第 ${details.day} 天邮件获得`;
+                        }
+                        break;
+                    }
+                    case 'event':
+                        if (details.event_id) {
+                            tooltip = `事件 ID: ${details.event_id}`;
+                        }
+                        break;
+                    case 'quest':
+                        if (details.quest_name) {
+                            tooltip = `任务：${details.quest_name}`;
+                        } else if (details.quest_id) {
+                            tooltip = `任务 ID: ${details.quest_id}`;
+                        } else {
+                            tooltip = '通过任务获得';
+                        }
+                        break;
+                    case 'book': {
+                        const bookName = typeof details.book_name === 'string' && details.book_name.trim()
+                            ? details.book_name.trim()
+                            : (typeof details.book === 'string' ? details.book.trim() : '');
+                        tooltip = bookName ? `阅读《${bookName}》后习得` : '阅读食谱书后习得';
+                        break;
+                    }
+                    case 'purchase': {
+                        const lines = [];
+                        if (details.shop) {
+                            lines.push(`商店：${details.shop}`);
+                        }
+                        if (typeof details.price === 'number' && details.price >= 0) {
+                            if (details.currency_name) {
+                                lines.push(`价格：${details.price} ${details.currency_name}`);
+                            } else {
+                                lines.push(`价格：${details.price}g`);
+                            }
+                        } else if (typeof details.price === 'string' && details.price.trim()) {
+                            lines.push(`价格：${details.price.trim()}`);
+                        } else if (details.trade_item_id && details.trade_item_amount) {
+                            const tradeItemLabel = details.trade_item_name || details.trade_item_id;
+                            lines.push(`兑换：${details.trade_item_amount} x ${tradeItemLabel}`);
+                        } else {
+                            lines.push('购买价格未直接定义');
+                        }
+                        tooltip = lines.join('\n');
+                        break;
+                    }
+                    case 'upgrade':
+                        tooltip = '升级农舍后从信箱获得';
+                        break;
+                    case 'default':
+                        tooltip = '游戏开始时已拥有';
+                        break;
+                }
+
+                const rawCondition = details.condition;
+                const conditionText = typeof rawCondition === 'string' ? rawCondition.trim() : '';
+                if (!conditionText) {
+                    return tooltip;
+                }
+
+                if (!tooltip) {
+                    return `条件：${conditionText}`;
+                }
+
+                tooltip = `${tooltip}\n条件：${conditionText}`;
+                return tooltip;
+            };
+
+            const renderSourceTags = (recipe) => normalizeSources(recipe).map(source => {
+                const sourceType = source.type || 'other';
+                const sourceIcon = sourceIcons[sourceType] || '📦';
+                const tooltip = getSourceTooltip(source);
+                const tooltipAttr = tooltip ? `data-tooltip="${tooltip.replace(/"/g, '&quot;')}"` : '';
+                const description = source.description || '其他途径';
+
+                return `
+                    <div class="source-tag ${sourceType}" ${tooltipAttr}>
+                        ${sourceIcon} ${description}
+                    </div>
+                `;
+            }).join('');
+
+            recipes.forEach(r => {
+                const isMade = madeList.includes(r.name);
+                const el = document.createElement('div');
+                el.className = 'card' + (isMade ? ' is-made' : '');
+                
+                el.innerHTML = `
+                    <label class="card-made-toggle" title="点击标记为已制作">
+                        <input type="checkbox" ${isMade ? 'checked' : ''} data-recipe="${r.name.replace(/"/g, '&quot;')}">
+                        <span class="made-checkbox"></span>
+                    </label>
+                    <div class="card-header">
+                        ${renderIcon(r, 32)}
+                        <span>${r.name}</span>
+                    </div>
+                    <div class="source-tags">
+                        ${renderSourceTags(r)}
+                    </div>
+                    <div class="ing-list">
+                        ${r.ingredients.map(i => `
+                            <div class="ing-item">
+                                ${renderIcon(i, 24)}
+                                <span class="ing-name">${i.name}</span>
+                                <span class="ing-count">×${i.count}</span>
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+                
+                // 绑定复选框事件
+                const checkbox = el.querySelector('input[type="checkbox"]');
+                checkbox.addEventListener('change', (e) => {
+                    const recipeName = e.target.dataset.recipe;
+                    toggleMade(recipeName);
+                    el.classList.toggle('is-made', e.target.checked);
+                });
+                
+                container.appendChild(el);
+            });
+        }
+        
+        init();
+
+        const backToTopBtn = document.getElementById('backToTop');
+
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopBtn.classList.add('show');
+            } else {
+                backToTopBtn.classList.remove('show');
+            }
+        });
+
+        backToTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>
