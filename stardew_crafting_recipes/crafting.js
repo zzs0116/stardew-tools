@@ -239,7 +239,7 @@ function renderOutput(output) {
 function renderField(label, value, tooltip = "") {
     if (!value) return "";
 
-    const titleAttr = tooltip ? ` title="${escapeHtml(tooltip)}"` : "";
+    const titleAttr = tooltip ? ` title="${escapeHtml(tooltip)}" data-tooltip="${escapeHtml(tooltip)}"` : "";
     const tooltipClass = tooltip ? " has-tooltip" : "";
 
     return `
@@ -361,5 +361,27 @@ async function init() {
         renderEmptyHint("暂时无法读取配方数据。");
     }
 }
+
+// 添加全局点击事件以支持移动端 Tooltip 展开
+document.addEventListener("click", (e) => {
+    const target = e.target.closest(".has-tooltip");
+    if (target) {
+        const tooltipText = target.getAttribute("data-tooltip");
+        if (tooltipText) {
+            let existing = target.parentElement.querySelector(".mobile-tooltip");
+            if (existing) {
+                existing.remove();
+            } else {
+                document.querySelectorAll(".mobile-tooltip").forEach(el => el.remove());
+                const tooltipDiv = document.createElement("div");
+                tooltipDiv.className = "mobile-tooltip";
+                tooltipDiv.textContent = tooltipText;
+                target.parentElement.appendChild(tooltipDiv);
+            }
+        }
+    } else {
+        document.querySelectorAll(".mobile-tooltip").forEach(el => el.remove());
+    }
+});
 
 init();

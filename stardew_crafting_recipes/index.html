@@ -347,6 +347,34 @@
       border-bottom-style: solid;
     }
 
+    /* 移动端点击展开提示 */
+    .mobile-tooltip {
+      margin-top: 8px;
+      padding: 8px 12px;
+      background: var(--paper-bg);
+      border: 1px solid var(--accent-blue);
+      border-radius: 6px;
+      font-size: 13px;
+      color: var(--text-main);
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      animation: fadeIn 0.2s ease;
+      position: relative;
+      line-height: 1.5;
+    }
+
+    .mobile-tooltip::before {
+      content: '';
+      position: absolute;
+      top: -5px;
+      left: 16px;
+      width: 8px;
+      height: 8px;
+      background: var(--paper-bg);
+      border-top: 1px solid var(--accent-blue);
+      border-left: 1px solid var(--accent-blue);
+      transform: rotate(45deg);
+    }
+
     /* Materials/Output List */
     .item-list {
       display: flex;
