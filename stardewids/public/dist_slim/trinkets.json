@@ -1,0 +1,66 @@
+[
+  {
+    "id": "MagicHairDye",
+    "image": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAApUlEQVR4nMXRzQnDMAwFYO2jgkcQ6QQ1ZIEcukAX8LGQfXrpRRv0nG1UrESQHzVxCKEy72L8PoMNcMZgiDLPrvL19pqkabsyBJ3yLgRXgMdbyoCm7dzbNwEMUe6Xpx7KBStZ8j5xEqrqJYIhChMrYMg8uQzDWiAYogiwIpaUuL9RiyQsH40LUFUfB5h4gowBQ/o4QCny8xFhmE1krTxG3F8oKf9lvqqNJ/G/s0bGAAAAAElFTkSuQmCC",
+    "names": {
+      "data-en-US": "Magic Hair Gel",
+      "data-zh-CN": "魔法发胶"
+    }
+  },
+  {
+    "id": "FrogEgg",
+    "image": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAnUlEQVR4nGNgGLRA2FT9PwgL+Cj8F65RB2OSNAtANfqdM/yf+V8djIkyRBhJs/ZihAEH/6cRNkQYpjkyEW4AsiEgDOKD1OD2dyRCM0gjzGYQBvGJMkB7McipCINghkDEiXJBIoJGMgRmAEgdcQZEIgwBOR9mO2EDItEMgXoLpBmvAVgNqYGGSWQiYc0MUIBiCBQTrRnFEDRMtGa6AgDilsdFLFu+fAAAAABJRU5ErkJggg==",
+    "names": {
+      "data-en-US": "Frog Egg",
+      "data-zh-CN": "青蛙蛋"
+    }
+  },
+  {
+    "id": "MagicQuiver",
+    "image": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAwUlEQVR4nGNgQAPW0rX/QRjGxiWHE1hL1/7/773qPzKNLk7QgK1Kif+RaWQ2AyGQoaX0d32awF9sNEHNKnKp/wlhgga4ez34X5r2/3/lfAQG8UHiBA0AAZAiHfnZGJgkzdaax+AYZDNJBlhDNaVOhjgbxIf5H2QQQQNSJ0P8DPM3zHaYwSCa6EAMqPkPdzrMBSA5rC5RgdoCsx1byMMswGmAO5Lt6F5ADmCsAYrN/+gacWpGdgEMo/uf6JRItGIoAAB4rRz/PzLsXgAAAABJRU5ErkJggg==",
+    "names": {
+      "data-en-US": "Magic Quiver",
+      "data-zh-CN": "魔法箭筒"
+    }
+  },
+  {
+    "id": "FairyBox",
+    "image": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAl0lEQVR4nGNgGF6g3az/PzEYp+b/NU8g+NhnBBuLGIYh7TDN815D8Jc/CDayGMgQEBvdkHaQAeiKcRkANQTFgFjFILjJBL0AUnfsMxYDapAUQw1b57oWjJHFYGwMA9rRQhok9m627d//F2L/4pJHCchYxSAUG0E0SAwmjuwiDM0ggKwQnxdIMuA/jnChjQEwQ4jBWDWTCwDhX7Ei1CpKtAAAAABJRU5ErkJggg==",
+    "names": {
+      "data-en-US": "Fairy Box",
+      "data-zh-CN": "仙女盒"
+    }
+  },
+  {
+    "id": "ParrotEgg",
+    "image": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAqklEQVR4nGNgGLRA2XPOfxAWz7gMxiRrNur8/59n////pycvANNEG6IM1Zx8GYKn3odgog1R9pzz/0XqJrBmhv/R/698/A/GIEMIGqCMxXaQZhAA0QRdoew5B6wIBJCdD3MFSIwoA5KRXPDnfzTcIJIMYEDSCMMbW4gw4DQ02tBjAcQGiYPUEAxEnv0QDLIRZhCID5LDawADFkNAGBStRGlGNgQbJkoz3QEAOeAcLSynITQAAAAASUVORK5CYII=",
+    "names": {
+      "data-en-US": "Parrot Egg",
+      "data-zh-CN": "鹦鹉蛋"
+    }
+  },
+  {
+    "id": "IceRod",
+    "image": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAlklEQVR4nGNgIAFwi5T+ZUg5C8GkAm6Y5oPP/jL8/w+hydV8GGQACBPrEm5022EuIGSANJ/SXxBGMQCGU85CxPEBkGaYQpQAJEYzCHjJm0MUHnwGNwRuGDGaveTN/05x0v8Psx3sImKBF1QzzCBYeJBksxeUTbStIICsmYEU4EWJzV5QjUtTPUi3GdkAspyObAjZmikBAJgHngxsNqyRAAAAAElFTkSuQmCC",
+    "names": {
+      "data-en-US": "Ice Rod",
+      "data-zh-CN": "寒冰法杖"
+    }
+  },
+  {
+    "id": "IridiumSpur",
+    "image": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAuElEQVR4nMVSyw3CMAztCNx745hkB6sjsATKON0gIzBPd6EyepYNVkgahISwZCV27PfizzT9UnI479Cvgikkvm+Rve8QkKoEsUtknJaMd7P7ICXyuszChDtO2B7sUNZl3m/Xk7AxX0Rxh39YP4XExgYFEBQgFtPsAWn9liiq9RqA93dBKCR5tMAnqCb5mHEPyus3sD9qYFZ2PwVjHYLkas420tZeNJtJylQ39m07tazhiveaVRP9Xx7I2ew4QKDNkgAAAABJRU5ErkJggg==",
+    "names": {
+      "data-en-US": "Golden Spur",
+      "data-zh-CN": "黄金马刺"
+    }
+  },
+  {
+    "id": "BasiliskPaw",
+    "image": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAr0lEQVR4nGNgoBtwkPmLgkkCMvp/GWI5/jK0MPzVWcIApok3RAZVc+4RQgbI6P9FwUia229ADcCruYUBA8NsBhkA9gJWA2T0/8bcZsCwHVkz3PkgOZxOR3IJsmYU27EaAANImkE0yACY/3HbjkMzzAsgGux8UIDiNEAGEeKwaIIbJKMPYRO0PZYDYQvMJTL6f7f+J+R8GVTN/0GxgawBOYBxGfBnvvZ/4jXgcsVAAACJp7Uu3F2TxQAAAABJRU5ErkJggg==",
+    "names": {
+      "data-en-US": "Basilisk Paw",
+      "data-zh-CN": "蜥怪的爪子"
+    }
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "MannequinMale",
+    "image": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAgCAYAAAAbifjMAAAACXBIWXMAAAsTAAALEwEAmpwYAAABVklEQVR4nJ2SsW3DMBBFtUAWiOEigFu5MgQ1qVwdvEHUCgg8QVKmSxfAM6TPGOo9gZcw4JLBJ/jlE0XSpA44gDr+ezqSv6oCIU1tQhnSzgLC4e/XmMt5kqg9hEik2dyueRCJARRkOeByzgcMCUg2YFhykdLU5vT1OYH4mfUSpwAEtSIviDpOsZHEe41siDS1+X5/uzfj7ZWJsNft2wU+uN0hUYCkPOAm4X4QIk1txRgzZmXuBQHdvh03Yy7UmiRgSLgwCOjUX/VL6ESNgBmkcwD+BeJQ6lcKTiHOLCkAdEkvICCgafS6yg1xo2pbPwT0651h8rII4Jm1Ztb88/pis92sxiaskYRh/bF9troR0nvN2s4awPoM0jsAitjUntAAHiMJODxtJlMQoL+hiQL69W6EUOx/QzMBHFzRh7Cu12xkM+q4xyMFJemajxZASEmymWEhhWnjHxILXdGOggaTAAAAAElFTkSuQmCC",
+    "names": {
+      "data-en-US": "Mannequin (M)",
+      "data-zh-CN": "假人模特（男）"
+    }
+  },
+  {
+    "id": "MannequinFemale",
+    "image": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAgCAYAAAAbifjMAAAACXBIWXMAAAsTAAALEwEAmpwYAAABQklEQVR4nL2UPW7CQBCFuUCKtIkootAmFUJuqKgibsC0lhAnSEo6OqScIT3HcO8T+BJIKR29yY41Hq/3BwErPWl2PO/b2R95MrnFoFXR+pRsrk4/rLapO2EehZDP/Hv+VwqEHECvbCGXAZr6CoCmvgMgBsm6SloVPWP2O2jN6snv4LDdjALwLekQD9uNV8EuSO15rIPgYZIDxM4gCKhcUQjg3QaZK/vef/UgiJGzdQNA5ehjh6i783ZBTr6bEHj0UZHqRpuTnzKZNu32ogAMMX0s3lhJq5fTeSuCCSsKQGJdMzAfly+sYvbcrYoYkm4Qf74/cV0HKY1Z/1Q1QPIDSOkASOKjfiwaIOcQBKwfZr0uBKDnqBkFlNM5FywfX1mI7Rw1PcDaJS1E8joWo5iRxznupCBHzrxjgEByJGYZDMkUjz9flEUOH23U5AAAAABJRU5ErkJggg==",
+    "names": {
+      "data-en-US": "Mannequin (F)",
+      "data-zh-CN": "假人模特（女）"
+    }
+  },
+  {
+    "id": "CursedMannequinMale",
+    "image": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAgCAYAAAAbifjMAAAACXBIWXMAAAsTAAALEwEAmpwYAAABLElEQVR4nM2TvQ2DMBCFmSISLcoK6SIPQOuIFSJKKDJMNkjNIizAFhEt0Tl+6OE/TBEplp5k7Hufz76jKCJD193CisUFhxiG17hRNkRdG2OYxmWjLIgKmOf3V1kQ9QvAdOQa6i8A/f0ZrYLsZVWidyDZZgBwFbeRDp8+OyXczUJFHjGrDxSlHQKIkv+FujYmWNIMlVAA2AsCdN2tm7E+4JgkYIj0AbL0AJpO5UqwZA0AD6ItAKdIcEhcpWAWyjZRCpDVULru1qbhedLEA6lyW+8CquqyQHgsAHBnjvHMze1hxAAEA4Y9xAXNA7UzA7DuQSoLwAncEwzga0QB5em8yQIA/paYZAalhWDufnsZlHbRhWCd5zDCLOvyji2fkitrbg0AkCOCGcNADsqMD47JbTneZc9uAAAAAElFTkSuQmCC",
+    "names": {
+      "data-en-US": "Cursed Mannequin (M)",
+      "data-zh-CN": "被诅咒的假人模特（男）"
+    }
+  },
+  {
+    "id": "CursedMannequinFemale",
+    "image": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAgCAYAAAAbifjMAAAACXBIWXMAAAsTAAALEwEAmpwYAAABJElEQVR4nL2UwQ3CMAxFOwVSrxUrcEMM0KtRV0A9lgPDsAHnLpIFsgXiWuSQj9zUSRMERLKapP7Pqe2mqn4xqB0mzbLF4804s2Z6G69XIaSIH/eXZUHIA2TkEPIRwJovAKz5B2ANUlRKaoeZsLgPbBA9uw/Op2sUwO9Wk2jN5Bw1S+aBvFhr43BfhZAHyORpVUgCRp+oFEBNJgUlS1VB7QkS369VQlYgmgcSF0esClmXC60AokLtUoEQ66J2tuIfyPqRmmY3wQ77zkXkp5xLn4W4O16cAcBR4cxzAPgJP1U8ipaVAOwvII0HIIJsFglAHpKAerOdnQIAuWaf5AlqD8E8XC9OUPvNEIJ9OYcQYt7nPPYySq55ce8AgJQYxBgOUmhuPAGLjVTmLXRtzgAAAABJRU5ErkJggg==",
+    "names": {
+      "data-en-US": "Cursed Mannequin (F)",
+      "data-zh-CN": "被诅咒的假人模特（女）"
+    }
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "name": "stardewids",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "scripts/generateStatic.js",
+  "scripts": {
+    "update-item-list": "node scripts/patchItems.js",
+    "dev": "NODE_ENV=development nodemon -e js,json,jade,css -i ./public -i ./node_modules -i ./assets",
+    "build": "node scripts/generateStatic.js",
+    "dev-items": "while true; do watch --chgexit -n 0.5 'echo $(sha256sum ./categories.json); echo $(sha256sum ./scripts/patchItems.js)'; npm run update-item-list; done",
+    "start": "http-server public -p 5500",
+    "start:dev": "npx http-server public -p 5500",
+    "clean": "node -e \"const fs=require('fs');const rm=p=>fs.existsSync(p)&&fs.rmSync(p,{recursive:true,force:true}); rm('./index.html'); rm('./dist'); rm('./public/dist'); console.log('Cleaned.');\""
+  },
+
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "clean-css": "^5.3.3",
+    "nodemon": "^3.1.0",
+    "pug": "^3.0.2",
+    "sharp": "^0.33.2",
+    "uglify-js": "^3.17.4"
+  }
+}
