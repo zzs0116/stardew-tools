@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>五彩水晶谜题 | 姜岛解谜工具箱</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&family=Noto+Sans+SC:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <style>
+    :root {
+      --sky: #8cc4de;
+      --sky-deep: #70aac7;
+      --wood: #7e5437;
+      --wood-dark: #573722;
+      --paper: #fff8e6;
+      --paper-line: #dccb9d;
+      --text: #433022;
+      --green: #6e9b41;
+      --green-dark: #4c6f2a;
+      --gold: #d4aa3d;
+      --purple: #6e61b9;
+      --purple-soft: #ece8ff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      padding: 24px 16px;
+      background:
+        radial-gradient(circle at 18% 12%, rgba(255, 255, 255, 0.35), transparent 16%),
+        radial-gradient(circle at 82% 16%, rgba(255, 243, 185, 0.26), transparent 14%),
+        linear-gradient(180deg, var(--sky) 0%, var(--sky-deep) 100%);
+      color: var(--text);
+      font-family: 'Noto Sans SC', sans-serif;
+      display: flex;
+      justify-content: center;
+    }
+
+    .board {
+      width: min(1040px, 100%);
+      background: var(--wood);
+      border: 8px solid var(--wood-dark);
+      border-radius: 18px;
+      padding: 20px;
+      box-shadow: inset 0 0 0 4px rgba(255, 240, 210, 0.16), 0 20px 40px rgba(0, 0, 0, 0.25);
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-bottom: 16px;
+      padding: 10px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      background: var(--green);
+      color: #fff;
+      border: 2px solid var(--green-dark);
+      box-shadow: 0 4px 0 var(--green-dark);
+      font-family: 'ZCOOL KuaiLe', cursive;
+    }
+
+    .paper,
+    .panel {
+      background: var(--paper);
+      border: 2px solid var(--paper-line);
+      border-radius: 12px;
+      padding: 22px;
+      margin-bottom: 18px;
+    }
+
+    h1,
+    h2 {
+      margin: 0;
+      font-family: 'ZCOOL KuaiLe', cursive;
+    }
+
+    h1 {
+      font-size: 38px;
+      color: var(--wood-dark);
+      margin-bottom: 12px;
+    }
+
+    h2 {
+      color: #8d661b;
+      margin-bottom: 12px;
+    }
+
+    p,
+    li {
+      line-height: 1.85;
+    }
+
+    .status {
+      display: inline-block;
+      margin-bottom: 14px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: #fff1c8;
+      border: 1px solid #e2c46d;
+      color: #8a6618;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
+      gap: 20px;
+      align-items: start;
+    }
+
+    .image-frame {
+      background: linear-gradient(180deg, #f7f1ff, var(--purple-soft));
+      border: 2px solid #cbc4ef;
+      border-radius: 14px;
+      padding: 14px;
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+    }
+
+    .image-frame img {
+      display: block;
+      width: 100%;
+      border-radius: 10px;
+      border: 2px solid #b5acdf;
+      background: #edf1ff;
+    }
+
+    .image-note {
+      margin-top: 10px;
+      font-size: 13px;
+      color: #715d95;
+    }
+
+    .fact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    .fact {
+      background: rgba(255, 249, 234, 0.92);
+      border: 2px dashed #dbc998;
+      border-radius: 10px;
+      padding: 12px 14px;
+    }
+
+    .fact strong {
+      display: block;
+      font-size: 24px;
+      color: var(--purple);
+      font-family: 'ZCOOL KuaiLe', cursive;
+      margin-bottom: 4px;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    .secret-tip-wrap {
+      margin-top: 18px;
+      padding-top: 12px;
+      border-top: 1px dashed #d8c89c;
+    }
+
+    .secret-tip-trigger {
+      font-size: 13px;
+      color: #9a8768;
+      letter-spacing: 0.03em;
+    }
+
+    .secret-tip {
+      margin-top: 10px;
+      padding: 12px 14px;
+      border-radius: 10px;
+      background: #f3ecff;
+      border: 1px solid #cbbfe9;
+      color: #5b4a88;
+      opacity: 0;
+      max-height: 0;
+      overflow: hidden;
+      transform: translateY(6px);
+      transition: opacity 160ms ease, transform 160ms ease, max-height 160ms ease, padding 160ms ease;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+    .secret-tip-wrap:hover .secret-tip {
+      opacity: 1;
+      max-height: 120px;
+      transform: translateY(0);
+      padding-top: 12px;
+      padding-bottom: 12px;
+    }
+
+    .secret-tip a {
+      color: #4a3fad;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .secret-tip a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 780px) {
+      .board {
+        border-width: 4px;
+        padding: 14px;
+      }
+
+      .paper,
+      .panel {
+        padding: 16px;
+      }
+
+      h1 {
+        font-size: 30px;
+      }
+
+      .hero-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .back-link {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="board">
+    <a class="back-link" href="../index.html">返回姜岛工具箱</a>
+
+    <section class="paper">
+      <span class="status">已建子页</span>
+      <h1>五彩水晶谜题</h1>
+      <div class="hero-grid">
+        <div>
+          <p>
+            这个谜题位于老虎史莱姆小树林的东北侧洞穴内。
+          </p>
+          <p>
+            玩家进入洞穴后，点击中间的狮子石像，开启一个小游戏。玩家需要记住五个水晶的闪烁顺序，并按该顺序点击水晶。小游戏每一轮都会更快（共五轮，依次为 3-7 次点击），完成这个小游戏之后，玩家可以获得 3 个金色核桃。如果玩家失败次数过多，小游戏会减缓速度以降低难度。
+          </p>
+          <div class="fact-grid">
+            <div class="fact">
+              <strong>3 个</strong>
+              <span>奖励金核桃</span>
+            </div>
+            <div class="fact">
+              <strong>5 轮</strong>
+              <span>顺序记忆</span>
+            </div>
+            <div class="fact">
+              <strong>3-7 次</strong>
+              <span>每轮点击数</span>
+            </div>
+          </div>
+        </div>
+        <div class="image-frame">
+          <img src="https://stardewvalleywiki.com/mediawiki/images/7/77/SimonSaysPuzzle.png" alt="五彩水晶谜题示意图">
+          <div class="image-note">图片来源：Stardew Valley Wiki 五彩水晶谜题示意图。</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>快速要点</h2>
+      <ul>
+        <li>进入洞穴后先点击中央狮子石像，谜题才会开始。</li>
+        <li>观察五个水晶的闪烁顺序，再按同样顺序点击水晶。</li>
+        <li>每过一轮，闪烁节奏会更快，需要更集中地记忆。</li>
+        <li>如果连续失败较多，系统会适当放慢速度，降低难度。</li>
+      </ul>
+      <div class="secret-tip-wrap">
+        <div class="secret-tip-trigger">???</div>
+        <div class="secret-tip">
+          安装 <a href="https://www.nexusmods.com/stardewvalley/mods/541" target="_blank" rel="noreferrer">Lookup Anything</a> 这个 Mod，即可更简单地通关这个谜题。
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>

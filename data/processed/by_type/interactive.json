@@ -1,0 +1,48 @@
+[
+  {
+    "id": "PotOfGold",
+    "name": "PotOfGold",
+    "displayName": {
+      "en": "PotOfGold",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_NodeWithCoal_Description]",
+      "zh": "Break apart to obtain stone with a chance of coal."
+    },
+    "type": "interactive",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "TileSheets/Objects_2",
+      "index": 139,
+      "x": 304,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Draylon.ForeverFallsCP_FarmWand",
+    "name": "Draylon.ForeverFallsCP_FarmWand",
+    "displayName": {
+      "en": "Draylon.ForeverFallsCP_FarmWand",
+      "zh": "Draylon.ForeverFallsCP_FarmWand"
+    },
+    "description": {
+      "en": "A Teleportation Rod that allows extra mobility around the farm. Only Works on the Farm.",
+      "zh": ""
+    },
+    "type": "interactive",
+    "category": -99,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/Draylon.ForeverFallsCP/Objects",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  }
+]

@@ -1,0 +1,8509 @@
+[
+  {
+    "id": "194",
+    "name": "Fried Egg",
+    "displayName": {
+      "en": "Fried Egg",
+      "zh": "煎鸡蛋"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:FriedEgg_Description]",
+      "zh": "正面像太阳一样。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 35,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 194,
+      "x": 32,
+      "y": 128,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 20,
+    "contextTags": [
+      "color_white",
+      "food_breakfast"
+    ]
+  },
+  {
+    "id": "195",
+    "name": "Omelet",
+    "displayName": {
+      "en": "Omelet",
+      "zh": "煎蛋卷"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Omelet_Description]",
+      "zh": "它超级松软。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 125,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 195,
+      "x": 48,
+      "y": 128,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 40,
+    "contextTags": [
+      "color_white",
+      "food_breakfast"
+    ]
+  },
+  {
+    "id": "196",
+    "name": "Salad",
+    "displayName": {
+      "en": "Salad",
+      "zh": "沙拉"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Salad_Description]",
+      "zh": "健康的田园沙拉。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 110,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 196,
+      "x": 64,
+      "y": 128,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 45,
+    "contextTags": [
+      "color_green",
+      "food_salad"
+    ]
+  },
+  {
+    "id": "197",
+    "name": "Cheese Cauliflower",
+    "displayName": {
+      "en": "Cheese Cauliflower",
+      "zh": "乳酪花椰菜"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:CheeseCauliflower_Description]",
+      "zh": "闻起来棒极了！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 300,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 197,
+      "x": 80,
+      "y": 128,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 55,
+    "contextTags": [
+      "color_white"
+    ]
+  },
+  {
+    "id": "198",
+    "name": "Baked Fish",
+    "displayName": {
+      "en": "Baked Fish",
+      "zh": "烤鱼"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:BakedFish_Description]",
+      "zh": "香草烤鱼。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 100,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 198,
+      "x": 96,
+      "y": 128,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 30,
+    "contextTags": [
+      "color_yellow"
+    ]
+  },
+  {
+    "id": "199",
+    "name": "Parsnip Soup",
+    "displayName": {
+      "en": "Parsnip Soup",
+      "zh": "防风草汤"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:ParsnipSoup_Description]",
+      "zh": "鲜美又贴心。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 120,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 199,
+      "x": 112,
+      "y": 128,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 34,
+    "contextTags": [
+      "color_yellow"
+    ]
+  },
+  {
+    "id": "200",
+    "name": "Vegetable Medley",
+    "displayName": {
+      "en": "Vegetable Medley",
+      "zh": "蔬菜杂烩"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:VegetableMedley_Description]",
+      "zh": "这非常有营养。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 120,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 200,
+      "x": 128,
+      "y": 128,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 66,
+    "contextTags": [
+      "color_green"
+    ]
+  },
+  {
+    "id": "201",
+    "name": "Complete Breakfast",
+    "displayName": {
+      "en": "Complete Breakfast",
+      "zh": "完美早餐"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:CompleteBreakfast_Description]",
+      "zh": "你会准备好征服世界的！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 350,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 201,
+      "x": 144,
+      "y": 128,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 80,
+    "contextTags": [
+      "color_yellow",
+      "food_breakfast"
+    ]
+  },
+  {
+    "id": "202",
+    "name": "Fried Calamari",
+    "displayName": {
+      "en": "Fried Calamari",
+      "zh": "炸鱿鱼"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:FriedCalamari_Description]",
+      "zh": "它太有嚼劲了。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 150,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 202,
+      "x": 160,
+      "y": 128,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 32,
+    "contextTags": [
+      "color_yellow"
+    ]
+  },
+  {
+    "id": "203",
+    "name": "Strange Bun",
+    "displayName": {
+      "en": "Strange Bun",
+      "zh": "奇怪的小面包"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:StrangeBun_Description]",
+      "zh": "里面放了什么？"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 225,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 203,
+      "x": 176,
+      "y": 128,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 40,
+    "contextTags": [
+      "color_pink"
+    ]
+  },
+  {
+    "id": "204",
+    "name": "Lucky Lunch",
+    "displayName": {
+      "en": "Lucky Lunch",
+      "zh": "幸运午餐"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:LuckyLunch_Description]",
+      "zh": "特别又简单的一餐。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 250,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 204,
+      "x": 192,
+      "y": 128,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 40,
+    "contextTags": [
+      "color_yellow"
+    ]
+  },
+  {
+    "id": "205",
+    "name": "Fried Mushroom",
+    "displayName": {
+      "en": "Fried Mushroom",
+      "zh": "炒蘑菇"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:FriedMushroom_Description]",
+      "zh": "原生态的香味。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 200,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 205,
+      "x": 208,
+      "y": 128,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 54,
+    "contextTags": [
+      "color_brown"
+    ]
+  },
+  {
+    "id": "206",
+    "name": "Pizza",
+    "displayName": {
+      "en": "Pizza",
+      "zh": "披萨"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Pizza_Description]",
+      "zh": "受欢迎是很合理的事。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 300,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 206,
+      "x": 224,
+      "y": 128,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 60,
+    "contextTags": [
+      "color_red",
+      "food_party"
+    ]
+  },
+  {
+    "id": "207",
+    "name": "Bean Hotpot",
+    "displayName": {
+      "en": "Bean Hotpot",
+      "zh": "豆类火锅"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:BeanHotpot_Description]",
+      "zh": "这绝对很健康。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 100,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 207,
+      "x": 240,
+      "y": 128,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_green"
+    ]
+  },
+  {
+    "id": "208",
+    "name": "Glazed Yams",
+    "displayName": {
+      "en": "Glazed Yams",
+      "zh": "琉璃山药"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:GlazedYams_Description]",
+      "zh": "又香又甜……加糖让它有了一点焦糖味。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 200,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 208,
+      "x": 256,
+      "y": 128,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 80,
+    "contextTags": [
+      "color_brown"
+    ]
+  },
+  {
+    "id": "209",
+    "name": "Carp Surprise",
+    "displayName": {
+      "en": "Carp Surprise",
+      "zh": "惊喜鲤鱼"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:CarpSurprise_Description]",
+      "zh": "它的味道很清淡但是很油。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 150,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 209,
+      "x": 272,
+      "y": 128,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 36,
+    "contextTags": [
+      "color_brown",
+      "food_seafood"
+    ]
+  },
+  {
+    "id": "210",
+    "name": "Hashbrowns",
+    "displayName": {
+      "en": "Hashbrowns",
+      "zh": "薯饼"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Hashbrowns_Description]",
+      "zh": "金黄酥脆！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 120,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 210,
+      "x": 288,
+      "y": 128,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 36,
+    "contextTags": [
+      "color_brown",
+      "food_breakfast"
+    ]
+  },
+  {
+    "id": "211",
+    "name": "Pancakes",
+    "displayName": {
+      "en": "Pancakes",
+      "zh": "薄煎饼"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Pancakes_Description]",
+      "zh": "双层的松软煎饼。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 80,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 211,
+      "x": 304,
+      "y": 128,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 36,
+    "contextTags": [
+      "color_brown",
+      "food_breakfast"
+    ]
+  },
+  {
+    "id": "212",
+    "name": "Salmon Dinner",
+    "displayName": {
+      "en": "Salmon Dinner",
+      "zh": "鲑鱼晚餐"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:SalmonDinner_Description]",
+      "zh": "柠檬汁给它增添了特别的味道。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 300,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 212,
+      "x": 320,
+      "y": 128,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_pink",
+      "food_seafood"
+    ]
+  },
+  {
+    "id": "213",
+    "name": "Fish Taco",
+    "displayName": {
+      "en": "Fish Taco",
+      "zh": "鱼肉卷"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:FishTaco_Description]",
+      "zh": "闻起来就很美味。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 500,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 213,
+      "x": 336,
+      "y": 128,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 66,
+    "contextTags": [
+      "color_yellow",
+      "food_party",
+      "food_seafood"
+    ]
+  },
+  {
+    "id": "214",
+    "name": "Crispy Bass",
+    "displayName": {
+      "en": "Crispy Bass",
+      "zh": "香酥鲈鱼"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:CrispyBass_Description]",
+      "zh": "哇哦，裹上面包屑简直完美。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 150,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 214,
+      "x": 352,
+      "y": 128,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 36,
+    "contextTags": [
+      "color_brown",
+      "food_seafood"
+    ]
+  },
+  {
+    "id": "215",
+    "name": "Pepper Poppers",
+    "displayName": {
+      "en": "Pepper Poppers",
+      "zh": "爆炒青椒"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:PepperPoppers_Description]",
+      "zh": "裹着面包屑的辣青椒装满了乳酪。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 200,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 215,
+      "x": 368,
+      "y": 128,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 52,
+    "contextTags": [
+      "color_brown",
+      "food_spicy"
+    ]
+  },
+  {
+    "id": "216",
+    "name": "Bread",
+    "displayName": {
+      "en": "Bread",
+      "zh": "面包"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Bread_Description]",
+      "zh": "硬皮法式面包。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 60,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 216,
+      "x": 0,
+      "y": 144,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 20,
+    "contextTags": [
+      "color_brown",
+      "food_bakery"
+    ]
+  },
+  {
+    "id": "218",
+    "name": "Tom Kha Soup",
+    "displayName": {
+      "en": "Tom Kha Soup",
+      "zh": "椰汁汤"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:TomKhaSoup_Description]",
+      "zh": "这味道好极了！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 250,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 218,
+      "x": 32,
+      "y": 144,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 70,
+    "contextTags": [
+      "color_white",
+      "food_soup"
+    ]
+  },
+  {
+    "id": "219",
+    "name": "Trout Soup",
+    "displayName": {
+      "en": "Trout Soup",
+      "zh": "鳟鱼汤"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:TroutSoup_Description]",
+      "zh": "很咸。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 100,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 219,
+      "x": 48,
+      "y": 144,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 40,
+    "contextTags": [
+      "color_brown",
+      "food_seafood",
+      "food_soup"
+    ]
+  },
+  {
+    "id": "220",
+    "name": "Chocolate Cake",
+    "displayName": {
+      "en": "Chocolate Cake",
+      "zh": "巧克力蛋糕"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:ChocolateCake_Description]",
+      "zh": "香甜柔软，还有厚厚的软糖糖衣。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 200,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 220,
+      "x": 64,
+      "y": 144,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 60,
+    "contextTags": [
+      "color_brown",
+      "food_bakery",
+      "food_cake",
+      "food_sweet"
+    ]
+  },
+  {
+    "id": "221",
+    "name": "Pink Cake",
+    "displayName": {
+      "en": "Pink Cake",
+      "zh": "粉红蛋糕"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:PinkCake_Description]",
+      "zh": "蛋糕上面有小小的心型蜡烛。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 480,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 221,
+      "x": 80,
+      "y": 144,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 100,
+    "contextTags": [
+      "color_pink",
+      "food_bakery",
+      "food_sweet"
+    ]
+  },
+  {
+    "id": "222",
+    "name": "Rhubarb Pie",
+    "displayName": {
+      "en": "Rhubarb Pie",
+      "zh": "大黄派"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:RhubarbPie_Description]",
+      "zh": "嗯嗯，又香又甜！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 400,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 222,
+      "x": 96,
+      "y": 144,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 86,
+    "contextTags": [
+      "color_red",
+      "food_bakery",
+      "food_sweet"
+    ]
+  },
+  {
+    "id": "223",
+    "name": "Cookie",
+    "displayName": {
+      "en": "Cookie",
+      "zh": "饼干"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Cookie_Description]",
+      "zh": "非常难嚼。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 140,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 223,
+      "x": 112,
+      "y": 144,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 36,
+    "contextTags": [
+      "color_brown",
+      "food_bakery",
+      "food_sweet"
+    ]
+  },
+  {
+    "id": "224",
+    "name": "Spaghetti",
+    "displayName": {
+      "en": "Spaghetti",
+      "zh": "意大利面"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Spaghetti_Description]",
+      "zh": "经典老菜。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 120,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 224,
+      "x": 128,
+      "y": 144,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 30,
+    "contextTags": [
+      "color_red",
+      "dye_medium",
+      "food_pasta"
+    ]
+  },
+  {
+    "id": "225",
+    "name": "Fried Eel",
+    "displayName": {
+      "en": "Fried Eel",
+      "zh": "炒鳗鱼"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:FriedEel_Description]",
+      "zh": "油腻而可口。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 120,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 225,
+      "x": 144,
+      "y": 144,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 30,
+    "contextTags": [
+      "color_yellow",
+      "food_seafood"
+    ]
+  },
+  {
+    "id": "226",
+    "name": "Spicy Eel",
+    "displayName": {
+      "en": "Spicy Eel",
+      "zh": "香辣鳗鱼"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:SpicyEel_Description]",
+      "zh": "真的很辣！小心点。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 175,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 226,
+      "x": 160,
+      "y": 144,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 46,
+    "contextTags": [
+      "color_red",
+      "food_seafood",
+      "food_spicy"
+    ]
+  },
+  {
+    "id": "227",
+    "name": "Sashimi",
+    "displayName": {
+      "en": "Sashimi",
+      "zh": "生鱼片"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Sashimi_Description]",
+      "zh": "切成薄片的生鱼。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 75,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 227,
+      "x": 176,
+      "y": 144,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 30,
+    "contextTags": [
+      "color_pink",
+      "food_seafood",
+      "food_sushi"
+    ]
+  },
+  {
+    "id": "228",
+    "name": "Maki Roll",
+    "displayName": {
+      "en": "Maki Roll",
+      "zh": "生鱼寿司"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:MakiRoll_Description]",
+      "zh": "紫菜裹着的鱼和米饭。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 220,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 228,
+      "x": 192,
+      "y": 144,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 40,
+    "contextTags": [
+      "color_black",
+      "food_seafood",
+      "food_sushi"
+    ]
+  },
+  {
+    "id": "229",
+    "name": "Tortilla",
+    "displayName": {
+      "en": "Tortilla",
+      "zh": "墨西哥薄饼"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Tortilla_Description]",
+      "zh": "可以用来盛食物，也可以直接吃。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 50,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 229,
+      "x": 208,
+      "y": 144,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 20,
+    "contextTags": [
+      "color_brown"
+    ]
+  },
+  {
+    "id": "230",
+    "name": "Red Plate",
+    "displayName": {
+      "en": "Red Plate",
+      "zh": "红之盛宴"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:RedPlate_Description]",
+      "zh": "充满了抗氧化物。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 400,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 230,
+      "x": 224,
+      "y": 144,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 96,
+    "contextTags": [
+      "color_red"
+    ]
+  },
+  {
+    "id": "231",
+    "name": "Eggplant Parmesan",
+    "displayName": {
+      "en": "Eggplant Parmesan",
+      "zh": "帕尔玛奶酪茄子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:EggplantParmesan_Description]",
+      "zh": "味道浓烈，芝香浓郁，好吃极了。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 200,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 231,
+      "x": 240,
+      "y": 144,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 70,
+    "contextTags": [
+      "color_red",
+      "dye_medium",
+      "food_pasta"
+    ]
+  },
+  {
+    "id": "232",
+    "name": "Rice Pudding",
+    "displayName": {
+      "en": "Rice Pudding",
+      "zh": "大米布丁"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:RicePudding_Description]",
+      "zh": "有浓郁的奶油，又甜，并且吃起来也很有意思。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 260,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 232,
+      "x": 256,
+      "y": 144,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 46,
+    "contextTags": [
+      "color_white",
+      "food_sweet"
+    ]
+  },
+  {
+    "id": "233",
+    "name": "Ice Cream",
+    "displayName": {
+      "en": "Ice Cream",
+      "zh": "冰淇淋"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:IceCream_Description]",
+      "zh": "很难找到一个不喜欢它的人。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 120,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 233,
+      "x": 272,
+      "y": 144,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 40,
+    "contextTags": [
+      "color_white",
+      "food_sweet"
+    ]
+  },
+  {
+    "id": "234",
+    "name": "Blueberry Tart",
+    "displayName": {
+      "en": "Blueberry Tart",
+      "zh": "蓝莓千层酥"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:BlueberryTart_Description]",
+      "zh": "味道微妙而又清新。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 150,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 234,
+      "x": 288,
+      "y": 144,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_blue",
+      "food_bakery",
+      "food_sweet"
+    ]
+  },
+  {
+    "id": "235",
+    "name": "Autumn's Bounty",
+    "displayName": {
+      "en": "Autumn's Bounty",
+      "zh": "秋日恩赐"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:AutumnsBounty_Description]",
+      "zh": "秋日的风味。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 350,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 235,
+      "x": 304,
+      "y": 144,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 88,
+    "contextTags": [
+      "color_brown"
+    ]
+  },
+  {
+    "id": "236",
+    "name": "Pumpkin Soup",
+    "displayName": {
+      "en": "Pumpkin Soup",
+      "zh": "南瓜汤"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:PumpkinSoup_Description]",
+      "zh": "秋之最爱。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 300,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 236,
+      "x": 320,
+      "y": 144,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 80,
+    "contextTags": [
+      "color_orange",
+      "food_soup"
+    ]
+  },
+  {
+    "id": "237",
+    "name": "Super Meal",
+    "displayName": {
+      "en": "Super Meal",
+      "zh": "巨无霸餐"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:SuperMeal_Description]",
+      "zh": "真是充满能量的一餐。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 220,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 237,
+      "x": 336,
+      "y": 144,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 64,
+    "contextTags": [
+      "color_green"
+    ]
+  },
+  {
+    "id": "238",
+    "name": "Cranberry Sauce",
+    "displayName": {
+      "en": "Cranberry Sauce",
+      "zh": "红莓酱"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:CranberrySauce_Description]",
+      "zh": "秋日特供。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 120,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 238,
+      "x": 352,
+      "y": 144,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_red",
+      "dye_strong",
+      "food_sauce"
+    ]
+  },
+  {
+    "id": "239",
+    "name": "Stuffing",
+    "displayName": {
+      "en": "Stuffing",
+      "zh": "塞料面包"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stuffing_Description]",
+      "zh": "啊……热面包和鼠尾草的香味。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 165,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 239,
+      "x": 368,
+      "y": 144,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 68,
+    "contextTags": [
+      "color_brown",
+      "food_sauce"
+    ]
+  },
+  {
+    "id": "240",
+    "name": "Farmer's Lunch",
+    "displayName": {
+      "en": "Farmer's Lunch",
+      "zh": "农夫午餐"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:FarmersLunch_Description]",
+      "zh": "保证你能够继续工作。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 150,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 240,
+      "x": 0,
+      "y": 160,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 80,
+    "contextTags": [
+      "color_brown"
+    ]
+  },
+  {
+    "id": "241",
+    "name": "Survival Burger",
+    "displayName": {
+      "en": "Survival Burger",
+      "zh": "救生汉堡"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:SurvivalBurger_Description]",
+      "zh": "探险家们的便携小吃。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 180,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 241,
+      "x": 16,
+      "y": 160,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_brown",
+      "food_party"
+    ]
+  },
+  {
+    "id": "242",
+    "name": "Dish O' The Sea",
+    "displayName": {
+      "en": "Dish O' The Sea",
+      "zh": "海之菜肴"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:DishOTheSea_Description]",
+      "zh": "让你在海上的寒风中保持温暖。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 220,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 242,
+      "x": 32,
+      "y": 160,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 60,
+    "contextTags": [
+      "color_yellow",
+      "food_seafood"
+    ]
+  },
+  {
+    "id": "243",
+    "name": "Miner's Treat",
+    "displayName": {
+      "en": "Miner's Treat",
+      "zh": "矿工特供"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:MinersTreat_Description]",
+      "zh": "让你持续充满能量。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 200,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 243,
+      "x": 48,
+      "y": 160,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_red",
+      "food_sweet"
+    ]
+  },
+  {
+    "id": "244",
+    "name": "Roots Platter",
+    "displayName": {
+      "en": "Roots Platter",
+      "zh": "块茎拼盘"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:RootsPlatter_Description]",
+      "zh": "让人食指大动，停不下来。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 100,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 244,
+      "x": 64,
+      "y": 160,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_brown"
+    ]
+  },
+  {
+    "id": "253",
+    "name": "Triple Shot Espresso",
+    "displayName": {
+      "en": "Triple Shot Espresso",
+      "zh": "三倍浓缩咖啡"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:TripleShotEspresso_Description]",
+      "zh": "它比普通咖啡更有效！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 450,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 253,
+      "x": 208,
+      "y": 160,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 3,
+    "isDrink": true,
+    "contextTags": [
+      "color_dark_brown",
+      "dye_strong",
+      "coffee_item"
+    ]
+  },
+  {
+    "id": "279",
+    "name": "Magic Rock Candy",
+    "displayName": {
+      "en": "Magic Rock Candy",
+      "zh": "魔法糖冰棍"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:MagicRockCandy_Description]",
+      "zh": "稀有而强力的糖果，灌注了五彩碎片的精华。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 5000,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 279,
+      "x": 240,
+      "y": 176,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 200
+  },
+  {
+    "id": "456",
+    "name": "Algae Soup",
+    "displayName": {
+      "en": "Algae Soup",
+      "zh": "海藻汤"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:AlgaeSoup_Description]",
+      "zh": "有些粘稠。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 100,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 456,
+      "x": 0,
+      "y": 304,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 30,
+    "contextTags": [
+      "color_dark_green"
+    ]
+  },
+  {
+    "id": "457",
+    "name": "Pale Broth",
+    "displayName": {
+      "en": "Pale Broth",
+      "zh": "清汤"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:PaleBroth_Description]",
+      "zh": "带有一点黄色的精致清汤。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 150,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 457,
+      "x": 16,
+      "y": 304,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_white"
+    ]
+  },
+  {
+    "id": "604",
+    "name": "Plum Pudding",
+    "displayName": {
+      "en": "Plum Pudding",
+      "zh": "葡萄干布丁"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:PlumPudding_Description]",
+      "zh": "传统的节日小吃。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 260,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 604,
+      "x": 64,
+      "y": 400,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 70,
+    "contextTags": [
+      "color_brown",
+      "food_sweet"
+    ]
+  },
+  {
+    "id": "605",
+    "name": "Artichoke Dip",
+    "displayName": {
+      "en": "Artichoke Dip",
+      "zh": "水煮洋蓟"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:ArtichokeDip_Description]",
+      "zh": "清凉而爽口。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 210,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 605,
+      "x": 80,
+      "y": 400,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 40,
+    "contextTags": [
+      "color_white"
+    ]
+  },
+  {
+    "id": "606",
+    "name": "Stir Fry",
+    "displayName": {
+      "en": "Stir Fry",
+      "zh": "蔬菜什锦盖饭"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:StirFry_Description]",
+      "zh": "放在大米上的蔬菜条。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 335,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 606,
+      "x": 96,
+      "y": 400,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 80,
+    "contextTags": [
+      "color_brown"
+    ]
+  },
+  {
+    "id": "607",
+    "name": "Roasted Hazelnuts",
+    "displayName": {
+      "en": "Roasted Hazelnuts",
+      "zh": "烤榛子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:RoastedHazelnuts_Description]",
+      "zh": "烤制工序使香味格外浓郁。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 270,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 607,
+      "x": 112,
+      "y": 400,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 70,
+    "contextTags": [
+      "color_dark_brown"
+    ]
+  },
+  {
+    "id": "608",
+    "name": "Pumpkin Pie",
+    "displayName": {
+      "en": "Pumpkin Pie",
+      "zh": "南瓜派"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:PumpkinPie_Description]",
+      "zh": "古怪的脆皮里面有丝滑的南瓜酱。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 385,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 608,
+      "x": 128,
+      "y": 400,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 90,
+    "contextTags": [
+      "color_orange",
+      "food_bakery",
+      "food_sweet"
+    ]
+  },
+  {
+    "id": "609",
+    "name": "Radish Salad",
+    "displayName": {
+      "en": "Radish Salad",
+      "zh": "萝卜沙拉"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:RadishSalad_Description]",
+      "zh": "萝卜真的太脆了！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 300,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 609,
+      "x": 144,
+      "y": 400,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 80,
+    "contextTags": [
+      "color_red",
+      "food_salad"
+    ]
+  },
+  {
+    "id": "610",
+    "name": "Fruit Salad",
+    "displayName": {
+      "en": "Fruit Salad",
+      "zh": "水果沙拉"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:FruitSalad_Description]",
+      "zh": "美味的夏季水果拼盘。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 450,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 610,
+      "x": 160,
+      "y": 400,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 105,
+    "contextTags": [
+      "color_yellow",
+      "food_salad"
+    ]
+  },
+  {
+    "id": "611",
+    "name": "Blackberry Cobbler",
+    "displayName": {
+      "en": "Blackberry Cobbler",
+      "zh": "黑莓脆皮饼"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:BlackberryCobbler_Description]",
+      "zh": "没有比这更好吃的了。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 260,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 611,
+      "x": 176,
+      "y": 400,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 70,
+    "contextTags": [
+      "color_dark_blue",
+      "food_bakery",
+      "food_sweet"
+    ]
+  },
+  {
+    "id": "612",
+    "name": "Cranberry Candy",
+    "displayName": {
+      "en": "Cranberry Candy",
+      "zh": "蔓越莓糖果"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:CranberryCandy_Description]",
+      "zh": "其中的甜味足以掩盖水果的苦味。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 175,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 612,
+      "x": 192,
+      "y": 400,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "isDrink": true,
+    "contextTags": [
+      "color_red",
+      "dye_strong",
+      "food_sweet"
+    ]
+  },
+  {
+    "id": "618",
+    "name": "Bruschetta",
+    "displayName": {
+      "en": "Bruschetta",
+      "zh": "意式烤面包"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Bruschetta_Description]",
+      "zh": "盖上烤西红柿的酥脆白面包。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 210,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 618,
+      "x": 288,
+      "y": 400,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 45,
+    "contextTags": [
+      "color_red",
+      "food_pasta"
+    ]
+  },
+  {
+    "id": "648",
+    "name": "Coleslaw",
+    "displayName": {
+      "en": "Coleslaw",
+      "zh": "卷心菜沙拉"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Coleslaw_Description]",
+      "zh": "口味清淡、新鲜，还很有益健康。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 345,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 648,
+      "x": 0,
+      "y": 432,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 85,
+    "contextTags": [
+      "color_green"
+    ]
+  },
+  {
+    "id": "649",
+    "name": "Fiddlehead Risotto",
+    "displayName": {
+      "en": "Fiddlehead Risotto",
+      "zh": "意式蕨菜炖饭"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:FiddleheadRisotto_Description]",
+      "zh": "香软的米饭拌上清炒的蕨菜芽。汤有点淡。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 350,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 649,
+      "x": 16,
+      "y": 432,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 90,
+    "contextTags": [
+      "color_green",
+      "food_pasta"
+    ]
+  },
+  {
+    "id": "651",
+    "name": "Poppyseed Muffin",
+    "displayName": {
+      "en": "Poppyseed Muffin",
+      "zh": "虞美人籽松糕"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:PoppyseedMuffin_Description]",
+      "zh": "有种镇定的效果。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 250,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 651,
+      "x": 48,
+      "y": 432,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 60,
+    "contextTags": [
+      "color_poppyseed",
+      "food_bakery",
+      "food_sweet"
+    ]
+  },
+  {
+    "id": "727",
+    "name": "Chowder",
+    "displayName": {
+      "en": "Chowder",
+      "zh": "海鲜杂烩汤"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Chowder_Description]",
+      "zh": "在寒冷的海边过夜后，用它来暖身再好不过了。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 135,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 727,
+      "x": 112,
+      "y": 480,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 90,
+    "contextTags": [
+      "color_white",
+      "food_soup"
+    ]
+  },
+  {
+    "id": "730",
+    "name": "Lobster Bisque",
+    "displayName": {
+      "en": "Lobster Bisque",
+      "zh": "龙虾浓汤"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:LobsterBisque_Description]",
+      "zh": "这碗精致的汤用了威利家秘传的配方。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 205,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 730,
+      "x": 160,
+      "y": 480,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 90,
+    "contextTags": [
+      "color_white",
+      "food_seafood",
+      "food_soup"
+    ]
+  },
+  {
+    "id": "728",
+    "name": "Fish Stew",
+    "displayName": {
+      "en": "Fish Stew",
+      "zh": "烩鱼汤"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:FishStew_Description]",
+      "zh": "大海的味道扑面而来。不过尝起来更好。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 175,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 728,
+      "x": 128,
+      "y": 480,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 90,
+    "contextTags": [
+      "color_gray",
+      "food_seafood",
+      "food_soup"
+    ]
+  },
+  {
+    "id": "729",
+    "name": "Escargot",
+    "displayName": {
+      "en": "Escargot",
+      "zh": "法式田螺"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Escargot_Description]",
+      "zh": "淋上黄油的田螺，做的恰到火候。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 125,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 729,
+      "x": 144,
+      "y": 480,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 90,
+    "contextTags": [
+      "color_gray"
+    ]
+  },
+  {
+    "id": "731",
+    "name": "Maple Bar",
+    "displayName": {
+      "en": "Maple Bar",
+      "zh": "枫糖棒"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:MapleBar_Description]",
+      "zh": "浇上枫糖的甜甜圈。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 300,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 731,
+      "x": 176,
+      "y": 480,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 90,
+    "contextTags": [
+      "color_brown",
+      "food_bakery",
+      "food_sweet"
+    ]
+  },
+  {
+    "id": "732",
+    "name": "Crab Cakes",
+    "displayName": {
+      "en": "Crab Cakes",
+      "zh": "蟹黄糕"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:CrabCakes_Description]",
+      "zh": "蟹肉、面包屑和鸡蛋做成饼状，然后油炸至金棕色。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 275,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 732,
+      "x": 192,
+      "y": 480,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 90,
+    "contextTags": [
+      "color_brown",
+      "food_seafood"
+    ]
+  },
+  {
+    "id": "733",
+    "name": "Shrimp Cocktail",
+    "displayName": {
+      "en": "Shrimp Cocktail",
+      "zh": "虾鸡尾酒"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:ShrimpCocktail_Description]",
+      "zh": "用新鲜捕获的虾制成的豪华开胃菜。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 160,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 733,
+      "x": 208,
+      "y": 480,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 90,
+    "contextTags": [
+      "color_pink",
+      "food_seafood"
+    ]
+  },
+  {
+    "id": "772",
+    "name": "Oil of Garlic",
+    "displayName": {
+      "en": "Oil of Garlic",
+      "zh": "蒜油"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:OilofGarlic_Description]",
+      "zh": "喝下它，弱小的魔物就会避开你。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 1000,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 772,
+      "x": 64,
+      "y": 512,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 80,
+    "isDrink": true,
+    "contextTags": [
+      "color_yellow_green",
+      "potion_item"
+    ]
+  },
+  {
+    "id": "773",
+    "name": "Life Elixir",
+    "displayName": {
+      "en": "Life Elixir",
+      "zh": "生命药水"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:LifeElixir_Description]",
+      "zh": "恢复全部的生命值。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 250,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 773,
+      "x": 80,
+      "y": 512,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 80,
+    "isDrink": true,
+    "contextTags": [
+      "color_dark_pink",
+      "potion_item"
+    ]
+  },
+  {
+    "id": "265",
+    "name": "Seafoam Pudding",
+    "displayName": {
+      "en": "Seafoam Pudding",
+      "zh": "海泡布丁"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:SeafoamPudding_Description]",
+      "zh": "这种咸布丁真的会让你感受到大海的气息！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 300,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 265,
+      "x": 16,
+      "y": 176,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 70,
+    "contextTags": [
+      "color_blue",
+      "food_seafood"
+    ]
+  },
+  {
+    "id": "873",
+    "name": "Piña Colada",
+    "displayName": {
+      "en": "Piña Colada",
+      "zh": "椰林飘香"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:PinaColada_Description]",
+      "zh": "请适度饮酒。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 300,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 873,
+      "x": 144,
+      "y": 576,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 30,
+    "isDrink": true,
+    "contextTags": [
+      "alcohol_item",
+      "color_white"
+    ]
+  },
+  {
+    "id": "903",
+    "name": "Ginger Ale",
+    "displayName": {
+      "en": "Ginger Ale",
+      "zh": "姜汁汽水"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:GingerAle_Description]",
+      "zh": "一种好喝的苏打水，因为对胃有舒缓作用而为人们所知晓。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 200,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 903,
+      "x": 240,
+      "y": 592,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 25,
+    "isDrink": true,
+    "contextTags": [
+      "color_green",
+      "food_sweet",
+      "ginger_item"
+    ]
+  },
+  {
+    "id": "904",
+    "name": "Banana Pudding",
+    "displayName": {
+      "en": "Banana Pudding",
+      "zh": "香蕉布丁"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:BananaPudding_Description]",
+      "zh": "奶油甜点，具有美妙的热带风味。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 260,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 904,
+      "x": 256,
+      "y": 592,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_yellow",
+      "food_sweet"
+    ]
+  },
+  {
+    "id": "905",
+    "name": "Mango Sticky Rice",
+    "displayName": {
+      "en": "Mango Sticky Rice",
+      "zh": "芒果糯米饭"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:MangoStickyRice_Description]",
+      "zh": "甜芒果和椰子让糯米别具风味。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 250,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 905,
+      "x": 272,
+      "y": 592,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 45,
+    "contextTags": [
+      "color_yellow",
+      "food_sweet"
+    ]
+  },
+  {
+    "id": "906",
+    "name": "Poi",
+    "displayName": {
+      "en": "Poi",
+      "zh": "夏威夷芋泥"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Poi_Description]",
+      "zh": "一种传统食物，趁还新鲜时食用有一种细腻、微甜的味道。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 400,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 906,
+      "x": 288,
+      "y": 592,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 30,
+    "contextTags": [
+      "color_pink"
+    ]
+  },
+  {
+    "id": "907",
+    "name": "Tropical Curry",
+    "displayName": {
+      "en": "Tropical Curry",
+      "zh": "热带咖喱"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:TropicalCurry_Description]",
+      "zh": "盛在菠萝碗里的别具异国风味的咖喱。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 500,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 907,
+      "x": 304,
+      "y": 592,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 60,
+    "contextTags": [
+      "color_orange"
+    ]
+  },
+  {
+    "id": "921",
+    "name": "Squid Ink Ravioli",
+    "displayName": {
+      "en": "Squid Ink Ravioli",
+      "zh": "墨汁意大利饺"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:SquidInkRavioli_Description]",
+      "zh": "暂时免疫负面效果。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 150,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 921,
+      "x": 144,
+      "y": 608,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50
+  },
+  {
+    "id": "MossSoup",
+    "name": "Moss Soup",
+    "displayName": {
+      "en": "Moss Soup",
+      "zh": "苔藓汤"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:MossSoup_Description]",
+      "zh": "浓稠而且黏糊糊，勉强能喝。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 80,
+    "sprite": {
+      "texture": "TileSheets/Objects_2",
+      "index": 144,
+      "x": 0,
+      "y": 96,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 28,
+    "isDrink": true,
+    "contextTags": [
+      "color_green"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Baked_Berry_Oatmeal",
+    "name": "Baked Berry Oatmeal",
+    "displayName": {
+      "en": "Baked Berry Oatmeal",
+      "zh": "烤浆果麦片"
+    },
+    "description": {
+      "en": "温暖、耐嚼、甜美的烤燕麦片，里面放满了浆果。让你精力充沛一整天。",
+      "zh": "温暖、耐嚼、甜美的烤燕麦片，里面放满了浆果。让你精力充沛一整天。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 400,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Baked Berry Oatmeal Supreme",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 80
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger",
+    "name": "Big Bark Burger",
+    "displayName": {
+      "en": "Big Bark Burger",
+      "zh": "大叫汉堡"
+    },
+    "description": {
+      "en": "非常多汁，还很有嚼劲，让你吃了赞不绝口。",
+      "zh": "非常多汁，还很有嚼劲，让你吃了赞不绝口。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 400,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Big Bark Burger",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 85,
+    "contextTags": [
+      "color_brown",
+      "food_pantry"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Flower_Cookie",
+    "name": "Flower Cookie",
+    "displayName": {
+      "en": "Flower Cookie",
+      "zh": "花朵曲奇"
+    },
+    "description": {
+      "en": "闻起来和尝起来一样甜。",
+      "zh": "闻起来和尝起来一样甜。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 185,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Flower Cookie",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 75
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Frog_Legs",
+    "name": "Frog Legs",
+    "displayName": {
+      "en": "Frog Legs",
+      "zh": "青蛙腿"
+    },
+    "description": {
+      "en": "一道相当有名的戈特洛菜肴。",
+      "zh": "一道相当有名的戈特洛菜肴。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 400,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Frog Legs",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 30
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish",
+    "name": "Glazed Butterfish",
+    "displayName": {
+      "en": "Glazed Butterfish",
+      "zh": "香酥面糊炸鲳鱼"
+    },
+    "description": {
+      "en": "一顿丰盛的大餐。",
+      "zh": "一顿丰盛的大餐。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 800,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Glazed Butterfish",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 80,
+    "contextTags": [
+      "color_yellow,"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Mixed_Berry_Pie",
+    "name": "Mixed Berry Pie",
+    "displayName": {
+      "en": "Mixed Berry Pie",
+      "zh": "什锦莓果派"
+    },
+    "description": {
+      "en": "甜蜜和酸味的美味组合，味道无与伦比。",
+      "zh": "甜蜜和酸味的美味组合，味道无与伦比。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 250,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Mixed Berry Pie",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 75
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Mushroom_Berry_Rice",
+    "name": "Mushroom Berry Rice",
+    "displayName": {
+      "en": "Mushroom Berry Rice",
+      "zh": "蘑菇红果拌饭"
+    },
+    "description": {
+      "en": "一道奇怪的菜，吃了以后会暂时减少最大体力。",
+      "zh": "一道奇怪的菜，吃了以后会暂时减少最大体力。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 115,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Mushroom Berry Rice",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 1
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Seaweed_Salad",
+    "name": "Seaweed Salad",
+    "displayName": {
+      "en": "Seaweed Salad",
+      "zh": "海草沙拉"
+    },
+    "description": {
+      "en": "一道使用海洋中的食材制作的健康菜肴。",
+      "zh": "一道使用海洋中的食材制作的健康菜肴。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 200,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Seaweed Salad",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 70
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Void_Delight",
+    "name": "Void Delight",
+    "displayName": {
+      "en": "Void Delight",
+      "zh": "虚空之喜"
+    },
+    "description": {
+      "en": "充满了虚空能量的料理。",
+      "zh": "充满了虚空能量的料理。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 800,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Void Delight",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 1,
+    "contextTags": [
+      "color_purple"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Void_Salmon_Sushi",
+    "name": "Void Salmon Sushi",
+    "displayName": {
+      "en": "Void Salmon Sushi",
+      "zh": "虚空鲑鱼寿司"
+    },
+    "description": {
+      "en": "这个真的能吃吗？",
+      "zh": "这个真的能吃吗？"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 800,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Void Salmon Sushi",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 1,
+    "contextTags": [
+      "color_black",
+      "food_sushi"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Candy",
+    "name": "Candy",
+    "displayName": {
+      "en": "Candy",
+      "zh": "糖果"
+    },
+    "description": {
+      "en": "深受众人喜爱的甜食。",
+      "zh": "深受众人喜爱的甜食。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 2000,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Candy",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_blue",
+      "food_sweet"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Vegan_Cone",
+    "name": "Vegan Cone",
+    "displayName": {
+      "en": "Vegan Cone",
+      "zh": "纯素甜筒"
+    },
+    "description": {
+      "en": "这是一种不含乳制品，以椰奶为基料制作的无奶冰淇淋。",
+      "zh": "这是一种不含乳制品，以椰奶为基料制作的无奶冰淇淋。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 350,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Vegan Cone",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "food_sweet",
+      "color_green"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Ice_Cream_Sundae",
+    "name": "Ice Cream Sundae",
+    "displayName": {
+      "en": "Ice Cream Sundae",
+      "zh": "冰淇淋圣代"
+    },
+    "description": {
+      "en": "香草冰淇淋淋上热巧克力酱，顶端点缀了一颗樱桃。",
+      "zh": "香草冰淇淋淋上热巧克力酱，顶端点缀了一颗樱桃。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 400,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Ice Cream Sundae",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 80,
+    "contextTags": [
+      "food_sweet",
+      "color_brown"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Prismatic_Pop",
+    "name": "Prismatic Pop",
+    "displayName": {
+      "en": "Prismatic Pop",
+      "zh": "五彩冰棒"
+    },
+    "description": {
+      "en": "一种稀有而充满力量的冰淇淋，注入了五彩碎片的精华。",
+      "zh": "一种稀有而充满力量的冰淇淋，注入了五彩碎片的精华。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 2500,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Prismatic Pop",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 100,
+    "contextTags": [
+      "food_sweet",
+      "color_prismatic"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Chocolate_Truffle_Bar",
+    "name": "Chocolate Truffle Bar",
+    "displayName": {
+      "en": "Chocolate Truffle Bar",
+      "zh": "松露巧克力棒"
+    },
+    "description": {
+      "en": "奢华细腻的高级巧克力甜点，内馅为丝滑的甘纳许。售价不菲。",
+      "zh": "奢华细腻的高级巧克力甜点，内馅为丝滑的甘纳许。售价不菲。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 4500,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Chocolate Truffle Bar",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 75,
+    "contextTags": [
+      "food_sweet",
+      "color_brown"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Fish_Dumpling",
+    "name": "Fish Dumpling",
+    "displayName": {
+      "en": "Fish Dumpling",
+      "zh": "鱼皮饺"
+    },
+    "description": {
+      "en": "薄而软嫩的饺皮包裹着炒制过的鱼肉馅料。",
+      "zh": "薄而软嫩的饺皮包裹着炒制过的鱼肉馅料。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 100,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Fish Dumpling",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 45,
+    "contextTags": [
+      "color_white",
+      "food_seafood"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Gingerbread_Man",
+    "name": "Gingerbread Man",
+    "displayName": {
+      "en": "Gingerbread Man",
+      "zh": "姜饼人"
+    },
+    "description": {
+      "en": "一种令人愉悦的节日美食，上面点缀着俏皮的软糖纽扣。",
+      "zh": "一种令人愉悦的节日美食，上面点缀着俏皮的软糖纽扣。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 125,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Gingerbread Man",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_brown",
+      "food_bakery",
+      "food_sweet",
+      "ginger_item"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Nectarine_Fruit_Bread",
+    "name": "Nectarine Fruit Bread",
+    "displayName": {
+      "en": "Nectarine Fruit Bread",
+      "zh": "油桃水果面包"
+    },
+    "description": {
+      "en": "精致的面包中点缀着油桃果干碎，预示着内在的美味。",
+      "zh": "精致的面包中点缀着油桃果干碎，预示着内在的美味。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 150,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Nectarine Fruit Bread",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 60,
+    "contextTags": [
+      "color_brown",
+      "food_bakery"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Ramen",
+    "name": "Ramen",
+    "displayName": {
+      "en": "Ramen",
+      "zh": "拉面"
+    },
+    "description": {
+      "en": "来自戈特洛帝国的人气料理。",
+      "zh": "来自戈特洛帝国的人气料理。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 250,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Ramen",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 75,
+    "contextTags": [
+      "color_yellow"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Baked_Potato",
+    "name": "Baked Potato",
+    "displayName": {
+      "en": "Baked Potato",
+      "zh": "烤土豆"
+    },
+    "description": {
+      "en": "简单又美味。",
+      "zh": "简单又美味。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 225,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Baked Potato",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 70,
+    "contextTags": [
+      "color_brown"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Grilled_Cheese_Sandwich",
+    "name": "Grilled Cheese Sandwich",
+    "displayName": {
+      "en": "Grilled Cheese Sandwich",
+      "zh": "烤奶酪三明治"
+    },
+    "description": {
+      "en": "永恒的经典。",
+      "zh": "永恒的经典。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 100,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Grilled Cheese Sandwich",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 85,
+    "contextTags": [
+      "color_yellow"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Pineapple_Custard_Crepe",
+    "name": "Pineapple Custard Crepe",
+    "displayName": {
+      "en": "Pineapple Custard Crepe",
+      "zh": "菠萝奶油可丽饼"
+    },
+    "description": {
+      "en": "一款色香味俱全的独特热带甜品。",
+      "zh": "一款色香味俱全的独特热带甜品。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 300,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Pineapple Custard Crepe",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 90,
+    "contextTags": [
+      "color_sweet",
+      "food_sweet"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Glazed_Pear",
+    "name": "Glazed Pear",
+    "displayName": {
+      "en": "Glazed Pear",
+      "zh": "糖釉梨"
+    },
+    "description": {
+      "en": "让你想起家的味道。",
+      "zh": "让你想起家的味道。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 400,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Glazed Pear",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 100,
+    "contextTags": [
+      "food_sweet",
+      "color_orange"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Stuffed_Persimmon",
+    "name": "Stuffed Persimmon",
+    "displayName": {
+      "en": "Stuffed Persimmon",
+      "zh": "酿柿子"
+    },
+    "description": {
+      "en": "诱惑着你的味觉和感官。",
+      "zh": "诱惑着你的味觉和感官。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 500,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Stuffed Persimmon",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 110,
+    "contextTags": [
+      "color_orange"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Cheese_Charcuterie",
+    "name": "Cheese Charcuterie",
+    "displayName": {
+      "en": "Cheese Charcuterie",
+      "zh": "奶酪拼盘"
+    },
+    "description": {
+      "en": "丰盛的奶酪和饼干组合，搭配浓郁的奶油蘸酱。",
+      "zh": "丰盛的奶酪和饼干组合，搭配浓郁的奶油蘸酱。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 750,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Cheese Charcuterie",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 120,
+    "contextTags": [
+      "color_white"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_ChocoChipCookies",
+    "name": "skellady.SBVCP_ChocoChipCookies",
+    "displayName": {
+      "en": "skellady.SBVCP_ChocoChipCookies",
+      "zh": "巧克力豆饼干"
+    },
+    "description": {
+      "en": "用满满的爱意和角豆制作的巧克力豆饼干。黛亚拉说这是她的秘密食谱。现在嘛，也不算秘密了……",
+      "zh": "用满满的爱意和角豆制作的巧克力豆饼干。黛亚拉说这是她的秘密食谱。现在嘛，也不算秘密了……"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 220,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/Food",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "cookie_item",
+      "food_bakery",
+      "food_sweet",
+      "color_dark_brown"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_DialaHotChoco",
+    "name": "skellady.SBVCP_DialaHotChoco",
+    "displayName": {
+      "en": "skellady.SBVCP_DialaHotChoco",
+      "zh": "黛亚拉的热巧克力"
+    },
+    "description": {
+      "en": "保证让你在寒冷的日子里感到温暖又舒适！",
+      "zh": "保证让你在寒冷的日子里感到温暖又舒适！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 400,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/Food",
+      "index": 1,
+      "x": 16,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 10,
+    "isDrink": true,
+    "contextTags": [
+      "color_dark_brown",
+      "drink_item"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_IceCreamBowl",
+    "name": "skellady.SBVCP_IceCreamBowl",
+    "displayName": {
+      "en": "skellady.SBVCP_IceCreamBowl",
+      "zh": "冰淇淋碗"
+    },
+    "description": {
+      "en": "一碗清爽的冰淇淋，包含黛亚拉和德莉娅最爱的口味：芒果、草莓和蓝莓。",
+      "zh": "一碗清爽的冰淇淋，包含黛亚拉和德莉娅最爱的口味：芒果、草莓和蓝莓。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 350,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/Food",
+      "index": 2,
+      "x": 32,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 35,
+    "contextTags": [
+      "food_sweet",
+      "ice_cream_item"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_CloudberryPie",
+    "name": "skellady.SBVCP_CloudberryPie",
+    "displayName": {
+      "en": "skellady.SBVCP_CloudberryPie",
+      "zh": "云莓派"
+    },
+    "description": {
+      "en": "外皮酥脆的酸甜馅饼，美味诱人！",
+      "zh": "外皮酥脆的酸甜馅饼，美味诱人！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 300,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/Food",
+      "index": 3,
+      "x": 48,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 86,
+    "contextTags": [
+      "food_bakery",
+      "food_sweet",
+      "color_orange"
+    ]
+  },
+  {
+    "id": "HimeTarts.ARV_Bear_Muffin",
+    "name": "HimeTarts.ARV_Bear_Muffin",
+    "displayName": {
+      "en": "HimeTarts.ARV_Bear_Muffin",
+      "zh": "小熊松糕"
+    },
+    "description": {
+      "en": "上面有特制的蓝色糖霜！",
+      "zh": "上面有特制的蓝色糖霜！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 300,
+    "sprite": {
+      "texture": "Mods/HimeTarts.ARV/Objects",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_blue",
+      "food_bakery",
+      "food_cake",
+      "food_party",
+      "food_sweet",
+      "food_nonvegan"
+    ]
+  },
+  {
+    "id": "HimeTarts.ARV_Bear_Pancakes",
+    "name": "HimeTarts.ARV_Bear_Pancakes",
+    "displayName": {
+      "en": "HimeTarts.ARV_Bear_Pancakes",
+      "zh": "小熊薄煎饼"
+    },
+    "description": {
+      "en": "米娅的特色早餐，做成毛绒小熊形状的双层薄煎饼！",
+      "zh": "米娅的特色早餐，做成毛绒小熊形状的双层薄煎饼！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 150,
+    "sprite": {
+      "texture": "Mods/HimeTarts.ARV/Objects",
+      "index": 1,
+      "x": 16,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 40,
+    "contextTags": [
+      "color_brown",
+      "food_bakery",
+      "food_breakfast",
+      "food_sweet",
+      "food_nonvegan"
+    ]
+  },
+  {
+    "id": "HimeTarts.ARV_Berry_Delight_Cake",
+    "name": "HimeTarts.ARV_Berry_Delight_Cake",
+    "displayName": {
+      "en": "HimeTarts.ARV_Berry_Delight_Cake",
+      "zh": "快乐浆果蛋糕"
+    },
+    "description": {
+      "en": "最甜蜜的夏日点心，为爱吃甜食的人准备。",
+      "zh": "最甜蜜的夏日点心，为爱吃甜食的人准备。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 650,
+    "sprite": {
+      "texture": "Mods/HimeTarts.ARV/Objects",
+      "index": 2,
+      "x": 32,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_pink",
+      "food_bakery",
+      "food_sweet",
+      "food_party",
+      "food_nonvegan"
+    ]
+  },
+  {
+    "id": "HimeTarts.ARV_Berry_Parfait",
+    "name": "HimeTarts.ARV_Berry_Parfait",
+    "displayName": {
+      "en": "HimeTarts.ARV_Berry_Parfait",
+      "zh": "浆果芭菲"
+    },
+    "description": {
+      "en": "嗯嗯，美味的浆果！",
+      "zh": "嗯嗯，美味的浆果！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 550,
+    "sprite": {
+      "texture": "Mods/HimeTarts.ARV/Objects",
+      "index": 3,
+      "x": 48,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_pink",
+      "food_sweet",
+      "food_nonvegan"
+    ]
+  },
+  {
+    "id": "HimeTarts.ARV_Crab_Croissant",
+    "name": "HimeTarts.ARV_Crab_Croissant",
+    "displayName": {
+      "en": "HimeTarts.ARV_Crab_Croissant",
+      "zh": "螃蟹牛角包"
+    },
+    "description": {
+      "en": "它的钳子是用草莓做的！",
+      "zh": "它的钳子是用草莓做的！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 500,
+    "sprite": {
+      "texture": "Mods/HimeTarts.ARV/Objects",
+      "index": 4,
+      "x": 64,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_pink",
+      "food_bakery",
+      "food_cake",
+      "food_party",
+      "food_sweet",
+      "food_nonvegan",
+      "food_breakfast"
+    ]
+  },
+  {
+    "id": "HimeTarts.ARV_Froggy_Burger",
+    "name": "HimeTarts.ARV_Froggy_Burger",
+    "displayName": {
+      "en": "HimeTarts.ARV_Froggy_Burger",
+      "zh": "青蛙汉堡"
+    },
+    "description": {
+      "en": "呱呱！米娅专门为孩子和饥饿的人们制作的汉堡。",
+      "zh": "呱呱！米娅专门为孩子和饥饿的人们制作的汉堡。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 270,
+    "sprite": {
+      "texture": "Mods/HimeTarts.ARV/Objects",
+      "index": 5,
+      "x": 80,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 60,
+    "contextTags": [
+      "color_pink"
+    ]
+  },
+  {
+    "id": "HimeTarts.ARV_Kitty_Muffin",
+    "name": "HimeTarts.ARV_Kitty_Muffin",
+    "displayName": {
+      "en": "HimeTarts.ARV_Kitty_Muffin",
+      "zh": "小猫松糕"
+    },
+    "description": {
+      "en": "可爱的水果耳朵和巧克力做的胡须，一个孩子还能有什么要求呢？",
+      "zh": "可爱的水果耳朵和巧克力做的胡须，一个孩子还能有什么要求呢？"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 300,
+    "sprite": {
+      "texture": "Mods/HimeTarts.ARV/Objects",
+      "index": 6,
+      "x": 96,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 40,
+    "contextTags": [
+      "food_bakery",
+      "food_cake",
+      "food_party",
+      "food_sweet",
+      "food_nonvegan"
+    ]
+  },
+  {
+    "id": "HimeTarts.ARV_Morning_Cat_Toast",
+    "name": "HimeTarts.ARV_Morning_Cat_Toast",
+    "displayName": {
+      "en": "HimeTarts.ARV_Morning_Cat_Toast",
+      "zh": "猫猫早餐吐司"
+    },
+    "description": {
+      "en": "孩子们最喜欢的早餐！（还有库珀家的两个大孩子）",
+      "zh": "孩子们最喜欢的早餐！（还有库珀家的两个大孩子）"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 300,
+    "sprite": {
+      "texture": "Mods/HimeTarts.ARV/Objects",
+      "index": 7,
+      "x": 112,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 40,
+    "contextTags": [
+      "food_bakery",
+      "food_cake",
+      "food_party",
+      "food_sweet",
+      "food_nonvegan",
+      "food_breakfast"
+    ]
+  },
+  {
+    "id": "HimeTarts.ARV_Owl_Rice_Crisp",
+    "name": "HimeTarts.ARV_Owl_Rice_Crisp",
+    "displayName": {
+      "en": "HimeTarts.ARV_Owl_Rice_Crisp",
+      "zh": "猫头鹰米酥"
+    },
+    "description": {
+      "en": "健康的点心，被做成了可爱的小猫头鹰形状！",
+      "zh": "健康的点心，被做成了可爱的小猫头鹰形状！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 320,
+    "sprite": {
+      "texture": "Mods/HimeTarts.ARV/Objects",
+      "index": 8,
+      "x": 128,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 36,
+    "contextTags": [
+      "color_tan"
+    ]
+  },
+  {
+    "id": "HimeTarts.ARV_Plain_Croissant",
+    "name": "HimeTarts.ARV_Plain_Croissant",
+    "displayName": {
+      "en": "HimeTarts.ARV_Plain_Croissant",
+      "zh": "原味牛角包"
+    },
+    "description": {
+      "en": "亨利每天早上起床吃的第一样东西。",
+      "zh": "亨利每天早上起床吃的第一样东西。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 150,
+    "sprite": {
+      "texture": "Mods/HimeTarts.ARV/Objects",
+      "index": 9,
+      "x": 144,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 36,
+    "contextTags": [
+      "food_bakery",
+      "food_cake",
+      "food_sweet",
+      "food_nonvegan",
+      "food_breakfast"
+    ]
+  },
+  {
+    "id": "HimeTarts.ARV_Scalloped_Potatoes",
+    "name": "HimeTarts.ARV_Scalloped_Potatoes",
+    "displayName": {
+      "en": "HimeTarts.ARV_Scalloped_Potatoes",
+      "zh": "荷叶土豆"
+    },
+    "description": {
+      "en": "库珀奶奶祖传的手艺味道！",
+      "zh": "库珀奶奶祖传的手艺味道！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 575,
+    "sprite": {
+      "texture": "Mods/HimeTarts.ARV/Objects",
+      "index": 10,
+      "x": 160,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 60,
+    "contextTags": [
+      "food_nonvegan"
+    ]
+  },
+  {
+    "id": "HimeTarts.ARV_Starshot_Cappuccino",
+    "name": "HimeTarts.ARV_Starshot_Cappuccino",
+    "displayName": {
+      "en": "HimeTarts.ARV_Starshot_Cappuccino",
+      "zh": "星光卡布奇诺"
+    },
+    "description": {
+      "en": "天上的星星坠落进你的杯子里！感受银河系的甜蜜滋味。",
+      "zh": "天上的星星坠落进你的杯子里！感受银河系的甜蜜滋味。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 900,
+    "sprite": {
+      "texture": "Mods/HimeTarts.ARV/Objects",
+      "index": 11,
+      "x": 176,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 40,
+    "isDrink": true,
+    "contextTags": [
+      "food_coffee",
+      "food_bakery",
+      "food_sweet",
+      "food_nonvegan"
+    ]
+  },
+  {
+    "id": "HimeTarts.ARV_Summer_Pink_Lemonade",
+    "name": "HimeTarts.ARV_Summer_Pink_Lemonade",
+    "displayName": {
+      "en": "HimeTarts.ARV_Summer_Pink_Lemonade",
+      "zh": "夏日粉色柠檬汁"
+    },
+    "description": {
+      "en": "清爽的饮品，帮助你对抗夏日酷暑！",
+      "zh": "清爽的饮品，帮助你对抗夏日酷暑！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 250,
+    "sprite": {
+      "texture": "Mods/HimeTarts.ARV/Objects",
+      "index": 12,
+      "x": 192,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 40,
+    "isDrink": true,
+    "contextTags": [
+      "food_sweet"
+    ]
+  },
+  {
+    "id": "EastScarp_Rosas_Baklava",
+    "name": "EastScarp_Rosas_Baklava",
+    "displayName": {
+      "en": "EastScarp_Rosas_Baklava",
+      "zh": "罗莎的巴克拉瓦"
+    },
+    "description": {
+      "en": "用坚果和蜜糖做成的甜味糕点。小心，它很粘牙！",
+      "zh": "用坚果和蜜糖做成的甜味糕点。小心，它很粘牙！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 120,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 29,
+      "x": 80,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_brown",
+      "food_sweet"
+    ]
+  },
+  {
+    "id": "EastScarp_Rosas_Spanakopita",
+    "name": "EastScarp_Rosas_Spanakopita",
+    "displayName": {
+      "en": "EastScarp_Rosas_Spanakopita",
+      "zh": "罗莎的希腊菠菜派"
+    },
+    "description": {
+      "en": "甘蓝和山羊奶酪包裹在薄薄的酥皮中。",
+      "zh": "甘蓝和山羊奶酪包裹在薄薄的酥皮中。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 580,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 30,
+      "x": 96,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 100,
+    "contextTags": [
+      "color_brown"
+    ]
+  },
+  {
+    "id": "EastScarp_Cheesy_Jelly_Toast",
+    "name": "EastScarp_Cheesy_Jelly_Toast",
+    "displayName": {
+      "en": "EastScarp_Cheesy_Jelly_Toast",
+      "zh": "奶酪果酱吐司"
+    },
+    "description": {
+      "en": "浸满果酱的吐司，上面还有一片奶酪。",
+      "zh": "浸满果酱的吐司，上面还有一片奶酪。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 90,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 32,
+      "x": 128,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 30,
+    "contextTags": [
+      "color_brown",
+      "food_bakery"
+    ]
+  },
+  {
+    "id": "EastScarp_Biteback_Curry",
+    "name": "EastScarp_Biteback_Curry",
+    "displayName": {
+      "en": "EastScarp_Biteback_Curry",
+      "zh": "苦瓜咖喱"
+    },
+    "description": {
+      "en": "用苦瓜做的咖喱？味道有点辣。",
+      "zh": "用苦瓜做的咖喱？味道有点辣。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 350,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 41,
+      "x": 272,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 70,
+    "contextTags": [
+      "color_pink"
+    ]
+  },
+  {
+    "id": "EastScarp_Pucker_Green_Smoothie",
+    "name": "EastScarp_Pucker_Green_Smoothie",
+    "displayName": {
+      "en": "EastScarp_Pucker_Green_Smoothie",
+      "zh": "海蓬子奶昔"
+    },
+    "description": {
+      "en": "有着令人不愉快的绿色。",
+      "zh": "有着令人不愉快的绿色。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 220,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 42,
+      "x": 288,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 100,
+    "isDrink": true,
+    "contextTags": [
+      "color_green"
+    ]
+  },
+  {
+    "id": "EastScarp_Candied_Cuccaroot",
+    "name": "EastScarp_Candied_Cuccaroot",
+    "displayName": {
+      "en": "EastScarp_Candied_Cuccaroot",
+      "zh": "糖渍库卡根"
+    },
+    "description": {
+      "en": "库卡根切片后淋上糖浆，制作而成的甜味小吃。",
+      "zh": "库卡根切片后淋上糖浆，制作而成的甜味小吃。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 300,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 43,
+      "x": 304,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 70,
+    "contextTags": [
+      "color_orange"
+    ]
+  },
+  {
+    "id": "EastScarp_FrostBerry_Bliss_Balls",
+    "name": "EastScarp_FrostBerry_Bliss_Balls",
+    "displayName": {
+      "en": "EastScarp_FrostBerry_Bliss_Balls",
+      "zh": "冰霜欢乐球"
+    },
+    "description": {
+      "en": "冰霜浆果和向日葵种子混合制作的能量小吃。",
+      "zh": "冰霜浆果和向日葵种子混合制作的能量小吃。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 100,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 44,
+      "x": 320,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 60,
+    "contextTags": [
+      "color_white"
+    ]
+  },
+  {
+    "id": "EastScarp_Void_Cake",
+    "name": "EastScarp_Void_Cake",
+    "displayName": {
+      "en": "EastScarp_Void_Cake",
+      "zh": "虚空蛋糕"
+    },
+    "description": {
+      "en": "你可不想在派对上吃到这个！",
+      "zh": "你可不想在派对上吃到这个！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 220,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 57,
+      "x": 144,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_black"
+    ]
+  },
+  {
+    "id": "EastScarp_Void_CheeseCake",
+    "name": "EastScarp_Void_CheeseCake",
+    "displayName": {
+      "en": "EastScarp_Void_CheeseCake",
+      "zh": "虚空奶酪蛋糕"
+    },
+    "description": {
+      "en": "外表如绸缎般丝滑，但闻起来有虚空的味道。",
+      "zh": "外表如绸缎般丝滑，但闻起来有虚空的味道。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 260,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 58,
+      "x": 160,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_black",
+      "cheese_item"
+    ]
+  },
+  {
+    "id": "EastScarp_Void_SalmonCake",
+    "name": "EastScarp_Void_SalmonCake",
+    "displayName": {
+      "en": "EastScarp_Void_SalmonCake",
+      "zh": "虚空鲑鱼蛋糕"
+    },
+    "description": {
+      "en": "有人重新定义了“鱼糕”的意义。",
+      "zh": "有人重新定义了“鱼糕”的意义。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 290,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 59,
+      "x": 176,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": -4,
+    "contextTags": [
+      "color_black",
+      "cheese_item"
+    ]
+  },
+  {
+    "id": "Lemurkat.EastScarp_HotChoco",
+    "name": "Lemurkat.EastScarp_HotChoco",
+    "displayName": {
+      "en": "Lemurkat.EastScarp_HotChoco",
+      "zh": "热可可"
+    },
+    "description": {
+      "en": "奶油般的浓郁巧克力风味，带有水果的香气。",
+      "zh": "奶油般的浓郁巧克力风味，带有水果的香气。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 430,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 93,
+      "x": 336,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 16,
+    "isDrink": true,
+    "contextTags": [
+      "category_cooking",
+      "color_brown"
+    ]
+  },
+  {
+    "id": "Lemurkat.EastScarp_FairyCapAmbrosia",
+    "name": "Lemurkat.EastScarp_FairyCapAmbrosia",
+    "displayName": {
+      "en": "Lemurkat.EastScarp_FairyCapAmbrosia",
+      "zh": "仙女帽佳肴"
+    },
+    "description": {
+      "en": "轻飘飘、毛茸茸的甜品。",
+      "zh": "轻飘飘、毛茸茸的甜品。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 330,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 91,
+      "x": 304,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 25,
+    "contextTags": [
+      "category_cooking",
+      "color_blue"
+    ]
+  },
+  {
+    "id": "Lemurkat.EastScarp_ZinfazuIcecream",
+    "name": "Lemurkat.EastScarp_ZinfazuIcecream",
+    "displayName": {
+      "en": "Lemurkat.EastScarp_ZinfazuIcecream",
+      "zh": "辛法祖果冰激凌"
+    },
+    "description": {
+      "en": "这种冰激凌将酸味和甜味完美结合在一起。",
+      "zh": "这种冰激凌将酸味和甜味完美结合在一起。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 1270,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 92,
+      "x": 320,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 40,
+    "contextTags": [
+      "category_cooking",
+      "color_yellow",
+      "arcanian_goods"
+    ]
+  },
+  {
+    "id": "Lemurkat.EastScarp_SoothingCure",
+    "name": "Lemurkat.EastScarp_SoothingCure",
+    "displayName": {
+      "en": "Lemurkat.EastScarp_SoothingCure",
+      "zh": "舒缓剂"
+    },
+    "description": {
+      "en": "味道浓郁的药剂，能够减轻疼痛。",
+      "zh": "味道浓郁的药剂，能够减轻疼痛。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 290,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 94,
+      "x": 352,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "isDrink": true,
+    "contextTags": [
+      "category_cooking",
+      "color_orange",
+      "magical_goods"
+    ]
+  },
+  {
+    "id": "Lemurkat.EastScarp_ButtonFruitCake",
+    "name": "Lemurkat.EastScarp_ButtonFruitCake",
+    "displayName": {
+      "en": "Lemurkat.EastScarp_ButtonFruitCake",
+      "zh": "黄油果蛋糕"
+    },
+    "description": {
+      "en": "甜甜的黄油果蛋糕，最适合配上一杯热咖啡。",
+      "zh": "甜甜的黄油果蛋糕，最适合配上一杯热咖啡。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 200,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 95,
+      "x": 368,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 36,
+    "contextTags": [
+      "category_cooking",
+      "color_red"
+    ]
+  },
+  {
+    "id": "Lemurkat.EastScarp_YohoHash",
+    "name": "Lemurkat.EastScarp_YohoHash",
+    "displayName": {
+      "en": "Lemurkat.EastScarp_YohoHash",
+      "zh": "悦活果土豆泥"
+    },
+    "description": {
+      "en": "是你吃过最奶油的土豆泥。",
+      "zh": "是你吃过最奶油的土豆泥。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 320,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 96,
+      "x": 0,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 26,
+    "contextTags": [
+      "category_cooking",
+      "color_yellow"
+    ]
+  },
+  {
+    "id": "Lemurkat.EastScarp_ChocoBun",
+    "name": "Lemurkat.EastScarp_ChocoBun",
+    "displayName": {
+      "en": "Lemurkat.EastScarp_ChocoBun",
+      "zh": "可可小面包"
+    },
+    "description": {
+      "en": "甜甜的小面包，有巧克力夹心。",
+      "zh": "甜甜的小面包，有巧克力夹心。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 430,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 97,
+      "x": 16,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "category_cooking",
+      "color_brown"
+    ]
+  },
+  {
+    "id": "Lemurkat.EastScarp_GiggleSmoothie",
+    "name": "Lemurkat.EastScarp_GiggleSmoothie",
+    "displayName": {
+      "en": "Lemurkat.EastScarp_GiggleSmoothie",
+      "zh": "傻笑奶昔"
+    },
+    "description": {
+      "en": "渴了吗？这种哥布林能量饮料会让你在接下来的几个小时里充满活力。",
+      "zh": "渴了吗？这种哥布林能量饮料会让你在接下来的几个小时里充满活力。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 745,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 98,
+      "x": 32,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 5,
+    "isDrink": true,
+    "contextTags": [
+      "category_cooking"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_BrazierSecretAlfredo",
+    "name": "MadDog.HashtagBearFam_BrazierSecretAlfredo",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_BrazierSecretAlfredo",
+      "zh": "布拉泽秘制白酱"
+    },
+    "description": {
+      "en": "传说当年桑德拉和沃尔夫决定结婚时，就是这道奶油白酱意面赢得了熊奶奶的欢心。",
+      "zh": "传说当年桑德拉和沃尔夫决定结婚时，就是这道奶油白酱意面赢得了熊奶奶的欢心。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 120,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 25,
+    "contextTags": [
+      "color_sand",
+      "food_pasta",
+      "allergen_dairy",
+      "allergen_gluten",
+      "trash_bear_ignore",
+      "food_nonvegan"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_GudrunPerfectRamen",
+    "name": "MadDog.HashtagBearFam_GudrunPerfectRamen",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_GudrunPerfectRamen",
+      "zh": "古娟的完美拉面"
+    },
+    "description": {
+      "en": "秘诀就是要把菜叶子闷得蔫软一点！",
+      "zh": "秘诀就是要把菜叶子闷得蔫软一点！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 195,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 1,
+      "x": 16,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 40,
+    "contextTags": [
+      "color_yellow_green",
+      "food_soup",
+      "food_nonvegan",
+      "allergen_egg",
+      "trash_bear_ignore",
+      "allergen_gluten"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_GunnarBadPotion",
+    "name": "MadDog.HashtagBearFam_GunnarBadPotion",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_GunnarBadPotion",
+      "zh": "冈纳的劣质药剂"
+    },
+    "description": {
+      "en": "你不能说他没有努力，虽然味道确实挺糟糕的。",
+      "zh": "你不能说他没有努力，虽然味道确实挺糟糕的。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 15,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 2,
+      "x": 32,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 1,
+    "isDrink": true,
+    "contextTags": [
+      "color_red",
+      "potion_item",
+      "trash_bear_ignore",
+      "gunnar_potion_item"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_GunnarFirstPotion",
+    "name": "MadDog.HashtagBearFam_GunnarFirstPotion",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_GunnarFirstPotion",
+      "zh": "冈纳的第一种药剂"
+    },
+    "description": {
+      "en": "颜色看着不太对劲，不过尝起来也许没问题？",
+      "zh": "颜色看着不太对劲，不过尝起来也许没问题？"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 35,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 3,
+      "x": 48,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 20,
+    "isDrink": true,
+    "contextTags": [
+      "color_pink",
+      "potion_item",
+      "trash_bear_ignore",
+      "gunnar_potion_item"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_GunnarMysteryPotion",
+    "name": "MadDog.HashtagBearFam_GunnarMysteryPotion",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_GunnarMysteryPotion",
+      "zh": "冈纳的神秘药剂"
+    },
+    "description": {
+      "en": "你问这里面有什么，冈纳只是笑着摇了摇头。",
+      "zh": "你问这里面有什么，冈纳只是笑着摇了摇头。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 40,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 4,
+      "x": 64,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 300,
+    "isDrink": true,
+    "contextTags": [
+      "color_jade",
+      "potion_item",
+      "gunnar_potion_item",
+      "trash_bear_ignore",
+      "food_nonvegan"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_GunnarPerfectPotion",
+    "name": "MadDog.HashtagBearFam_GunnarPerfectPotion",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_GunnarPerfectPotion",
+      "zh": "冈纳的完美药剂"
+    },
+    "description": {
+      "en": "这效果可真够猛的！用了它你都能挑战全世界。",
+      "zh": "这效果可真够猛的！用了它你都能挑战全世界。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 1000,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 5,
+      "x": 80,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 150,
+    "isDrink": true,
+    "contextTags": [
+      "color_yellow",
+      "potion_item",
+      "trash_bear_ignore",
+      "gunnar_potion_item",
+      "allergen_egg"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_GunnarPerfectRamen",
+    "name": "MadDog.HashtagBearFam_GunnarPerfectRamen",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_GunnarPerfectRamen",
+      "zh": "冈纳的完美拉面"
+    },
+    "description": {
+      "en": "随便从地上摘朵蒲公英，放进你的拉面里就行！",
+      "zh": "随便从地上摘朵蒲公英，放进你的拉面里就行！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 225,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 6,
+      "x": 96,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_sand",
+      "food_soup",
+      "food_nonvegan",
+      "trash_bear_ignore",
+      "allergen_egg",
+      "allergen_gluten"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_GunnarPhoenixDown",
+    "name": "MadDog.HashtagBearFam_GunnarPhoenixDown",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_GunnarPhoenixDown",
+      "zh": "冈纳的不死鸟之尾"
+    },
+    "description": {
+      "en": "战斗中途可不是玩电子游戏梗的时候，冈纳。",
+      "zh": "战斗中途可不是玩电子游戏梗的时候，冈纳。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 2500,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 7,
+      "x": 112,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 200,
+    "contextTags": [
+      "color_red",
+      "gunnar_potion_item",
+      "trash_bear_ignore",
+      "food_nonvegan",
+      "medicine_item"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_GunnarRemedyAll",
+    "name": "MadDog.HashtagBearFam_GunnarRemedyAll",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_GunnarRemedyAll",
+      "zh": "冈纳的万能药"
+    },
+    "description": {
+      "en": "这应该能治好你所有的病痛。",
+      "zh": "这应该能治好你所有的病痛。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 2000,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 8,
+      "x": 128,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 75,
+    "contextTags": [
+      "color_blue",
+      "potion_item",
+      "gunnar_potion_item",
+      "trash_bear_ignore",
+      "food_nonvegan",
+      "allergen_shellfish"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_GunnarSecondPotion",
+    "name": "MadDog.HashtagBearFam_GunnarSecondPotion",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_GunnarSecondPotion",
+      "zh": "冈纳的第二种药剂"
+    },
+    "description": {
+      "en": "追逐你的梦想！为朋友们调制的特别药剂。",
+      "zh": "追逐你的梦想！为朋友们调制的特别药剂。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 250,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 9,
+      "x": 144,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 30,
+    "isDrink": true,
+    "contextTags": [
+      "color_light_cyan",
+      "trash_bear_ignore",
+      "potion_item",
+      "gunnar_potion_item"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_GunnarThirdPotion",
+    "name": "MadDog.HashtagBearFam_GunnarThirdPotion",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_GunnarThirdPotion",
+      "zh": "冈纳的第三种药剂"
+    },
+    "description": {
+      "en": "事实上，这还不算太糟。惊喜吧！",
+      "zh": "事实上，这还不算太糟。惊喜吧！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 450,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 10,
+      "x": 160,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "isDrink": true,
+    "contextTags": [
+      "color_purple",
+      "potion_item",
+      "gunnar_potion_item",
+      "trash_bear_ignore",
+      "food_nonvegan",
+      "allergen_egg"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_GunnarWeirdPotion",
+    "name": "MadDog.HashtagBearFam_GunnarWeirdPotion",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_GunnarWeirdPotion",
+      "zh": "冈纳的古怪药剂"
+    },
+    "description": {
+      "en": "这个是会爆炸的那种吗？可能就是会爆炸的那种。",
+      "zh": "这个是会爆炸的那种吗？可能就是会爆炸的那种。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 175,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 11,
+      "x": 176,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 1,
+    "isDrink": true,
+    "contextTags": [
+      "color_dark_blue",
+      "potion_item",
+      "gunnar_potion_item",
+      "trash_bear_ignore",
+      "food_nonvegan",
+      "allergen_shellfish"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_NineHerbsCharm",
+    "name": "MadDog.HashtagBearFam_NineHerbsCharm",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_NineHerbsCharm",
+      "zh": "九香草韵拼盘"
+    },
+    "description": {
+      "en": "这究竟是老掉牙的迷信传说，还是极为有效的天然良药？",
+      "zh": "这究竟是老掉牙的迷信传说，还是极为有效的天然良药？"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 2500,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 12,
+      "x": 192,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 55,
+    "contextTags": [
+      "color_dark_green",
+      "food_spicy",
+      "gunnar_potion_item",
+      "trash_bear_ignore",
+      "food_nonvegan",
+      "allergen_egg"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_PeachJoja",
+    "name": "MadDog.HashtagBearFam_PeachJoja",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_PeachJoja",
+      "zh": "桃子味 Joja 可乐"
+    },
+    "description": {
+      "en": "郑重声明，这不属于任何一种合格的水果摄入方式。",
+      "zh": "郑重声明，这不属于任何一种合格的水果摄入方式。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 100,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 13,
+      "x": 208,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 20,
+    "isDrink": true,
+    "contextTags": [
+      "color_pink",
+      "trash_bear_ignore",
+      "drink_item"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_PumpkinJoja",
+    "name": "MadDog.HashtagBearFam_PumpkinJoja",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_PumpkinJoja",
+      "zh": "南瓜味 Joja 可乐"
+    },
+    "description": {
+      "en": "让我们看看你仅凭一个南瓜和一瓶可乐在军队里能不能做得更好。",
+      "zh": "让我们看看你仅凭一个南瓜和一瓶可乐在军队里能不能做得更好。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 100,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 14,
+      "x": 224,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 20,
+    "isDrink": true,
+    "contextTags": [
+      "color_orange",
+      "trash_bear_ignore",
+      "drink_item"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_SigurdPerfectRamen",
+    "name": "MadDog.HashtagBearFam_SigurdPerfectRamen",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_SigurdPerfectRamen",
+      "zh": "西格的完美拉面"
+    },
+    "description": {
+      "en": "香料必须充分融入高汤。",
+      "zh": "香料必须充分融入高汤。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 230,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 15,
+      "x": 240,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 65,
+    "contextTags": [
+      "food_soup",
+      "color_sand",
+      "food_spicy",
+      "food_nonvegan",
+      "trash_bear_ignore",
+      "allergen_egg",
+      "allergen_gluten"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_SondraAutumnCookie",
+    "name": "MadDog.HashtagBearFam_SondraAutumnCookie",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_SondraAutumnCookie",
+      "zh": "桑德拉的秋日苹果曲奇"
+    },
+    "description": {
+      "en": "我们叫它秋天（Fall），因为叶子会落下（Fall down）。",
+      "zh": "我们叫它秋天（Fall），因为叶子会落下（Fall down）。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 145,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 16,
+      "x": 256,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 25,
+    "contextTags": [
+      "color_orange",
+      "food_sweet",
+      "trash_bear_ignore",
+      "food_bakery",
+      "allergen_gluten"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_SondraPerfectRamen",
+    "name": "MadDog.HashtagBearFam_SondraPerfectRamen",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_SondraPerfectRamen",
+      "zh": "桑德拉的完美拉面"
+    },
+    "description": {
+      "en": "大学生和教授们的完美选择！",
+      "zh": "大学生和教授们的完美选择！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 235,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 17,
+      "x": 272,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 40,
+    "contextTags": [
+      "color_sand",
+      "food_soup",
+      "food_nonvegan",
+      "trash_bear_ignore",
+      "allergen_egg",
+      "allergen_gluten"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_SondraSpringtimeShortbread",
+    "name": "MadDog.HashtagBearFam_SondraSpringtimeShortbread",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_SondraSpringtimeShortbread",
+      "zh": "桑德拉的春日酥饼"
+    },
+    "description": {
+      "en": "这款面包绝对让你吃得尽兴。",
+      "zh": "这款面包绝对让你吃得尽兴。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 200,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 18,
+      "x": 288,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 25,
+    "contextTags": [
+      "color_sand",
+      "food_sweet",
+      "food_bakery",
+      "trash_bear_ignore",
+      "allergen_gluten"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_SondraSummerCake",
+    "name": "MadDog.HashtagBearFam_SondraSummerCake",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_SondraSummerCake",
+      "zh": "桑德拉的夏日点心蛋糕"
+    },
+    "description": {
+      "en": "尝起来就像夏日晴空！",
+      "zh": "尝起来就像夏日晴空！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 225,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 19,
+      "x": 304,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 25,
+    "contextTags": [
+      "color_pink",
+      "food_sweet",
+      "food_bakery",
+      "trash_bear_ignore",
+      "allergen_gluten"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_SondraWinterBar",
+    "name": "MadDog.HashtagBearFam_SondraWinterBar",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_SondraWinterBar",
+      "zh": "桑德拉的冬日奇趣棒"
+    },
+    "description": {
+      "en": "哇，战胜寒冬的绝妙方法！",
+      "zh": "哇，战胜寒冬的绝妙方法！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 240,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 20,
+      "x": 320,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 25,
+    "contextTags": [
+      "color_dark_red",
+      "food_sweet",
+      "food_bakery",
+      "allergen_gluten",
+      "trash_bear_ignore",
+      "allergen_nut"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_TriangleGrilledCheese",
+    "name": "MadDog.HashtagBearFam_TriangleGrilledCheese",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_TriangleGrilledCheese",
+      "zh": "三角烤奶酪三明治"
+    },
+    "description": {
+      "en": "要是用其他方式切，味道就不对了。",
+      "zh": "要是用其他方式切，味道就不对了。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 100,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 21,
+      "x": 336,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 20,
+    "contextTags": [
+      "color_sand",
+      "food_nonvegan",
+      "allergen_dairy",
+      "trash_bear_ignore",
+      "allergen_gluten"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_HoneyWheatBread",
+    "name": "MadDog.HashtagBearFam_HoneyWheatBread",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_HoneyWheatBread",
+      "zh": "蜂蜜全麦面包"
+    },
+    "description": {
+      "en": "一款相当基础的面包，但一丝蜂蜜让它变得相当美味。",
+      "zh": "一款相当基础的面包，但一丝蜂蜜让它变得相当美味。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 100,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 22,
+      "x": 352,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 10,
+    "contextTags": [
+      "color_yellow",
+      "food_bakery",
+      "trash_bear_ignore",
+      "food_nonvegan",
+      "allergen_gluten"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_SesameBrownBread",
+    "name": "MadDog.HashtagBearFam_SesameBrownBread",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_SesameBrownBread",
+      "zh": "芝麻黑麦面包"
+    },
+    "description": {
+      "en": "吃一片就能精神抖擞行军几小时！",
+      "zh": "吃一片就能精神抖擞行军几小时！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 100,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 23,
+      "x": 368,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 10,
+    "contextTags": [
+      "color_dark_yellow",
+      "food_bakery",
+      "trash_bear_ignore",
+      "allergen_gluten"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_CornbreadMuffins",
+    "name": "MadDog.HashtagBearFam_CornbreadMuffins",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_CornbreadMuffins",
+      "zh": "玉米松糕"
+    },
+    "description": {
+      "en": "蓬松轻盈，散发着天堂般的香气！",
+      "zh": "蓬松轻盈，散发着天堂般的香气！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 125,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 24,
+      "x": 0,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 25,
+    "contextTags": [
+      "color_yellow",
+      "food_bakery",
+      "allergen_gluten",
+      "trash_bear_ignore"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_RoseCupcakes",
+    "name": "MadDog.HashtagBearFam_RoseCupcakes",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_RoseCupcakes",
+      "zh": "玫瑰纸杯蛋糕"
+    },
+    "description": {
+      "en": "要练习多少次才能在蛋糕上裱出这么精致的玫瑰？",
+      "zh": "要练习多少次才能在蛋糕上裱出这么精致的玫瑰？"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 150,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 25,
+      "x": 16,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 30,
+    "contextTags": [
+      "color_pink",
+      "food_sweet",
+      "food_bakery",
+      "allergen_gluten",
+      "trash_bear_ignore"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_BananaBread",
+    "name": "MadDog.HashtagBearFam_BananaBread",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_BananaBread",
+      "zh": "香蕉面包"
+    },
+    "description": {
+      "en": "最后，所有这些熟透的香蕉都获得了新生！",
+      "zh": "最后，所有这些熟透的香蕉都获得了新生！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 150,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 26,
+      "x": 32,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 20,
+    "contextTags": [
+      "color_dark_yellow",
+      "food_sweet",
+      "food_bakery",
+      "allergen_gluten"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_TTBrownies",
+    "name": "MadDog.HashtagBearFam_TTBrownies",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_TTBrownies",
+      "zh": "三重诱惑布朗尼"
+    },
+    "description": {
+      "en": "咸焦糖？芝士蛋糕夹心？全夹在这块布朗尼里？你可能需要坐下来慢慢品味。",
+      "zh": "咸焦糖？芝士蛋糕夹心？全夹在这块布朗尼里？你可能需要坐下来慢慢品味。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 205,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 28,
+      "x": 64,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_dark_yellow",
+      "trash_bear_ignore",
+      "food_sweet",
+      "food_bakery",
+      "food_nonvegan",
+      "allergen_egg",
+      "allergen_gluten"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_TerenBakes_CookiesnCremeCake",
+    "name": "MadDog.HashtagBearFam_TerenBakes_CookiesnCremeCake",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_TerenBakes_CookiesnCremeCake",
+      "zh": "奥利奥奶油蛋糕"
+    },
+    "description": {
+      "en": "由碎巧克力饼干和手工打发鲜奶油制成！",
+      "zh": "由碎巧克力饼干和手工打发鲜奶油制成！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 185,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 27,
+      "x": 48,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 52,
+    "contextTags": [
+      "color_dark_brown",
+      "trash_bear_ignore",
+      "food_sweet",
+      "food_bakery",
+      "food_caritas_bakery_item",
+      "allergen_gluten",
+      "allergen_dairy",
+      "food_nonvegan",
+      "allergen_egg"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_TerenBakes_RainbowChipCookies",
+    "name": "MadDog.HashtagBearFam_TerenBakes_RainbowChipCookies",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_TerenBakes_RainbowChipCookies",
+      "zh": "彩虹巧克力曲奇"
+    },
+    "description": {
+      "en": "尝尝彩虹的味道~",
+      "zh": "尝尝彩虹的味道~"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 125,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 29,
+      "x": 80,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 52,
+    "contextTags": [
+      "color_sand",
+      "food_sweet",
+      "trash_bear_ignore",
+      "food_bakery",
+      "food_caritas_bakery_item",
+      "allergen_gluten"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_TerenBakes_ApricotDonut",
+    "name": "MadDog.HashtagBearFam_TerenBakes_ApricotDonut",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_TerenBakes_ApricotDonut",
+      "zh": "杏子糖霜甜甜圈"
+    },
+    "description": {
+      "en": "杏子是大自然在表达\"给你一小片阳光\"。",
+      "zh": "杏子是大自然在表达\"给你一小片阳光\"。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 220,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 30,
+      "x": 96,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 52,
+    "contextTags": [
+      "color_sand",
+      "food_sweet",
+      "food_bakery",
+      "trash_bear_ignore",
+      "food_caritas_bakery_item",
+      "allergen_gluten",
+      "food_nonvegan",
+      "allergen_egg"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_TerenBakes_DecadentCheesecake",
+    "name": "MadDog.HashtagBearFam_TerenBakes_DecadentCheesecake",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_TerenBakes_DecadentCheesecake",
+      "zh": "戈特洛式奢华芝士蛋糕"
+    },
+    "description": {
+      "en": "无论问题是什么，答案都是芝士蛋糕。",
+      "zh": "无论问题是什么，答案都是芝士蛋糕。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 350,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 31,
+      "x": 112,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 52,
+    "contextTags": [
+      "color_dark_brown",
+      "food_sweet",
+      "trash_bear_ignore",
+      "food_bakery",
+      "food_caritas_bakery_item",
+      "allergen_gluten",
+      "allergen_dairy",
+      "food_nonvegan"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_TerenBakes_ZuzuPretzel",
+    "name": "MadDog.HashtagBearFam_TerenBakes_ZuzuPretzel",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_TerenBakes_ZuzuPretzel",
+      "zh": "隧道队比赛日椒盐卷饼"
+    },
+    "description": {
+      "en": "祖祖城隧道队官方指定球场零食！",
+      "zh": "祖祖城隧道队官方指定球场零食！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 220,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 32,
+      "x": 128,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 52,
+    "contextTags": [
+      "color_brown",
+      "food_sweet",
+      "food_bakery",
+      "trash_bear_ignore",
+      "food_caritas_bakery_item",
+      "allergen_gluten",
+      "food_nonvegan",
+      "allergen_egg"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_TerenBakes_HazelnutCroissant",
+    "name": "MadDog.HashtagBearFam_TerenBakes_HazelnutCroissant",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_TerenBakes_HazelnutCroissant",
+      "zh": "榛子夹心可颂"
+    },
+    "description": {
+      "en": "别以形状评判可颂，内在才是关键。",
+      "zh": "别以形状评判可颂，内在才是关键。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 195,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 33,
+      "x": 144,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 52,
+    "contextTags": [
+      "color_brown",
+      "food_sweet",
+      "trash_bear_ignore",
+      "food_bakery",
+      "food_caritas_bakery_item",
+      "allergen_gluten",
+      "allergen_dairy",
+      "food_nonvegan",
+      "allergen_egg",
+      "allergen_nut"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_TerenBakes_CaramelFlan",
+    "name": "MadDog.HashtagBearFam_TerenBakes_CaramelFlan",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_TerenBakes_CaramelFlan",
+      "zh": "焦糖布丁"
+    },
+    "description": {
+      "en": "这份甜点保证让你拥有布同凡响的一天！",
+      "zh": "这份甜点保证让你拥有布同凡响的一天！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 202,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 37,
+      "x": 208,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 52,
+    "contextTags": [
+      "color_sand",
+      "food_sweet",
+      "food_bakery",
+      "food_caritas_bakery_item",
+      "allergen_gluten",
+      "trash_bear_ignore",
+      "allergen_dairy",
+      "food_nonvegan",
+      "allergen_egg"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_TerenBakes_RedVelvetCookie",
+    "name": "MadDog.HashtagBearFam_TerenBakes_RedVelvetCookie",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_TerenBakes_RedVelvetCookie",
+      "zh": "红丝绒曲奇"
+    },
+    "description": {
+      "en": "沉浸在这份红丝绒疗愈时光里。",
+      "zh": "沉浸在这份红丝绒疗愈时光里。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 135,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 44,
+      "x": 320,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 52,
+    "contextTags": [
+      "color_sand",
+      "food_sweet",
+      "trash_bear_ignore",
+      "food_bakery",
+      "food_caritas_bakery_item",
+      "allergen_gluten",
+      "food_nonvegan",
+      "allergen_egg"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_TerenBakes_CherryLayerCake",
+    "name": "MadDog.HashtagBearFam_TerenBakes_CherryLayerCake",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_TerenBakes_CherryLayerCake",
+      "zh": "樱桃千层蛋糕"
+    },
+    "description": {
+      "en": "不论是朋友还是甜点，都别挑三拣四——全盘接受吧！",
+      "zh": "不论是朋友还是甜点，都别挑三拣四——全盘接受吧！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 235,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 49,
+      "x": 16,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 52,
+    "contextTags": [
+      "color_sand",
+      "food_sweet",
+      "food_bakery",
+      "food_caritas_bakery_item",
+      "allergen_gluten",
+      "trash_bear_ignore",
+      "allergen_dairy",
+      "food_nonvegan",
+      "allergen_egg"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_TerenBakes_CinnaSpiceRoll",
+    "name": "MadDog.HashtagBearFam_TerenBakes_CinnaSpiceRoll",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_TerenBakes_CinnaSpiceRoll",
+      "zh": "肉桂香卷"
+    },
+    "description": {
+      "en": "肉桂香香，味道棒棒！",
+      "zh": "肉桂香香，味道棒棒！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 190,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 50,
+      "x": 32,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 52,
+    "contextTags": [
+      "color_sand",
+      "food_sweet",
+      "trash_bear_ignore",
+      "food_bakery",
+      "food_caritas_bakery_item",
+      "allergen_gluten",
+      "food_nonvegan",
+      "allergen_egg"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_TerenBakes_PomegranateEclair",
+    "name": "MadDog.HashtagBearFam_TerenBakes_PomegranateEclair",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_TerenBakes_PomegranateEclair",
+      "zh": "石榴糖霜闪电泡芙"
+    },
+    "description": {
+      "en": "这颗闪电泡芙可不该被石若无睹。",
+      "zh": "这颗闪电泡芙可不该被石若无睹。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 300,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 51,
+      "x": 48,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 52,
+    "contextTags": [
+      "color_sand",
+      "food_sweet",
+      "food_bakery",
+      "trash_bear_ignore",
+      "food_caritas_bakery_item",
+      "allergen_gluten",
+      "food_nonvegan",
+      "allergen_egg"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_TerenBakes_PDFruitScone",
+    "name": "MadDog.HashtagBearFam_TerenBakes_PDFruitScone",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_TerenBakes_PDFruitScone",
+      "zh": "德雷克港水果司康"
+    },
+    "description": {
+      "en": "经典波特德雷克水果司康，添上了一点祖祖市的独家风味。",
+      "zh": "经典波特德雷克水果司康，添上了一点祖祖市的独家风味。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 200,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 52,
+      "x": 64,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 52,
+    "contextTags": [
+      "color_sand",
+      "food_sweet",
+      "food_bakery",
+      "trash_bear_ignore",
+      "food_caritas_bakery_item",
+      "allergen_gluten",
+      "allergen_dairy",
+      "food_nonvegan",
+      "allergen_egg"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_TerenBakes_ButtermilkCrescentRoll",
+    "name": "MadDog.HashtagBearFam_TerenBakes_ButtermilkCrescentRoll",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_TerenBakes_ButtermilkCrescentRoll",
+      "zh": "酪乳新月卷"
+    },
+    "description": {
+      "en": "一个到手的新月型面包，胜过货架上两个看得见吃不着的。",
+      "zh": "一个到手的新月型面包，胜过货架上两个看得见吃不着的。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 135,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 53,
+      "x": 80,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 52,
+    "contextTags": [
+      "color_sand",
+      "food_sweet",
+      "food_bakery",
+      "trash_bear_ignore",
+      "food_caritas_bakery_item",
+      "allergen_gluten",
+      "allergen_dairy",
+      "food_nonvegan",
+      "allergen_egg"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_TerenBakes_RainbowCake",
+    "name": "MadDog.HashtagBearFam_TerenBakes_RainbowCake",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_TerenBakes_RainbowCake",
+      "zh": "彩虹蛋糕"
+    },
+    "description": {
+      "en": "切开彩虹~",
+      "zh": "切开彩虹~"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 184,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 61,
+      "x": 208,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 52,
+    "contextTags": [
+      "color_sand",
+      "food_sweet",
+      "food_bakery",
+      "trash_bear_ignore",
+      "food_caritas_bakery_item",
+      "allergen_gluten",
+      "food_nonvegan",
+      "allergen_egg"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_TerenBakes_SpringMacarons",
+    "name": "MadDog.HashtagBearFam_TerenBakes_SpringMacarons",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_TerenBakes_SpringMacarons",
+      "zh": "春日粉彩马卡龙"
+    },
+    "description": {
+      "en": "春意盎然时，马卡龙正当时！",
+      "zh": "春意盎然时，马卡龙正当时！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 200,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 65,
+      "x": 272,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 52,
+    "contextTags": [
+      "color_sand",
+      "food_sweet",
+      "food_bakery",
+      "trash_bear_ignore",
+      "food_caritas_bakery_item",
+      "allergen_gluten",
+      "food_nonvegan",
+      "allergen_egg"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_TerenBakes_SummerCakePopsicle",
+    "name": "MadDog.HashtagBearFam_TerenBakes_SummerCakePopsicle",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_TerenBakes_SummerCakePopsicle",
+      "zh": "夏日蛋糕冰棒"
+    },
+    "description": {
+      "en": "蛋糕棒棒糖鲜为人知的前辈，经常在泳池边玩耍。",
+      "zh": "蛋糕棒棒糖鲜为人知的前辈，经常在泳池边玩耍。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 210,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 66,
+      "x": 288,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 52,
+    "contextTags": [
+      "color_sand",
+      "food_sweet",
+      "trash_bear_ignore",
+      "food_bakery",
+      "food_caritas_bakery_item",
+      "allergen_gluten",
+      "allergen_dairy",
+      "food_nonvegan",
+      "allergen_egg"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_TerenBakes_WinterGingerBread",
+    "name": "MadDog.HashtagBearFam_TerenBakes_WinterGingerBread",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_TerenBakes_WinterGingerBread",
+      "zh": "冬日姜饼人"
+    },
+    "description": {
+      "en": "不要！别碰纽扣！那是我珍贵的软糖纽扣啊！",
+      "zh": "不要！别碰纽扣！那是我珍贵的软糖纽扣啊！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 235,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 67,
+      "x": 304,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 52,
+    "contextTags": [
+      "color_sand",
+      "food_sweet",
+      "food_bakery",
+      "trash_bear_ignore",
+      "food_caritas_bakery_item",
+      "allergen_gluten",
+      "food_nonvegan",
+      "allergen_egg"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_TerenBakes_AutumnPumpkinCookie",
+    "name": "MadDog.HashtagBearFam_TerenBakes_AutumnPumpkinCookie",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_TerenBakes_AutumnPumpkinCookie",
+      "zh": "秋日南瓜曲奇"
+    },
+    "description": {
+      "en": "刻南瓜也好，糖霜南瓜也罢，反正南瓜总会如约而至。",
+      "zh": "刻南瓜也好，糖霜南瓜也罢，反正南瓜总会如约而至。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 850,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 68,
+      "x": 320,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 52,
+    "contextTags": [
+      "color_sand",
+      "food_sweet",
+      "food_bakery",
+      "trash_bear_ignore",
+      "food_caritas_bakery_item",
+      "allergen_gluten",
+      "food_nonvegan",
+      "allergen_egg"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_TerenBakes_WildPlumDonut",
+    "name": "MadDog.HashtagBearFam_TerenBakes_WildPlumDonut",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_TerenBakes_WildPlumDonut",
+      "zh": "野梅糖霜甜甜圈"
+    },
+    "description": {
+      "en": "来点野（李子）的！",
+      "zh": "来点野（李子）的！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 190,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 69,
+      "x": 336,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 52,
+    "contextTags": [
+      "color_sand",
+      "food_sweet",
+      "trash_bear_ignore",
+      "food_bakery",
+      "food_caritas_bakery_item",
+      "allergen_gluten",
+      "food_nonvegan",
+      "allergen_egg"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_Eli_Cookie",
+    "name": "MadDog.HashtagBearFam_Eli_Cookie",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_Eli_Cookie",
+      "zh": "神秘生物脆饼"
+    },
+    "description": {
+      "en": "一款低敏香草味脆饼干，非常适合蘸咖啡或茶享用。表面撒上以灰尘精灵为灵感的糖粒增添趣味！专为特伦的好友命名并制作。",
+      "zh": "一款低敏香草味脆饼干，非常适合蘸咖啡或茶享用。表面撒上以灰尘精灵为灵感的糖粒增添趣味！专为特伦的好友命名并制作。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 25,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/Coffees",
+      "index": 16,
+      "x": 256,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 25,
+    "contextTags": [
+      "color_dark_blue",
+      "trash_bear_ignore",
+      "food_sweet",
+      "food_bakery",
+      "food_caritas_bakery_item"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_Dylan_Tea",
+    "name": "MadDog.HashtagBearFam_Dylan_Tea",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_Dylan_Tea",
+      "zh": "海雾薄荷茶"
+    },
+    "description": {
+      "en": "用可疑方法（参见：微波炉）冲泡的超大杯（熊家族尺寸）低敏留兰香茶，急需休整的士兵学者必备良品。",
+      "zh": "用可疑方法（参见：微波炉）冲泡的超大杯（熊家族尺寸）低敏留兰香茶，急需休整的士兵学者必备良品。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 25,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/Coffees",
+      "index": 17,
+      "x": 272,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 25,
+    "isDrink": true,
+    "contextTags": [
+      "color_sea_green",
+      "trash_bear_ignore",
+      "food_caritas_bakery_item",
+      "food_tea"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_TerenBakes_HeartHealthCookies",
+    "name": "MadDog.HashtagBearFam_TerenBakes_HeartHealthCookies",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_TerenBakes_HeartHealthCookies",
+      "zh": "爱心曲奇"
+    },
+    "description": {
+      "en": "爱心造型又健康！无麸质、无坚果、无乳制品、无鸡蛋！秘诀是苹果酱和凌晨四点的解压烘焙。",
+      "zh": "爱心造型又健康！无麸质、无坚果、无乳制品、无鸡蛋！秘诀是苹果酱和凌晨四点的解压烘焙。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 200,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/Coffees",
+      "index": 5,
+      "x": 80,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 12,
+    "contextTags": [
+      "color_dark_brown",
+      "trash_bear_ignore",
+      "food_sweet",
+      "food_bakery",
+      "food_caritas_bakery_item"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_TerenBakes_PlumRiceBalls",
+    "name": "MadDog.HashtagBearFam_TerenBakes_PlumRiceBalls",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_TerenBakes_PlumRiceBalls",
+      "zh": "梅子饭团"
+    },
+    "description": {
+      "en": "一份塞满水果馅料的大米甜点，让你觉得像是真的把哈维医生年度体检时关于健康饮食的建议听进去了。",
+      "zh": "一份塞满水果馅料的大米甜点，让你觉得像是真的把哈维医生年度体检时关于健康饮食的建议听进去了。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 135,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/Coffees",
+      "index": 6,
+      "x": 96,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 16,
+    "contextTags": [
+      "color_sand",
+      "trash_bear_ignore",
+      "food_sweet",
+      "food_bakery",
+      "food_caritas_bakery_item"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_TerenBakes_BlueberrySpongeCake",
+    "name": "MadDog.HashtagBearFam_TerenBakes_BlueberrySpongeCake",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_TerenBakes_BlueberrySpongeCake",
+      "zh": "蓝莓海绵蛋糕"
+    },
+    "description": {
+      "en": "混合米粉与马铃薯粉制作，满载新鲜蓝莓的蓬松蛋糕。这款略显粗犷的蛋糕湿润可口，同时不含坚果、麸质，纯素配方更添健康。",
+      "zh": "混合米粉与马铃薯粉制作，满载新鲜蓝莓的蓬松蛋糕。这款略显粗犷的蛋糕湿润可口，同时不含坚果、麸质，纯素配方更添健康。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 235,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/Coffees",
+      "index": 14,
+      "x": 224,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 22,
+    "contextTags": [
+      "color_sand",
+      "trash_bear_ignore",
+      "food_sweet",
+      "food_bakery",
+      "food_caritas_bakery_item"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_TerenBakes_CaramelOrangeRoll",
+    "name": "MadDog.HashtagBearFam_TerenBakes_CaramelOrangeRoll",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_TerenBakes_CaramelOrangeRoll",
+      "zh": "焦糖香橙卷"
+    },
+    "description": {
+      "en": "橙香焦糖风味的绵软卷饼，入口即化的口感与热咖啡堪称绝配。",
+      "zh": "橙香焦糖风味的绵软卷饼，入口即化的口感与热咖啡堪称绝配。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 175,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/Coffees",
+      "index": 15,
+      "x": 240,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 23,
+    "contextTags": [
+      "color_sand",
+      "trash_bear_ignore",
+      "food_sweet",
+      "food_bakery",
+      "food_caritas_bakery_item"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_TerenMakes_MushroomSteakBurger",
+    "name": "MadDog.HashtagBearFam_TerenMakes_MushroomSteakBurger",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_TerenMakes_MushroomSteakBurger",
+      "zh": "蘑菇牛排汉堡"
+    },
+    "description": {
+      "en": "不，不是那种牛排，这是用两片土豆饼夹着烤蘑菇的三明治，也可以叫它土豆包，配着甜中带点微辣的青番茄酱。",
+      "zh": "不，不是那种牛排，这是用两片土豆饼夹着烤蘑菇的三明治，也可以叫它土豆包，配着甜中带点微辣的青番茄酱。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 320,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/Coffees",
+      "index": 7,
+      "x": 112,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 52,
+    "contextTags": [
+      "color_dark_brown",
+      "trash_bear_ignore",
+      "food_caritas_savory_item"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_TerenMakes_TomatoCoconutBisque",
+    "name": "MadDog.HashtagBearFam_TerenMakes_TomatoCoconutBisque",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_TerenMakes_TomatoCoconutBisque",
+      "zh": "番茄椰香浓汤"
+    },
+    "description": {
+      "en": "一碗令人舒适的汤，完美融合甜、酸、咸三种风味！最重要的是不含乳制品。",
+      "zh": "一碗令人舒适的汤，完美融合甜、酸、咸三种风味！最重要的是不含乳制品。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 175,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/Coffees",
+      "index": 8,
+      "x": 128,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 20,
+    "isDrink": true,
+    "contextTags": [
+      "color_red",
+      "food_soup",
+      "trash_bear_ignore",
+      "food_caritas_savory_item"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_TerenMakes_JerkVeggiesandSalsa",
+    "name": "MadDog.HashtagBearFam_TerenMakes_JerkVeggiesandSalsa",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_TerenMakes_JerkVeggiesandSalsa",
+      "zh": "牙买加风味时蔬搭菠萝辣酱"
+    },
+    "description": {
+      "en": "辛辣酱汁炒制的丰盛时蔬，搭配甜味菠萝莎莎酱与米饭一同享用。",
+      "zh": "辛辣酱汁炒制的丰盛时蔬，搭配甜味菠萝莎莎酱与米饭一同享用。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 300,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/Coffees",
+      "index": 9,
+      "x": 144,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 25,
+    "contextTags": [
+      "color_sand",
+      "trash_bear_ignore",
+      "food_caritas_savory_item",
+      "food_spicy"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_TerenMakes_GarlicSquoodles",
+    "name": "MadDog.HashtagBearFam_TerenMakes_GarlicSquoodles",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_TerenMakes_GarlicSquoodles",
+      "zh": "蒜香南瓜面"
+    },
+    "description": {
+      "en": "南瓜面条—又称南瓜面—拌入蒜香酱汁，保证能让吸血鬼好几天不敢靠近。",
+      "zh": "南瓜面条—又称南瓜面—拌入蒜香酱汁，保证能让吸血鬼好几天不敢靠近。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 210,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/Coffees",
+      "index": 10,
+      "x": 160,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 30,
+    "contextTags": [
+      "color_orange",
+      "trash_bear_ignore",
+      "food_caritas_savory_item"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_TerenMakes_VeggieSkewer",
+    "name": "MadDog.HashtagBearFam_TerenMakes_VeggieSkewer",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_TerenMakes_VeggieSkewer",
+      "zh": "蔬菜烤串"
+    },
+    "description": {
+      "en": "厌倦了肉食爱好者独占小木棍串食物的乐趣吗？",
+      "zh": "厌倦了肉食爱好者独占小木棍串食物的乐趣吗？"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 125,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/Coffees",
+      "index": 11,
+      "x": 176,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 36,
+    "contextTags": [
+      "color_green",
+      "trash_bear_ignore",
+      "food_caritas_savory_item"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_TerenMakes_TooMuchFruitSmoothie",
+    "name": "MadDog.HashtagBearFam_TerenMakes_TooMuchFruitSmoothie",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_TerenMakes_TooMuchFruitSmoothie",
+      "zh": "水果爆炸奶昔"
+    },
+    "description": {
+      "en": "当地男子刚说完\"水果再多也不嫌多\"这句话，搅拌机就在他好友婶婶的厨房里炸开了。不过味道确实不错。",
+      "zh": "当地男子刚说完\"水果再多也不嫌多\"这句话，搅拌机就在他好友婶婶的厨房里炸开了。不过味道确实不错。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 777,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/Coffees",
+      "index": 12,
+      "x": 192,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 20,
+    "isDrink": true,
+    "contextTags": [
+      "color_green",
+      "trash_bear_ignore",
+      "food_caritas_bakery_item"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_TerenMakes_PeachyLemonade",
+    "name": "MadDog.HashtagBearFam_TerenMakes_PeachyLemonade",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_TerenMakes_PeachyLemonade",
+      "zh": "蜜桃柠檬水"
+    },
+    "description": {
+      "en": "所谓「普通熊每天吃三个桃子」是统计谬误。住在东崖每天吃上万个桃子的桃子·西格属于异常值，本不该纳入统计。",
+      "zh": "所谓「普通熊每天吃三个桃子」是统计谬误。住在东崖每天吃上万个桃子的桃子·西格属于异常值，本不该纳入统计。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 165,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/Coffees",
+      "index": 13,
+      "x": 208,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 20,
+    "isDrink": true,
+    "contextTags": [
+      "color_pink",
+      "trash_bear_ignore",
+      "food_caritas_bakery_item"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_RoseysLatkes",
+    "name": "MadDog.HashtagBearFam_RoseysLatkes",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_RoseysLatkes",
+      "zh": "萝西的土豆煎饼"
+    },
+    "description": {
+      "en": "萝西自制的土豆煎饼，上面堆满酸奶油和苹果酱。萝西是谁？特伦永远不会告诉你 。",
+      "zh": "萝西自制的土豆煎饼，上面堆满酸奶油和苹果酱。萝西是谁？特伦永远不会告诉你 。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 110,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/Coffees",
+      "index": 4,
+      "x": 64,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_yellow",
+      "trash_bear_ignore",
+      "food_nonvegan",
+      "food_caritas_savory_item",
+      "allergen_gluten",
+      "allergen_dairy"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_FerskenPeachCobbler",
+    "name": "MadDog.HashtagBearFam_FerskenPeachCobbler",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_FerskenPeachCobbler",
+      "zh": "费什肯蜜桃馅饼"
+    },
+    "description": {
+      "en": "用新鲜费什肯桃子做的桃子馅饼，是赢得熊家族欢心的秘诀。",
+      "zh": "用新鲜费什肯桃子做的桃子馅饼，是赢得熊家族欢心的秘诀。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 190,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 35,
+      "x": 176,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 35,
+    "contextTags": [
+      "color_pink",
+      "food_sweet",
+      "trash_bear_ignore",
+      "food_bakery",
+      "allergen_gluten"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_SlicedPeaches",
+    "name": "MadDog.HashtagBearFam_SlicedPeaches",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_SlicedPeaches",
+      "zh": "切片桃子"
+    },
+    "description": {
+      "en": "新鲜切片的费什肯桃子，淋上简单的糖浆。",
+      "zh": "新鲜切片的费什肯桃子，淋上简单的糖浆。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 160,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 36,
+      "x": 192,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 20,
+    "contextTags": [
+      "color_pink",
+      "trash_bear_ignore",
+      "food_sweet"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_HoneyCakes",
+    "name": "MadDog.HashtagBearFam_HoneyCakes",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_HoneyCakes",
+      "zh": "蜂蜜蓝莓蛋糕"
+    },
+    "description": {
+      "en": "一块酥脆的蜂蜜蛋糕，里面夹着蓝莓馅。正是能满足熊或farmer的完美点心。",
+      "zh": "一块酥脆的蜂蜜蛋糕，里面夹着蓝莓馅。正是能满足熊或farmer的完美点心。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 342,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 47,
+      "x": 368,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 40,
+    "contextTags": [
+      "color_blue",
+      "food_bakery",
+      "food_sweet",
+      "trash_bear_ignore",
+      "food_nonvegan",
+      "allergen_gluten"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_StoneBrambleJam",
+    "name": "MadDog.HashtagBearFam_StoneBrambleJam",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_StoneBrambleJam",
+      "zh": "荆棘莓果酱"
+    },
+    "description": {
+      "en": "哇哦，黑贝蒂果酱！这一种用荆棘莓和黑莓制成的美味果酱。",
+      "zh": "哇哦，黑贝蒂果酱！这一种用荆棘莓和黑莓制成的美味果酱。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 160,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 55,
+      "x": 112,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 55,
+    "contextTags": [
+      "color_salmon",
+      "trash_bear_ignore",
+      "food_sweet"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_BrambleBerryPie",
+    "name": "MadDog.HashtagBearFam_BrambleBerryPie",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_BrambleBerryPie",
+      "zh": "荆棘莓派"
+    },
+    "description": {
+      "en": "刚出炉的荆棘莓黑莓双拼派，还冒着热气呢。",
+      "zh": "刚出炉的荆棘莓黑莓双拼派，还冒着热气呢。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 195,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 57,
+      "x": 144,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 70,
+    "contextTags": [
+      "color_salmon",
+      "food_bakery",
+      "food_sweet",
+      "trash_bear_ignore",
+      "food_nonvegan",
+      "allergen_gluten",
+      "allergen_egg"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_DronningMaud",
+    "name": "MadDog.HashtagBearFam_DronningMaud",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_DronningMaud",
+      "zh": "莫德女王布丁"
+    },
+    "description": {
+      "en": "这是一款用奶油、蛋黄糖霜和巧克力制成的甜点，以诺斯地区的莫德女王命名。",
+      "zh": "这是一款用奶油、蛋黄糖霜和巧克力制成的甜点，以诺斯地区的莫德女王命名。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 210,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 58,
+      "x": 160,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 30,
+    "contextTags": [
+      "color_sand",
+      "food_sweet",
+      "trash_bear_ignore",
+      "food_nonvegan",
+      "allergen_egg",
+      "allergen_dairy"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_JojaFloat",
+    "name": "MadDog.HashtagBearFam_JojaFloat",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_JojaFloat",
+      "zh": "Joja 冰淇淋苏打"
+    },
+    "description": {
+      "en": "用 Joja 可乐制作的冰淇淋苏打饮料——炎炎夏日里的绝佳清凉之选！",
+      "zh": "用 Joja 可乐制作的冰淇淋苏打饮料——炎炎夏日里的绝佳清凉之选！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 165,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 60,
+      "x": 192,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 35,
+    "isDrink": true,
+    "contextTags": [
+      "color_blue",
+      "food_sweet",
+      "trash_bear_ignore",
+      "food_nonvegan",
+      "allergen_egg",
+      "allergen_dairy"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_FerskenPeach_Mead_Tankard",
+    "name": "MadDog.HashtagBearFam_FerskenPeach_Mead_Tankard",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_FerskenPeach_Mead_Tankard",
+      "zh": "费什肯桃蜂蜜酒大酒杯"
+    },
+    "description": {
+      "en": "一大杯桃子蜂蜜酒，就像昔日人们在宴饮殿堂享用的那样。请适量饮用。",
+      "zh": "一大杯桃子蜂蜜酒，就像昔日人们在宴饮殿堂享用的那样。请适量饮用。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 750,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 46,
+      "x": 352,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 25,
+    "isDrink": true,
+    "contextTags": [
+      "alcohol_item",
+      "color_gold",
+      "trash_bear_ignore",
+      "food_nonvegan"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_Zuzu_Mule",
+    "name": "MadDog.HashtagBearFam_Zuzu_Mule",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_Zuzu_Mule",
+      "zh": "祖祖城骡子酒"
+    },
+    "description": {
+      "en": "讲故事的人最爱的鸡尾酒，用辛辣的姜汁啤酒、鲜榨青柠汁与伏特加调制，盛在标志性铜杯中，别忘了加入一滴爱的点缀。请适量饮用。",
+      "zh": "讲故事的人最爱的鸡尾酒，用辛辣的姜汁啤酒、鲜榨青柠汁与伏特加调制，盛在标志性铜杯中，别忘了加入一滴爱的点缀。请适量饮用。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 950,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 62,
+      "x": 224,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 25,
+    "isDrink": true,
+    "contextTags": [
+      "alcohol_item",
+      "trash_bear_ignore",
+      "color_copper"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_Honey_OldFashioned",
+    "name": "MadDog.HashtagBearFam_Honey_OldFashioned",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_Honey_OldFashioned",
+      "zh": "蜂蜜古典鸡尾酒"
+    },
+    "description": {
+      "en": "经典鸡尾酒的全新演绎，用波本或黑麦威士忌、苦酒和蜂蜜替代单糖糖浆调制，杯口点缀橙皮与樱桃，请适量饮用。",
+      "zh": "经典鸡尾酒的全新演绎，用波本或黑麦威士忌、苦酒和蜂蜜替代单糖糖浆调制，杯口点缀橙皮与樱桃，请适量饮用。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 950,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 63,
+      "x": 240,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 25,
+    "isDrink": true,
+    "contextTags": [
+      "alcohol_item",
+      "color_gold",
+      "trash_bear_ignore",
+      "food_nonvegan"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_Citrus_City_Gin_Sour",
+    "name": "MadDog.HashtagBearFam_Citrus_City_Gin_Sour",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_Citrus_City_Gin_Sour",
+      "zh": "柑橘城金酒酸"
+    },
+    "description": {
+      "en": "一款甜美又迷人的鸡尾酒，由琴酒、蛋白和柠檬汁调制而成，搭配调酒师精心挑选的柑橘水果作为点缀，请适量饮用。",
+      "zh": "一款甜美又迷人的鸡尾酒，由琴酒、蛋白和柠檬汁调制而成，搭配调酒师精心挑选的柑橘水果作为点缀，请适量饮用。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 950,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 64,
+      "x": 256,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 25,
+    "isDrink": true,
+    "contextTags": [
+      "alcohol_item",
+      "color_jade",
+      "trash_bear_ignore",
+      "food_nonvegan",
+      "allergen_egg"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_RegenPotions_GreatGospelPotion",
+    "name": "MadDog.HashtagBearFam_RegenPotions_GreatGospelPotion",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_RegenPotions_GreatGospelPotion",
+      "zh": "伟大福音药剂"
+    },
+    "description": {
+      "en": "'我该离开了。待一切终结时，我必归来。'",
+      "zh": "'我该离开了。待一切终结时，我必归来。'"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 100,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/NonWeaponEquipment",
+      "index": 19,
+      "x": 304,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 5,
+    "isDrink": true,
+    "contextTags": [
+      "color_sea_green",
+      "potion_item",
+      "trash_bear_ignore",
+      "gunnar_potion_item"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_RegenPotions_AngelWingPotion",
+    "name": "MadDog.HashtagBearFam_RegenPotions_AngelWingPotion",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_RegenPotions_AngelWingPotion",
+      "zh": "天使之翼药剂"
+    },
+    "description": {
+      "en": "“把它藏在心底吧。无论何时，只要你召唤，我们必将回应。我们永远守候。”",
+      "zh": "“把它藏在心底吧。无论何时，只要你召唤，我们必将回应。我们永远守候。”"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 100,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/NonWeaponEquipment",
+      "index": 20,
+      "x": 320,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 5,
+    "isDrink": true,
+    "contextTags": [
+      "color_red",
+      "potion_item",
+      "gunnar_potion_item",
+      "trash_bear_ignore"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_RegenPotions_TidesofFatePotion",
+    "name": "MadDog.HashtagBearFam_RegenPotions_TidesofFatePotion",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_RegenPotions_TidesofFatePotion",
+      "zh": "命运潮汐药剂"
+    },
+    "description": {
+      "en": "“也许我有点老派吧，但我原本希望能找到一份真正看得见价值的宝藏。”",
+      "zh": "“也许我有点老派吧，但我原本希望能找到一份真正看得见价值的宝藏。”"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 100,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/NonWeaponEquipment",
+      "index": 21,
+      "x": 336,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 5,
+    "isDrink": true,
+    "contextTags": [
+      "color_aqua",
+      "potion_item",
+      "gunnar_potion_item",
+      "food_nonvegan",
+      "trash_bear_ignore"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_RegenPotions_FreeEnergyPotion",
+    "name": "MadDog.HashtagBearFam_RegenPotions_FreeEnergyPotion",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_RegenPotions_FreeEnergyPotion",
+      "zh": "自由能量药剂"
+    },
+    "description": {
+      "en": "'帮助他人不需要理由。'",
+      "zh": "'帮助他人不需要理由。'"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 100,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/NonWeaponEquipment",
+      "index": 22,
+      "x": 352,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 5,
+    "isDrink": true,
+    "contextTags": [
+      "color_orange",
+      "potion_item",
+      "gunnar_potion_item",
+      "trash_bear_ignore"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_RegenPotions_FantasiaPotion",
+    "name": "MadDog.HashtagBearFam_RegenPotions_FantasiaPotion",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_RegenPotions_FantasiaPotion",
+      "zh": "幻想药剂"
+    },
+    "description": {
+      "en": "“既然这里的东西都动摇不了你对朋友的回忆……那我们还有什么好怕的！出发吧！”",
+      "zh": "“既然这里的东西都动摇不了你对朋友的回忆……那我们还有什么好怕的！出发吧！”"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 100,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/NonWeaponEquipment",
+      "index": 23,
+      "x": 368,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 5,
+    "isDrink": true,
+    "contextTags": [
+      "color_dark_pink",
+      "potion_item",
+      "gunnar_potion_item",
+      "trash_bear_ignore"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_RegenPotions_DigitalMindWavePotion",
+    "name": "MadDog.HashtagBearFam_RegenPotions_DigitalMindWavePotion",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_RegenPotions_DigitalMindWavePotion",
+      "zh": "数字思维波动药剂"
+    },
+    "description": {
+      "en": "'拥抱梦想吧。若想成为英雄，就必须心怀梦想。'",
+      "zh": "'拥抱梦想吧。若想成为英雄，就必须心怀梦想。'"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 100,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/NonWeaponEquipment",
+      "index": 24,
+      "x": 0,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 5,
+    "isDrink": true,
+    "contextTags": [
+      "color_dark_pink",
+      "potion_item",
+      "gunnar_potion_item",
+      "trash_bear_ignore"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_RegenPotions_GlaiveArtsPotion",
+    "name": "MadDog.HashtagBearFam_RegenPotions_GlaiveArtsPotion",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_RegenPotions_GlaiveArtsPotion",
+      "zh": "长戟艺术药剂"
+    },
+    "description": {
+      "en": "'无论顺境逆境，我始终是你的盾牌。无论如何，我永远支持你——现在直到永远！'",
+      "zh": "'无论顺境逆境，我始终是你的盾牌。无论如何，我永远支持你——现在直到永远！'"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 100,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/NonWeaponEquipment",
+      "index": 25,
+      "x": 16,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 5,
+    "isDrink": true,
+    "contextTags": [
+      "color_dark_red",
+      "potion_item",
+      "gunnar_potion_item",
+      "trash_bear_ignore"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_RegenPotions_NordswainsGlowPotion",
+    "name": "MadDog.HashtagBearFam_RegenPotions_NordswainsGlowPotion",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_RegenPotions_NordswainsGlowPotion",
+      "zh": "北境发光药剂"
+    },
+    "description": {
+      "en": "'我只是我自己。不多也不少。而我想要的只是自由。'",
+      "zh": "'我只是我自己。不多也不少。而我想要的只是自由。'"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 100,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/NonWeaponEquipment",
+      "index": 26,
+      "x": 32,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 5,
+    "isDrink": true,
+    "contextTags": [
+      "color_pink",
+      "potion_item",
+      "gunnar_potion_item",
+      "trash_bear_ignore"
+    ]
+  },
+  {
+    "id": "DTZ.DowntownZuzuCP_BigBurger",
+    "name": "DTZ.DowntownZuzuCP_BigBurger",
+    "displayName": {
+      "en": "DTZ.DowntownZuzuCP_BigBurger",
+      "zh": "巨无霸汉堡"
+    },
+    "description": {
+      "en": "来自祖祖城的巨无霸汉堡。肉质鲜嫩多汁。",
+      "zh": "来自祖祖城的巨无霸汉堡。肉质鲜嫩多汁。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 280,
+    "sprite": {
+      "texture": "Mods/DTZ.DowntownZuzuCP/Items/Big Burger",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 35
+  },
+  {
+    "id": "DTZ.DowntownZuzuCP_BLT",
+    "name": "DTZ.DowntownZuzuCP_BLT",
+    "displayName": {
+      "en": "DTZ.DowntownZuzuCP_BLT",
+      "zh": "BLT三明治"
+    },
+    "description": {
+      "en": "美味的三明治；由培根、生菜、番茄和一些蛋黄酱组成。",
+      "zh": "美味的三明治；由培根、生菜、番茄和一些蛋黄酱组成。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 200,
+    "sprite": {
+      "texture": "Mods/DTZ.DowntownZuzuCP/Items/BLT",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 32
+  },
+  {
+    "id": "DTZ.DowntownZuzuCP_ChickenDrumstick",
+    "name": "DTZ.DowntownZuzuCP_ChickenDrumstick",
+    "displayName": {
+      "en": "DTZ.DowntownZuzuCP_ChickenDrumstick",
+      "zh": "炸鸡腿"
+    },
+    "description": {
+      "en": "很大的鸡腿，看着相当美味。",
+      "zh": "很大的鸡腿，看着相当美味。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 250,
+    "sprite": {
+      "texture": "Mods/DTZ.DowntownZuzuCP/Items/Chicken Drumstick",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 34
+  },
+  {
+    "id": "DTZ.DowntownZuzuCP_ChocolateSlice",
+    "name": "DTZ.DowntownZuzuCP_ChocolateSlice",
+    "displayName": {
+      "en": "DTZ.DowntownZuzuCP_ChocolateSlice",
+      "zh": "巧克力切角蛋糕"
+    },
+    "description": {
+      "en": "一片巧克力蛋糕，顶部有一颗闪亮的红樱桃。",
+      "zh": "一片巧克力蛋糕，顶部有一颗闪亮的红樱桃。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 250,
+    "sprite": {
+      "texture": "Mods/DTZ.DowntownZuzuCP/Items/Chocolate Slice",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 33
+  },
+  {
+    "id": "DTZ.DowntownZuzuCP_Cider",
+    "name": "DTZ.DowntownZuzuCP_Cider",
+    "displayName": {
+      "en": "DTZ.DowntownZuzuCP_Cider",
+      "zh": "西打"
+    },
+    "description": {
+      "en": "一瓶清爽的西打。看起来很可爱。",
+      "zh": "一瓶清爽的西打。看起来很可爱。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 200,
+    "sprite": {
+      "texture": "Mods/DTZ.DowntownZuzuCP/Items/Cider",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 26,
+    "isDrink": true
+  },
+  {
+    "id": "DTZ.DowntownZuzuCP_DowntownDog",
+    "name": "DTZ.DowntownZuzuCP_DowntownDog",
+    "displayName": {
+      "en": "DTZ.DowntownZuzuCP_DowntownDog",
+      "zh": "城市热狗"
+    },
+    "description": {
+      "en": "来自祖祖城的美味热狗，看起来好吃极了！",
+      "zh": "来自祖祖城的美味热狗，看起来好吃极了！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 260,
+    "sprite": {
+      "texture": "Mods/DTZ.DowntownZuzuCP/Items/Downtown Dog",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 45
+  },
+  {
+    "id": "DTZ.DowntownZuzuCP_GranaryStack",
+    "name": "DTZ.DowntownZuzuCP_GranaryStack",
+    "displayName": {
+      "en": "DTZ.DowntownZuzuCP_GranaryStack",
+      "zh": "谷仓面包卷"
+    },
+    "description": {
+      "en": "在谷仓面包里夹上生菜、西红柿和鸡肉",
+      "zh": "在谷仓面包里夹上生菜、西红柿和鸡肉"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 200,
+    "sprite": {
+      "texture": "Mods/DTZ.DowntownZuzuCP/Items/Granary Stack",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 36
+  },
+  {
+    "id": "DTZ.DowntownZuzuCP_IceDelight",
+    "name": "DTZ.DowntownZuzuCP_IceDelight",
+    "displayName": {
+      "en": "DTZ.DowntownZuzuCP_IceDelight",
+      "zh": "八喜"
+    },
+    "description": {
+      "en": "一碗香草冰激凌，淋上浓郁的树莓果酱",
+      "zh": "一碗香草冰激凌，淋上浓郁的树莓果酱"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 200,
+    "sprite": {
+      "texture": "Mods/DTZ.DowntownZuzuCP/Items/Ice Delight",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 29
+  },
+  {
+    "id": "DTZ.DowntownZuzuCP_JojaCocktail",
+    "name": "DTZ.DowntownZuzuCP_JojaCocktail",
+    "displayName": {
+      "en": "DTZ.DowntownZuzuCP_JojaCocktail",
+      "zh": "Joja鸡尾酒"
+    },
+    "description": {
+      "en": "鲜蓝色的鸡尾酒。看起来很没食欲，不过谁在乎呢？",
+      "zh": "鲜蓝色的鸡尾酒。看起来很没食欲，不过谁在乎呢？"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 200,
+    "sprite": {
+      "texture": "Mods/DTZ.DowntownZuzuCP/Items/Joja Cocktail",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 10,
+    "isDrink": true
+  },
+  {
+    "id": "DTZ.DowntownZuzuCP_JojaFries",
+    "name": "DTZ.DowntownZuzuCP_JojaFries",
+    "displayName": {
+      "en": "DTZ.DowntownZuzuCP_JojaFries",
+      "zh": "Joja薯条"
+    },
+    "description": {
+      "en": "一份很咸的薯条，全都是油。",
+      "zh": "一份很咸的薯条，全都是油。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 25,
+    "sprite": {
+      "texture": "Mods/DTZ.DowntownZuzuCP/Items/Joja Fries",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 3
+  },
+  {
+    "id": "DTZ.DowntownZuzuCP_JojaSoda",
+    "name": "DTZ.DowntownZuzuCP_JojaSoda",
+    "displayName": {
+      "en": "DTZ.DowntownZuzuCP_JojaSoda",
+      "zh": "Joja汽水"
+    },
+    "description": {
+      "en": "瓶装Joja可乐。比罐装的更甜。",
+      "zh": "瓶装Joja可乐。比罐装的更甜。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 50,
+    "sprite": {
+      "texture": "Mods/DTZ.DowntownZuzuCP/Items/Joja Soda",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 5,
+    "isDrink": true
+  },
+  {
+    "id": "DTZ.DowntownZuzuCP_LemonDrizzleCheesecake",
+    "name": "DTZ.DowntownZuzuCP_LemonDrizzleCheesecake",
+    "displayName": {
+      "en": "DTZ.DowntownZuzuCP_LemonDrizzleCheesecake",
+      "zh": "柠檬酥皮芝士蛋糕"
+    },
+    "description": {
+      "en": "酥皮底的柠檬酱芝士蛋糕. 很酸!",
+      "zh": "酥皮底的柠檬酱芝士蛋糕. 很酸!"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 250,
+    "sprite": {
+      "texture": "Mods/DTZ.DowntownZuzuCP/Items/Lemon Drizzle Cheesecake",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 30
+  },
+  {
+    "id": "DTZ.DowntownZuzuCP_MozzarellaSlice",
+    "name": "DTZ.DowntownZuzuCP_MozzarellaSlice",
+    "displayName": {
+      "en": "DTZ.DowntownZuzuCP_MozzarellaSlice",
+      "zh": "马苏里拉披萨片"
+    },
+    "description": {
+      "en": "一块带有各种配料的马苏里拉披萨片，优质奶酪有很多拉丝",
+      "zh": "一块带有各种配料的马苏里拉披萨片，优质奶酪有很多拉丝"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 200,
+    "sprite": {
+      "texture": "Mods/DTZ.DowntownZuzuCP/Items/Mozzarella Slice",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 29
+  },
+  {
+    "id": "DTZ.DowntownZuzuCP_StrawberryDaiquiri",
+    "name": "DTZ.DowntownZuzuCP_StrawberryDaiquiri",
+    "displayName": {
+      "en": "DTZ.DowntownZuzuCP_StrawberryDaiquiri",
+      "zh": "草莓黛绮莉"
+    },
+    "description": {
+      "en": "草莓黛绮莉是一种红色、非常浓烈的“酒精冰沙”。看起来美味极了。",
+      "zh": "草莓黛绮莉是一种红色、非常浓烈的“酒精冰沙”。看起来美味极了。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 200,
+    "sprite": {
+      "texture": "Mods/DTZ.DowntownZuzuCP/Items/Strawberry Daiquiri",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 28,
+    "isDrink": true
+  },
+  {
+    "id": "DTZ.DowntownZuzuCP_ZuzuChampagne",
+    "name": "DTZ.DowntownZuzuCP_ZuzuChampagne",
+    "displayName": {
+      "en": "DTZ.DowntownZuzuCP_ZuzuChampagne",
+      "zh": "祖祖香槟"
+    },
+    "description": {
+      "en": "一瓶粉色的、芳香的香槟。为什么不招待一下自己呢？",
+      "zh": "一瓶粉色的、芳香的香槟。为什么不招待一下自己呢？"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 200,
+    "sprite": {
+      "texture": "Mods/DTZ.DowntownZuzuCP/Items/Zuzu Champagne",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 28,
+    "isDrink": true
+  },
+  {
+    "id": "DTZ.DowntownZuzuCP_ZuzuIceCream",
+    "name": "DTZ.DowntownZuzuCP_ZuzuIceCream",
+    "displayName": {
+      "en": "DTZ.DowntownZuzuCP_ZuzuIceCream",
+      "zh": "祖祖冰激凌"
+    },
+    "description": {
+      "en": "一份粉色的祖祖冰淇淋——这是一种非常受欢迎的口味，有着无法形容的甜味。",
+      "zh": "一份粉色的祖祖冰淇淋——这是一种非常受欢迎的口味，有着无法形容的甜味。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 140,
+    "sprite": {
+      "texture": "Mods/DTZ.DowntownZuzuCP/Items/Zuzu Ice Cream",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 22
+  },
+  {
+    "id": "DTZ.DowntownZuzuCP_ZuzuMilkshake",
+    "name": "DTZ.DowntownZuzuCP_ZuzuMilkshake",
+    "displayName": {
+      "en": "DTZ.DowntownZuzuCP_ZuzuMilkshake",
+      "zh": "祖祖奶昔"
+    },
+    "description": {
+      "en": "来自祖祖城的奶昔。由于其浓稠、奶香十足的口感和味道，它非常受欢迎！",
+      "zh": "来自祖祖城的奶昔。由于其浓稠、奶香十足的口感和味道，它非常受欢迎！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 128,
+    "sprite": {
+      "texture": "Mods/DTZ.DowntownZuzuCP/Items/Zuzu Milkshake",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 16,
+    "isDrink": true
+  },
+  {
+    "id": "DTZ.DowntownZuzuCP_ZuzuSignatureCocktail",
+    "name": "DTZ.DowntownZuzuCP_ZuzuSignatureCocktail",
+    "displayName": {
+      "en": "DTZ.DowntownZuzuCP_ZuzuSignatureCocktail",
+      "zh": "祖祖特色鸡尾酒"
+    },
+    "description": {
+      "en": "霓虹粉的鸡尾酒。不知道里面放了什么，但看起来该死的好喝。",
+      "zh": "霓虹粉的鸡尾酒。不知道里面放了什么，但看起来该死的好喝。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 200,
+    "sprite": {
+      "texture": "Mods/DTZ.DowntownZuzuCP/Items/Zuzu Signature Cocktail",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 30,
+    "isDrink": true
+  },
+  {
+    "id": "DTZ.DowntownZuzuCP_BubblegumIceCream",
+    "name": "DTZ.DowntownZuzuCP_BubblegumIceCream",
+    "displayName": {
+      "en": "DTZ.DowntownZuzuCP_BubblegumIceCream",
+      "zh": "泡泡糖冰淇淋"
+    },
+    "description": {
+      "en": "一支色彩鲜艳的泡泡冰淇淋蛋筒——因甜甜的味道而受欢迎！",
+      "zh": "一支色彩鲜艳的泡泡冰淇淋蛋筒——因甜甜的味道而受欢迎！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 130,
+    "sprite": {
+      "texture": "Mods/DTZ.DowntownZuzuCP/Items/Bubblegum Ice Cream",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 20
+  },
+  {
+    "id": "DTZ.DowntownZuzuCP_StrawberryPopsicle",
+    "name": "DTZ.DowntownZuzuCP_StrawberryPopsicle",
+    "displayName": {
+      "en": "DTZ.DowntownZuzuCP_StrawberryPopsicle",
+      "zh": "草莓冰棒"
+    },
+    "description": {
+      "en": "一根木棒上的草莓味冰块。很甜。",
+      "zh": "一根木棒上的草莓味冰块。很甜。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 125,
+    "sprite": {
+      "texture": "Mods/DTZ.DowntownZuzuCP/Items/Strawberry Popsicle",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18
+  },
+  {
+    "id": "DTZ.DowntownZuzuCP_ChocolateIceCream",
+    "name": "DTZ.DowntownZuzuCP_ChocolateIceCream",
+    "displayName": {
+      "en": "DTZ.DowntownZuzuCP_ChocolateIceCream",
+      "zh": "巧克力冰激凌"
+    },
+    "description": {
+      "en": "美味的巧克力冰激凌蛋筒。令人精神一振！",
+      "zh": "美味的巧克力冰激凌蛋筒。令人精神一振！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 130,
+    "sprite": {
+      "texture": "Mods/DTZ.DowntownZuzuCP/Items/Chocolate Ice Cream",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 20
+  },
+  {
+    "id": "DTZ.DowntownZuzuCP_Popcorn",
+    "name": "DTZ.DowntownZuzuCP_Popcorn",
+    "displayName": {
+      "en": "DTZ.DowntownZuzuCP_Popcorn",
+      "zh": "爆米花"
+    },
+    "description": {
+      "en": "美味的咸味小吃。适合看电影时享用！",
+      "zh": "美味的咸味小吃。适合看电影时享用！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 100,
+    "sprite": {
+      "texture": "Mods/DTZ.DowntownZuzuCP/Items/Popcorn",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 10
+  },
+  {
+    "id": "DN.SnS_salishbourbon",
+    "name": "DN.SnS_salishbourbon",
+    "displayName": {
+      "en": "DN.SnS_salishbourbon",
+      "zh": "萨利希波旁威士忌"
+    },
+    "description": {
+      "en": "马特奥最喜欢的饮料，产自芬群岛的一家小啤酒厂。",
+      "zh": "马特奥最喜欢的饮料，产自芬群岛的一家小啤酒厂。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 100,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 17,
+      "x": 272,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 10,
+    "isDrink": true,
+    "contextTags": [
+      "alcohol_item",
+      "color_dark_orange"
+    ]
+  },
+  {
+    "id": "DN.SnS_autumnalstew",
+    "name": "DN.SnS_autumnalstew",
+    "displayName": {
+      "en": "DN.SnS_autumnalstew",
+      "zh": "秋日炖菜"
+    },
+    "description": {
+      "en": "朴实而温暖，满载时令风味，恰似友情的温度。",
+      "zh": "朴实而温暖，满载时令风味，恰似友情的温度。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 100,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 18,
+      "x": 288,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 10,
+    "contextTags": [
+      "allergen_dairy",
+      "food_nonvegan",
+      "color_dark_orange"
+    ]
+  },
+  {
+    "id": "DN.SnS_dandeliongreens",
+    "name": "DN.SnS_dandeliongreens",
+    "displayName": {
+      "en": "DN.SnS_dandeliongreens",
+      "zh": "蒲公英炒蛋"
+    },
+    "description": {
+      "en": "几株野菜和一些鸡蛋，便能成为山野美味。",
+      "zh": "几株野菜和一些鸡蛋，便能成为山野美味。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 100,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 19,
+      "x": 304,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 10,
+    "contextTags": [
+      "allergen_dairy",
+      "allergen_egg",
+      "food_nonvegan",
+      "color_sand"
+    ]
+  },
+  {
+    "id": "DN.SnS_portfiredrakesparkler",
+    "name": "DN.SnS_portfiredrakesparkler",
+    "displayName": {
+      "en": "DN.SnS_portfiredrakesparkler",
+      "zh": "波尔特火龙饮"
+    },
+    "description": {
+      "en": "德雷克港招牌无酒精饮品，混合鲜果与气泡水。",
+      "zh": "德雷克港招牌无酒精饮品，混合鲜果与气泡水。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 100,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 20,
+      "x": 320,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 10,
+    "isDrink": true,
+    "contextTags": [
+      "color_prismatic"
+    ]
+  },
+  {
+    "id": "DN.SnS_mushroomsredsauce",
+    "name": "DN.SnS_mushroomsredsauce",
+    "displayName": {
+      "en": "DN.SnS_mushroomsredsauce",
+      "zh": "酥炸多孔菌配红酱"
+    },
+    "description": {
+      "en": "裹上面衣炸得酥脆的远古菌菇，浇上浓郁的番茄酱汁。",
+      "zh": "裹上面衣炸得酥脆的远古菌菇，浇上浓郁的番茄酱汁。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 100,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 27,
+      "x": 48,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 10,
+    "contextTags": [
+      "color_red",
+      "sns_druidicfood_item"
+    ]
+  },
+  {
+    "id": "DN.SnS_ferngreensandpineapple",
+    "name": "DN.SnS_ferngreensandpineapple",
+    "displayName": {
+      "en": "DN.SnS_ferngreensandpineapple",
+      "zh": "凤梨蕨菜烩"
+    },
+    "description": {
+      "en": "咸鲜与清甜在热炒中完美交融。",
+      "zh": "咸鲜与清甜在热炒中完美交融。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 100,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 28,
+      "x": 64,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 10,
+    "contextTags": [
+      "food_sweet",
+      "color_sand",
+      "sns_druidicfood_item"
+    ]
+  },
+  {
+    "id": "DN.SnS_ancienthuckleberryicecream",
+    "name": "DN.SnS_ancienthuckleberryicecream",
+    "displayName": {
+      "en": "DN.SnS_ancienthuckleberryicecream",
+      "zh": "古越橘冰淇淋"
+    },
+    "description": {
+      "en": "封存于冰晶中的天然甘甜，滋味超乎想象。",
+      "zh": "封存于冰晶中的天然甘甜，滋味超乎想象。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 100,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 29,
+      "x": 80,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 10,
+    "contextTags": [
+      "allergen_dairy",
+      "food_sweet",
+      "food_nonvegan",
+      "food_ice_cream",
+      "color_sand",
+      "sns_druidicfood_item"
+    ]
+  },
+  {
+    "id": "DN.SnS_lavaeelandstirfriedancientbottlegourd",
+    "name": "DN.SnS_lavaeelandstirfriedancientbottlegourd",
+    "displayName": {
+      "en": "DN.SnS_lavaeelandstirfriedancientbottlegourd",
+      "zh": "岩浆鳗鱼煨葫芦"
+    },
+    "description": {
+      "en": "酥脆外衣包裹着熔鳗与葫芦的绵软二重奏。",
+      "zh": "酥脆外衣包裹着熔鳗与葫芦的绵软二重奏。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 100,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 30,
+      "x": 96,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 10,
+    "contextTags": [
+      "color_dark_red",
+      "allergen_fish",
+      "food_seafood",
+      "food_nonvegan",
+      "sns_druidicfood_item"
+    ]
+  },
+  {
+    "id": "DN.SnS_zuzustylepizza",
+    "name": "DN.SnS_zuzustylepizza",
+    "displayName": {
+      "en": "DN.SnS_zuzustylepizza",
+      "zh": "祖祖城风味披萨"
+    },
+    "description": {
+      "en": "正宗可折叠薄饼，都市忙人的快捷午餐。",
+      "zh": "正宗可折叠薄饼，都市忙人的快捷午餐。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 100,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 46,
+      "x": 352,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 10,
+    "contextTags": [
+      "color_dark_yellow",
+      "allergen_dairy",
+      "food_nonvegan",
+      "allergen_gluten",
+      "food_party",
+      "sns_zuzufood_item"
+    ]
+  },
+  {
+    "id": "DN.SnS_zuzustylebagelwithlox",
+    "name": "DN.SnS_zuzustylebagelwithlox",
+    "displayName": {
+      "en": "DN.SnS_zuzustylebagelwithlox",
+      "zh": "祖祖城风味烟鲑贝果"
+    },
+    "description": {
+      "en": "水煮贝果夹生鲑鱼片，并覆以奶油芝士。",
+      "zh": "水煮贝果夹生鲑鱼片，并覆以奶油芝士。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 100,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 47,
+      "x": 368,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 10,
+    "contextTags": [
+      "color_dark_yellow",
+      "allergen_fish",
+      "food_seafood",
+      "food_nonvegan",
+      "allergen_dairy",
+      "allergen_gluten",
+      "sns_zuzufood_item"
+    ]
+  },
+  {
+    "id": "DN.SnS_zuzustylecheesecake",
+    "name": "DN.SnS_zuzustylecheesecake",
+    "displayName": {
+      "en": "DN.SnS_zuzustylecheesecake",
+      "zh": "祖祖城风味芝士蛋糕"
+    },
+    "description": {
+      "en": "原味芝士蛋糕，饰有一颗草莓。",
+      "zh": "原味芝士蛋糕，饰有一颗草莓。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 100,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 48,
+      "x": 0,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 10,
+    "contextTags": [
+      "color_sand",
+      "food_nonvegan",
+      "allergen_dairy",
+      "allergen_egg",
+      "food_sweet",
+      "food_bakery",
+      "sns_zuzufood_item"
+    ]
+  },
+  {
+    "id": "DN.SnS_zuzustyleclamchowder",
+    "name": "DN.SnS_zuzustyleclamchowder",
+    "displayName": {
+      "en": "DN.SnS_zuzustyleclamchowder",
+      "zh": "祖祖城风味蛤蜊浓汤"
+    },
+    "description": {
+      "en": "用蛤蜊、淀粉和蔬菜熬制，据说不如德雷克港的地道。",
+      "zh": "用蛤蜊、淀粉和蔬菜熬制，据说不如德雷克港的地道。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 100,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 49,
+      "x": 16,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 10,
+    "contextTags": [
+      "color_orange",
+      "food_nonvegan",
+      "allergen_shellfish",
+      "food_soup",
+      "food_seafood",
+      "sns_zuzufood_item"
+    ]
+  },
+  {
+    "id": "DN.SnS_ancientsweettea",
+    "name": "DN.SnS_ancientsweettea",
+    "displayName": {
+      "en": "DN.SnS_ancientsweettea",
+      "zh": "古法甜茶"
+    },
+    "description": {
+      "en": "用上古茶叶沏泡的魔法茶饮，清甜滋味令人一见倾心。",
+      "zh": "用上古茶叶沏泡的魔法茶饮，清甜滋味令人一见倾心。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 1250,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 84,
+      "x": 192,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 10,
+    "isDrink": true,
+    "contextTags": [
+      "color_green",
+      "food_sweet"
+    ]
+  },
+  {
+    "id": "DN.SnS_ScotchEgg",
+    "name": "DN.SnS_ScotchEgg",
+    "displayName": {
+      "en": "DN.SnS_ScotchEgg",
+      "zh": "苏格兰蛋"
+    },
+    "description": {
+      "en": "心蛋裹着香浓肉糜，炸至金黄酥脆。集市清晨的绝配。",
+      "zh": "心蛋裹着香浓肉糜，炸至金黄酥脆。集市清晨的绝配。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 550,
+    "sprite": {
+      "texture": "Textures/DN.SnS/VioletMoonFood",
+      "index": 1,
+      "x": 16,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_brown",
+      "food_nonvegan",
+      "allergen_egg",
+      "allergen_gluten",
+      "food_nonvegetarian",
+      "allergen_meat"
+    ]
+  },
+  {
+    "id": "DN.SnS_Steak_on_a_Stake",
+    "name": "DN.SnS_Steak_on_a_Stake",
+    "displayName": {
+      "en": "DN.SnS_Steak_on_a_Stake",
+      "zh": "串心牛排"
+    },
+    "description": {
+      "en": "虽不会穿心而过，却注定让你走心。",
+      "zh": "虽不会穿心而过，却注定让你走心。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 550,
+    "sprite": {
+      "texture": "Textures/DN.SnS/VioletMoonFood",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_brown",
+      "food_nonvegan",
+      "food_nonvegetarian",
+      "allergen_meat"
+    ]
+  },
+  {
+    "id": "DN.SnS_Fruit_Hand_Pie",
+    "name": "DN.SnS_Fruit_Hand_Pie",
+    "displayName": {
+      "en": "DN.SnS_Fruit_Hand_Pie",
+      "zh": "缤纷果馅挞"
+    },
+    "description": {
+      "en": "热腾腾的什锦水果馅料，完美一人份—独享的幸福！",
+      "zh": "热腾腾的什锦水果馅料，完美一人份—独享的幸福！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 500,
+    "sprite": {
+      "texture": "Textures/DN.SnS/VioletMoonFood",
+      "index": 3,
+      "x": 48,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_brown",
+      "food_nonvegan",
+      "allergen_gluten",
+      "allergen_egg"
+    ]
+  },
+  {
+    "id": "DN.SnS_Smoked_TurkeyLeg",
+    "name": "DN.SnS_Smoked_TurkeyLeg",
+    "displayName": {
+      "en": "DN.SnS_Smoked_TurkeyLeg",
+      "zh": "巨型烟熏火鸡腿"
+    },
+    "description": {
+      "en": "山核桃木与苹果木熏烤十二小时，皇室级别的享受！",
+      "zh": "山核桃木与苹果木熏烤十二小时，皇室级别的享受！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 550,
+    "sprite": {
+      "texture": "Textures/DN.SnS/VioletMoonFood",
+      "index": 4,
+      "x": 64,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_brown",
+      "food_nonvegan",
+      "food_nonvegetarian",
+      "allergen_meat"
+    ]
+  },
+  {
+    "id": "DN.SnS_Hand_Pressed_Apple_Cider",
+    "name": "DN.SnS_Hand_Pressed_Apple_Cider",
+    "displayName": {
+      "en": "DN.SnS_Hand_Pressed_Apple_Cider",
+      "zh": "手工压榨苹果汁"
+    },
+    "description": {
+      "en": "在凉爽的秋日里，这杯苹果汁能让你从头到脚都暖洋洋的。",
+      "zh": "在凉爽的秋日里，这杯苹果汁能让你从头到脚都暖洋洋的。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 500,
+    "sprite": {
+      "texture": "Textures/DN.SnS/VioletMoonFood",
+      "index": 2,
+      "x": 32,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "isDrink": true,
+    "contextTags": [
+      "color_brown"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Cooking_GratinVapius",
+    "name": "Lumisteria.MtVapius_Cooking_GratinVapius",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Cooking_GratinVapius",
+      "zh": "雾呜山峰烤焗"
+    },
+    "description": {
+      "en": "外酥里嫩的烤焗土豆。",
+      "zh": "外酥里嫩的烤焗土豆。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 380,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Dishes",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 80,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_dish",
+      "color_gold"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Cooking_Tourtons",
+    "name": "Lumisteria.MtVapius_Cooking_Tourtons",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Cooking_Tourtons",
+      "zh": "炸馅饼"
+    },
+    "description": {
+      "en": "用土豆泥和韭葱填充的馅饼，然后油炸而成。",
+      "zh": "用土豆泥和韭葱填充的馅饼，然后油炸而成。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 320,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Dishes",
+      "index": 1,
+      "x": 16,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 70,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_dish",
+      "color_gold"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Cooking_TroutAndMushrooms",
+    "name": "Lumisteria.MtVapius_Cooking_TroutAndMushrooms",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Cooking_TroutAndMushrooms",
+      "zh": "红点鲑蘑菇"
+    },
+    "description": {
+      "en": "加上奶油和蘑菇烹制的鱼料理。",
+      "zh": "加上奶油和蘑菇烹制的鱼料理。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 490,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Dishes",
+      "index": 2,
+      "x": 32,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 66,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_dish",
+      "mt_vapius_marketrecipe",
+      "color_white"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Cooking_CallaloSoup",
+    "name": "Lumisteria.MtVapius_Cooking_CallaloSoup",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Cooking_CallaloSoup",
+      "zh": "苋叶汤"
+    },
+    "description": {
+      "en": "一种通常用蔬菜制成的汤。此食谱使用苋菜。",
+      "zh": "一种通常用蔬菜制成的汤。此食谱使用苋菜。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 370,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Dishes",
+      "index": 3,
+      "x": 48,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 70,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_dish",
+      "color_purple",
+      "food_soup"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Cooking_Chapea",
+    "name": "Lumisteria.MtVapius_Cooking_Chapea",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Cooking_Chapea",
+      "zh": "盖汤饭"
+    },
+    "description": {
+      "en": "用米、豆子和蔬菜搭配而成的美味肉汤，是一道令人舒适又健康的菜肴。",
+      "zh": "用米、豆子和蔬菜搭配而成的美味肉汤，是一道令人舒适又健康的菜肴。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 250,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Dishes",
+      "index": 4,
+      "x": 64,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 70,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_dish",
+      "mt_vapius_marketrecipe",
+      "color_white"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Cooking_Empanadas",
+    "name": "Lumisteria.MtVapius_Cooking_Empanadas",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Cooking_Empanadas",
+      "zh": "馅卷饼"
+    },
+    "description": {
+      "en": "一道道色香味俱全的菜肴，金黄的面皮包裹着辛辣的馅料。",
+      "zh": "一道道色香味俱全的菜肴，金黄的面皮包裹着辛辣的馅料。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 240,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Dishes",
+      "index": 5,
+      "x": 80,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 66,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_dish",
+      "color_gold"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Cooking_JamPie",
+    "name": "Lumisteria.MtVapius_Cooking_JamPie",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Cooking_JamPie",
+      "zh": "果酱派"
+    },
+    "description": {
+      "en": "用果酱制作的馅饼，上头有面团条装饰。",
+      "zh": "用果酱制作的馅饼，上头有面团条装饰。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 430,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Dishes",
+      "index": 6,
+      "x": 96,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 55,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_dish",
+      "color_gold",
+      "food_bakery",
+      "food_cake",
+      "food_sweet"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Cooking_UrchinSouffle",
+    "name": "Lumisteria.MtVapius_Cooking_UrchinSouffle",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Cooking_UrchinSouffle",
+      "zh": "海胆蛋奶酥"
+    },
+    "description": {
+      "en": "柔软精美的舒芙蕾中加入黄油，增强了海胆的风味。",
+      "zh": "柔软精美的舒芙蕾中加入黄油，增强了海胆的风味。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 430,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Dishes",
+      "index": 7,
+      "x": 112,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 60,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_dish",
+      "color_gold",
+      "food_seafood"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Cooking_RyeBread",
+    "name": "Lumisteria.MtVapius_Cooking_RyeBread",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Cooking_RyeBread",
+      "zh": "黑麦面包"
+    },
+    "description": {
+      "en": "深沉而味道浓郁，适合与某些鱼和奶酪搭配着吃。",
+      "zh": "深沉而味道浓郁，适合与某些鱼和奶酪搭配着吃。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 90,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Dishes",
+      "index": 9,
+      "x": 144,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 20,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_dish",
+      "mt_vapius_marketrecipe",
+      "color_brown",
+      "food_bakery"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Cooking_TroutAndToast",
+    "name": "Lumisteria.MtVapius_Cooking_TroutAndToast",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Cooking_TroutAndToast",
+      "zh": "鳟鱼吐司"
+    },
+    "description": {
+      "en": "早餐或清淡晚餐的美味选择。",
+      "zh": "早餐或清淡晚餐的美味选择。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 200,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Dishes",
+      "index": 10,
+      "x": 160,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 46,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_dish",
+      "mt_vapius_marketrecipe",
+      "color_brown",
+      "food_toast",
+      "food_breakfast"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Cooking_EggAndToast",
+    "name": "Lumisteria.MtVapius_Cooking_EggAndToast",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Cooking_EggAndToast",
+      "zh": "鸡蛋吐司"
+    },
+    "description": {
+      "en": "吐司上涂满黄油。",
+      "zh": "吐司上涂满黄油。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 150,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Dishes",
+      "index": 11,
+      "x": 176,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 42,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_dish",
+      "mt_vapius_marketrecipe",
+      "color_brown",
+      "food_toast",
+      "food_breakfast"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Cooking_PistouSoup",
+    "name": "Lumisteria.MtVapius_Cooking_PistouSoup",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Cooking_PistouSoup",
+      "zh": "罗勒蔬菜汤"
+    },
+    "description": {
+      "en": "一碗承载着夏季风味的热汤，配上磨碎的奶酪。",
+      "zh": "一碗承载着夏季风味的热汤，配上磨碎的奶酪。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 265,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Dishes",
+      "index": 12,
+      "x": 192,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 66,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_dish",
+      "color_green",
+      "food_soup"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Cooking_PomegranateCake",
+    "name": "Lumisteria.MtVapius_Cooking_PomegranateCake",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Cooking_PomegranateCake",
+      "zh": "石榴蛋糕"
+    },
+    "description": {
+      "en": "石榴籽增添了松脆的口感。",
+      "zh": "石榴籽增添了松脆的口感。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 408,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Dishes",
+      "index": 13,
+      "x": 208,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 55,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_dish",
+      "color_pink",
+      "food_bakery",
+      "food_cake",
+      "food_sweet"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Cooking_FishCurry",
+    "name": "Lumisteria.MtVapius_Cooking_FishCurry",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Cooking_FishCurry",
+      "zh": "咖喱鱼"
+    },
+    "description": {
+      "en": "香料是由浆果带出的。",
+      "zh": "香料是由浆果带出的。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 342,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Dishes",
+      "index": 14,
+      "x": 224,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 46,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_dish",
+      "color_gold",
+      "food_spicy"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Cooking_Croissant",
+    "name": "Lumisteria.MtVapius_Cooking_Croissant",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Cooking_Croissant",
+      "zh": "羊角面包"
+    },
+    "description": {
+      "en": "一道经典的早餐。",
+      "zh": "一道经典的早餐。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 252,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Dishes",
+      "index": 15,
+      "x": 240,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 70,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_dish",
+      "mt_vapius_marketrecipe",
+      "color_gold",
+      "food_bakery",
+      "food_breakfast"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Cooking_Fougasse",
+    "name": "Lumisteria.MtVapius_Cooking_Fougasse",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Cooking_Fougasse",
+      "zh": "面具面包"
+    },
+    "description": {
+      "en": "美味的面包，配上橄榄和奶酪。",
+      "zh": "美味的面包，配上橄榄和奶酪。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 300,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Dishes",
+      "index": 16,
+      "x": 256,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 86,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_dish",
+      "mt_vapius_marketrecipe",
+      "color_gold",
+      "food_bakery"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Cooking_Quiche",
+    "name": "Lumisteria.MtVapius_Cooking_Quiche",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Cooking_Quiche",
+      "zh": "乳蛋饼"
+    },
+    "description": {
+      "en": "剩菜放进去也很好吃。",
+      "zh": "剩菜放进去也很好吃。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 490,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Dishes",
+      "index": 17,
+      "x": 272,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 93,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_dish",
+      "mt_vapius_marketrecipe",
+      "color_gold"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Cooking_CheeseFritters",
+    "name": "Lumisteria.MtVapius_Cooking_CheeseFritters",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Cooking_CheeseFritters",
+      "zh": "炸奶酪"
+    },
+    "description": {
+      "en": "甜咸皆宜，美味常伴。",
+      "zh": "甜咸皆宜，美味常伴。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 280,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Dishes",
+      "index": 18,
+      "x": 288,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 58,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_dish",
+      "mt_vapius_marketrecipe",
+      "color_gold",
+      "food_party"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Cooking_GemOrangeade",
+    "name": "Lumisteria.MtVapius_Cooking_GemOrangeade",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Cooking_GemOrangeade",
+      "zh": "宝石橙汁"
+    },
+    "description": {
+      "en": "橙汁平衡了甜味。气泡不断！",
+      "zh": "橙汁平衡了甜味。气泡不断！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 290,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Dishes",
+      "index": 19,
+      "x": 304,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 32,
+    "isDrink": true,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_dish",
+      "color_orange",
+      "food_party"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Cooking_CreamAndStrawberries",
+    "name": "Lumisteria.MtVapius_Cooking_CreamAndStrawberries",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Cooking_CreamAndStrawberries",
+      "zh": "奶油草莓"
+    },
+    "description": {
+      "en": "鲜奶油和新鲜水果。简单却美味。",
+      "zh": "鲜奶油和新鲜水果。简单却美味。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 230,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Dishes",
+      "index": 21,
+      "x": 336,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 42,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_dish",
+      "color_white",
+      "food_dessert",
+      "food_sweet"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Cooking_MangoBingsu",
+    "name": "Lumisteria.MtVapius_Cooking_MangoBingsu",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Cooking_MangoBingsu",
+      "zh": "芒果刨冰"
+    },
+    "description": {
+      "en": "刨冰、炼乳、芒果。",
+      "zh": "刨冰、炼乳、芒果。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 366,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Dishes",
+      "index": 22,
+      "x": 352,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 42,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_dish",
+      "color_white",
+      "food_dessert",
+      "food_sweet"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Cooking_Revoltillo",
+    "name": "Lumisteria.MtVapius_Cooking_Revoltillo",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Cooking_Revoltillo",
+      "zh": "杂蔬炒蛋"
+    },
+    "description": {
+      "en": "一盘炒蛋。这个版本用蘑菇做了小料。",
+      "zh": "一盘炒蛋。这个版本用蘑菇做了小料。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 366,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Dishes",
+      "index": 23,
+      "x": 368,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 42,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_dish",
+      "color_white",
+      "food_dessert",
+      "food_sweet"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Cooking_TomatoSalad",
+    "name": "Lumisteria.MtVapius_Cooking_TomatoSalad",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Cooking_TomatoSalad",
+      "zh": "番茄沙拉"
+    },
+    "description": {
+      "en": "夏日里的清爽沙拉。",
+      "zh": "夏日里的清爽沙拉。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 250,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Dishes",
+      "index": 24,
+      "x": 0,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 48,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_dish",
+      "color_red",
+      "food_salad"
+    ]
+  },
+  {
+    "id": "Squeaks.MGC.CP_StarMiasmaCookies",
+    "name": "Squeaks.MGC.CP_StarMiasmaCookies",
+    "displayName": {
+      "en": "Squeaks.MGC.CP_StarMiasmaCookies",
+      "zh": "星瘴曲奇"
+    },
+    "description": {
+      "en": "莉瓦妮最爱的零食。",
+      "zh": "莉瓦妮最爱的零食。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 700,
+    "sprite": {
+      "texture": "Mods/Squeaks.MGC.CP/Objects",
+      "index": 12,
+      "x": 192,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 15,
+    "contextTags": [
+      "trash_bear_ignore"
+    ]
+  },
+  {
+    "id": "Squeaks.MGC.CP_VoidMelonSoda",
+    "name": "Squeaks.MGC.CP_VoidMelonSoda",
+    "displayName": {
+      "en": "Squeaks.MGC.CP_VoidMelonSoda",
+      "zh": "虚空甜瓜苏打水"
+    },
+    "description": {
+      "en": "尝起来甜甜的……还带点原始的味道？",
+      "zh": "尝起来甜甜的……还带点原始的味道？"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 125,
+    "sprite": {
+      "texture": "Mods/Squeaks.MGC.CP/Objects",
+      "index": 15,
+      "x": 240,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 30,
+    "isDrink": true,
+    "contextTags": [
+      "color_purple",
+      "drink_item",
+      "trash_bear_ignore"
+    ]
+  },
+  {
+    "id": "Bagi.Nora_PickledCornDog",
+    "name": "Bagi.Nora_PickledCornDog",
+    "displayName": {
+      "en": "Bagi.Nora_PickledCornDog",
+      "zh": "腌黄瓜玉米热狗"
+    },
+    "description": {
+      "en": "以顺滑面糊均匀裹覆酸黄瓜，再放入滚烫热油中炸制而成。",
+      "zh": "以顺滑面糊均匀裹覆酸黄瓜，再放入滚烫热油中炸制而成。"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 120,
+    "sprite": {
+      "texture": "Mods/BagiNoraCP/FoodAdjacent",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_brown",
+      "food_nonvegan",
+      "allergen_dairy",
+      "allergen_gluten"
+    ]
+  },
+  {
+    "id": "Bagi.Nora_SpicyPizza",
+    "name": "Bagi.Nora_SpicyPizza",
+    "displayName": {
+      "en": "Bagi.Nora_SpicyPizza",
+      "zh": "香辣披萨"
+    },
+    "description": {
+      "en": "饼底和普通披萨一致，搭配辣椒作为配料，辣度十足！",
+      "zh": "饼底和普通披萨一致，搭配辣椒作为配料，辣度十足！"
+    },
+    "type": "Cooking",
+    "category": -7,
+    "price": 120,
+    "sprite": {
+      "texture": "Mods/BagiNoraCP/FoodAdjacent",
+      "index": 1,
+      "x": 16,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_yellow_red",
+      "food_nonvegan",
+      "allergen_dairy",
+      "allergen_gluten"
+    ]
+  }
+]

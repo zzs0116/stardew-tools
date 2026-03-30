@@ -1,0 +1,831 @@
+[
+  {
+    "id": "MNF.MoreNewFish_duff",
+    "name": "MNF.MoreNewFish_duff",
+    "displayName": {
+      "en": "MNF.MoreNewFish_duff",
+      "zh": "达夫酒"
+    },
+    "description": {
+      "en": "一种优质啤酒，通常在星露谷中找不到。",
+      "zh": "一种优质啤酒，通常在星露谷中找不到。"
+    },
+    "type": "ArtisanGoods",
+    "category": -26,
+    "price": 500,
+    "sprite": {
+      "texture": "Mods/MNF.MoreNewFish/Objects/Objects",
+      "index": 140,
+      "x": 320,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 25,
+    "isDrink": true,
+    "contextTags": [
+      "alcohol_item",
+      "color_yellow"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine",
+    "name": "Aged Blue Moon Wine",
+    "displayName": {
+      "en": "Aged Blue Moon Wine",
+      "zh": "陈酿蓝月亮葡萄酒"
+    },
+    "description": {
+      "en": "来自蓝月亮葡萄园的索菲娅手工酿造的铱星陈酿。这真是个完美的礼物！",
+      "zh": "来自蓝月亮葡萄园的索菲娅手工酿造的铱星陈酿。这真是个完美的礼物！"
+    },
+    "type": "ArtisanGoods",
+    "category": -26,
+    "price": 10000,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Aged Blue Moon Wine",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 100,
+    "isDrink": true,
+    "contextTags": [
+      "color_blue",
+      "alcohol_item"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Blue_Moon_Wine",
+    "name": "Blue Moon Wine",
+    "displayName": {
+      "en": "Blue Moon Wine",
+      "zh": "蓝月亮葡萄酒"
+    },
+    "description": {
+      "en": "来自蓝月亮葡萄园的索菲娅手工葡萄酒。",
+      "zh": "来自蓝月亮葡萄园的索菲娅手工葡萄酒。"
+    },
+    "type": "ArtisanGoods",
+    "category": -26,
+    "price": 700,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Blue Moon Wine",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 10,
+    "isDrink": true,
+    "contextTags": [
+      "color_blue",
+      "alcohol_item"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Sports_Drink",
+    "name": "Sports Drink",
+    "displayName": {
+      "en": "Sports Drink",
+      "zh": "运动饮料"
+    },
+    "description": {
+      "en": "一种富含电解质的清爽饮料。",
+      "zh": "一种富含电解质的清爽饮料。"
+    },
+    "type": "ArtisanGoods",
+    "category": -26,
+    "price": 300,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Sports Drink",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 60,
+    "isDrink": true
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Stamina_Capsule",
+    "name": "Stamina Capsule",
+    "displayName": {
+      "en": "Stamina Capsule",
+      "zh": "体力胶囊"
+    },
+    "description": {
+      "en": "服用后刺激身体。效果会持续一整天。",
+      "zh": "服用后刺激身体。效果会持续一整天。"
+    },
+    "type": "ArtisanGoods",
+    "category": -26,
+    "price": 1000,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Stamina Capsule",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 4
+  },
+  {
+    "id": "skellady.SBVCP_GenericPotion",
+    "name": "skellady.SBVCP_GenericPotion",
+    "displayName": {
+      "en": "skellady.SBVCP_GenericPotion",
+      "zh": "药水"
+    },
+    "description": {
+      "en": "这种药水可能没什么大用，但至少看起来挺漂亮。",
+      "zh": "这种药水可能没什么大用，但至少看起来挺漂亮。"
+    },
+    "type": "ArtisanGoods",
+    "category": -26,
+    "price": 200,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/GenericObjects",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "isDrink": true
+  },
+  {
+    "id": "skellady.SBVCP_GenericPowder",
+    "name": "skellady.SBVCP_GenericPowder",
+    "displayName": {
+      "en": "skellady.SBVCP_GenericPowder",
+      "zh": "宝石粉"
+    },
+    "description": {
+      "en": "一种用于药水酿造的精细宝石粉末。",
+      "zh": "一种用于药水酿造的精细宝石粉末。"
+    },
+    "type": "ArtisanGoods",
+    "category": -26,
+    "price": 100,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/GenericObjects",
+      "index": 2,
+      "x": 32,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "skellady.SBVCP_SerpentinePotion",
+    "name": "skellady.SBVCP_SerpentinePotion",
+    "displayName": {
+      "en": "skellady.SBVCP_SerpentinePotion",
+      "zh": "蛇纹石药水"
+    },
+    "description": {
+      "en": "泛着微光的绿色液体，散发清新气息。味道应该不会比法师的药剂还难喝吧……？",
+      "zh": "泛着微光的绿色液体，散发清新气息。味道应该不会比法师的药剂还难喝吧……？"
+    },
+    "type": "ArtisanGoods",
+    "category": -26,
+    "price": 260,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/MiscItems",
+      "index": 1,
+      "x": 16,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "isDrink": true,
+    "contextTags": [
+      "potion_item"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_PurpuritePotion",
+    "name": "skellady.SBVCP_PurpuritePotion",
+    "displayName": {
+      "en": "skellady.SBVCP_PurpuritePotion",
+      "zh": "紫磷铁锰药水"
+    },
+    "description": {
+      "en": "闪烁着微光的紫色液体，隐约能闻到一丝薰衣草香。",
+      "zh": "闪烁着微光的紫色液体，隐约能闻到一丝薰衣草香。"
+    },
+    "type": "ArtisanGoods",
+    "category": -26,
+    "price": 240,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/MiscItems",
+      "index": 2,
+      "x": 32,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "isDrink": true,
+    "contextTags": [
+      "potion_item"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_AnnabergitePotion",
+    "name": "skellady.SBVCP_AnnabergitePotion",
+    "displayName": {
+      "en": "skellady.SBVCP_AnnabergitePotion",
+      "zh": "镍华药水"
+    },
+    "description": {
+      "en": "这瓶药水散发着海洋的气息，莫名让人感到安心。",
+      "zh": "这瓶药水散发着海洋的气息，莫名让人感到安心。"
+    },
+    "type": "ArtisanGoods",
+    "category": -26,
+    "price": 300,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/MiscItems",
+      "index": 3,
+      "x": 48,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "isDrink": true,
+    "contextTags": [
+      "potion_item"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_CitrinePotion",
+    "name": "skellady.SBVCP_CitrinePotion",
+    "displayName": {
+      "en": "skellady.SBVCP_CitrinePotion",
+      "zh": "黄水晶药水"
+    },
+    "description": {
+      "en": "一瓶金黄色的液体，你忍不住猜想尝起来是否会有柑橘的味道。",
+      "zh": "一瓶金黄色的液体，你忍不住猜想尝起来是否会有柑橘的味道。"
+    },
+    "type": "ArtisanGoods",
+    "category": -26,
+    "price": 240,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/MiscItems",
+      "index": 4,
+      "x": 64,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "isDrink": true,
+    "contextTags": [
+      "potion_item"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_BlueAuraQuartzPotion",
+    "name": "skellady.SBVCP_BlueAuraQuartzPotion",
+    "displayName": {
+      "en": "skellady.SBVCP_BlueAuraQuartzPotion",
+      "zh": "蓝辉石英药水"
+    },
+    "description": {
+      "en": "液体的色泽令人着迷，肯定不会像法师的药剂那么难喝……吧？",
+      "zh": "液体的色泽令人着迷，肯定不会像法师的药剂那么难喝……吧？"
+    },
+    "type": "ArtisanGoods",
+    "category": -26,
+    "price": 400,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/MiscItems",
+      "index": 5,
+      "x": 80,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "isDrink": true,
+    "contextTags": [
+      "potion_item"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_MoonberryPotion",
+    "name": "skellady.SBVCP_MoonberryPotion",
+    "displayName": {
+      "en": "skellady.SBVCP_MoonberryPotion",
+      "zh": "月莓药水"
+    },
+    "description": {
+      "en": "泛着微光的液体，闻起来居然像棉花糖！",
+      "zh": "泛着微光的液体，闻起来居然像棉花糖！"
+    },
+    "type": "ArtisanGoods",
+    "category": -26,
+    "price": 100,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/MiscItems",
+      "index": 6,
+      "x": 96,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "isDrink": true,
+    "contextTags": [
+      "potion_item"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_DolomitePotion",
+    "name": "skellady.SBVCP_DolomitePotion",
+    "displayName": {
+      "en": "skellady.SBVCP_DolomitePotion",
+      "zh": "白云石药水"
+    },
+    "description": {
+      "en": "闪烁着微光的粉色液体，闻起来咸咸的。",
+      "zh": "闪烁着微光的粉色液体，闻起来咸咸的。"
+    },
+    "type": "ArtisanGoods",
+    "category": -26,
+    "price": 600,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/MiscItems",
+      "index": 7,
+      "x": 112,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "isDrink": true,
+    "contextTags": [
+      "potion_item"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_TigerseyePotion",
+    "name": "skellady.SBVCP_TigerseyePotion",
+    "displayName": {
+      "en": "skellady.SBVCP_TigerseyePotion",
+      "zh": "虎眼石药水"
+    },
+    "description": {
+      "en": "闪闪发亮的橙色液体，握在手中便让人充满力量。",
+      "zh": "闪闪发亮的橙色液体，握在手中便让人充满力量。"
+    },
+    "type": "ArtisanGoods",
+    "category": -26,
+    "price": 550,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/MiscItems",
+      "index": 8,
+      "x": 128,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "isDrink": true,
+    "contextTags": [
+      "potion_item"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_LunaritePotion",
+    "name": "skellady.SBVCP_LunaritePotion",
+    "displayName": {
+      "en": "skellady.SBVCP_LunaritePotion",
+      "zh": "酸性月岩药水"
+    },
+    "description": {
+      "en": "半透明液体，闻起来毫无气味，却让人感到安心。",
+      "zh": "半透明液体，闻起来毫无气味，却让人感到安心。"
+    },
+    "type": "ArtisanGoods",
+    "category": -26,
+    "price": 400,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/MiscItems",
+      "index": 9,
+      "x": 144,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "isDrink": true,
+    "contextTags": [
+      "potion_item"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_FairyStonePotion",
+    "name": "skellady.SBVCP_FairyStonePotion",
+    "displayName": {
+      "en": "skellady.SBVCP_FairyStonePotion",
+      "zh": "精灵石药水"
+    },
+    "description": {
+      "en": "晃动着的深紫色液体。你不太确定是否该喝下这瓶用古老精灵骨头酿制的药剂。",
+      "zh": "晃动着的深紫色液体。你不太确定是否该喝下这瓶用古老精灵骨头酿制的药剂。"
+    },
+    "type": "ArtisanGoods",
+    "category": -26,
+    "price": 500,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/MiscItems",
+      "index": 10,
+      "x": 160,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "isDrink": true,
+    "contextTags": [
+      "potion_item"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_SerpentinePowder",
+    "name": "skellady.SBVCP_SerpentinePowder",
+    "displayName": {
+      "en": "skellady.SBVCP_SerpentinePowder",
+      "zh": "蛇纹石粉"
+    },
+    "description": {
+      "en": "一种用于药水酿造的精细宝石粉末。",
+      "zh": "一种用于药水酿造的精细宝石粉末。"
+    },
+    "type": "ArtisanGoods",
+    "category": -26,
+    "price": 170,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/MiscItems",
+      "index": 11,
+      "x": 176,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "skellady.SBVCP_PurpuritePowder",
+    "name": "skellady.SBVCP_PurpuritePowder",
+    "displayName": {
+      "en": "skellady.SBVCP_PurpuritePowder",
+      "zh": "紫磷铁锰粉"
+    },
+    "description": {
+      "en": "一种用于药水酿造的精细宝石粉末。",
+      "zh": "一种用于药水酿造的精细宝石粉末。"
+    },
+    "type": "ArtisanGoods",
+    "category": -26,
+    "price": 170,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/MiscItems",
+      "index": 12,
+      "x": 192,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "skellady.SBVCP_AnnabergitePowder",
+    "name": "skellady.SBVCP_AnnabergitePowder",
+    "displayName": {
+      "en": "skellady.SBVCP_AnnabergitePowder",
+      "zh": "镍华粉"
+    },
+    "description": {
+      "en": "一种用于药水酿造的精细宝石粉末。",
+      "zh": "一种用于药水酿造的精细宝石粉末。"
+    },
+    "type": "ArtisanGoods",
+    "category": -26,
+    "price": 190,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/MiscItems",
+      "index": 13,
+      "x": 208,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "skellady.SBVCP_CitrinePowder",
+    "name": "skellady.SBVCP_CitrinePowder",
+    "displayName": {
+      "en": "skellady.SBVCP_CitrinePowder",
+      "zh": "黄水晶粉"
+    },
+    "description": {
+      "en": "一种用于药水酿造的精细宝石粉末。",
+      "zh": "一种用于药水酿造的精细宝石粉末。"
+    },
+    "type": "ArtisanGoods",
+    "category": -26,
+    "price": 160,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/MiscItems",
+      "index": 14,
+      "x": 224,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "skellady.SBVCP_BlueAuraQuartzPowder",
+    "name": "skellady.SBVCP_BlueAuraQuartzPowder",
+    "displayName": {
+      "en": "skellady.SBVCP_BlueAuraQuartzPowder",
+      "zh": "蓝辉石英粉"
+    },
+    "description": {
+      "en": "一种用于药水酿造的精细宝石粉末。",
+      "zh": "一种用于药水酿造的精细宝石粉末。"
+    },
+    "type": "ArtisanGoods",
+    "category": -26,
+    "price": 240,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/MiscItems",
+      "index": 15,
+      "x": 240,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "skellady.SBVCP_MoonberryPowder",
+    "name": "skellady.SBVCP_MoonberryPowder",
+    "displayName": {
+      "en": "skellady.SBVCP_MoonberryPowder",
+      "zh": "月莓粉"
+    },
+    "description": {
+      "en": "一种用于药水酿造的精细宝石粉末。",
+      "zh": "一种用于药水酿造的精细宝石粉末。"
+    },
+    "type": "ArtisanGoods",
+    "category": -26,
+    "price": 90,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/MiscItems",
+      "index": 16,
+      "x": 256,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "skellady.SBVCP_DolomitePowder",
+    "name": "skellady.SBVCP_DolomitePowder",
+    "displayName": {
+      "en": "skellady.SBVCP_DolomitePowder",
+      "zh": "白云石粉"
+    },
+    "description": {
+      "en": "一种用于药水酿造的精细宝石粉末。",
+      "zh": "一种用于药水酿造的精细宝石粉末。"
+    },
+    "type": "ArtisanGoods",
+    "category": -26,
+    "price": 340,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/MiscItems",
+      "index": 17,
+      "x": 272,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "skellady.SBVCP_TigerseyePowder",
+    "name": "skellady.SBVCP_TigerseyePowder",
+    "displayName": {
+      "en": "skellady.SBVCP_TigerseyePowder",
+      "zh": "虎眼石粉"
+    },
+    "description": {
+      "en": "一种用于药水酿造的精细宝石粉末。",
+      "zh": "一种用于药水酿造的精细宝石粉末。"
+    },
+    "type": "ArtisanGoods",
+    "category": -26,
+    "price": 310,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/MiscItems",
+      "index": 18,
+      "x": 288,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "skellady.SBVCP_LunaritePowder",
+    "name": "skellady.SBVCP_LunaritePowder",
+    "displayName": {
+      "en": "skellady.SBVCP_LunaritePowder",
+      "zh": "酸性月岩粉"
+    },
+    "description": {
+      "en": "一种用于药水酿造的精细宝石粉末。",
+      "zh": "一种用于药水酿造的精细宝石粉末。"
+    },
+    "type": "ArtisanGoods",
+    "category": -26,
+    "price": 240,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/MiscItems",
+      "index": 19,
+      "x": 304,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "skellady.SBVCP_FairyStonePowder",
+    "name": "skellady.SBVCP_FairyStonePowder",
+    "displayName": {
+      "en": "skellady.SBVCP_FairyStonePowder",
+      "zh": "精灵石粉"
+    },
+    "description": {
+      "en": "一种用于药水酿造的精细宝石粉末。",
+      "zh": "一种用于药水酿造的精细宝石粉末。"
+    },
+    "type": "ArtisanGoods",
+    "category": -26,
+    "price": 290,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/MiscItems",
+      "index": 20,
+      "x": 320,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "skellady.SBVCP_LunarBeanPowder",
+    "name": "skellady.SBVCP_LunarBeanPowder",
+    "displayName": {
+      "en": "skellady.SBVCP_LunarBeanPowder",
+      "zh": "月豆粉"
+    },
+    "description": {
+      "en": "一种用于药水酿造的精细宝石粉末。",
+      "zh": "一种用于药水酿造的精细宝石粉末。"
+    },
+    "type": "ArtisanGoods",
+    "category": -26,
+    "price": 290,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/MiscItems",
+      "index": 32,
+      "x": 128,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "skellady.SBVCP_LunarBeanPotion",
+    "name": "skellady.SBVCP_LunarBeanPotion",
+    "displayName": {
+      "en": "skellady.SBVCP_LunarBeanPotion",
+      "zh": "月豆药水"
+    },
+    "description": {
+      "en": "闪闪发光的液体，闻起来香甜诱人！让人感觉自己成了世上最幸运的人。",
+      "zh": "闪闪发光的液体，闻起来香甜诱人！让人感觉自己成了世上最幸运的人。"
+    },
+    "type": "ArtisanGoods",
+    "category": -26,
+    "price": 260,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/MiscItems",
+      "index": 31,
+      "x": 112,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "isDrink": true,
+    "contextTags": [
+      "potion_item"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_LunarBeanJuice",
+    "name": "skellady.SBVCP_LunarBeanJuice",
+    "displayName": {
+      "en": "skellady.SBVCP_LunarBeanJuice",
+      "zh": "月豆汁"
+    },
+    "description": {
+      "en": "用月豆制成的美味饮品，散发着棉花糖般的香气。",
+      "zh": "用月豆制成的美味饮品，散发着棉花糖般的香气。"
+    },
+    "type": "ArtisanGoods",
+    "category": -26,
+    "price": 450,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/MiscItems",
+      "index": 30,
+      "x": 96,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 30,
+    "isDrink": true,
+    "contextTags": [
+      "drink_item",
+      "juice_item"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_MarigoldTea",
+    "name": "skellady.SBVCP_MarigoldTea",
+    "displayName": {
+      "en": "skellady.SBVCP_MarigoldTea",
+      "zh": "万寿菊茶"
+    },
+    "description": {
+      "en": "用万寿菊花瓣制成的温暖舒心饮品。",
+      "zh": "用万寿菊花瓣制成的温暖舒心饮品。"
+    },
+    "type": "ArtisanGoods",
+    "category": -26,
+    "price": 100,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/MiscItems",
+      "index": 33,
+      "x": 144,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 30,
+    "isDrink": true,
+    "contextTags": [
+      "drink_item",
+      "tea_item"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Party_Invitation",
+    "name": "Wildflour.SASS_Party_Invitation",
+    "displayName": {
+      "en": "Wildflour.SASS_Party_Invitation",
+      "zh": "派对邀请函"
+    },
+    "description": {
+      "en": "一份为萝丝派对准备的保密邀请函。",
+      "zh": "一份为萝丝派对准备的保密邀请函。"
+    },
+    "type": "ArtisanGoods",
+    "category": -27,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 111,
+      "x": 240,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "party_invite_item"
+    ]
+  }
+]

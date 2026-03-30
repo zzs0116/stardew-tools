@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>星露谷鱼类图鉴 | Stardew Fish Guide</title>
+
+  <!-- Import Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&family=Noto+Sans+SC:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-color: #8bb0c0;
+      --wood-dark: #5c3c26;
+      --wood-mid: #85583b;
+      --wood-light: #a47050;
+      --paper-bg: #fffbf0;
+      --paper-border: #d4cba8;
+      --text-main: #4a3627;
+      --accent-blue: #407fa7;
+      --accent-green: #6a9e38;
+      --accent-red: #c94a3d;
+      --shadow: rgba(68, 45, 30, 0.25);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Noto Sans SC', sans-serif;
+      background-color: var(--bg-color);
+      background-image:
+        linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 75%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0.1)),
+        linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 75%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0.1));
+      background-size: 40px 40px;
+      background-position: 0 0, 20px 20px;
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Main Container - The "Bulletin Board" */
+    .container {
+      width: 100%;
+      max-width: 1100px;
+      margin: 40px 20px;
+      background: var(--wood-mid);
+      border: 8px solid var(--wood-dark);
+      border-radius: 16px;
+      box-shadow:
+        inset 0 0 0 4px var(--wood-light),
+        0 20px 40px rgba(0, 0, 0, 0.3);
+      position: relative;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      min-height: 80vh;
+    }
+
+    /* Nail decoration */
+    .nail {
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      background: #3e2723;
+      border-radius: 50%;
+      box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.3), 2px 2px 4px rgba(0, 0, 0, 0.4);
+      z-index: 10;
+    }
+
+    .nail.tl {
+      top: 12px;
+      left: 12px;
+    }
+
+    .nail.tr {
+      top: 12px;
+      right: 12px;
+    }
+
+    .nail.bl {
+      bottom: 12px;
+      left: 12px;
+    }
+
+    .nail.br {
+      bottom: 12px;
+      right: 12px;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+      background: var(--paper-bg);
+      border: 2px solid var(--paper-border);
+      border-radius: 4px;
+      box-shadow: 0 4px 8px var(--shadow);
+      margin: 20px auto;
+      position: relative;
+      transform: rotate(-1deg);
+      max-width: 800px;
+      width: 100%;
+    }
+
+    .tape {
+      position: absolute;
+      top: -15px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 120px;
+      height: 30px;
+      background: rgba(255, 255, 255, 0.4);
+      border-left: 1px dashed rgba(0, 0, 0, 0.1);
+      border-right: 1px dashed rgba(0, 0, 0, 0.1);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      margin: 0;
+      font-family: 'ZCOOL KuaiLe', cursive;
+      font-size: 36px;
+      color: var(--wood-dark);
+      text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Controls Area */
+    .controls {
+      background: var(--paper-bg);
+      border: 2px dashed var(--wood-light);
+      border-radius: 8px;
+      padding: 20px;
+      max-width: 900px;
+      margin: 0 auto 10px;
+      width: 100%;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+      position: relative;
+    }
+
+    .controls::after {
+      content: '🎣';
+      position: absolute;
+      top: -15px;
+      right: 20px;
+      font-size: 24px;
+      transform: rotate(15deg);
+    }
+
+    #searchBox {
+      width: 100%;
+      padding: 14px 18px;
+      border: 2px solid var(--paper-border);
+      border-radius: 8px;
+      font-size: 16px;
+      font-family: 'Noto Sans SC', sans-serif;
+      margin-bottom: 16px;
+      background: #fff;
+      color: var(--text-main);
+    }
+
+    #searchBox:focus {
+      outline: none;
+      border-color: var(--accent-blue);
+      box-shadow: 0 0 0 3px rgba(64, 127, 167, 0.2);
+    }
+
+    .filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      justify-content: center;
+    }
+
+    .filter-group {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      font-size: 14px;
+      font-weight: bold;
+      color: var(--wood-dark);
+    }
+
+    .filter-group select {
+      padding: 8px 12px;
+      border: 2px solid var(--paper-border);
+      border-radius: 6px;
+      background: #fff;
+      color: var(--text-main);
+      cursor: pointer;
+      font-family: inherit;
+    }
+
+    .status-line {
+      text-align: center;
+      color: var(--paper-bg);
+      /* Use light color against wood */
+      font-weight: bold;
+      margin-bottom: 10px;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Results Grid - Masonry layout using CSS Columns */
+    #results {
+      column-width: 320px;
+      column-gap: 20px;
+      padding-bottom: 40px;
+      display: block;
+    }
+
+    /* Fish Card */
+    .sv-card.fish-card {
+      background: #fff;
+      border: 4px solid var(--wood-dark);
+      border-radius: 8px;
+      padding: 16px;
+      position: relative;
+      transition: transform 0.2s;
+      box-shadow: 0 4px 0 rgba(0, 0, 0, 0.2);
+      display: flex;
+      flex-direction: column;
+
+      /* Ensure cards don't split across columns and have vertical spacing */
+      break-inside: avoid;
+      margin-bottom: 20px;
+      height: auto;
+    }
+
+    .sv-card.fish-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .sv-card .title-line {
+      /* display: flex; */
+      /* Remove flex layout */
+      /* align-items: center; */
+      /* gap: 12px; */
+      padding-bottom: 12px;
+      border-bottom: 2px dashed var(--paper-border);
+      margin-bottom: 12px;
+      margin-left: 64px;
+      /* Space for absolute image (48px + 16px gap) */
+      min-height: 48px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .sv-card .thumb {
+      position: absolute;
+      top: 16px;
+      left: 16px;
+      width: 48px;
+      height: 48px;
+      image-rendering: pixelated;
+      background: rgba(0, 0, 0, 0.05);
+      border-radius: 4px;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    /* Legendary Tag */
+    .legendary-tag {
+      position: absolute;
+      top: -12px;
+      right: -12px;
+      background: linear-gradient(135deg, #ffd700, #ffaa00);
+      color: #fff;
+      font-family: 'ZCOOL KuaiLe', cursive;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 14px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 0 0 0 2px #fff;
+      transform: rotate(5deg);
+      z-index: 5;
+      border: 2px solid #b8860b;
+      text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .sv-card.legendary {
+      border-color: #ffd700;
+      box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+    }
+
+    .sv-card h2 {
+      margin: 0;
+      font-family: 'ZCOOL KuaiLe', cursive;
+      font-size: 22px;
+      color: var(--accent-blue);
+    }
+
+    .sv-card .desc {
+      font-size: 14px;
+      color: #666;
+      font-style: italic;
+      margin-bottom: 16px;
+      line-height: 1.4;
+    }
+
+    /* Info Grid inside Card */
+    .info-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      /* margin-top: auto; Removed to prevent internal gap if card stretches */
+    }
+
+    .info-item {
+      background: var(--paper-bg);
+      border: 1px solid var(--paper-border);
+      border-radius: 6px;
+      padding: 8px;
+    }
+
+    .info-label {
+      font-size: 12px;
+      color: var(--wood-light);
+      font-weight: bold;
+      margin-bottom: 2px;
+      text-transform: uppercase;
+    }
+
+    .info-value {
+      font-size: 14px;
+      color: var(--text-main);
+      font-weight: 500;
+    }
+
+    /* Price Styles */
+    .price-list {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .price-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .price-row img {
+      width: 18px;
+      height: 18px;
+      image-rendering: pixelated;
+    }
+
+    /* Chips */
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+
+    .chip {
+      padding: 2px 8px;
+      border-radius: 12px;
+      font-size: 12px;
+      font-weight: bold;
+      border: 1px solid transparent;
+    }
+
+    /* Seasonal Chips */
+    .chip.season-spring {
+      background: #e6f4ea;
+      color: #1e8e3e;
+      border-color: #ceead6;
+    }
+
+    .chip.season-summer {
+      background: #fce8e6;
+      color: #d93025;
+      border-color: #fad2cf;
+    }
+
+    .chip.season-fall {
+      background: #feefc3;
+      color: #e37400;
+      border-color: #fec;
+    }
+
+    .chip.season-winter {
+      background: #e8f0fe;
+      color: #1967d2;
+      border-color: #d2e3fc;
+    }
+
+    /* Default chip style if not seasonal */
+    .chip {
+      background: #f1f3f4;
+      color: #5f6368;
+      border-color: #dadce0;
+    }
+
+    /* Home Button */
+    .home-btn {
+      position: absolute;
+      top: 24px;
+      left: 24px;
+      background: var(--accent-green);
+      color: white;
+      text-decoration: none;
+      padding: 8px 16px;
+      border-radius: 8px;
+      font-weight: bold;
+      border: 2px solid #4a7729;
+      box-shadow: 0 4px 0 #4a7729;
+      z-index: 100;
+      font-family: 'ZCOOL KuaiLe', cursive;
+      transition: all 0.1s;
+      font-size: 16px;
+    }
+
+    .home-btn:hover {
+      background: #7cb342;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 0 #4a7729;
+    }
+
+    .home-btn:active {
+      transform: translateY(2px);
+      box-shadow: 0 0 0 #4a7729;
+    }
+
+    @media (max-width: 800px) {
+      .home-btn {
+        position: relative;
+        top: 0;
+        left: 0;
+        display: inline-block;
+        margin-bottom: 10px;
+        width: 100%;
+        text-align: center;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        margin: 10px;
+        padding: 10px;
+        width: auto;
+        border-width: 4px;
+      }
+
+      header h1 {
+        font-size: 28px;
+      }
+
+      .filter-bar {
+        flex-direction: column;
+        align-items: stretch;
+      }
+    }
+
+    /* 返回顶部按钮样式 */
+    #backToTop {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      width: 50px;
+      height: 50px;
+      background: #68CAF2;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 24px;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 8px var(--shadow);
+      transition: all 0.3s ease;
+      z-index: 1000;
+      font-weight: bold;
+    }
+
+    #backToTop:hover {
+      background: #4BAED8;
+      transform: translateY(-4px);
+      box-shadow: 0 6px 12px var(--shadow);
+    }
+
+    #backToTop:active {
+      transform: translateY(-2px);
+      box-shadow: 0 2px 4px var(--shadow);
+    }
+
+    #backToTop.show {
+      display: flex;
+      animation: fadeIn 0.3s ease;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 600px) {
+      #backToTop {
+        width: 45px;
+        height: 45px;
+        bottom: 20px;
+        right: 20px;
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="nail tl"></div>
+    <div class="nail tr"></div>
+    <div class="nail bl"></div>
+    <div class="nail br"></div>
+
+    <header>
+      <div class="tape"></div>
+      <a href="../index.html" class="home-btn">🏡 返回主页</a>
+      <h1>🐟 星露谷鱼类图鉴</h1>
+    </header>
+
+    <div class="controls">
+      <input id="searchBox" type="search" autocomplete="off" placeholder="🔍 搜索鱼名、地点、季节、天气..." />
+
+      <div class="filter-bar">
+        <label class="filter-group">
+          <span>天气</span>
+          <select id="weatherFilter">
+            <option value="">☁️ 全部天气</option>
+          </select>
+        </label>
+        <label class="filter-group">
+          <span>季节</span>
+          <select id="seasonFilter">
+            <option value="">📅 全部季节</option>
+          </select>
+        </label>
+        <label class="filter-group">
+          <span>来源</span>
+          <select id="sourceFilter">
+            <option value="">📍 全部来源</option>
+          </select>
+        </label>
+      </div>
+    </div>
+
+    <div id="status" class="status-line">正在从威利的小屋获取数据...</div>
+    <div id="results"></div>
+  </div>
+
+  <!-- 返回顶部按钮 -->
+  <button id="backToTop" title="返回顶部">
+    <img src="../data/arrow_up.png" alt="返回顶部" style="width: 100%; height: 100%; object-fit: contain;">
+  </button>
+
+  <script type="module" src="./fish.js"></script>
+
+  <!-- 返回顶部按钮功能 -->
+  <script>
+    const backToTopBtn = document.getElementById('backToTop');
+
+    // 监听滚动事件
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > 300) {
+        backToTopBtn.classList.add('show');
+      } else {
+        backToTopBtn.classList.remove('show');
+      }
+    });
+
+    // 点击按钮回到顶部
+    backToTopBtn.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  </script>
+</body>
+
+</html>

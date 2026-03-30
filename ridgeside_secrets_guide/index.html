@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>里奇赛德解谜与任务攻略 | Ridgeside Secrets Guide</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&family=Noto+Sans+SC:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-color: #8bb0c0;
+      --wood-dark: #5c3c26;
+      --wood-mid: #85583b;
+      --wood-light: #a47050;
+      --paper-bg: #fffbf0;
+      --paper-border: #d4cba8;
+      --text-main: #4a3627;
+      --accent-blue: #407fa7;
+      --accent-green: #6a9e38;
+      --accent-red: #c94a3d;
+      --shadow: rgba(68, 45, 30, 0.25);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Noto Sans SC', sans-serif;
+      background-color: var(--bg-color);
+      background-image:
+        linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 75%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0.1)),
+        linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 75%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0.1));
+      background-size: 40px 40px;
+      background-position: 0 0, 20px 20px;
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1040px;
+      margin: 40px 20px;
+      background: var(--wood-mid);
+      border: 8px solid var(--wood-dark);
+      border-radius: 16px;
+      box-shadow:
+        inset 0 0 0 4px var(--wood-light),
+        0 20px 40px rgba(0, 0, 0, 0.3);
+      position: relative;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .nail {
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      background: #3e2723;
+      border-radius: 50%;
+      box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.3), 2px 2px 4px rgba(0, 0, 0, 0.4);
+      z-index: 10;
+    }
+
+    .nail.tl {
+      top: 12px;
+      left: 12px;
+    }
+
+    .nail.tr {
+      top: 12px;
+      right: 12px;
+    }
+
+    .nail.bl {
+      bottom: 12px;
+      left: 12px;
+    }
+
+    .nail.br {
+      bottom: 12px;
+      right: 12px;
+    }
+
+    .home-btn {
+      align-self: flex-start;
+      background: var(--accent-green);
+      color: white;
+      text-decoration: none;
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-weight: 700;
+      border: 2px solid #4a7729;
+      box-shadow: 0 4px 0 #4a7729;
+      font-family: 'ZCOOL KuaiLe', cursive;
+    }
+
+    .hero {
+      background: var(--paper-bg);
+      border: 2px solid var(--paper-border);
+      border-radius: 8px;
+      padding: 28px;
+      position: relative;
+      box-shadow: 0 4px 8px var(--shadow);
+      transform: rotate(-0.5deg);
+    }
+
+    .tape {
+      position: absolute;
+      top: -14px;
+      left: 56px;
+      width: 110px;
+      height: 26px;
+      background: rgba(255, 255, 255, 0.4);
+      border-left: 1px dashed rgba(0, 0, 0, 0.1);
+      border-right: 1px dashed rgba(0, 0, 0, 0.1);
+    }
+
+    h1,
+    h2 {
+      margin: 0;
+      font-family: 'ZCOOL KuaiLe', cursive;
+      color: var(--wood-dark);
+    }
+
+    h1 {
+      font-size: 40px;
+      margin-bottom: 14px;
+    }
+
+    .hero p {
+      margin: 0;
+      line-height: 1.8;
+      font-size: 17px;
+      max-width: 760px;
+    }
+
+    .section-title {
+      background: rgba(255, 251, 240, 0.92);
+      border: 2px dashed var(--wood-light);
+      border-radius: 8px;
+      padding: 18px 20px;
+    }
+
+    .section-title p {
+      margin: 10px 0 0;
+      line-height: 1.7;
+    }
+
+    .guide-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+    }
+
+    .guide-card {
+      background: var(--paper-bg);
+      border: 3px solid var(--wood-dark);
+      border-radius: 10px;
+      padding: 22px;
+      box-shadow: 0 6px 0 var(--wood-dark);
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .guide-card p {
+      margin: 0;
+      line-height: 1.7;
+      color: #665245;
+      flex: 1;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: #e9f4fb;
+      border: 1px solid #b8d7ea;
+      color: var(--accent-blue);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .guide-card a {
+      display: inline-block;
+      text-align: center;
+      background: var(--accent-green);
+      color: white;
+      text-decoration: none;
+      padding: 12px;
+      border-radius: 6px;
+      font-weight: 700;
+      border: 2px solid #4a7729;
+      box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.3), 0 3px 0 #4a7729;
+      font-family: 'ZCOOL KuaiLe', cursive;
+      letter-spacing: 1px;
+    }
+
+    .guide-card.future {
+      border-style: dashed;
+      box-shadow: 0 6px 0 #7b624f;
+      opacity: 0.92;
+    }
+
+    .guide-card.future a {
+      background: #c7b9aa;
+      border-color: #9a846f;
+      box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.3), 0 3px 0 #9a846f;
+      pointer-events: none;
+    }
+
+    .notes {
+      background: rgba(255, 255, 255, 0.9);
+      border: 2px dashed var(--paper-border);
+      border-radius: 8px;
+      padding: 20px 24px;
+    }
+
+    .notes ul {
+      margin: 14px 0 0;
+      padding-left: 22px;
+      line-height: 1.8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 0 20px 24px;
+      color: rgba(255, 255, 255, 0.82);
+      font-size: 14px;
+      text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    @media (max-width: 640px) {
+      .container {
+        margin: 12px;
+        width: auto;
+        border-width: 4px;
+        padding: 14px;
+      }
+
+      h1 {
+        font-size: 30px;
+      }
+
+      .hero,
+      .section-title,
+      .guide-card,
+      .notes {
+        padding: 18px;
+      }
+
+      .home-btn {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="nail tl"></div>
+    <div class="nail tr"></div>
+    <div class="nail bl"></div>
+    <div class="nail br"></div>
+
+    <a class="home-btn" href="../index.html">🏡 返回工具箱</a>
+
+    <section class="hero">
+      <div class="tape"></div>
+      <h1>🧩 里奇赛德解谜与任务攻略</h1>
+      <p>
+        这里集中整理里奇赛德村相关的解谜、观察题、收集任务和路线提示。先把常用的子页面归档在这里，后续再继续补充更多任务线与隐藏内容。
+      </p>
+    </section>
+
+    <section class="section-title">
+      <h2>📚 当前收录</h2>
+      <p>先从实际会反复查阅的页面开始，后续将逐步扩展为完整的里奇赛德攻略索引。</p>
+    </section>
+
+    <section class="guide-grid">
+      <article class="guide-card">
+        <span class="tag">已整理</span>
+        <h2>🌸 狐灵花追踪</h2>
+        <p>
+          汇总狐灵花在各日期的出现规律、地点快照，以及中高难度需要统计或观察的题目提示。适合作为里奇赛德活动解谜的快速入口。
+        </p>
+        <a href="./stardew_foxbloom_day/index.html">进入子页</a>
+      </article>
+
+      <article class="guide-card">
+        <span class="tag">新建项目</span>
+        <h2>📦 准备工作九件物品</h2>
+        <p>
+          针对任务“准备工作”单独整理九个提交物品的获取方式、提前囤货建议，以及更省时间的收集路线。
+        </p>
+        <a href="./preparations_nine_items/index.html">进入子页</a>
+      </article>
+
+      <article class="guide-card">
+        <span class="tag">新建项目</span>
+        <h2>🌳 三颗神秘之树位置及路线</h2>
+        <p>
+          汇总友谊瀑布、爱之瀑布、献祭瀑布三处隐秘地点的位置图和辨认要点，方便快速完成相关特殊任务。
+        </p>
+        <a href="./mystic_trees_routes/index.html">进入子页</a>
+      </article>
+
+      <article class="guide-card">
+        <span class="tag">新建项目</span>
+        <h2>🌀 打开传送门九圣物</h2>
+        <p>
+          单独整理“打开传送门”任务所需九个 Blessed Artifacts 的获取地点、触发条件，以及最终在 Ridge Falls 的正确摆放顺序。
+        </p>
+        <a href="./open_portal_relics/index.html">进入子页</a>
+      </article>
+    </section>
+
+    <section class="notes">
+      <h2>📝 使用说明</h2>
+      <ul>
+        <li>先从这里进入对应专题，避免主页入口过多变得分散。</li>
+        <li>已整理页面优先放常用信息，后续再逐步细化到单独任务和事件。</li>
+        <li>如果新增里奇赛德相关工具，建议继续作为本页的子入口扩展。</li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>Filed for the Ridgeside Rangers, one clue at a time.</footer>
+</body>
+
+</html>

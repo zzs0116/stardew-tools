@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>三颗神秘之树位置及路线 | Mystic Trees Routes</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&family=Noto+Sans+SC:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-color: #8bb0c0;
+      --wood-dark: #5c3c26;
+      --wood-mid: #85583b;
+      --wood-light: #a47050;
+      --paper-bg: #fffbf0;
+      --paper-border: #d4cba8;
+      --text-main: #4a3627;
+      --accent-blue: #407fa7;
+      --accent-green: #6a9e38;
+      --shadow: rgba(68, 45, 30, 0.25);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Noto Sans SC', sans-serif;
+      background-color: var(--bg-color);
+      background-image:
+        linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 75%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0.1)),
+        linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 75%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0.1));
+      background-size: 40px 40px;
+      background-position: 0 0, 20px 20px;
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1080px;
+      margin: 40px 20px;
+      background: var(--wood-mid);
+      border: 8px solid var(--wood-dark);
+      border-radius: 16px;
+      box-shadow:
+        inset 0 0 0 4px var(--wood-light),
+        0 20px 40px rgba(0, 0, 0, 0.3);
+      position: relative;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+    }
+
+    .nail {
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      background: #3e2723;
+      border-radius: 50%;
+      box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.3), 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }
+
+    .nail.tl {
+      top: 12px;
+      left: 12px;
+    }
+
+    .nail.tr {
+      top: 12px;
+      right: 12px;
+    }
+
+    .nail.bl {
+      bottom: 12px;
+      left: 12px;
+    }
+
+    .nail.br {
+      bottom: 12px;
+      right: 12px;
+    }
+
+    .home-btn {
+      display: inline-block;
+      align-self: flex-start;
+      background: var(--accent-green);
+      color: white;
+      text-decoration: none;
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-weight: 700;
+      border: 2px solid #4a7729;
+      box-shadow: 0 4px 0 #4a7729;
+      font-family: 'ZCOOL KuaiLe', cursive;
+    }
+
+    .hero,
+    .intro,
+    .route-card {
+      background: var(--paper-bg);
+      border-radius: 8px;
+      box-shadow: 0 4px 8px var(--shadow);
+    }
+
+    .hero {
+      border: 2px solid var(--paper-border);
+      padding: 28px;
+      position: relative;
+    }
+
+    .tape {
+      position: absolute;
+      top: -14px;
+      left: 52px;
+      width: 110px;
+      height: 26px;
+      background: rgba(255, 255, 255, 0.4);
+      border-left: 1px dashed rgba(0, 0, 0, 0.1);
+      border-right: 1px dashed rgba(0, 0, 0, 0.1);
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin: 0;
+      font-family: 'ZCOOL KuaiLe', cursive;
+      color: var(--wood-dark);
+    }
+
+    h1 {
+      font-size: 38px;
+      margin-bottom: 14px;
+    }
+
+    .hero p,
+    .intro p,
+    .route-card p,
+    .route-card li {
+      line-height: 1.8;
+    }
+
+    .intro {
+      border: 2px dashed var(--wood-light);
+      padding: 18px 22px;
+    }
+
+    .route-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .route-card {
+      border: 3px solid var(--wood-dark);
+      padding: 20px;
+      box-shadow: 0 6px 0 var(--wood-dark);
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .route-card img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+      border: 3px solid #fff;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+      background: #f7f2e7;
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 5px 10px;
+      border-radius: 999px;
+      background: #e9f4fb;
+      border: 1px solid #b8d7ea;
+      color: var(--accent-blue);
+      font-size: 13px;
+      font-weight: 700;
+      align-self: flex-start;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 0 20px 24px;
+      color: rgba(255, 255, 255, 0.82);
+      font-size: 14px;
+      text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    @media (max-width: 640px) {
+      .container {
+        margin: 12px;
+        width: auto;
+        border-width: 4px;
+        padding: 14px;
+      }
+
+      .hero,
+      .intro,
+      .route-card {
+        padding: 16px;
+      }
+
+      h1 {
+        font-size: 30px;
+      }
+
+      .home-btn {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="nail tl"></div>
+    <div class="nail tr"></div>
+    <div class="nail bl"></div>
+    <div class="nail br"></div>
+
+    <a class="home-btn" href="../index.html">🧩 返回攻略页</a>
+
+    <section class="hero">
+      <div class="tape"></div>
+      <h1>🌳 三颗神秘之树位置及路线</h1>
+      <p>
+        这里整理山脊森林中三处与神秘之树相关的特殊任务地点，包含对应瀑布的任务描述、位置截图和跑图时的快速识别要点，方便按图找路。
+      </p>
+    </section>
+
+    <section class="intro">
+      <h2>📝 任务关联</h2>
+      <p>
+        三棵神秘之树分别对应三处隐秘瀑布。找路时，优先根据环境特征辨认：绿荫、粉树沙滩、黑暗包围，这样比只记路线更快。
+      </p>
+    </section>
+
+    <section class="route-grid">
+      <article class="route-card">
+        <span class="tag">特殊任务</span>
+        <h3>友谊瀑布</h3>
+        <img src="./location_of_trees/友谊瀑布.webp" alt="友谊瀑布位置图">
+        <p>在山脊森林中寻找掩映在葱郁绿荫下的隐秘瀑布。</p>
+        <ul>
+          <li>识别重点：整体环境以浓密绿色植被为主。</li>
+          <li>使用方式：先对照截图确认入口，再沿树荫区域推进。</li>
+        </ul>
+      </article>
+
+      <article class="route-card">
+        <span class="tag">特殊任务</span>
+        <h3>爱之瀑布</h3>
+        <img src="./location_of_trees/爱之瀑布.webp" alt="爱之瀑布位置图">
+        <p>在山脊森林中，寻找被粉色树木和沙滩环绕的隐秘瀑布。</p>
+        <ul>
+          <li>识别重点：粉色树木和浅色沙滩是最明显的地标。</li>
+          <li>使用方式：看到粉色林区后，优先检查临近水边区域。</li>
+        </ul>
+      </article>
+
+      <article class="route-card">
+        <span class="tag">特殊任务</span>
+        <h3>献祭瀑布</h3>
+        <img src="./location_of_trees/献祭瀑布.webp" alt="献祭瀑布位置图">
+        <p>在山脊森林中，寻找被黑暗包围的隐秘瀑布。</p>
+        <ul>
+          <li>识别重点：周围氛围更阴暗，视觉上和前两处差异最大。</li>
+          <li>使用方式：沿着偏暗区域探索时，对照截图确认岔路口。</li>
+        </ul>
+      </article>
+    </section>
+  </div>
+
+  <footer>Three hidden falls, three clearer routes.</footer>
+</body>
+
+</html>

@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="no-referrer">
+  <title>打开传送门九圣物</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&family=Noto+Sans+SC:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-color: #8bb0c0;
+      --wood-dark: #5c3c26;
+      --wood-mid: #85583b;
+      --wood-light: #a47050;
+      --paper-bg: #fffbf0;
+      --paper-border: #d4cba8;
+      --text-main: #4a3627;
+      --accent-blue: #407fa7;
+      --accent-green: #6a9e38;
+      --accent-gold: #c8952d;
+      --accent-red: #c94a3d;
+      --shadow: rgba(68, 45, 30, 0.25);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Noto Sans SC', sans-serif;
+      background-color: var(--bg-color);
+      background-image:
+        linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 75%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0.1)),
+        linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 75%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0.1));
+      background-size: 40px 40px;
+      background-position: 0 0, 20px 20px;
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1120px;
+      margin: 40px 20px;
+      background: var(--wood-mid);
+      border: 8px solid var(--wood-dark);
+      border-radius: 16px;
+      box-shadow:
+        inset 0 0 0 4px var(--wood-light),
+        0 20px 40px rgba(0, 0, 0, 0.3);
+      position: relative;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+    }
+
+    .nail {
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      background: #3e2723;
+      border-radius: 50%;
+      box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.3), 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }
+
+    .nail.tl {
+      top: 12px;
+      left: 12px;
+    }
+
+    .nail.tr {
+      top: 12px;
+      right: 12px;
+    }
+
+    .nail.bl {
+      bottom: 12px;
+      left: 12px;
+    }
+
+    .nail.br {
+      bottom: 12px;
+      right: 12px;
+    }
+
+    .home-btn {
+      display: inline-block;
+      align-self: flex-start;
+      background: var(--accent-green);
+      color: white;
+      text-decoration: none;
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-weight: 700;
+      border: 2px solid #4a7729;
+      box-shadow: 0 4px 0 #4a7729;
+      font-family: 'ZCOOL KuaiLe', cursive;
+    }
+
+    .hero,
+    .summary,
+    .order-board,
+    .relic-card {
+      background: var(--paper-bg);
+      border-radius: 8px;
+      box-shadow: 0 4px 8px var(--shadow);
+    }
+
+    .hero {
+      border: 2px solid var(--paper-border);
+      padding: 28px;
+      position: relative;
+    }
+
+    .tape {
+      position: absolute;
+      top: -14px;
+      left: 52px;
+      width: 110px;
+      height: 26px;
+      background: rgba(255, 255, 255, 0.4);
+      border-left: 1px dashed rgba(0, 0, 0, 0.1);
+      border-right: 1px dashed rgba(0, 0, 0, 0.1);
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin: 0;
+      font-family: 'ZCOOL KuaiLe', cursive;
+      color: var(--wood-dark);
+    }
+
+    h1 {
+      font-size: 38px;
+      margin-bottom: 14px;
+    }
+
+    p,
+    li {
+      line-height: 1.75;
+    }
+
+    .summary {
+      border: 2px dashed var(--wood-light);
+      padding: 18px 22px;
+    }
+
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+      margin-top: 14px;
+    }
+
+    .summary-chip {
+      background: rgba(255, 255, 255, 0.72);
+      border: 1px solid var(--paper-border);
+      border-radius: 8px;
+      padding: 12px 14px;
+    }
+
+    .summary-chip strong {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--accent-blue);
+    }
+
+    .order-board {
+      border: 3px solid var(--wood-dark);
+      padding: 22px;
+      box-shadow: 0 6px 0 var(--wood-dark);
+    }
+
+    .order-board p {
+      margin: 10px 0 0;
+    }
+
+    .order-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .order-step {
+      background: #fffdf7;
+      border: 2px solid #d8c3a0;
+      border-radius: 10px;
+      padding: 14px;
+      min-height: 120px;
+    }
+
+    .order-step-icon {
+      width: 56px;
+      height: 56px;
+      image-rendering: pixelated;
+      display: block;
+      margin: 8px 0 10px;
+    }
+
+    .step-no {
+      display: inline-block;
+      min-width: 40px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: #f5e7bf;
+      border: 1px solid #d8bc73;
+      color: #7a5815;
+      font-size: 13px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .order-step p {
+      margin: 8px 0 0;
+      color: #6b5645;
+      font-size: 14px;
+    }
+
+    .order-image {
+      margin-top: 18px;
+      background: #fffdf7;
+      border: 2px solid #d8c3a0;
+      border-radius: 10px;
+      padding: 14px;
+    }
+
+    .order-image p {
+      margin: 0 0 10px;
+      color: #6b5645;
+    }
+
+    .guide-image {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      border: 3px solid #fff;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+      background: #f7f2e7;
+    }
+
+    .relic-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .relic-card {
+      border: 3px solid var(--wood-dark);
+      padding: 20px;
+      box-shadow: 0 6px 0 var(--wood-dark);
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .relic-card figure {
+      margin: 0;
+    }
+
+    .relic-card figcaption {
+      margin-top: 8px;
+      font-size: 13px;
+      color: #6b5645;
+    }
+
+    .relic-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .relic-title h3 {
+      flex: 1;
+    }
+
+    .item-icon {
+      width: 64px;
+      height: 64px;
+      flex: 0 0 auto;
+      image-rendering: pixelated;
+    }
+
+    .relic-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 5px 10px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 700;
+      border: 1px solid transparent;
+    }
+
+    .badge-tool {
+      background: #e9f4fb;
+      border-color: #b8d7ea;
+      color: var(--accent-blue);
+    }
+
+    .badge-place {
+      background: #eef6df;
+      border-color: #c6d8a7;
+      color: #547c29;
+    }
+
+    .badge-weather {
+      background: #fde7d9;
+      border-color: #e6b48f;
+      color: #9a5425;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 0 20px 24px;
+      color: rgba(255, 255, 255, 0.82);
+      font-size: 14px;
+      text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    @media (max-width: 640px) {
+      .container {
+        margin: 12px;
+        width: auto;
+        border-width: 4px;
+        padding: 14px;
+      }
+
+      .hero,
+      .summary,
+      .order-board,
+      .relic-card {
+        padding: 16px;
+      }
+
+      h1 {
+        font-size: 30px;
+      }
+
+      .home-btn {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="nail tl"></div>
+    <div class="nail tr"></div>
+    <div class="nail bl"></div>
+    <div class="nail br"></div>
+
+    <a class="home-btn" href="../index.html">🧩 返回攻略页</a>
+
+    <section class="hero">
+      <div class="tape"></div>
+      <h1>🌀 “打开传送门”九个圣物</h1>
+      <p>
+        这个页面整理任务“打开传送门”所需的九件受保佑的古物，包括每个物品在游戏汉化中的正式名称、获取地点、触发方式，以及收集完成后在山脊瀑布传送门前的正确摆放顺序。
+      </p>
+    </section>
+
+    <section class="summary">
+      <h2>📝 任务要点</h2>
+      <div class="summary-grid">
+        <div class="summary-chip">
+          <strong>前置</strong>
+          先完成蕾莉雅拉的解封相关流程，贝琳达和蕾莉雅拉才会带你去看九个底座。
+        </div>
+        <div class="summary-chip">
+          <strong>顺序规则</strong>
+          圣物可以乱序收集，但摆放时必须按正确底座放置，狐狸眼睛发光才算放对。
+        </div>
+        <div class="summary-chip">
+          <strong>常用工具</strong>
+          锄头、斧头、鱼竿、喷壶都要带上，其中有两个圣物需要“钓”出来。
+        </div>
+        <div class="summary-chip">
+          <strong>特殊条件</strong>
+          狐面具要晴天原地等待两小时；其余多数是到点位后直接互动、敲击或浇水。
+        </div>
+      </div>
+    </section>
+
+    <section class="order-board">
+      <h2>🔄 摆放顺序</h2>
+      <p>按照任务里的基座摆放规则，<strong>从右下角底座开始，沿逆时针方向</strong>依次放入如下九件古物。</p>
+      <div class="order-grid">
+        <article class="order-step">
+          <span class="step-no">第 1 座</span>
+          <img class="order-step-icon" src="./item_sprites/猫眼石光轮.png" alt="猫眼石光轮图标">
+          <h3>猫眼石光轮</h3>
+        </article>
+        <article class="order-step">
+          <span class="step-no">第 2 座</span>
+          <img class="order-step-icon" src="./item_sprites/精灵梳子.png" alt="精灵梳子图标">
+          <h3>精灵梳子</h3>
+        </article>
+        <article class="order-step">
+          <span class="step-no">第 3 座</span>
+          <img class="order-step-icon" src="./item_sprites/苍白烛台.png" alt="苍白烛台图标">
+          <h3>苍白烛台</h3>
+        </article>
+        <article class="order-step">
+          <span class="step-no">第 4 座</span>
+          <img class="order-step-icon" src="./item_sprites/乡村英雄雕塑.png" alt="乡村英雄雕塑图标">
+          <h3>乡村英雄雕塑</h3>
+        </article>
+        <article class="order-step">
+          <span class="step-no">第 5 座</span>
+          <img class="order-step-icon" src="./item_sprites/永霜石.png" alt="永霜石图标">
+          <h3>永霜石</h3>
+        </article>
+        <article class="order-step">
+          <span class="step-no">第 6 座</span>
+          <img class="order-step-icon" src="./item_sprites/古代八音盒.png" alt="古代八音盒图标">
+          <h3>古代八音盒</h3>
+        </article>
+        <article class="order-step">
+          <span class="step-no">第 7 座</span>
+          <img class="order-step-icon" src="./item_sprites/蓝宝石珍珠.png" alt="蓝宝石珍珠图标">
+          <h3>蓝宝石珍珠</h3>
+        </article>
+        <article class="order-step">
+          <span class="step-no">第 8 座</span>
+          <img class="order-step-icon" src="./item_sprites/古代狐狸面具.png" alt="古代狐狸面具图标">
+          <h3>古代狐狸面具</h3>
+        </article>
+        <article class="order-step">
+          <span class="step-no">第 9 座</span>
+          <img class="order-step-icon" src="./item_sprites/伟大河神雕像.png" alt="伟大河神雕像图标">
+          <h3>伟大河神雕像</h3>
+        </article>
+      </div>
+      <div class="order-image">
+        <p>摆放顺序参考图</p>
+        <img class="guide-image" src="./locations/摆放顺序.PNG" alt="九个圣物的摆放顺序参考图">
+      </div>
+    </section>
+
+    <section class="relic-grid">
+      <article class="relic-card">
+        <span class="step-no">01</span>
+        <div class="relic-title">
+          <img class="item-icon" src="./item_sprites/猫眼石光轮.png" alt="猫眼石光轮图标">
+          <h3>猫眼石光轮</h3>
+        </div>
+        <figure>
+          <img class="guide-image" src="./locations/猫眼石光轮.webp" alt="猫眼石光轮收集位置图">
+          <figcaption>收集位置参考图</figcaption>
+        </figure>
+        <div class="relic-meta">
+          <span class="badge badge-tool">工具：锄头</span>
+          <span class="badge badge-place">地点：鹈鹕镇缆车站</span>
+        </div>
+        <ul>
+          <li>去鹈鹕镇下方缆车站的背后区域。</li>
+          <li>在缆车后方对应的挖掘点附近用锄头挖地即可获得。</li>
+          <li>游戏描述：一块镶嵌着猫眼石的古代头饰。侧面雕刻着一个天使。</li>
+        </ul>
+      </article>
+
+      <article class="relic-card">
+        <span class="step-no">02</span>
+        <div class="relic-title">
+          <img class="item-icon" src="./item_sprites/精灵梳子.png" alt="精灵梳子图标">
+          <h3>精灵梳子</h3>
+        </div>
+        <figure>
+          <img class="guide-image" src="./locations/精灵梳子.webp" alt="精灵梳子收集位置图">
+          <figcaption>收集位置参考图</figcaption>
+        </figure>
+        <div class="relic-meta">
+          <span class="badge badge-tool">工具：锄头</span>
+          <span class="badge badge-place">地点：远足小径废弃小屋旁</span>
+        </div>
+        <ul>
+          <li>前往远足小径里的废弃房屋。</li>
+          <li>在房屋右上侧紧贴外墙的位置用锄头挖地。</li>
+          <li>游戏描述：镶有宝石的古老梳子。上面的图案看起来像是“Zango”这个单词。</li>
+        </ul>
+      </article>
+
+      <article class="relic-card">
+        <span class="step-no">03</span>
+        <div class="relic-title">
+          <img class="item-icon" src="./item_sprites/苍白烛台.png" alt="苍白烛台图标">
+          <h3>苍白烛台</h3>
+        </div>
+        <figure>
+          <img class="guide-image" src="./locations/苍白烛台.webp" alt="苍白烛台收集位置图">
+          <figcaption>收集位置参考图</figcaption>
+        </figure>
+        <div class="relic-meta">
+          <span class="badge badge-tool">工具：喷壶</span>
+          <span class="badge badge-place">地点：幽灵温室</span>
+        </div>
+        <ul>
+          <li>进入幽灵温室，不是忍者之家外面的雕像。</li>
+          <li>对温室里的那座雕像直接浇水，圣物就会掉出来。</li>
+          <li>游戏描述：蜡烛上有骷髅图案。灯芯似乎潮湿了，很难点燃蜡烛。</li>
+        </ul>
+      </article>
+
+      <article class="relic-card">
+        <span class="step-no">04</span>
+        <div class="relic-title">
+          <img class="item-icon" src="./item_sprites/乡村英雄雕塑.png" alt="乡村英雄雕塑图标">
+          <h3>乡村英雄雕塑</h3>
+        </div>
+        <figure>
+          <img class="guide-image" src="./locations/乡村英雄雕塑.webp" alt="乡村英雄雕塑收集位置图">
+          <figcaption>收集位置参考图</figcaption>
+        </figure>
+        <div class="relic-meta">
+          <span class="badge badge-tool">工具：鱼竿</span>
+          <span class="badge badge-place">地点：艾墨森府邸外的井</span>
+        </div>
+        <ul>
+          <li>到艾墨森府邸外面的水井旁。</li>
+          <li>对着这口井下竿，把圣物从井里钓出来。</li>
+          <li>游戏描述：一个模模糊糊的熟悉身形。这个文物被苔藓覆盖，但构成物体的材料并没有断裂的迹象。</li>
+        </ul>
+      </article>
+
+      <article class="relic-card">
+        <span class="step-no">05</span>
+        <div class="relic-title">
+          <img class="item-icon" src="./item_sprites/永霜石.png" alt="永霜石图标">
+          <h3>永霜石</h3>
+        </div>
+        <figure>
+          <img class="guide-image" src="./locations/永霜石.webp" alt="永霜石收集位置图">
+          <figcaption>收集位置参考图</figcaption>
+        </figure>
+        <div class="relic-meta">
+          <span class="badge badge-tool">工具：斧头</span>
+          <span class="badge badge-place">地点：夜莺果园树屋商店</span>
+        </div>
+        <ul>
+          <li>进入夜莺果园的树屋商店。</li>
+          <li>对中间窗户左侧的墙面挥斧，命中隐藏点后即可取得。</li>
+          <li>游戏描述：这块石头摸起来很冰！如果接触时间过长你会被冻伤。</li>
+        </ul>
+      </article>
+
+      <article class="relic-card">
+        <span class="step-no">06</span>
+        <div class="relic-title">
+          <img class="item-icon" src="./item_sprites/古代八音盒.png" alt="古代八音盒图标">
+          <h3>古代八音盒</h3>
+        </div>
+        <figure>
+          <img class="guide-image" src="./locations/古代八音盒.webp" alt="古代八音盒收集位置图">
+          <figcaption>收集位置参考图</figcaption>
+        </figure>
+        <div class="relic-meta">
+          <span class="badge badge-tool">工具：斧头</span>
+          <span class="badge badge-place">地点：木屋旅馆三楼</span>
+        </div>
+        <ul>
+          <li>上到木屋旅馆三楼，找到芭蕾舞者画像。</li>
+          <li>直接用斧头敲那幅画，音乐盒会掉出来。</li>
+          <li>游戏描述：它能演奏出柔和而甜美的曲调。上面刻有已经褪色的文字：“Mama esh”。</li>
+        </ul>
+      </article>
+
+      <article class="relic-card">
+        <span class="step-no">07</span>
+        <div class="relic-title">
+          <img class="item-icon" src="./item_sprites/蓝宝石珍珠.png" alt="蓝宝石珍珠图标">
+          <h3>蓝宝石珍珠</h3>
+        </div>
+        <figure>
+          <img class="guide-image" src="./locations/蓝宝石珍珠.webp" alt="蓝宝石珍珠收集位置图">
+          <figcaption>收集位置参考图</figcaption>
+        </figure>
+        <div class="relic-meta">
+          <span class="badge badge-tool">工具：鱼竿</span>
+          <span class="badge badge-place">地点：阿基纳家旁托托池塘</span>
+        </div>
+        <ul>
+          <li>去阿基纳家西边的托托池塘。</li>
+          <li>朝池塘最北侧那一格快速抛竿，即可触发获得圣物。</li>
+          <li>游戏描述：来自山脊的古物。这是蓝宝石和珍珠的独特融合。</li>
+        </ul>
+      </article>
+
+      <article class="relic-card">
+        <span class="step-no">08</span>
+        <div class="relic-title">
+          <img class="item-icon" src="./item_sprites/古代狐狸面具.png" alt="古代狐狸面具图标">
+          <h3>古代狐狸面具</h3>
+        </div>
+        <figure>
+          <img class="guide-image" src="./locations/古代狐狸面具.webp" alt="古代狐狸面具收集位置图">
+          <figcaption>收集位置参考图</figcaption>
+        </figure>
+        <div class="relic-meta">
+          <span class="badge badge-tool">动作：原地等待</span>
+          <span class="badge badge-place">地点：山脊狐像前</span>
+          <span class="badge badge-weather">条件：晴天</span>
+        </div>
+        <ul>
+          <li>站到山脊地区进入山脊森林入口左侧的狐狸雕像正前方。</li>
+          <li>晴天时在该位置连续两小时不移动，时间到了会自动获得面具。</li>
+          <li>游戏描述：一副狐狸脸的古代面具。有一段文字写在眼圈的边缘：波涛汹涌的大海。</li>
+        </ul>
+      </article>
+
+      <article class="relic-card">
+        <span class="step-no">09</span>
+        <div class="relic-title">
+          <img class="item-icon" src="./item_sprites/伟大河神雕像.png" alt="伟大河神雕像图标">
+          <h3>伟大河神雕像</h3>
+        </div>
+        <figure>
+          <img class="guide-image" src="./locations/伟大河神雕像.webp" alt="伟大河神雕像收集位置图">
+          <figcaption>收集位置参考图</figcaption>
+        </figure>
+        <div class="relic-meta">
+          <span class="badge badge-tool">工具：锄头</span>
+          <span class="badge badge-place">地点：悬崖尽头长椅前</span>
+        </div>
+        <ul>
+          <li>游戏内正式名称为“伟大河神雕像”；旧版资料里会出现另一个旧名字。</li>
+          <li>去悬崖最边缘的长椅和树之间，在两者之间的地块上用锄头挖出圣物。</li>
+          <li>游戏描述：一尊被遗忘已久的神像。</li>
+        </ul>
+      </article>
+    </section>
+
+  </div>
+
+  <footer>先开传送门，再进灵界。</footer>
+</body>
+
+</html>

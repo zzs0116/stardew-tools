@@ -1,0 +1,640 @@
+[
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Ancient_Fiber",
+    "name": "Ancient Fiber",
+    "displayName": {
+      "en": "Ancient Fiber",
+      "zh": "古代纤维"
+    },
+    "description": {
+      "en": "一种曾经繁盛生长的结实可食用蕨类植物枝条。",
+      "zh": "一种曾经繁盛生长的结实可食用蕨类植物枝条。"
+    },
+    "type": "Vegetable",
+    "category": -75,
+    "price": 145,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Ancient Fiber",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 35,
+    "contextTags": [
+      "color_green"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Joja_Veggie",
+    "name": "Joja Veggie",
+    "displayName": {
+      "en": "Joja Veggie",
+      "zh": "Joja蔬菜"
+    },
+    "description": {
+      "en": "一种魔法改良的蔬菜（MMO）。不知为何包含了惊人的治愈效果，价格也十分昂贵。",
+      "zh": "一种魔法改良的蔬菜（MMO）。不知为何包含了惊人的治愈效果，价格也十分昂贵。"
+    },
+    "type": "Vegetable",
+    "category": -75,
+    "price": 1140,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Joja Veggie",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 200,
+    "contextTags": [
+      "color_green"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Monster_Mushroom",
+    "name": "Monster Mushroom",
+    "displayName": {
+      "en": "Monster Mushroom",
+      "zh": "怪兽菇"
+    },
+    "description": {
+      "en": "长得很大。悬挂在高处的植物上以躲避地面的捕食者。",
+      "zh": "长得很大。悬挂在高处的植物上以躲避地面的捕食者。"
+    },
+    "type": "Vegetable",
+    "category": -75,
+    "price": 850,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Monster Mushroom",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 75,
+    "contextTags": [
+      "color_dark_orange"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Void_Root",
+    "name": "Void Root",
+    "displayName": {
+      "en": "Void Root",
+      "zh": "虚空根"
+    },
+    "description": {
+      "en": "一种奇怪的黑暗能量正从中散发出来。",
+      "zh": "一种奇怪的黑暗能量正从中散发出来。"
+    },
+    "type": "Vegetable",
+    "category": -75,
+    "price": 235,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Void Root",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": -35,
+    "contextTags": [
+      "color_black"
+    ]
+  },
+  {
+    "id": "EastScarp_PuckerWort",
+    "name": "EastScarp_PuckerWort",
+    "displayName": {
+      "en": "EastScarp_PuckerWort",
+      "zh": "海蓬子"
+    },
+    "description": {
+      "en": "有时也被叫做厚岸草，很容易种植的一种植物，可以做成美味小吃。",
+      "zh": "有时也被叫做厚岸草，很容易种植的一种植物，可以做成美味小吃。"
+    },
+    "type": "Vegetable",
+    "category": -75,
+    "price": 100,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 36,
+      "x": 192,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 10,
+    "contextTags": [
+      "category_vegetable",
+      "category_ingredients"
+    ]
+  },
+  {
+    "id": "EastScarp_Cuccaroot",
+    "name": "EastScarp_Cuccaroot",
+    "displayName": {
+      "en": "EastScarp_Cuccaroot",
+      "zh": "库卡根"
+    },
+    "description": {
+      "en": "通常在热带野外生长，这种淀粉植物味道温和甘甜，用于制作甜品。",
+      "zh": "通常在热带野外生长，这种淀粉植物味道温和甘甜，用于制作甜品。"
+    },
+    "type": "Vegetable",
+    "category": -75,
+    "price": 75,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 38,
+      "x": 224,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 15,
+    "contextTags": [
+      "category_vegetable",
+      "category_ingredients",
+      "root_vegetable_item"
+    ]
+  },
+  {
+    "id": "Lemurkat.EastScarp_ButterTuff",
+    "name": "Lemurkat.EastScarp_ButterTuff",
+    "displayName": {
+      "en": "Lemurkat.EastScarp_ButterTuff",
+      "zh": "黄油甘蓝"
+    },
+    "description": {
+      "en": "一种甜甜的黄油色芥属植物。",
+      "zh": "一种甜甜的黄油色芥属植物。"
+    },
+    "type": "Vegetable",
+    "category": -75,
+    "price": 50,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 65,
+      "x": 272,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 3,
+    "contextTags": [
+      "category_ingredients",
+      "color_Yellow",
+      "broccoli_item",
+      "cauliflower_item"
+    ]
+  },
+  {
+    "id": "Lemurkat.EastScarp_Paneeki",
+    "name": "Lemurkat.EastScarp_Paneeki",
+    "displayName": {
+      "en": "Lemurkat.EastScarp_Paneeki",
+      "zh": "帕尼基根"
+    },
+    "description": {
+      "en": "这种坚硬的橘黄色根茎不是不能食用，但是味道很苦，而且有泥土味。",
+      "zh": "这种坚硬的橘黄色根茎不是不能食用，但是味道很苦，而且有泥土味。"
+    },
+    "type": "Vegetable",
+    "category": -75,
+    "price": 230,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 69,
+      "x": 336,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "category_vegetable",
+      "category_ingredients",
+      "color_red",
+      "root_vegetable_item"
+    ]
+  },
+  {
+    "id": "Lemurkat.EastScarp_FirePepper",
+    "name": "Lemurkat.EastScarp_FirePepper",
+    "displayName": {
+      "en": "Lemurkat.EastScarp_FirePepper",
+      "zh": "地狱辣椒"
+    },
+    "description": {
+      "en": "超级辣的辣椒，让人流泪。",
+      "zh": "超级辣的辣椒，让人流泪。"
+    },
+    "type": "Vegetable",
+    "category": -75,
+    "price": 175,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 81,
+      "x": 144,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 4,
+    "contextTags": [
+      "color_orange",
+      "category_vegetable",
+      "chili_item"
+    ]
+  },
+  {
+    "id": "Lemurkat.EastScarp_GiggleFit",
+    "name": "Lemurkat.EastScarp_GiggleFit",
+    "displayName": {
+      "en": "Lemurkat.EastScarp_GiggleFit",
+      "zh": "傻笑无花果根"
+    },
+    "description": {
+      "en": "曼德拉草的表亲，让你的舌头刺痛发痒。",
+      "zh": "曼德拉草的表亲，让你的舌头刺痛发痒。"
+    },
+    "type": "Vegetable",
+    "category": -75,
+    "price": 175,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 83,
+      "x": 176,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 10,
+    "contextTags": [
+      "category_vegetable",
+      "category_ingredients",
+      "color_white",
+      "mandrake_item",
+      "root_vegetable_item"
+    ]
+  },
+  {
+    "id": "DN.SnS_ancientamaranth",
+    "name": "DN.SnS_ancientamaranth",
+    "displayName": {
+      "en": "DN.SnS_ancientamaranth",
+      "zh": "上古苋菜"
+    },
+    "description": {
+      "en": "一种不寻常的谷物，色泽和质地都独一无二。",
+      "zh": "一种不寻常的谷物，色泽和质地都独一无二。"
+    },
+    "type": "Vegetable",
+    "category": -75,
+    "price": 160,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_cyan",
+      "seedmaker_banned",
+      "sns_druidiccrop_item"
+    ]
+  },
+  {
+    "id": "DN.SnS_ancientepiphyticfern",
+    "name": "DN.SnS_ancientepiphyticfern",
+    "displayName": {
+      "en": "DN.SnS_ancientepiphyticfern",
+      "zh": "上古附生蕨"
+    },
+    "description": {
+      "en": "一种顽强的蕨类植物，曾直接生长在岩石上",
+      "zh": "一种顽强的蕨类植物，曾直接生长在岩石上"
+    },
+    "type": "Vegetable",
+    "category": -75,
+    "price": 300,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 2,
+      "x": 32,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_cyan",
+      "seedmaker_banned",
+      "sns_druidiccrop_item"
+    ]
+  },
+  {
+    "id": "DN.SnS_glowingpolyporemushrooms",
+    "name": "DN.SnS_glowingpolyporemushrooms",
+    "displayName": {
+      "en": "DN.SnS_glowingpolyporemushrooms",
+      "zh": "上古发光多孔菌"
+    },
+    "description": {
+      "en": "一种强韧的蘑菇，散发着微弱的光芒和泥土的气息。",
+      "zh": "一种强韧的蘑菇，散发着微弱的光芒和泥土的气息。"
+    },
+    "type": "Vegetable",
+    "category": -75,
+    "price": 300,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 4,
+      "x": 64,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_cyan",
+      "seedmaker_banned",
+      "sns_druidiccrop_item"
+    ]
+  },
+  {
+    "id": "DN.SnS_ancientbottlegourd",
+    "name": "DN.SnS_ancientbottlegourd",
+    "displayName": {
+      "en": "DN.SnS_ancientbottlegourd",
+      "zh": "上古葫芦"
+    },
+    "description": {
+      "en": "它的形状可能有些奇特，但颜色鲜亮诱人。",
+      "zh": "它的形状可能有些奇特，但颜色鲜亮诱人。"
+    },
+    "type": "Vegetable",
+    "category": -75,
+    "price": 220,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 39,
+      "x": 240,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_cyan",
+      "seedmaker_banned",
+      "sns_druidiccrop_item"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_FireBeans",
+    "name": "Fire Beans",
+    "displayName": {
+      "en": "Fire Beans",
+      "zh": "火焰豆"
+    },
+    "description": {
+      "en": "常用于汤中的干豆。豆荚的颜色和形状让人联想到火焰。",
+      "zh": "常用于汤中的干豆。豆荚的颜色和形状让人联想到火焰。"
+    },
+    "type": "Vegetable",
+    "category": -75,
+    "price": 50,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 1,
+      "x": 16,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 15,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_plant",
+      "color_pink"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Rye",
+    "name": "Rye",
+    "displayName": {
+      "en": "Rye",
+      "zh": "黑麦"
+    },
+    "description": {
+      "en": "一款能熬过寒冷季节的坚强谷物。",
+      "zh": "一款能熬过寒冷季节的坚强谷物。"
+    },
+    "type": "Vegetable",
+    "category": -75,
+    "price": 25,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 2,
+      "x": 32,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 15,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_plant",
+      "color_brown"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Basil",
+    "name": "Basil",
+    "displayName": {
+      "en": "Basil",
+      "zh": "罗勒"
+    },
+    "description": {
+      "en": "一种味道浓郁、气味迷人的草本植物。",
+      "zh": "一种味道浓郁、气味迷人的草本植物。"
+    },
+    "type": "Vegetable",
+    "category": -75,
+    "price": 30,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 14,
+      "x": 224,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 5,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_plant",
+      "ingredient_herb",
+      "ingredient_basil",
+      "herb_item",
+      "basil_item",
+      "color_green"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Olive",
+    "name": "Olive",
+    "displayName": {
+      "en": "Olive",
+      "zh": "橄榄"
+    },
+    "description": {
+      "en": "不可食用的水果，可以用于腌制或者加工成橄榄油。",
+      "zh": "不可食用的水果，可以用于腌制或者加工成橄榄油。"
+    },
+    "type": "Vegetable",
+    "category": -75,
+    "price": 90,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 15,
+      "x": 240,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_plant",
+      "color_green",
+      "oliveoil_item"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_VoidOlive",
+    "name": "Void Olive",
+    "displayName": {
+      "en": "Void Olive",
+      "zh": "虚空橄榄"
+    },
+    "description": {
+      "en": "味道很苦，但油却被美食家们追棒。",
+      "zh": "味道很苦，但油却被美食家们追棒。"
+    },
+    "type": "Vegetable",
+    "category": -75,
+    "price": 320,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 16,
+      "x": 256,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_plant",
+      "color_red"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_LambLettuce",
+    "name": "LambLettuce",
+    "displayName": {
+      "en": "LambLettuce",
+      "zh": "羊莴苣"
+    },
+    "description": {
+      "en": "常见于野外，可食用并具有坚果味。",
+      "zh": "常见于野外，可食用并具有坚果味。"
+    },
+    "type": "Vegetable",
+    "category": -75,
+    "price": 250,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 33,
+      "x": 144,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 2,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_plant",
+      "color_green"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_CometRoots",
+    "name": "Comet Roots",
+    "displayName": {
+      "en": "Comet Roots",
+      "zh": "彗星根"
+    },
+    "description": {
+      "en": "有着冰凉清爽感觉的根茎，味道和山葵相似。",
+      "zh": "有着冰凉清爽感觉的根茎，味道和山葵相似。"
+    },
+    "type": "Vegetable",
+    "category": -75,
+    "price": 353,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 35,
+      "x": 176,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 34,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_plant",
+      "stellar_plant",
+      "stellar_item",
+      "color_blue"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Sunroot",
+    "name": "Sunroot",
+    "displayName": {
+      "en": "Sunroot",
+      "zh": "太阳根"
+    },
+    "description": {
+      "en": "它含有使人难以消化的成分。",
+      "zh": "它含有使人难以消化的成分。"
+    },
+    "type": "Vegetable",
+    "category": -75,
+    "price": 54,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 36,
+      "x": 192,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 8,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_plant",
+      "color_orange"
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "id": "876",
+    "name": "Prismatic Jelly",
+    "displayName": {
+      "en": "Prismatic Jelly",
+      "zh": "五彩胶冻"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:PrismaticJelly_Description]",
+      "zh": "稀有且容易逃跑的五彩史莱姆会掉落。"
+    },
+    "type": "Object",
+    "category": 0,
+    "price": 1000,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 876,
+      "x": 192,
+      "y": 576,
+      "width": 16,
+      "height": 16
+    }
+  }
+]

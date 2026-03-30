@@ -1,0 +1,1985 @@
+[
+  {
+    "id": "60",
+    "name": "Emerald",
+    "displayName": {
+      "en": "Emerald",
+      "zh": "绿宝石"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Emerald_Description]",
+      "zh": "一种亮绿色的珍贵宝石。"
+    },
+    "type": "Minerals",
+    "category": -2,
+    "price": 250,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 60,
+      "x": 192,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_green"
+    ]
+  },
+  {
+    "id": "62",
+    "name": "Aquamarine",
+    "displayName": {
+      "en": "Aquamarine",
+      "zh": "海蓝宝石"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Aquamarine_Description]",
+      "zh": "一种闪闪发亮的蓝绿色宝石。"
+    },
+    "type": "Minerals",
+    "category": -2,
+    "price": 180,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 62,
+      "x": 224,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_aquamarine"
+    ]
+  },
+  {
+    "id": "64",
+    "name": "Ruby",
+    "displayName": {
+      "en": "Ruby",
+      "zh": "红宝石"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Ruby_Description]",
+      "zh": "一种因其浓艳的颜色和美丽的光泽受人追捧的珍贵宝石。"
+    },
+    "type": "Minerals",
+    "category": -2,
+    "price": 250,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 64,
+      "x": 256,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_red"
+    ]
+  },
+  {
+    "id": "66",
+    "name": "Amethyst",
+    "displayName": {
+      "en": "Amethyst",
+      "zh": "紫水晶"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Amethyst_Description]",
+      "zh": "一种紫色的水晶。"
+    },
+    "type": "Minerals",
+    "category": -2,
+    "price": 100,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 66,
+      "x": 288,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_purple"
+    ]
+  },
+  {
+    "id": "68",
+    "name": "Topaz",
+    "displayName": {
+      "en": "Topaz",
+      "zh": "黄水晶"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Topaz_Description]",
+      "zh": "很常见，但是因为漂亮还是很有价值。"
+    },
+    "type": "Minerals",
+    "category": -2,
+    "price": 80,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 68,
+      "x": 320,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_gold"
+    ]
+  },
+  {
+    "id": "70",
+    "name": "Jade",
+    "displayName": {
+      "en": "Jade",
+      "zh": "翡翠"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Jade_Description]",
+      "zh": "一种淡绿色的装饰石。"
+    },
+    "type": "Minerals",
+    "category": -2,
+    "price": 200,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 70,
+      "x": 352,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_jade"
+    ]
+  },
+  {
+    "id": "72",
+    "name": "Diamond",
+    "displayName": {
+      "en": "Diamond",
+      "zh": "钻石"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Diamond_Description]",
+      "zh": "一种稀有且贵重的宝石。"
+    },
+    "type": "Minerals",
+    "category": -2,
+    "price": 750,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 72,
+      "x": 0,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_white"
+    ]
+  },
+  {
+    "id": "74",
+    "name": "Prismatic Shard",
+    "displayName": {
+      "en": "Prismatic Shard",
+      "zh": "五彩碎片"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:PrismaticShard_Description]",
+      "zh": "一种来源未知的超稀有强力材料。"
+    },
+    "type": "Minerals",
+    "category": -2,
+    "price": 2000,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 74,
+      "x": 32,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_prismatic",
+      "crystalarium_banned"
+    ]
+  },
+  {
+    "id": "80",
+    "name": "Quartz",
+    "displayName": {
+      "en": "Quartz",
+      "zh": "石英"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Quartz_Description]",
+      "zh": "一种常见于洞穴和矿井里的纯净晶体。"
+    },
+    "type": "Minerals",
+    "category": -2,
+    "price": 25,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 80,
+      "x": 128,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_white"
+    ]
+  },
+  {
+    "id": "82",
+    "name": "Fire Quartz",
+    "displayName": {
+      "en": "Fire Quartz",
+      "zh": "火水晶"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:FireQuartz_Description]",
+      "zh": "一种常见于熔岩附近的火红色晶体。"
+    },
+    "type": "Minerals",
+    "category": -2,
+    "price": 100,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 82,
+      "x": 160,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_red"
+    ]
+  },
+  {
+    "id": "84",
+    "name": "Frozen Tear",
+    "displayName": {
+      "en": "Frozen Tear",
+      "zh": "泪晶"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:FrozenTear_Description]",
+      "zh": "传说是由雪怪眼泪结成的晶体。"
+    },
+    "type": "Minerals",
+    "category": -2,
+    "price": 75,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 84,
+      "x": 192,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_cyan"
+    ]
+  },
+  {
+    "id": "86",
+    "name": "Earth Crystal",
+    "displayName": {
+      "en": "Earth Crystal",
+      "zh": "地晶"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:EarthCrystal_Description]",
+      "zh": "在地表附近发现的树脂状物质。"
+    },
+    "type": "Minerals",
+    "category": -2,
+    "price": 50,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 86,
+      "x": 224,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_copper"
+    ]
+  },
+  {
+    "id": "538",
+    "name": "Alamite",
+    "displayName": {
+      "en": "Alamite",
+      "zh": "透闪石"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Alamite_Description]",
+      "zh": "它与众不同的荧光使它成为许多岩石收集爱好者的最爱。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 150,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 538,
+      "x": 160,
+      "y": 352,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_gray"
+    ]
+  },
+  {
+    "id": "539",
+    "name": "Bixite",
+    "displayName": {
+      "en": "Bixite",
+      "zh": "黑方石"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Bixite_Description]",
+      "zh": "黑色的金属矿石。有着四四方方的结构。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 300,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 539,
+      "x": 176,
+      "y": 352,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_black"
+    ]
+  },
+  {
+    "id": "540",
+    "name": "Baryte",
+    "displayName": {
+      "en": "Baryte",
+      "zh": "重晶石"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Baryte_Description]",
+      "zh": "最好的重晶石看起来就像沙漠玫瑰。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 50,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 540,
+      "x": 192,
+      "y": 352,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_red"
+    ]
+  },
+  {
+    "id": "541",
+    "name": "Aerinite",
+    "displayName": {
+      "en": "Aerinite",
+      "zh": "青泥石"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Aerinite_Description]",
+      "zh": "这个晶石不可思议地轻。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 125,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 541,
+      "x": 208,
+      "y": 352,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_cyan"
+    ]
+  },
+  {
+    "id": "542",
+    "name": "Calcite",
+    "displayName": {
+      "en": "Calcite",
+      "zh": "方解石"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Calcite_Description]",
+      "zh": "这个黄色的水晶上有星星点点的荧光突起。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 75,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 542,
+      "x": 224,
+      "y": 352,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_yellow"
+    ]
+  },
+  {
+    "id": "543",
+    "name": "Dolomite",
+    "displayName": {
+      "en": "Dolomite",
+      "zh": "白云石"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Dolomite_Description]",
+      "zh": "有时会在珊瑚礁上出现，大部分时候是在水下火山附近。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 300,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 543,
+      "x": 240,
+      "y": 352,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_pink"
+    ]
+  },
+  {
+    "id": "544",
+    "name": "Esperite",
+    "displayName": {
+      "en": "Esperite",
+      "zh": "硅钙石"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Esperite_Description]",
+      "zh": "受到激发后，这种晶石会发出明亮的绿色荧光。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 100,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 544,
+      "x": 256,
+      "y": 352,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_green"
+    ]
+  },
+  {
+    "id": "545",
+    "name": "Fluorapatite",
+    "displayName": {
+      "en": "Fluorapatite",
+      "zh": "氟磷灰石"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Fluorapatite_Description]",
+      "zh": "人类牙齿中含有少量的这种物质。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 200,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 545,
+      "x": 272,
+      "y": 352,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_purple"
+    ]
+  },
+  {
+    "id": "546",
+    "name": "Geminite",
+    "displayName": {
+      "en": "Geminite",
+      "zh": "杰明石"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Geminite_Description]",
+      "zh": "出现时总是大量聚集在一起。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 150,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 546,
+      "x": 288,
+      "y": 352,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_gray"
+    ]
+  },
+  {
+    "id": "547",
+    "name": "Helvite",
+    "displayName": {
+      "en": "Helvite",
+      "zh": "日光榴石"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Helvite_Description]",
+      "zh": "出现的时候总按三角形排列。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 450,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 547,
+      "x": 304,
+      "y": 352,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_red"
+    ]
+  },
+  {
+    "id": "548",
+    "name": "Jamborite",
+    "displayName": {
+      "en": "Jamborite",
+      "zh": "绿水镍矿"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Jamborite_Description]",
+      "zh": "这些晶石是如此紧密地排列在一起，以至于它们看起来都有些模糊了。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 150,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 548,
+      "x": 320,
+      "y": 352,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_lime"
+    ]
+  },
+  {
+    "id": "549",
+    "name": "Jagoite",
+    "displayName": {
+      "en": "Jagoite",
+      "zh": "铁铅矿"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Jagoite_Description]",
+      "zh": "含有大量的小水晶，让它闪闪发光。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 115,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 549,
+      "x": 336,
+      "y": 352,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_gold"
+    ]
+  },
+  {
+    "id": "550",
+    "name": "Kyanite",
+    "displayName": {
+      "en": "Kyanite",
+      "zh": "蓝晶石"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Kyanite_Description]",
+      "zh": "几何面如同玻璃般光滑。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 250,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 550,
+      "x": 352,
+      "y": 352,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_dark_blue"
+    ]
+  },
+  {
+    "id": "551",
+    "name": "Lunarite",
+    "displayName": {
+      "en": "Lunarite",
+      "zh": "酸性月岩"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Lunarite_Description]",
+      "zh": "这些坑坑洼洼的矿石会紧密的聚集在一起。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 200,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 551,
+      "x": 368,
+      "y": 352,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_white",
+      "dye_strong"
+    ]
+  },
+  {
+    "id": "552",
+    "name": "Malachite",
+    "displayName": {
+      "en": "Malachite",
+      "zh": "孔雀石"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Malachite_Description]",
+      "zh": "一种非常受欢迎的装饰品，经常用在雕塑中，也被用来做绿色的颜料。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 100,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 552,
+      "x": 0,
+      "y": 368,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_green"
+    ]
+  },
+  {
+    "id": "553",
+    "name": "Neptunite",
+    "displayName": {
+      "en": "Neptunite",
+      "zh": "柱星叶石"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Neptunite_Description]",
+      "zh": "一种黝黑的晶石，反光性一般都比较好。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 400,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 553,
+      "x": 16,
+      "y": 368,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_black"
+    ]
+  },
+  {
+    "id": "554",
+    "name": "Lemon Stone",
+    "displayName": {
+      "en": "Lemon Stone",
+      "zh": "柠檬石"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:LemonStone_Description]",
+      "zh": "有些人说这种粉状的晶石是矮人的佳肴。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 200,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 554,
+      "x": 32,
+      "y": 368,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_orange"
+    ]
+  },
+  {
+    "id": "555",
+    "name": "Nekoite",
+    "displayName": {
+      "en": "Nekoite",
+      "zh": "新硅钙石"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Nekoite_Description]",
+      "zh": "这些精致的碎片能够拼成一片小小的粉色牧场。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 80,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 555,
+      "x": 48,
+      "y": 368,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_pink"
+    ]
+  },
+  {
+    "id": "556",
+    "name": "Orpiment",
+    "displayName": {
+      "en": "Orpiment",
+      "zh": "雌黄"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Orpiment_Description]",
+      "zh": "尽管它毒性很强，它还是有广泛的加工以及制药用途。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 80,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 556,
+      "x": 64,
+      "y": 368,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_orange"
+    ]
+  },
+  {
+    "id": "557",
+    "name": "Petrified Slime",
+    "displayName": {
+      "en": "Petrified Slime",
+      "zh": "石化史莱姆"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:PetrifiedSlime_Description]",
+      "zh": "这小家伙也许有十万岁了。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 120,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 557,
+      "x": 80,
+      "y": 368,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_green",
+      "slime_item"
+    ]
+  },
+  {
+    "id": "558",
+    "name": "Thunder Egg",
+    "displayName": {
+      "en": "Thunder Egg",
+      "zh": "雷公蛋"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:ThunderEgg_Description]",
+      "zh": "根据传说，愤怒的雷霆神灵会朝彼此扔这些石头。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 100,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 558,
+      "x": 96,
+      "y": 368,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_dark_purple"
+    ]
+  },
+  {
+    "id": "559",
+    "name": "Pyrite",
+    "displayName": {
+      "en": "Pyrite",
+      "zh": "黄铁矿"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Pyrite_Description]",
+      "zh": "常被称为“蠢材的黄金”。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 120,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 559,
+      "x": 112,
+      "y": 368,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_gold"
+    ]
+  },
+  {
+    "id": "560",
+    "name": "Ocean Stone",
+    "displayName": {
+      "en": "Ocean Stone",
+      "zh": "海洋石"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:OceanStone_Description]",
+      "zh": "古老的传说声称这些石头是远古美人鱼的镶嵌画。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 220,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 560,
+      "x": 128,
+      "y": 368,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_green"
+    ]
+  },
+  {
+    "id": "561",
+    "name": "Ghost Crystal",
+    "displayName": {
+      "en": "Ghost Crystal",
+      "zh": "幽灵水晶"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:GhostCrystal_Description]",
+      "zh": "这块水晶的附近有着冰冷的光环。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 200,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 561,
+      "x": 144,
+      "y": 368,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_gray"
+    ]
+  },
+  {
+    "id": "562",
+    "name": "Tigerseye",
+    "displayName": {
+      "en": "Tigerseye",
+      "zh": "虎眼石"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Tigerseye_Description]",
+      "zh": "它上面的金色的条纹使这块宝石拥有了温暖的光泽。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 275,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 562,
+      "x": 160,
+      "y": 368,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_orange"
+    ]
+  },
+  {
+    "id": "563",
+    "name": "Jasper",
+    "displayName": {
+      "en": "Jasper",
+      "zh": "碧玉"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Jasper_Description]",
+      "zh": "仔细打磨之后，这块石头能发出迷人的光彩。几千年以来都被人们作为奖品。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 150,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 563,
+      "x": 176,
+      "y": 368,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_red"
+    ]
+  },
+  {
+    "id": "564",
+    "name": "Opal",
+    "displayName": {
+      "en": "Opal",
+      "zh": "猫眼石"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Opal_Description]",
+      "zh": "它的内部结构导致它能够反射出彩虹的光辉。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 150,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 564,
+      "x": 192,
+      "y": 368,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_light_cyan"
+    ]
+  },
+  {
+    "id": "565",
+    "name": "Fire Opal",
+    "displayName": {
+      "en": "Fire Opal",
+      "zh": "赤红猫眼石"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:FireOpal_Description]",
+      "zh": "一种非常罕见的猫眼石，它得名于它上面的红色斑点。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 350,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 565,
+      "x": 208,
+      "y": 368,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_dark_purple"
+    ]
+  },
+  {
+    "id": "566",
+    "name": "Celestine",
+    "displayName": {
+      "en": "Celestine",
+      "zh": "天青石"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Celestine_Description]",
+      "zh": "有些早期生物的骨头的成分就是这种石头。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 125,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 566,
+      "x": 224,
+      "y": 368,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_iron"
+    ]
+  },
+  {
+    "id": "567",
+    "name": "Marble",
+    "displayName": {
+      "en": "Marble",
+      "zh": "大理石"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Marble_Description]",
+      "zh": "一种非常受欢迎的雕塑和建筑原料。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 110,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 567,
+      "x": 240,
+      "y": 368,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_gray"
+    ]
+  },
+  {
+    "id": "568",
+    "name": "Sandstone",
+    "displayName": {
+      "en": "Sandstone",
+      "zh": "沙岩"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Sandstone_Description]",
+      "zh": "一种常见的石头，有着红色和棕色的辉纹。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 60,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 568,
+      "x": 256,
+      "y": 368,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_sand"
+    ]
+  },
+  {
+    "id": "569",
+    "name": "Granite",
+    "displayName": {
+      "en": "Granite",
+      "zh": "花岗岩"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Granite_Description]",
+      "zh": "有着斑点的矿石，经常用于建筑。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 75,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 569,
+      "x": 272,
+      "y": 368,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_gray"
+    ]
+  },
+  {
+    "id": "570",
+    "name": "Basalt",
+    "displayName": {
+      "en": "Basalt",
+      "zh": "玄武岩"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Basalt_Description]",
+      "zh": "在灼热的岩浆附近形成。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 175,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 570,
+      "x": 288,
+      "y": 368,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_gray"
+    ]
+  },
+  {
+    "id": "571",
+    "name": "Limestone",
+    "displayName": {
+      "en": "Limestone",
+      "zh": "石灰石"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Limestone_Description]",
+      "zh": "非常常见的一种石头。价值不高。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 15,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 571,
+      "x": 304,
+      "y": 368,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_gray"
+    ]
+  },
+  {
+    "id": "572",
+    "name": "Soapstone",
+    "displayName": {
+      "en": "Soapstone",
+      "zh": "皂石"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Soapstone_Description]",
+      "zh": "因为它质地比较柔软，很适合用来雕刻。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 120,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 572,
+      "x": 320,
+      "y": 368,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_white"
+    ]
+  },
+  {
+    "id": "573",
+    "name": "Hematite",
+    "displayName": {
+      "en": "Hematite",
+      "zh": "赤铁矿"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Hematite_Description]",
+      "zh": "一种主要成分为铁的矿石，带有一些特别的磁性。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 150,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 573,
+      "x": 336,
+      "y": 368,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_copper"
+    ]
+  },
+  {
+    "id": "574",
+    "name": "Mudstone",
+    "displayName": {
+      "en": "Mudstone",
+      "zh": "泥石"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Mudstone_Description]",
+      "zh": "有细密的纹理，是上古的粘土或者泥巴变成的。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 25,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 574,
+      "x": 352,
+      "y": 368,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown"
+    ]
+  },
+  {
+    "id": "575",
+    "name": "Obsidian",
+    "displayName": {
+      "en": "Obsidian",
+      "zh": "黑曜石"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Obsidian_Description]",
+      "zh": "一种火山岩，当岩浆极速冷却时就会形成。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 200,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 575,
+      "x": 368,
+      "y": 368,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_black"
+    ]
+  },
+  {
+    "id": "576",
+    "name": "Slate",
+    "displayName": {
+      "en": "Slate",
+      "zh": "板岩"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Slate_Description]",
+      "zh": "一种火山岩，当岩浆极速冷却时就会形成。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 85,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 576,
+      "x": 0,
+      "y": 384,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_gray"
+    ]
+  },
+  {
+    "id": "577",
+    "name": "Fairy Stone",
+    "displayName": {
+      "en": "Fairy Stone",
+      "zh": "精灵石"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:FairyStone_Description]",
+      "zh": "古老的矿工歌谣里说，这些石头是古代精灵的骨头做的。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 250,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 577,
+      "x": 16,
+      "y": 384,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_purple"
+    ]
+  },
+  {
+    "id": "578",
+    "name": "Star Shards",
+    "displayName": {
+      "en": "Star Shards",
+      "zh": "陶瓷碎片"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:StarShards_Description]",
+      "zh": "没有人知道它们拼起来是什么样子。有些科学家声称它们的分子架构不符合以往的自然规律。"
+    },
+    "type": "Minerals",
+    "category": -12,
+    "price": 500,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 578,
+      "x": 32,
+      "y": 384,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_pink"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_LunarBean",
+    "name": "skellady.SBVCP_LunarBean",
+    "displayName": {
+      "en": "skellady.SBVCP_LunarBean",
+      "zh": "月豆"
+    },
+    "description": {
+      "en": "月亮授予你的果实产物，口感脆脆的。",
+      "zh": "月亮授予你的果实产物，口感脆脆的。"
+    },
+    "type": "Minerals",
+    "category": -2,
+    "price": 300,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/Produce",
+      "index": 6,
+      "x": 96,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 90,
+    "contextTags": [
+      "season_fall",
+      "season_winter",
+      "color_sand",
+      "not_museum_donatable",
+      "sbv_unique_mineral",
+      "item_lunar_bean"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_Annabergite",
+    "name": "skellady.SBVCP_Annabergite",
+    "displayName": {
+      "en": "skellady.SBVCP_Annabergite",
+      "zh": "镍华"
+    },
+    "description": {
+      "en": "拥有独特色泽的稀有矿物。这种宝石用于治愈和自我反思。",
+      "zh": "拥有独特色泽的稀有矿物。这种宝石用于治愈和自我反思。"
+    },
+    "type": "Minerals",
+    "category": -2,
+    "price": 150,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/GemsArtifacts",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_cyan",
+      "not_museum_donatable",
+      "sbv_rare_mineral"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_BlueAuraQuartz",
+    "name": "skellady.SBVCP_BlueAuraQuartz",
+    "displayName": {
+      "en": "skellady.SBVCP_BlueAuraQuartz",
+      "zh": "蓝辉石英"
+    },
+    "description": {
+      "en": "一种带有淡淡紫色的华丽蓝色宝石。这种宝石用于保护和驱散负能量。",
+      "zh": "一种带有淡淡紫色的华丽蓝色宝石。这种宝石用于保护和驱散负能量。"
+    },
+    "type": "Minerals",
+    "category": -2,
+    "price": 200,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/GemsArtifacts",
+      "index": 1,
+      "x": 16,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_light_cyan",
+      "color_poppyseed",
+      "not_museum_donatable",
+      "sbv_rare_mineral"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_Citrine",
+    "name": "skellady.SBVCP_Citrine",
+    "displayName": {
+      "en": "skellady.SBVCP_Citrine",
+      "zh": "黄水晶"
+    },
+    "description": {
+      "en": "石英的黄色变种。由于其明快的色泽，常被用于建立自信心。",
+      "zh": "石英的黄色变种。由于其明快的色泽，常被用于建立自信心。"
+    },
+    "type": "Minerals",
+    "category": -2,
+    "price": 120,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/GemsArtifacts",
+      "index": 2,
+      "x": 32,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_gold",
+      "not_museum_donatable",
+      "sbv_common_mineral"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_Moonberry",
+    "name": "skellady.SBVCP_Moonberry",
+    "displayName": {
+      "en": "skellady.SBVCP_Moonberry",
+      "zh": "月莓"
+    },
+    "description": {
+      "en": "一种新月形的矿物。",
+      "zh": "一种新月形的矿物。"
+    },
+    "type": "Minerals",
+    "category": -2,
+    "price": 50,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/GemsArtifacts",
+      "index": 3,
+      "x": 48,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 90,
+    "contextTags": [
+      "color_sand",
+      "not_museum_donatable",
+      "sbv_common_mineral"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_Purpurite",
+    "name": "skellady.SBVCP_Purpurite",
+    "displayName": {
+      "en": "skellady.SBVCP_Purpurite",
+      "zh": "紫磷铁锰"
+    },
+    "description": {
+      "en": "一种美丽的紫色矿石。用于激发创造力，缓解焦虑情绪。",
+      "zh": "一种美丽的紫色矿石。用于激发创造力，缓解焦虑情绪。"
+    },
+    "type": "Minerals",
+    "category": -2,
+    "price": 110,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/GemsArtifacts",
+      "index": 4,
+      "x": 64,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_dark_purple",
+      "not_museum_donatable",
+      "sbv_common_mineral"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_Serpentine",
+    "name": "skellady.SBVCP_Serpentine",
+    "displayName": {
+      "en": "skellady.SBVCP_Serpentine",
+      "zh": "蛇纹石"
+    },
+    "description": {
+      "en": "一种装饰性绿色矿石。广泛应用于建筑和建造。",
+      "zh": "一种装饰性绿色矿石。广泛应用于建筑和建造。"
+    },
+    "type": "Minerals",
+    "category": -2,
+    "price": 130,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/GemsArtifacts",
+      "index": 5,
+      "x": 80,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_green",
+      "not_museum_donatable",
+      "sbv_rare_mineral"
+    ]
+  },
+  {
+    "id": "DTZ.DowntownZuzuCP_QiCrystal",
+    "name": "DTZ.DowntownZuzuCP_QiCrystal",
+    "displayName": {
+      "en": "DTZ.DowntownZuzuCP_QiCrystal",
+      "zh": "齐晶"
+    },
+    "description": {
+      "en": "极其罕见的晶体，由3枚五彩碎片和1颗钻石组合而成。",
+      "zh": "极其罕见的晶体，由3枚五彩碎片和1颗钻石组合而成。"
+    },
+    "type": "Minerals",
+    "category": -2,
+    "price": 1500,
+    "sprite": {
+      "texture": "Mods/DTZ.DowntownZuzuCP/Items/Qi Crystal",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Lumisteria.MtVapius_Amber",
+    "name": "Amber",
+    "displayName": {
+      "en": "Amber",
+      "zh": "琥珀"
+    },
+    "description": {
+      "en": "在雾呜山峰，结晶树脂相当的常见。",
+      "zh": "在雾呜山峰，结晶树脂相当的常见。"
+    },
+    "type": "Minerals",
+    "category": -2,
+    "price": 120,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Gems",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_mineral",
+      "color_yellow",
+      "lumisteria.gem_tier_1"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_AmberFern",
+    "name": "AmberFern",
+    "displayName": {
+      "en": "AmberFern",
+      "zh": "琥珀蕨菜化石"
+    },
+    "description": {
+      "en": "一个罕见的化石标本，里面的植物几乎完好无损。",
+      "zh": "一个罕见的化石标本，里面的植物几乎完好无损。"
+    },
+    "type": "Minerals",
+    "category": -2,
+    "price": 850,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Gems",
+      "index": 1,
+      "x": 16,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_mineral",
+      "color_red",
+      "lumisteria.gem_tier_3"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Demantoide",
+    "name": "Demantoide",
+    "displayName": {
+      "en": "Demantoide",
+      "zh": "翠榴石"
+    },
+    "description": {
+      "en": "一种在雾呜山峰发现的，呈嫩叶色彩的宝石。",
+      "zh": "一种在雾呜山峰发现的，呈嫩叶色彩的宝石。"
+    },
+    "type": "Minerals",
+    "category": -2,
+    "price": 240,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Gems",
+      "index": 4,
+      "x": 64,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_mineral",
+      "color_green",
+      "lumisteria.gem_tier_1"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Carnelian",
+    "name": "Carnelian",
+    "displayName": {
+      "en": "Carnelian",
+      "zh": "红玉髓"
+    },
+    "description": {
+      "en": "一种在雾呜山峰发现的，带有红色微光的橙色宝石。",
+      "zh": "一种在雾呜山峰发现的，带有红色微光的橙色宝石。"
+    },
+    "type": "Minerals",
+    "category": -2,
+    "price": 330,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Gems",
+      "index": 6,
+      "x": 96,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_mineral",
+      "color_orange",
+      "lumisteria.gem_tier_1"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Turquoise",
+    "name": "Turquoise",
+    "displayName": {
+      "en": "Turquoise",
+      "zh": "绿松石"
+    },
+    "description": {
+      "en": "发现于雾呜山峰的绿松石，其中带有金色纹理。",
+      "zh": "发现于雾呜山峰的绿松石，其中带有金色纹理。"
+    },
+    "type": "Minerals",
+    "category": -2,
+    "price": 450,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Gems",
+      "index": 8,
+      "x": 128,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_mineral",
+      "color_blue",
+      "lumisteria.gem_tier_2"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Garnet",
+    "name": "Garnet",
+    "displayName": {
+      "en": "Garnet",
+      "zh": "石榴石"
+    },
+    "description": {
+      "en": "一种在雾呜山峰的红宝石。",
+      "zh": "一种在雾呜山峰的红宝石。"
+    },
+    "type": "Minerals",
+    "category": -2,
+    "price": 560,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Gems",
+      "index": 10,
+      "x": 160,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_mineral",
+      "color_red",
+      "lumisteria.gem_tier_2"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Morganite",
+    "name": "Morganite",
+    "displayName": {
+      "en": "Morganite",
+      "zh": "摩根石"
+    },
+    "description": {
+      "en": "一种在雾呜山峰发现的，呈淡粉色的宝石。",
+      "zh": "一种在雾呜山峰发现的，呈淡粉色的宝石。"
+    },
+    "type": "Minerals",
+    "category": -2,
+    "price": 680,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Gems",
+      "index": 12,
+      "x": 192,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_mineral",
+      "color_pink",
+      "lumisteria.gem_tier_3"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Heliodor",
+    "name": "Heliodor",
+    "displayName": {
+      "en": "Heliodor",
+      "zh": "金绿柱石"
+    },
+    "description": {
+      "en": "一种在雾呜山峰发现的，带有太阳色彩的宝石。",
+      "zh": "一种在雾呜山峰发现的，带有太阳色彩的宝石。"
+    },
+    "type": "Minerals",
+    "category": -2,
+    "price": 720,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Gems",
+      "index": 14,
+      "x": 224,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_mineral",
+      "color_yellow",
+      "lumisteria.gem_tier_3"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Labradorite",
+    "name": "Labradorite",
+    "displayName": {
+      "en": "Labradorite",
+      "zh": "拉长石"
+    },
+    "description": {
+      "en": "一种在雾呜山峰的石头，传说是坠落的天空碎片。",
+      "zh": "一种在雾呜山峰的石头，传说是坠落的天空碎片。"
+    },
+    "type": "Minerals",
+    "category": -2,
+    "price": 720,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Gems",
+      "index": 20,
+      "x": 320,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_mineral",
+      "color_blue",
+      "lumisteria.gem_tier_3"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_VoidDiamond",
+    "name": "Void Diamond",
+    "displayName": {
+      "en": "Void Diamond",
+      "zh": "虚空钻石"
+    },
+    "description": {
+      "en": "盯着看太久的话会让人头晕。",
+      "zh": "盯着看太久的话会让人头晕。"
+    },
+    "type": "Minerals",
+    "category": -2,
+    "price": 1166,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Gems",
+      "index": 32,
+      "x": 128,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_mineral",
+      "color_purple",
+      "lumisteria.gem_tier_3"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Tourmaline",
+    "name": "Tourmaline",
+    "displayName": {
+      "en": "Tourmaline",
+      "zh": "电气石"
+    },
+    "description": {
+      "en": "颜色在粉红色和绿色之间变化着。",
+      "zh": "颜色在粉红色和绿色之间变化着。"
+    },
+    "type": "Minerals",
+    "category": -2,
+    "price": 610,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Gems",
+      "index": 35,
+      "x": 176,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_mineral",
+      "color_green",
+      "lumisteria.gem_tier_2"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Larimar",
+    "name": "Larimar",
+    "displayName": {
+      "en": "Larimar",
+      "zh": "海纹石"
+    },
+    "description": {
+      "en": "一种以遥远海岸命名的蓝色宝石。",
+      "zh": "一种以遥远海岸命名的蓝色宝石。"
+    },
+    "type": "Minerals",
+    "category": -2,
+    "price": 720,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Gems",
+      "index": 37,
+      "x": 208,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_mineral",
+      "color_blue",
+      "lumisteria.gem_tier_3"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_BlueAgathe",
+    "name": "BlueAgathe",
+    "displayName": {
+      "en": "BlueAgathe",
+      "zh": "蓝玛瑙"
+    },
+    "description": {
+      "en": "层次分明的结构使其成为雕刻的热门选择。",
+      "zh": "层次分明的结构使其成为雕刻的热门选择。"
+    },
+    "type": "Minerals",
+    "category": -2,
+    "price": 260,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Gems",
+      "index": 39,
+      "x": 240,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_mineral",
+      "color_blue",
+      "lumisteria.gem_tier_1"
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "skellady.SBVCP_CinderLeaf",
+    "name": "skellady.SBVCP_CinderLeaf",
+    "displayName": {
+      "en": "skellady.SBVCP_CinderLeaf",
+      "zh": "余烬叶"
+    },
+    "description": {
+      "en": "这片粉色叶片似乎残留着一些余温，可以用于酿造药水。",
+      "zh": "这片粉色叶片似乎残留着一些余温，可以用于酿造药水。"
+    },
+    "type": "Resource",
+    "category": -16,
+    "price": 10,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/MiscItems",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_dark_pink"
+    ]
+  }
+]

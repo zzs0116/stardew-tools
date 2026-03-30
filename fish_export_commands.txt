@@ -1,0 +1,63 @@
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Angelfish" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Clownfish" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Fire Jellyfish" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Marine Dragon" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Marine Gold" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Sapphire Starfish" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Vampire Squid" image
+patch export "Mods/DTZ.DowntownZuzuCP/Items/Zuzu Carp" image
+patch export "Mods/EnD/Objects" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Alligator" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Arrowhead Shark" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Baby Lunaloo" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Barred Knifejaw" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Blue Tang" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Bonefish" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Bull Trout" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Butterfish" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Clownfish" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Daggerfish" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Diamond Carp" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Dulse Seaweed" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Fiber Goby" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Frog" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Gar" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Gemfish" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Goldenfish" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Goldfish" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Grass Carp" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Highlands Bass" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\King Salmon" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Kittyfish" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Lunaloo" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Meteor Carp" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Minnow" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Ocean Sunfish" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Puppyfish" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Radioactive Bass" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Razor Trout" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Sea Sponge" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Seahorse" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Shark" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Shiny Lunaloo" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Snatcher Worm" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Starfish" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Swamp Crab" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Tadpole" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Torpedo Trout" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Turretfish" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Undeadfish" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Viper Eel" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Void Eel" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Water Grub" image
+patch export "Mods\FlashShifter.StardewValleyExpandedCP\Wolf Snapper" image
+patch export "Mods\Lemurkat.EastScarp\esobjects" image
+patch export "Mods\Lumisteria.MtVapius\Fishes" image
+patch export "Mods\Lumisteria.MtVapius\Objects" image
+patch export "Mods\MNF.MoreNewFish\Objects\Objects" image
+patch export "Mods\MadDogBearFam\FoodAdjacent" image
+patch export "Mods\Rafseazz.RSVCP\Objects\Objects" image
+patch export "Mods\skellady.SBVCP\Fish" image
+patch export "SMAPI/thefrenchdodo.rodneyobrien/Assets/Items/Autographs/Vanilla/AnAutographedPhoto.png" image
+patch export "Textures/DN.SnS/SnSObjects" image
+patch export "TileSheets\Objects_2" image

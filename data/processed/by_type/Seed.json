@@ -1,0 +1,4014 @@
+[
+  {
+    "id": "EastScarp_PuckerWort_Seed",
+    "name": "EastScarp_PuckerWort_Seed",
+    "displayName": {
+      "en": "EastScarp_PuckerWort_Seed",
+      "zh": "海蓬子种子"
+    },
+    "description": {
+      "en": "夏季种植，需要5天成熟。",
+      "zh": "夏季种植，需要5天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 20,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 35,
+      "x": 176,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "category_seeds"
+    ]
+  },
+  {
+    "id": "EastScarp_BiteBackMelon_Seed",
+    "name": "EastScarp_BiteBackMelon_Seed",
+    "displayName": {
+      "en": "EastScarp_BiteBackMelon_Seed",
+      "zh": "咬人瓜种子"
+    },
+    "description": {
+      "en": "春季种植，需要9天成熟，之后每3天可以收获一次。",
+      "zh": "春季种植，需要9天成熟，之后每3天可以收获一次。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 70,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 33,
+      "x": 144,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "category_seeds"
+    ]
+  },
+  {
+    "id": "EastScarp_Cuccaroot_Seed",
+    "name": "EastScarp_CuccarootSeeds",
+    "displayName": {
+      "en": "EastScarp_CuccarootSeeds",
+      "zh": "库卡根种子"
+    },
+    "description": {
+      "en": "秋季种植，需要8天成熟。",
+      "zh": "秋季种植，需要8天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 30,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 37,
+      "x": 208,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "category_seeds"
+    ]
+  },
+  {
+    "id": "EastScarp_FrostBerry_Seed",
+    "name": "EastScarp_FrostBerrySeeds",
+    "displayName": {
+      "en": "EastScarp_FrostBerrySeeds",
+      "zh": "冰霜浆果种子"
+    },
+    "description": {
+      "en": "冬季种植，需要7天成熟，之后每4天会产出多颗浆果。",
+      "zh": "冬季种植，需要7天成熟，之后每4天会产出多颗浆果。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 75,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 39,
+      "x": 240,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "category_seeds"
+    ]
+  },
+  {
+    "id": "Lemurkat.EastScarp_ButterTuffSeeds",
+    "name": "Lemurkat.EastScarp_ButterTuffSeeds",
+    "displayName": {
+      "en": "Lemurkat.EastScarp_ButterTuffSeeds",
+      "zh": "黄油甘蓝种子"
+    },
+    "description": {
+      "en": "夏季种植，需要6天成熟。",
+      "zh": "夏季种植，需要6天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 40,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 64,
+      "x": 256,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "category_seeds"
+    ]
+  },
+  {
+    "id": "Lemurkat.EastScarp_FairyCapSeeds",
+    "name": "Lemurkat.EastScarp_FairyCapSeeds",
+    "displayName": {
+      "en": "Lemurkat.EastScarp_FairyCapSeeds",
+      "zh": "仙女帽种子"
+    },
+    "description": {
+      "en": "秋季种植，需要8天成熟",
+      "zh": "秋季种植，需要8天成熟"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 60,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 66,
+      "x": 288,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "category_seeds"
+    ]
+  },
+  {
+    "id": "Lemurkat.EastScarp_PaneekiSeeds",
+    "name": "Lemurkat.EastScarp_PaneekiSeeds",
+    "displayName": {
+      "en": "Lemurkat.EastScarp_PaneekiSeeds",
+      "zh": "帕尼基根种子"
+    },
+    "description": {
+      "en": "秋季和冬季均可种植，需要7天成熟。",
+      "zh": "秋季和冬季均可种植，需要7天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 100,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 68,
+      "x": 320,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "category_seeds"
+    ]
+  },
+  {
+    "id": "Lemurkat.EastScarp_ZinfazuFruitSeeds",
+    "name": "Lemurkat.EastScarp_ZinfazuFruitSeeds",
+    "displayName": {
+      "en": "Lemurkat.EastScarp_ZinfazuFruitSeeds",
+      "zh": "辛法祖果种子"
+    },
+    "description": {
+      "en": "夏季种植，需要10天成熟。",
+      "zh": "夏季种植，需要10天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 400,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 72,
+      "x": 0,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "category_seeds"
+    ]
+  },
+  {
+    "id": "Lemurkat.EastScarp_YohoFruitSeeds",
+    "name": "Lemurkat.EastScarp_YohoFruitSeeds",
+    "displayName": {
+      "en": "Lemurkat.EastScarp_YohoFruitSeeds",
+      "zh": "悦活果种子"
+    },
+    "description": {
+      "en": "春季和夏季均可种植，需要5天成熟。",
+      "zh": "春季和夏季均可种植，需要5天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 20,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 74,
+      "x": 32,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "category_seeds"
+    ]
+  },
+  {
+    "id": "Lemurkat.EastScarp_DeepCaveFruitSeeds",
+    "name": "Lemurkat.EastScarp_DeepCaveFruitSeeds",
+    "displayName": {
+      "en": "Lemurkat.EastScarp_DeepCaveFruitSeeds",
+      "zh": "山洞果种子"
+    },
+    "description": {
+      "en": "夏季种植，需要15天成熟。",
+      "zh": "夏季种植，需要15天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 100,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 76,
+      "x": 64,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "category_seeds"
+    ]
+  },
+  {
+    "id": "Lemurkat.EastScarp_CaveFlowerSeeds",
+    "name": "Lemurkat.EastScarp_CaveFlowerSeeds",
+    "displayName": {
+      "en": "Lemurkat.EastScarp_CaveFlowerSeeds",
+      "zh": "山洞花种子"
+    },
+    "description": {
+      "en": "秋季和冬季均可种植，需要11天成熟。",
+      "zh": "秋季和冬季均可种植，需要11天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 80,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 78,
+      "x": 96,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "category_seeds"
+    ]
+  },
+  {
+    "id": "Lemurkat.EastScarp_FirePepperSeeds",
+    "name": "Lemurkat.EastScarp_FirePepperSeeds",
+    "displayName": {
+      "en": "Lemurkat.EastScarp_FirePepperSeeds",
+      "zh": "地狱辣椒种子"
+    },
+    "description": {
+      "en": "春季种植，需要15天成熟，之后可以继续收获。",
+      "zh": "春季种植，需要15天成熟，之后可以继续收获。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 175,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 80,
+      "x": 128,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "category_seeds",
+      "color_orange"
+    ]
+  },
+  {
+    "id": "Lemurkat.EastScarp_GiggleFitSeeds",
+    "name": "Lemurkat.EastScarp_GiggleFitSeeds",
+    "displayName": {
+      "en": "Lemurkat.EastScarp_GiggleFitSeeds",
+      "zh": "傻笑无花果种子"
+    },
+    "description": {
+      "en": "秋季种植，需要8天成熟。",
+      "zh": "秋季种植，需要8天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 80,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 82,
+      "x": 160,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "category_seeds"
+    ]
+  },
+  {
+    "id": "Lemurkat.EastScarp_ChocoFruitSeeds",
+    "name": "Lemurkat.EastScarp_ChocoFruitSeeds",
+    "displayName": {
+      "en": "Lemurkat.EastScarp_ChocoFruitSeeds",
+      "zh": "可可豆种子"
+    },
+    "description": {
+      "en": "秋季和冬季均可种植，需要6天成熟，之后可以继续收获。",
+      "zh": "秋季和冬季均可种植，需要6天成熟，之后可以继续收获。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 50,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 84,
+      "x": 192,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "category_seeds"
+    ]
+  },
+  {
+    "id": "Lemurkat.EastScarp_ButtonFruitSeeds",
+    "name": "Lemurkat.EastScarp_ButtonFruitSeeds",
+    "displayName": {
+      "en": "Lemurkat.EastScarp_ButtonFruitSeeds",
+      "zh": "黄油果种子"
+    },
+    "description": {
+      "en": "夏季种植，需要8天时间成熟，之后可以继续收获。",
+      "zh": "夏季种植，需要8天时间成熟，之后可以继续收获。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 60,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 86,
+      "x": 224,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "category_seeds"
+    ]
+  },
+  {
+    "id": "Cornucopia_Soybeans",
+    "name": "Cornucopia_Soybeans",
+    "displayName": {
+      "en": "Cornucopia_Soybeans",
+      "zh": "大豆"
+    },
+    "description": {
+      "en": "秋季种植以种出大豆植物，或用于制作豆腐和其他富含蛋白质的食物。",
+      "zh": "秋季种植以种出大豆植物，或用于制作豆腐和其他富含蛋白质的食物。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 65,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 74,
+      "x": 32,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": -20,
+    "contextTags": [
+      "bean_item",
+      "seedmaker_banned",
+      "color_yellow",
+      "cornucopia_crop_seed",
+      "season_fall",
+      "cornucopia_rarity_exclusive",
+      "cornucopia_pack_essential",
+      "modid_cornucopia.morecrops",
+      "soybean_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_SesameSeeds",
+    "name": "Cornucopia_SesameSeeds",
+    "displayName": {
+      "en": "Cornucopia_SesameSeeds",
+      "zh": "芝麻籽"
+    },
+    "description": {
+      "en": "芝麻籽，常用于食物装饰。春季播种可培育芝麻植株。",
+      "zh": "芝麻籽，常用于食物装饰。春季播种可培育芝麻植株。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 60,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 273,
+      "x": 144,
+      "y": 176,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "sesame_item",
+      "sesame_seeds_item",
+      "seedmaker_banned",
+      "color_sand",
+      "cornucopia_crop_seed",
+      "season_spring",
+      "cornucopia_rarity_exclusive",
+      "cornucopia_pack_essential",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_MungBeans",
+    "name": "Cornucopia_MungBeans",
+    "displayName": {
+      "en": "Cornucopia_MungBeans",
+      "zh": "绿豆"
+    },
+    "description": {
+      "en": "较小的黄豆，常用于制作糕点的甜馅。夏季播种可培育豆芽。",
+      "zh": "较小的黄豆，常用于制作糕点的甜馅。夏季播种可培育豆芽。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 50,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 277,
+      "x": 208,
+      "y": 176,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "bean_item",
+      "seedmaker_banned",
+      "color_yellow",
+      "cornucopia_crop_seed",
+      "season_summer",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedcrops",
+      "modid_cornucopia.morecrops",
+      "mung_bean_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_CuminSeeds",
+    "name": "Cornucopia_CuminSeeds",
+    "displayName": {
+      "en": "Cornucopia_CuminSeeds",
+      "zh": "孜然籽"
+    },
+    "description": {
+      "en": "具有独特的味道，味道地道，坚果味和辛辣味。秋季种植这些种子可以种出孜然植物。",
+      "zh": "具有独特的味道，味道地道，坚果味和辛辣味。秋季种植这些种子可以种出孜然植物。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 40,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 218,
+      "x": 32,
+      "y": 144,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "spice_item",
+      "seedmaker_banned",
+      "color_dark_gray",
+      "cornucopia_crop_seed",
+      "season_fall",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_herbs",
+      "modid_cornucopia.morecrops",
+      "cumin_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_BasilSeeds",
+    "name": "Cornucopia_BasilSeeds",
+    "displayName": {
+      "en": "Cornucopia_BasilSeeds",
+      "zh": "罗勒种子"
+    },
+    "description": {
+      "en": "春季种植。需要3天成熟。",
+      "zh": "春季种植。需要3天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 10,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 195,
+      "x": 48,
+      "y": 128,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_essential",
+      "cornucopia_season_spring",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_BellPepperSeeds",
+    "name": "Cornucopia_BellPepperSeeds",
+    "displayName": {
+      "en": "Cornucopia_BellPepperSeeds",
+      "zh": "甜椒种子"
+    },
+    "description": {
+      "en": "夏季种植。需要10天成熟，并在第一次收获后继续生产。",
+      "zh": "夏季种植。需要10天成熟，并在第一次收获后继续生产。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 65,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 9,
+      "x": 144,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_essential",
+      "cornucopia_season_summer",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_TurnipSeeds",
+    "name": "Cornucopia_TurnipSeeds",
+    "displayName": {
+      "en": "Cornucopia_TurnipSeeds",
+      "zh": "芜菁种子"
+    },
+    "description": {
+      "en": "秋季种植。需要6天成熟。",
+      "zh": "秋季种植。需要6天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 15,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 141,
+      "x": 336,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_essential",
+      "cornucopia_season_fall",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_CottonBollSeeds",
+    "name": "Cornucopia_CottonBollSeeds",
+    "displayName": {
+      "en": "Cornucopia_CottonBollSeeds",
+      "zh": "棉花种子"
+    },
+    "description": {
+      "en": "夏季或秋季种植。需要8天成熟，并在第一次收获后继续生产。",
+      "zh": "夏季或秋季种植。需要8天成熟，并在第一次收获后继续生产。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 100,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 15,
+      "x": 240,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_essential",
+      "cornucopia_season_summer",
+      "cornucopia_season_fall",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_CucumberSeeds",
+    "name": "Cornucopia_CucumberSeeds",
+    "displayName": {
+      "en": "Cornucopia_CucumberSeeds",
+      "zh": "黄瓜爬架"
+    },
+    "description": {
+      "en": "夏季种植。需要11天成熟，但之后会继续生产。需要爬架。",
+      "zh": "夏季种植。需要11天成熟，但之后会继续生产。需要爬架。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 50,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 13,
+      "x": 208,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_essential",
+      "cornucopia_season_summer",
+      "modid_cornucopia.morecrops",
+      "traveling_cart_banned"
+    ]
+  },
+  {
+    "id": "Cornucopia_KiwiSeeds",
+    "name": "Cornucopia_KiwiSeeds",
+    "displayName": {
+      "en": "Cornucopia_KiwiSeeds",
+      "zh": "猕猴桃爬架"
+    },
+    "description": {
+      "en": "夏季种植。需要21天成熟，但之后会继续生产。需要爬架。",
+      "zh": "夏季种植。需要21天成熟，但之后会继续生产。需要爬架。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 50,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 183,
+      "x": 240,
+      "y": 112,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_exclusive",
+      "cornucopia_pack_essential",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_LettuceSeeds",
+    "name": "Cornucopia_LettuceSeeds",
+    "displayName": {
+      "en": "Cornucopia_LettuceSeeds",
+      "zh": "生菜种子"
+    },
+    "description": {
+      "en": "夏季种植。需要6天成熟。",
+      "zh": "夏季种植。需要6天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 10,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 123,
+      "x": 48,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_essential",
+      "cornucopia_season_summer",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_OnionSeeds",
+    "name": "Cornucopia_OnionSeeds",
+    "displayName": {
+      "en": "Cornucopia_OnionSeeds",
+      "zh": "洋葱种子"
+    },
+    "description": {
+      "en": "春季种植。需要8天成熟。",
+      "zh": "春季种植。需要8天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 40,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 17,
+      "x": 272,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_essential",
+      "cornucopia_season_spring",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_PeanutSeeds",
+    "name": "Cornucopia_PeanutSeeds",
+    "displayName": {
+      "en": "Cornucopia_PeanutSeeds",
+      "zh": "花生种子"
+    },
+    "description": {
+      "en": "秋季种植。需要20天成熟。",
+      "zh": "秋季种植。需要20天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 30,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 23,
+      "x": 368,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_essential",
+      "cornucopia_season_fall",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_SpinachSeeds",
+    "name": "Cornucopia_SpinachSeeds",
+    "displayName": {
+      "en": "Cornucopia_SpinachSeeds",
+      "zh": "菠菜种子"
+    },
+    "description": {
+      "en": "春季或秋季种植。需要4天成熟。用镰刀收割。",
+      "zh": "春季或秋季种植。需要4天成熟。用镰刀收割。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 5,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 83,
+      "x": 176,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_essential",
+      "cornucopia_season_spring",
+      "cornucopia_season_fall",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_SugarcaneSeeds",
+    "name": "Cornucopia_SugarcaneSeeds",
+    "displayName": {
+      "en": "Cornucopia_SugarcaneSeeds",
+      "zh": "甘蔗苗"
+    },
+    "description": {
+      "en": "夏季种植。需要8天成熟，并且在水培时生长更快。用镰刀收割。",
+      "zh": "夏季种植。需要8天成熟，并且在水培时生长更快。用镰刀收割。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 10,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 31,
+      "x": 112,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_essential",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_WatermelonSeeds",
+    "name": "Cornucopia_WatermelonSeeds",
+    "displayName": {
+      "en": "Cornucopia_WatermelonSeeds",
+      "zh": "西瓜种子"
+    },
+    "description": {
+      "en": "夏季种植。需要12天成熟，有可能长得很大！",
+      "zh": "夏季种植。需要12天成熟，有可能长得很大！"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 150,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 11,
+      "x": 176,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_essential",
+      "cornucopia_season_summer",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_ZucchiniSeeds",
+    "name": "Cornucopia_ZucchiniSeeds",
+    "displayName": {
+      "en": "Cornucopia_ZucchiniSeeds",
+      "zh": "西葫芦种子"
+    },
+    "description": {
+      "en": "在秋天种植。需要14天才能成熟，并在第一次收获后继续生产。",
+      "zh": "在秋天种植。需要14天才能成熟，并在第一次收获后继续生产。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 25,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 121,
+      "x": 16,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_essential",
+      "cornucopia_season_fall",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_AdzukiBeanSeeds",
+    "name": "Cornucopia_AdzukiBeanSeeds",
+    "displayName": {
+      "en": "Cornucopia_AdzukiBeanSeeds",
+      "zh": "赤豆种子"
+    },
+    "description": {
+      "en": "夏季种植。需要9天成熟，并在第一次收获后继续生产。",
+      "zh": "夏季种植。需要9天成熟，并在第一次收获后继续生产。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 50,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 89,
+      "x": 272,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedcrops",
+      "cornucopia_season_summer",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_AgaveSeeds",
+    "name": "Cornucopia_AgaveSeeds",
+    "displayName": {
+      "en": "Cornucopia_AgaveSeeds",
+      "zh": "龙舌兰种子"
+    },
+    "description": {
+      "en": "春季种植。需要8天成熟。",
+      "zh": "春季种植。需要8天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 50,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 77,
+      "x": 80,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedcrops",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_AsparagusSeeds",
+    "name": "Cornucopia_AsparagusSeeds",
+    "displayName": {
+      "en": "Cornucopia_AsparagusSeeds",
+      "zh": "芦笋种子"
+    },
+    "description": {
+      "en": "春季种植。需要5天成熟。",
+      "zh": "春季种植。需要5天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 30,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 155,
+      "x": 176,
+      "y": 96,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedcrops",
+      "cornucopia_season_spring",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_BambooSeeds",
+    "name": "Cornucopia_BambooSeeds",
+    "displayName": {
+      "en": "Cornucopia_BambooSeeds",
+      "zh": "竹笋"
+    },
+    "description": {
+      "en": "春季或夏季种植。需要9天成熟。",
+      "zh": "春季或夏季种植。需要9天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 40,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 97,
+      "x": 16,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedcrops",
+      "modid_cornucopia.morecrops",
+      "bamboo_shoot_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_BarleySeeds",
+    "name": "Cornucopia_BarleySeeds",
+    "displayName": {
+      "en": "Cornucopia_BarleySeeds",
+      "zh": "大麦种子"
+    },
+    "description": {
+      "en": "秋季种植。需要4天成熟。用镰刀收割。",
+      "zh": "秋季种植。需要4天成熟。用镰刀收割。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 5,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 99,
+      "x": 48,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedcrops",
+      "cornucopia_season_fall",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_BlackBeansSeeds",
+    "name": "Cornucopia_BlackBeansSeeds",
+    "displayName": {
+      "en": "Cornucopia_BlackBeansSeeds",
+      "zh": "黑豆苗"
+    },
+    "description": {
+      "en": "秋季种植。需要10天成熟，并在第一次收获后继续生产。需要爬架。",
+      "zh": "秋季种植。需要10天成熟，并在第一次收获后继续生产。需要爬架。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 30,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 151,
+      "x": 112,
+      "y": 96,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedcrops",
+      "cornucopia_season_fall",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_BlueAgaveSeeds",
+    "name": "Cornucopia_BlueAgaveSeeds",
+    "displayName": {
+      "en": "Cornucopia_BlueAgaveSeeds",
+      "zh": "蓝龙舌兰种子"
+    },
+    "description": {
+      "en": "夏季种植。需要12天成熟。",
+      "zh": "夏季种植。需要12天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 90,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 79,
+      "x": 112,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedcrops",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_BuckwheatSeeds",
+    "name": "Cornucopia_BuckwheatSeeds",
+    "displayName": {
+      "en": "Cornucopia_BuckwheatSeeds",
+      "zh": "荞麦种子"
+    },
+    "description": {
+      "en": "春季种植。需要4天成熟。用镰刀收割。",
+      "zh": "春季种植。需要4天成熟。用镰刀收割。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 5,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 125,
+      "x": 80,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedcrops",
+      "cornucopia_season_spring",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_ButternutSquashSeeds",
+    "name": "Cornucopia_ButternutSquashSeeds",
+    "displayName": {
+      "en": "Cornucopia_ButternutSquashSeeds",
+      "zh": "奶油南瓜种子"
+    },
+    "description": {
+      "en": "夏季种植。需要10天成熟，并在第一次收获后继续生产。",
+      "zh": "夏季种植。需要10天成熟，并在第一次收获后继续生产。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 90,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 127,
+      "x": 112,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedcrops",
+      "cornucopia_season_summer",
+      "modid_cornucopia.morecrops",
+      "traveling_cart_banned"
+    ]
+  },
+  {
+    "id": "Cornucopia_CabbageSeeds",
+    "name": "Cornucopia_CabbageSeeds",
+    "displayName": {
+      "en": "Cornucopia_CabbageSeeds",
+      "zh": "卷心菜种子"
+    },
+    "description": {
+      "en": "春季种植。需要7天成熟。",
+      "zh": "春季种植。需要7天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 35,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 7,
+      "x": 112,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedcrops",
+      "cornucopia_season_spring",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_CanaryMelonSeeds",
+    "name": "Cornucopia_CanaryMelonSeeds",
+    "displayName": {
+      "en": "Cornucopia_CanaryMelonSeeds",
+      "zh": "金丝甜瓜种子"
+    },
+    "description": {
+      "en": "春季种植。需要12天成熟，并在第一次收获后继续生产。",
+      "zh": "春季种植。需要12天成熟，并在第一次收获后继续生产。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 225,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 5,
+      "x": 80,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedcrops",
+      "cornucopia_season_spring",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_CanolaFlowerSeeds",
+    "name": "Cornucopia_CanolaFlowerSeeds",
+    "displayName": {
+      "en": "Cornucopia_CanolaFlowerSeeds",
+      "zh": "油菜籽"
+    },
+    "description": {
+      "en": "春季或夏季种植。需要8天开花，可以用来制油。用镰刀收割。",
+      "zh": "春季或夏季种植。需要8天开花，可以用来制油。用镰刀收割。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 50,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 157,
+      "x": 208,
+      "y": 96,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedcrops",
+      "cornucopia_season_summer",
+      "cornucopia_season_spring",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_CantaloupeSeeds",
+    "name": "Cornucopia_CantaloupeSeeds",
+    "displayName": {
+      "en": "Cornucopia_CantaloupeSeeds",
+      "zh": "甜瓜种子"
+    },
+    "description": {
+      "en": "春季种植。需要8天成熟。",
+      "zh": "春季种植。需要8天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 40,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 129,
+      "x": 144,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedcrops",
+      "cornucopia_season_spring",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_CassavaSeeds",
+    "name": "Cornucopia_CassavaSeeds",
+    "displayName": {
+      "en": "Cornucopia_CassavaSeeds",
+      "zh": "木薯种子"
+    },
+    "description": {
+      "en": "夏季种植。需要7天成熟。",
+      "zh": "夏季种植。需要7天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 25,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 19,
+      "x": 304,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedcrops",
+      "cornucopia_season_summer",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_CelerySeeds",
+    "name": "Cornucopia_CelerySeeds",
+    "displayName": {
+      "en": "Cornucopia_CelerySeeds",
+      "zh": "芹菜种子"
+    },
+    "description": {
+      "en": "秋季种植。需要4天成熟。",
+      "zh": "秋季种植。需要4天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 15,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 29,
+      "x": 80,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedcrops",
+      "cornucopia_season_fall",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_ChickpeaSeeds",
+    "name": "Cornucopia_ChickpeaSeeds",
+    "displayName": {
+      "en": "Cornucopia_ChickpeaSeeds",
+      "zh": "鹰嘴豆种子"
+    },
+    "description": {
+      "en": "夏季种植。需要10天成熟，并在第一次收获后继续生产。",
+      "zh": "夏季种植。需要10天成熟，并在第一次收获后继续生产。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 100,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 63,
+      "x": 240,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedcrops",
+      "cornucopia_season_summer",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_DaikonSeeds",
+    "name": "Cornucopia_DaikonSeeds",
+    "displayName": {
+      "en": "Cornucopia_DaikonSeeds",
+      "zh": "白萝卜种子"
+    },
+    "description": {
+      "en": "秋季种植。需要8天成熟。",
+      "zh": "秋季种植。需要8天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 70,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 143,
+      "x": 368,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedcrops",
+      "cornucopia_season_fall",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_DurumSeeds",
+    "name": "Cornucopia_DurumSeeds",
+    "displayName": {
+      "en": "Cornucopia_DurumSeeds",
+      "zh": "硬粒小麦种子"
+    },
+    "description": {
+      "en": "秋季种植。需要4天成熟。用镰刀收割。",
+      "zh": "秋季种植。需要4天成熟。用镰刀收割。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 5,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 185,
+      "x": 272,
+      "y": 112,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedcrops",
+      "cornucopia_season_fall",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_GinsengSeeds",
+    "name": "Cornucopia_GinsengSeeds",
+    "displayName": {
+      "en": "Cornucopia_GinsengSeeds",
+      "zh": "人参种子"
+    },
+    "description": {
+      "en": "春季或冬季种植。需要30天成熟。",
+      "zh": "春季或冬季种植。需要30天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 296,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 135,
+      "x": 240,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_exclusive",
+      "cornucopia_pack_extendedcrops",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_GreenPeasSeeds",
+    "name": "Cornucopia_GreenPeasSeeds",
+    "displayName": {
+      "en": "Cornucopia_GreenPeasSeeds",
+      "zh": "豌豆苗"
+    },
+    "description": {
+      "en": "夏季种植。需要8天成熟，但之后会继续生产。需要爬架。",
+      "zh": "夏季种植。需要8天成熟，但之后会继续生产。需要爬架。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 25,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 91,
+      "x": 304,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedcrops",
+      "cornucopia_season_summer",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_GroundcherriesSeeds",
+    "name": "Cornucopia_GroundcherriesSeeds",
+    "displayName": {
+      "en": "Cornucopia_GroundcherriesSeeds",
+      "zh": "菇娘儿种子"
+    },
+    "description": {
+      "en": "夏季或秋季种植。需要9天成熟，并在第一次收获后继续生产。",
+      "zh": "夏季或秋季种植。需要9天成熟，并在第一次收获后继续生产。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 75,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 265,
+      "x": 16,
+      "y": 176,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedcrops",
+      "cornucopia_season_summer",
+      "cornucopia_season_fall",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_HabaneroSeeds",
+    "name": "Cornucopia_HabaneroSeeds",
+    "displayName": {
+      "en": "Cornucopia_HabaneroSeeds",
+      "zh": "哈瓦那辣椒种子"
+    },
+    "description": {
+      "en": "秋季种植。需要10天成熟，并在第一次收获后继续生产。",
+      "zh": "秋季种植。需要10天成熟，并在第一次收获后继续生产。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 65,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 189,
+      "x": 336,
+      "y": 112,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedcrops",
+      "cornucopia_season_fall",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_HoneydewSeeds",
+    "name": "Cornucopia_HoneydewSeeds",
+    "displayName": {
+      "en": "Cornucopia_HoneydewSeeds",
+      "zh": "哈密瓜种子"
+    },
+    "description": {
+      "en": "夏季种植。需要8天成熟。",
+      "zh": "夏季种植。需要8天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 40,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 131,
+      "x": 176,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedcrops",
+      "cornucopia_season_summer",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_JalapenoSeeds",
+    "name": "Cornucopia_JalapenoSeeds",
+    "displayName": {
+      "en": "Cornucopia_JalapenoSeeds",
+      "zh": "墨西哥辣椒种子"
+    },
+    "description": {
+      "en": "春季种植。需要8天成熟，并在第一次收获后继续生产。",
+      "zh": "春季种植。需要8天成熟，并在第一次收获后继续生产。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 10,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 93,
+      "x": 336,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedcrops",
+      "cornucopia_season_spring",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_KidneyBeansSeeds",
+    "name": "Cornucopia_KidneyBeansSeeds",
+    "displayName": {
+      "en": "Cornucopia_KidneyBeansSeeds",
+      "zh": "红腰豆苗爬架"
+    },
+    "description": {
+      "en": "秋季种植。需要10天成熟，但之后会继续生产。需要爬架。",
+      "zh": "秋季种植。需要10天成熟，但之后会继续生产。需要爬架。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 90,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 153,
+      "x": 144,
+      "y": 96,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedcrops",
+      "cornucopia_season_fall",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_NavyBeansSeeds",
+    "name": "Cornucopia_NavyBeansSeeds",
+    "displayName": {
+      "en": "Cornucopia_NavyBeansSeeds",
+      "zh": "海军豆苗爬架"
+    },
+    "description": {
+      "en": "夏季种植。需要10天成熟，但之后会继续生产。需要爬架。",
+      "zh": "夏季种植。需要10天成熟，但之后会继续生产。需要爬架。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 40,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 149,
+      "x": 80,
+      "y": 96,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedcrops",
+      "cornucopia_season_summer",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_OatsSeeds",
+    "name": "Cornucopia_OatsSeeds",
+    "displayName": {
+      "en": "Cornucopia_OatsSeeds",
+      "zh": "燕麦种子"
+    },
+    "description": {
+      "en": "秋季种植。需要4天成熟。用镰刀收割。",
+      "zh": "秋季种植。需要4天成熟。用镰刀收割。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 5,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 61,
+      "x": 208,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedcrops",
+      "cornucopia_season_fall",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_OkraSeeds",
+    "name": "Cornucopia_OkraSeeds",
+    "displayName": {
+      "en": "Cornucopia_OkraSeeds",
+      "zh": "秋葵种子"
+    },
+    "description": {
+      "en": "夏季或秋季种植。需要10天成熟，但之后会继续生产。",
+      "zh": "夏季或秋季种植。需要10天成熟，但之后会继续生产。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 80,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 133,
+      "x": 208,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedcrops",
+      "cornucopia_season_summer",
+      "cornucopia_season_fall",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_PassionFruitSeeds",
+    "name": "Cornucopia_PassionFruitSeeds",
+    "displayName": {
+      "en": "Cornucopia_PassionFruitSeeds",
+      "zh": "百香果种子"
+    },
+    "description": {
+      "en": "春季种植。需要12天成熟，但之后会继续生产。需要爬架。",
+      "zh": "春季种植。需要12天成熟，但之后会继续生产。需要爬架。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 65,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 87,
+      "x": 240,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_exclusive",
+      "cornucopia_pack_extendedcrops",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_PintoBeansSeeds",
+    "name": "Cornucopia_PintoBeansSeeds",
+    "displayName": {
+      "en": "Cornucopia_PintoBeansSeeds",
+      "zh": "斑豆苗爬架"
+    },
+    "description": {
+      "en": "春季种植。需要10天成熟，但之后会继续生产。需要爬架。",
+      "zh": "春季种植。需要10天成熟，但之后会继续生产。需要爬架。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 40,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 147,
+      "x": 48,
+      "y": 96,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedcrops",
+      "cornucopia_season_spring",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_QuinoaSeeds",
+    "name": "Cornucopia_QuinoaSeeds",
+    "displayName": {
+      "en": "Cornucopia_QuinoaSeeds",
+      "zh": "藜麦种子"
+    },
+    "description": {
+      "en": "夏季种植。需要6天成熟。",
+      "zh": "夏季种植。需要6天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 10,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 159,
+      "x": 240,
+      "y": 96,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedcrops",
+      "cornucopia_season_summer",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_RedOnionSeeds",
+    "name": "Cornucopia_RedOnionSeeds",
+    "displayName": {
+      "en": "Cornucopia_RedOnionSeeds",
+      "zh": "红洋葱种子"
+    },
+    "description": {
+      "en": "春季种植。需要8天成熟。",
+      "zh": "春季种植。需要8天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 40,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 181,
+      "x": 208,
+      "y": 112,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedcrops",
+      "cornucopia_season_spring",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_ShallotSeeds",
+    "name": "Cornucopia_ShallotSeeds",
+    "displayName": {
+      "en": "Cornucopia_ShallotSeeds",
+      "zh": "红葱头种子"
+    },
+    "description": {
+      "en": "春季种植。需要8天成熟。",
+      "zh": "春季种植。需要8天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 40,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 73,
+      "x": 16,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedcrops",
+      "cornucopia_season_spring",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_SugarBeetSeeds",
+    "name": "Cornucopia_SugarBeetSeeds",
+    "displayName": {
+      "en": "Cornucopia_SugarBeetSeeds",
+      "zh": "甜菜种子"
+    },
+    "description": {
+      "en": "春季种植。需要8天成熟。",
+      "zh": "春季种植。需要8天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 50,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 85,
+      "x": 208,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedcrops",
+      "cornucopia_season_spring",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_SweetPotatoSeeds",
+    "name": "Cornucopia_SweetPotatoSeeds",
+    "displayName": {
+      "en": "Cornucopia_SweetPotatoSeeds",
+      "zh": "红薯种子"
+    },
+    "description": {
+      "en": "秋季种植。需要8天成熟。",
+      "zh": "秋季种植。需要8天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 35,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 33,
+      "x": 144,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedcrops",
+      "cornucopia_season_fall",
+      "modid_cornucopia.morecrops",
+      "traveling_cart_banned"
+    ]
+  },
+  {
+    "id": "Cornucopia_WasabiRootSeeds",
+    "name": "Cornucopia_WasabiRootSeeds",
+    "displayName": {
+      "en": "Cornucopia_WasabiRootSeeds",
+      "zh": "山葵种子"
+    },
+    "description": {
+      "en": "夏季种植。需要8天成熟，并且在水培时生长更快。",
+      "zh": "夏季种植。需要8天成熟，并且在水培时生长更快。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 50,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 137,
+      "x": 272,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedcrops",
+      "cornucopia_season_summer",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_LentilsSeeds",
+    "name": "Cornucopia_LentilsSeeds",
+    "displayName": {
+      "en": "Cornucopia_LentilsSeeds",
+      "zh": "扁豆种子"
+    },
+    "description": {
+      "en": "秋季种植。需要5天成熟。",
+      "zh": "秋季种植。需要5天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 20,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 259,
+      "x": 304,
+      "y": 160,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedcrops",
+      "cornucopia_season_fall",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_UbeSeeds",
+    "name": "Cornucopia_UbeSeeds",
+    "displayName": {
+      "en": "Cornucopia_UbeSeeds",
+      "zh": "紫山药种子"
+    },
+    "description": {
+      "en": "冬季种植。需要8天成熟。",
+      "zh": "冬季种植。需要8天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 50,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 279,
+      "x": 240,
+      "y": 176,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedcrops",
+      "cornucopia_season_winter",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_AloeSeeds",
+    "name": "Cornucopia_AloeSeeds",
+    "displayName": {
+      "en": "Cornucopia_AloeSeeds",
+      "zh": "芦荟种子"
+    },
+    "description": {
+      "en": "夏季种植。需要4天成熟。",
+      "zh": "夏季种植。需要4天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 50,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 215,
+      "x": 368,
+      "y": 128,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_herbs",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_CatnipSeeds",
+    "name": "Cornucopia_CatnipSeeds",
+    "displayName": {
+      "en": "Cornucopia_CatnipSeeds",
+      "zh": "猫薄荷种子"
+    },
+    "description": {
+      "en": "春季种植。需要7天成熟。",
+      "zh": "春季种植。需要7天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 30,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 207,
+      "x": 240,
+      "y": 128,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_herbs",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_ChivesSeeds",
+    "name": "Cornucopia_ChivesSeeds",
+    "displayName": {
+      "en": "Cornucopia_ChivesSeeds",
+      "zh": "细香葱种子"
+    },
+    "description": {
+      "en": "夏季种植。需要5天成熟。",
+      "zh": "夏季种植。需要5天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 10,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 193,
+      "x": 16,
+      "y": 128,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_herbs",
+      "cornucopia_season_summer",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_CilantroSeeds",
+    "name": "Cornucopia_CilantroSeeds",
+    "displayName": {
+      "en": "Cornucopia_CilantroSeeds",
+      "zh": "香菜种子"
+    },
+    "description": {
+      "en": "带有一定香料味道的种子。秋季种植芫荽以收获香菜。",
+      "zh": "带有一定香料味道的种子。秋季种植芫荽以收获香菜。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 10,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 217,
+      "x": 16,
+      "y": 144,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "spice_item",
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_herbs",
+      "cornucopia_season_fall",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops",
+      "coriander_item",
+      "coriander_seed_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_DillSeeds",
+    "name": "Cornucopia_DillSeeds",
+    "displayName": {
+      "en": "Cornucopia_DillSeeds",
+      "zh": "莳萝种子"
+    },
+    "description": {
+      "en": "春季种植。需要7天成熟。",
+      "zh": "春季种植。需要7天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 25,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 241,
+      "x": 16,
+      "y": 160,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_herbs",
+      "cornucopia_season_spring",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_FennelSeeds",
+    "name": "Cornucopia_FennelSeeds",
+    "displayName": {
+      "en": "Cornucopia_FennelSeeds",
+      "zh": "小茴香种子"
+    },
+    "description": {
+      "en": "秋季种植。需要5天成熟。",
+      "zh": "秋季种植。需要5天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 10,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 209,
+      "x": 272,
+      "y": 128,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_herbs",
+      "cornucopia_season_fall",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_FenugreekSeeds",
+    "name": "Cornucopia_FenugreekSeeds",
+    "displayName": {
+      "en": "Cornucopia_FenugreekSeeds",
+      "zh": "胡芦巴种子"
+    },
+    "description": {
+      "en": "春季种植。需要5天成熟。",
+      "zh": "春季种植。需要5天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 10,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 243,
+      "x": 48,
+      "y": 160,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_herbs",
+      "cornucopia_season_spring",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_LemongrassSeeds",
+    "name": "Cornucopia_LemongrassSeeds",
+    "displayName": {
+      "en": "Cornucopia_LemongrassSeeds",
+      "zh": "香茅种子"
+    },
+    "description": {
+      "en": "夏季种植。需要6天成熟。",
+      "zh": "夏季种植。需要6天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 10,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 255,
+      "x": 240,
+      "y": 160,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_herbs",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_LicoriceRootSeeds",
+    "name": "Cornucopia_LicoriceRootSeeds",
+    "displayName": {
+      "en": "Cornucopia_LicoriceRootSeeds",
+      "zh": "洋甘草种子"
+    },
+    "description": {
+      "en": "春季种植。需要8天成熟。",
+      "zh": "春季种植。需要8天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 50,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 253,
+      "x": 208,
+      "y": 160,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_herbs",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_MarjoramSeeds",
+    "name": "Cornucopia_MarjoramSeeds",
+    "displayName": {
+      "en": "Cornucopia_MarjoramSeeds",
+      "zh": "香花薄荷种子"
+    },
+    "description": {
+      "en": "春季种植。需要6天成熟。",
+      "zh": "春季种植。需要6天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 15,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 257,
+      "x": 272,
+      "y": 160,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_herbs",
+      "cornucopia_season_spring",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_MintSeeds",
+    "name": "Cornucopia_MintSeeds",
+    "displayName": {
+      "en": "Cornucopia_MintSeeds",
+      "zh": "薄荷种子"
+    },
+    "description": {
+      "en": "冬季种植。需要5天成熟。",
+      "zh": "冬季种植。需要5天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 15,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 199,
+      "x": 112,
+      "y": 128,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_herbs",
+      "cornucopia_season_winter",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_OreganoSeeds",
+    "name": "Cornucopia_OreganoSeeds",
+    "displayName": {
+      "en": "Cornucopia_OreganoSeeds",
+      "zh": "牛至种子"
+    },
+    "description": {
+      "en": "夏季种植。需要5天成熟。",
+      "zh": "夏季种植。需要5天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 15,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 251,
+      "x": 176,
+      "y": 160,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_herbs",
+      "cornucopia_season_summer",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_ParsleySeeds",
+    "name": "Cornucopia_ParsleySeeds",
+    "displayName": {
+      "en": "Cornucopia_ParsleySeeds",
+      "zh": "欧芹种子"
+    },
+    "description": {
+      "en": "春季种植。需要5天成熟。",
+      "zh": "春季种植。需要5天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 10,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 201,
+      "x": 144,
+      "y": 128,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_herbs",
+      "cornucopia_season_spring",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_PerillaLeavesSeeds",
+    "name": "Cornucopia_PerillaLeavesSeeds",
+    "displayName": {
+      "en": "Cornucopia_PerillaLeavesSeeds",
+      "zh": "紫苏种子"
+    },
+    "description": {
+      "en": "夏季种植。需要5天成熟。",
+      "zh": "夏季种植。需要5天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 15,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 205,
+      "x": 208,
+      "y": 128,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_herbs",
+      "cornucopia_season_summer",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_RosemarySeeds",
+    "name": "Cornucopia_RosemarySeeds",
+    "displayName": {
+      "en": "Cornucopia_RosemarySeeds",
+      "zh": "迷迭香种子"
+    },
+    "description": {
+      "en": "秋季种植。需要7天成熟。",
+      "zh": "秋季种植。需要7天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 15,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 203,
+      "x": 176,
+      "y": 128,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_herbs",
+      "cornucopia_season_fall",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_SageSeeds",
+    "name": "Cornucopia_SageSeeds",
+    "displayName": {
+      "en": "Cornucopia_SageSeeds",
+      "zh": "鼠尾草种子"
+    },
+    "description": {
+      "en": "秋季种植。需要5天成熟。",
+      "zh": "秋季种植。需要5天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 20,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 197,
+      "x": 80,
+      "y": 128,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_herbs",
+      "cornucopia_season_fall",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_TarragonSeeds",
+    "name": "Cornucopia_TarragonSeeds",
+    "displayName": {
+      "en": "Cornucopia_TarragonSeeds",
+      "zh": "龙蒿种子"
+    },
+    "description": {
+      "en": "秋季种植。需要6天成熟。",
+      "zh": "秋季种植。需要6天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 15,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 245,
+      "x": 80,
+      "y": 160,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_herbs",
+      "cornucopia_season_fall",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_ThymeSeeds",
+    "name": "Cornucopia_ThymeSeeds",
+    "displayName": {
+      "en": "Cornucopia_ThymeSeeds",
+      "zh": "百里香种子"
+    },
+    "description": {
+      "en": "秋季种植。需要5天成熟。",
+      "zh": "秋季种植。需要5天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 15,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 211,
+      "x": 304,
+      "y": 128,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_herbs",
+      "cornucopia_season_fall",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_TurmericSeeds",
+    "name": "Cornucopia_TurmericSeeds",
+    "displayName": {
+      "en": "Cornucopia_TurmericSeeds",
+      "zh": "姜黄种子"
+    },
+    "description": {
+      "en": "秋季种植。需要7天成熟。",
+      "zh": "秋季种植。需要7天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 40,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 247,
+      "x": 112,
+      "y": 160,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_exclusive",
+      "cornucopia_pack_herbs",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_WormwoodSeeds",
+    "name": "Cornucopia_WormwoodSeeds",
+    "displayName": {
+      "en": "Cornucopia_WormwoodSeeds",
+      "zh": "苦艾种子"
+    },
+    "description": {
+      "en": "冬季种植。需要8天成熟。",
+      "zh": "冬季种植。需要8天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 50,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 249,
+      "x": 144,
+      "y": 160,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_herbs",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "Cornucopia_MustardSeeds",
+    "name": "Cornucopia_MustardSeeds",
+    "displayName": {
+      "en": "Cornucopia_MustardSeeds",
+      "zh": "芥菜籽"
+    },
+    "description": {
+      "en": "浓缩香料！可制成辛辣调味料，或冬季播种培育芥菜植株。",
+      "zh": "浓缩香料！可制成辛辣调味料，或冬季播种培育芥菜植株。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 20,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 275,
+      "x": 176,
+      "y": 176,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "spice_item",
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_herbs",
+      "cornucopia_season_winter",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops",
+      "mustard_seed_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_BlueMistSeeds",
+    "name": "Cornucopia_BlueMistSeeds",
+    "displayName": {
+      "en": "Cornucopia_BlueMistSeeds",
+      "zh": "蓝绣线菊种子"
+    },
+    "description": {
+      "en": "夏季种植。7天后开出蓝色星形花朵。",
+      "zh": "夏季种植。7天后开出蓝色星形花朵。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 10,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 3,
+      "x": 48,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_essentialflowers",
+      "cornucopia_season_summer",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_ChrysanthemumSeeds",
+    "name": "Cornucopia_ChrysanthemumSeeds",
+    "displayName": {
+      "en": "Cornucopia_ChrysanthemumSeeds",
+      "zh": "野菊种子"
+    },
+    "description": {
+      "en": "秋季种植。9天后开出圆形花朵。",
+      "zh": "秋季种植。9天后开出圆形花朵。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 20,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 148,
+      "x": 64,
+      "y": 96,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_essentialflowers",
+      "cornucopia_season_fall",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_IrisSeeds",
+    "name": "Cornucopia_IrisSeeds",
+    "displayName": {
+      "en": "Cornucopia_IrisSeeds",
+      "zh": "鸢尾球茎"
+    },
+    "description": {
+      "en": "秋季种植。10天后开出真正独特的花朵。",
+      "zh": "秋季种植。10天后开出真正独特的花朵。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 25,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 37,
+      "x": 208,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_essentialflowers",
+      "cornucopia_season_fall",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_LilySeeds",
+    "name": "Cornucopia_LilySeeds",
+    "displayName": {
+      "en": "Cornucopia_LilySeeds",
+      "zh": "百合球茎"
+    },
+    "description": {
+      "en": "夏季种植。9天后可开出艳丽的百合花。",
+      "zh": "夏季种植。9天后可开出艳丽的百合花。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 25,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 125,
+      "x": 80,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_essentialflowers",
+      "cornucopia_season_summer",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_LotusSeeds",
+    "name": "Cornucopia_LotusSeeds",
+    "displayName": {
+      "en": "Cornucopia_LotusSeeds",
+      "zh": "莲藕根"
+    },
+    "description": {
+      "en": "夏季种植。11天后可开出美丽的水生花朵。",
+      "zh": "夏季种植。11天后可开出美丽的水生花朵。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 30,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 35,
+      "x": 176,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_essentialflowers",
+      "cornucopia_season_summer",
+      "modid_cornucopia.moreflowers",
+      "cornucopia_chefstock",
+      "lotus_root_item",
+      "root_vegetable_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_MorningGlorySeeds",
+    "name": "Cornucopia_MorningGlorySeeds",
+    "displayName": {
+      "en": "Cornucopia_MorningGlorySeeds",
+      "zh": "牵牛花架"
+    },
+    "description": {
+      "en": "春季种植。10天后开出清晨绽放的花朵，收获后还能继续开花。在棚架上生长。",
+      "zh": "春季种植。10天后开出清晨绽放的花朵，收获后还能继续开花。在棚架上生长。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 120,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 33,
+      "x": 144,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_essentialflowers",
+      "cornucopia_season_spring",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_OrchidSeeds",
+    "name": "Cornucopia_OrchidSeeds",
+    "displayName": {
+      "en": "Cornucopia_OrchidSeeds",
+      "zh": "兰花球茎"
+    },
+    "description": {
+      "en": "夏季或秋季种植。10天后开出备受追捧的花朵。",
+      "zh": "夏季或秋季种植。10天后开出备受追捧的花朵。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 100,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 131,
+      "x": 176,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_essentialflowers",
+      "cornucopia_season_summer",
+      "cornucopia_season_fall",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_PansySeeds",
+    "name": "Cornucopia_PansySeeds",
+    "displayName": {
+      "en": "Cornucopia_PansySeeds",
+      "zh": "三色堇种子"
+    },
+    "description": {
+      "en": "春季种植。6天后开出受人喜爱的花朵。",
+      "zh": "春季种植。6天后开出受人喜爱的花朵。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 15,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 154,
+      "x": 160,
+      "y": 96,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_essentialflowers",
+      "cornucopia_season_spring",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_PinkCatSeeds",
+    "name": "Cornucopia_PinkCatSeeds",
+    "displayName": {
+      "en": "Cornucopia_PinkCatSeeds",
+      "zh": "荆芥种子"
+    },
+    "description": {
+      "en": "春季种植。5天后开出带有薄荷味的粉色花朵。",
+      "zh": "春季种植。5天后开出带有薄荷味的粉色花朵。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 10,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 13,
+      "x": 208,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_essentialflowers",
+      "cornucopia_season_spring",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_RoseSeeds",
+    "name": "Cornucopia_RoseSeeds",
+    "displayName": {
+      "en": "Cornucopia_RoseSeeds",
+      "zh": "玫瑰种子"
+    },
+    "description": {
+      "en": "春季、夏季或秋季种植。12天后开出著名的美丽花朵。",
+      "zh": "春季、夏季或秋季种植。12天后开出著名的美丽花朵。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 100,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 122,
+      "x": 32,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_essentialflowers",
+      "cornucopia_season_spring",
+      "cornucopia_season_summer",
+      "cornucopia_season_fall",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_BeeBalmSeeds",
+    "name": "Cornucopia_BeeBalmSeeds",
+    "displayName": {
+      "en": "Cornucopia_BeeBalmSeeds",
+      "zh": "蜜蜂香脂种子"
+    },
+    "description": {
+      "en": "秋季种植。8天后开出诱人的花朵。",
+      "zh": "秋季种植。8天后开出诱人的花朵。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 10,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 9,
+      "x": 144,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_essentialflowers",
+      "cornucopia_season_fall",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_BluebonnetSeeds",
+    "name": "Cornucopia_BluebonnetSeeds",
+    "displayName": {
+      "en": "Cornucopia_BluebonnetSeeds",
+      "zh": "蓝花楹种子"
+    },
+    "description": {
+      "en": "春季种植。7天后开出蓝色羽扇豆花。",
+      "zh": "春季种植。7天后开出蓝色羽扇豆花。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 10,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 39,
+      "x": 240,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_essentialflowers",
+      "cornucopia_season_spring",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_ButtercupSeeds",
+    "name": "Cornucopia_ButtercupSeeds",
+    "displayName": {
+      "en": "Cornucopia_ButtercupSeeds",
+      "zh": "毛茛种子"
+    },
+    "description": {
+      "en": "夏季种植。6天后开出带有露水花蜜的花朵。",
+      "zh": "夏季种植。6天后开出带有露水花蜜的花朵。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 10,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 27,
+      "x": 48,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_essentialflowers",
+      "cornucopia_season_summer",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_CalicoRoseSeeds",
+    "name": "Cornucopia_CalicoRoseSeeds",
+    "displayName": {
+      "en": "Cornucopia_CalicoRoseSeeds",
+      "zh": "卡里科玫瑰花盆"
+    },
+    "description": {
+      "en": "室内或室外均可种植。20天成熟，夏季每5天开一次仙人掌花。",
+      "zh": "室内或室外均可种植。20天成熟，夏季每5天开一次仙人掌花。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 700,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 87,
+      "x": 240,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_bush_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_essentialflowers",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_CarnationSeeds",
+    "name": "Cornucopia_CarnationSeeds",
+    "displayName": {
+      "en": "Cornucopia_CarnationSeeds",
+      "zh": "康乃馨种子"
+    },
+    "description": {
+      "en": "春季或夏季种植。7天后开出适合正式场合的花朵。",
+      "zh": "春季或夏季种植。7天后开出适合正式场合的花朵。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 20,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 134,
+      "x": 224,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedflowers",
+      "cornucopia_season_spring",
+      "cornucopia_season_summer",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_ChamomileSeeds",
+    "name": "Cornucopia_ChamomileSeeds",
+    "displayName": {
+      "en": "Cornucopia_ChamomileSeeds",
+      "zh": "洋甘菊种子"
+    },
+    "description": {
+      "en": "春季种植。5天后开出令人平静的花朵。",
+      "zh": "春季种植。5天后开出令人平静的花朵。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 10,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 5,
+      "x": 80,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedflowers",
+      "cornucopia_season_spring",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_ClarySageSeeds",
+    "name": "Cornucopia_ClarySageSeeds",
+    "displayName": {
+      "en": "Cornucopia_ClarySageSeeds",
+      "zh": "克拉里鼠尾草种子"
+    },
+    "description": {
+      "en": "夏季种植。8天后开出紫粉色花朵。",
+      "zh": "夏季种植。8天后开出紫粉色花朵。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 10,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 7,
+      "x": 112,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedflowers",
+      "cornucopia_season_summer",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_ClematisSeeds",
+    "name": "Cornucopia_ClematisSeeds",
+    "displayName": {
+      "en": "Cornucopia_ClematisSeeds",
+      "zh": "铁线莲花架"
+    },
+    "description": {
+      "en": "秋季种植。10天后开出深紫色的花朵，收获后还能继续开花。在棚架上生长。",
+      "zh": "秋季种植。10天后开出深紫色的花朵，收获后还能继续开花。在棚架上生长。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 45,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 25,
+      "x": 16,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedflowers",
+      "cornucopia_season_fall",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_DahliaSeeds",
+    "name": "Cornucopia_DahliaSeeds",
+    "displayName": {
+      "en": "Cornucopia_DahliaSeeds",
+      "zh": "大丽花种子"
+    },
+    "description": {
+      "en": "秋季种植。6天后开出鲜艳的花朵。",
+      "zh": "秋季种植。6天后开出鲜艳的花朵。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 15,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 145,
+      "x": 16,
+      "y": 96,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedflowers",
+      "cornucopia_season_fall",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_DaisySeeds",
+    "name": "Cornucopia_DaisySeeds",
+    "displayName": {
+      "en": "Cornucopia_DaisySeeds",
+      "zh": "雏菊种子"
+    },
+    "description": {
+      "en": "夏季种植。4天后开出受人欢迎的白色花朵。",
+      "zh": "夏季种植。4天后开出受人欢迎的白色花朵。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 5,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 29,
+      "x": 80,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedflowers",
+      "cornucopia_season_summer",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_FairyDusterSeeds",
+    "name": "Cornucopia_FairyDusterSeeds",
+    "displayName": {
+      "en": "Cornucopia_FairyDusterSeeds",
+      "zh": "艳红合欢花苞"
+    },
+    "description": {
+      "en": "秋季种植。7天后开出蓬松、鲜艳的花朵。",
+      "zh": "秋季种植。7天后开出蓬松、鲜艳的花朵。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 10,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 19,
+      "x": 304,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedflowers",
+      "cornucopia_season_fall",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_RoseFallSeeds",
+    "name": "Cornucopia_RoseFallSeeds",
+    "displayName": {
+      "en": "Cornucopia_RoseFallSeeds",
+      "zh": "秋日玫瑰花架"
+    },
+    "description": {
+      "en": "秋季种植。12天后开出著名的美丽花朵，收获后还能继续开花。在棚架上生长。",
+      "zh": "秋季种植。12天后开出著名的美丽花朵，收获后还能继续开花。在棚架上生长。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 100,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 75,
+      "x": 48,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedflowers",
+      "cornucopia_season_fall",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_FreesiaSeeds",
+    "name": "Cornucopia_FreesiaSeeds",
+    "displayName": {
+      "en": "Cornucopia_FreesiaSeeds",
+      "zh": "小苍兰球茎"
+    },
+    "description": {
+      "en": "秋季种植。8天后开出层层叠叠的花朵。",
+      "zh": "秋季种植。8天后开出层层叠叠的花朵。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 20,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 151,
+      "x": 112,
+      "y": 96,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedflowers",
+      "cornucopia_season_fall",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_GeraniumSeeds",
+    "name": "Cornucopia_GeraniumSeeds",
+    "displayName": {
+      "en": "Cornucopia_GeraniumSeeds",
+      "zh": "天竺葵种子"
+    },
+    "description": {
+      "en": "秋季种植。9天后开出带有绒毛叶片的红色花朵。",
+      "zh": "秋季种植。9天后开出带有绒毛叶片的红色花朵。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 20,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 69,
+      "x": 336,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedflowers",
+      "cornucopia_season_fall",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_HoneysuckleSeeds",
+    "name": "Cornucopia_HoneysuckleSeeds",
+    "displayName": {
+      "en": "Cornucopia_HoneysuckleSeeds",
+      "zh": "金银花花架"
+    },
+    "description": {
+      "en": "春季或夏季种植。16天后开出香甜的花朵，收获后还能继续开花。在棚架上生长。",
+      "zh": "春季或夏季种植。16天后开出香甜的花朵，收获后还能继续开花。在棚架上生长。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 120,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 21,
+      "x": 336,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedflowers",
+      "cornucopia_season_spring",
+      "cornucopia_season_summer",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_HyacinthSeeds",
+    "name": "Cornucopia_HyacinthSeeds",
+    "displayName": {
+      "en": "Cornucopia_HyacinthSeeds",
+      "zh": "风信子种子"
+    },
+    "description": {
+      "en": "春季种植。7天后开出色彩丰富的花朵。",
+      "zh": "春季种植。7天后开出色彩丰富的花朵。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 20,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 128,
+      "x": 128,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedflowers",
+      "cornucopia_season_spring",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_HydrangeaSeeds",
+    "name": "Cornucopia_HydrangeaSeeds",
+    "displayName": {
+      "en": "Cornucopia_HydrangeaSeeds",
+      "zh": "绣球花种子"
+    },
+    "description": {
+      "en": "夏季种植。10天后开出艳丽的花朵。",
+      "zh": "夏季种植。10天后开出艳丽的花朵。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 20,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 157,
+      "x": 208,
+      "y": 96,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedflowers",
+      "cornucopia_season_summer",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_LarkspurSeeds",
+    "name": "Cornucopia_LarkspurSeeds",
+    "displayName": {
+      "en": "Cornucopia_LarkspurSeeds",
+      "zh": "飞燕草种子"
+    },
+    "description": {
+      "en": "春季种植。9天后长出开满小花的高茎。",
+      "zh": "春季种植。9天后长出开满小花的高茎。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 25,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 137,
+      "x": 272,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedflowers",
+      "cornucopia_season_spring",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_LavenderSeeds",
+    "name": "Cornucopia_LavenderSeeds",
+    "displayName": {
+      "en": "Cornucopia_LavenderSeeds",
+      "zh": "薰衣草种子"
+    },
+    "description": {
+      "en": "夏季种植。6天后开出淡紫色花朵。",
+      "zh": "夏季种植。6天后开出淡紫色花朵。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 10,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 15,
+      "x": 240,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedflowers",
+      "cornucopia_season_summer",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_LupineSeeds",
+    "name": "Cornucopia_LupineSeeds",
+    "displayName": {
+      "en": "Cornucopia_LupineSeeds",
+      "zh": "羽扇豆种子"
+    },
+    "description": {
+      "en": "夏季种植。7天后可开出高大、艳丽的花朵。",
+      "zh": "夏季种植。7天后可开出高大、艳丽的花朵。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 15,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 142,
+      "x": 352,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedflowers",
+      "cornucopia_season_summer",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_PeonySeeds",
+    "name": "Cornucopia_PeonySeeds",
+    "displayName": {
+      "en": "Cornucopia_PeonySeeds",
+      "zh": "牡丹种子"
+    },
+    "description": {
+      "en": "春季种植。9天开出鲜艳的花朵。",
+      "zh": "春季种植。9天开出鲜艳的花朵。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 25,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 67,
+      "x": 304,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedflowers",
+      "cornucopia_season_spring",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_PetuniaSeeds",
+    "name": "Cornucopia_PetuniaSeeds",
+    "displayName": {
+      "en": "Cornucopia_PetuniaSeeds",
+      "zh": "矮牵牛种子"
+    },
+    "description": {
+      "en": "夏季种植。6天后会开出淡紫色的花朵。",
+      "zh": "夏季种植。6天后会开出淡紫色的花朵。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 15,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 65,
+      "x": 272,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedflowers",
+      "cornucopia_season_summer",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_PitcherPlantSeeds",
+    "name": "Cornucopia_PitcherPlantSeeds",
+    "displayName": {
+      "en": "Cornucopia_PitcherPlantSeeds",
+      "zh": "猪笼草花架"
+    },
+    "description": {
+      "en": "秋季种植。15天后会开出钟形沼泽花，收获后还能继续开花。靠近水源生长更快。",
+      "zh": "秋季种植。15天后会开出钟形沼泽花，收获后还能继续开花。靠近水源生长更快。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 150,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 63,
+      "x": 240,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedflowers",
+      "cornucopia_season_fall",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_RosePrismaticSeeds",
+    "name": "Cornucopia_RosePrismaticSeeds",
+    "displayName": {
+      "en": "Cornucopia_RosePrismaticSeeds",
+      "zh": "五彩玫瑰花架"
+    },
+    "description": {
+      "en": "春季、夏季或秋季种植。20天后开出著名的美丽花朵。",
+      "zh": "春季、夏季或秋季种植。20天后开出著名的美丽花朵。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 1000,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 79,
+      "x": 112,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_exclusive",
+      "cornucopia_pack_extendedflowers",
+      "cornucopia_season_spring",
+      "cornucopia_season_summer",
+      "cornucopia_season_fall",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_PurpleConeflowerSeeds",
+    "name": "Cornucopia_PurpleConeflowerSeeds",
+    "displayName": {
+      "en": "Cornucopia_PurpleConeflowerSeeds",
+      "zh": "紫锥花种子"
+    },
+    "description": {
+      "en": "秋季种植。9天后开出紫色花朵。",
+      "zh": "秋季种植。9天后开出紫色花朵。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 15,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 23,
+      "x": 368,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedflowers",
+      "cornucopia_season_fall",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_RafflesiaSeeds",
+    "name": "Cornucopia_RafflesiaSeeds",
+    "displayName": {
+      "en": "Cornucopia_RafflesiaSeeds",
+      "zh": "大王花切花"
+    },
+    "description": {
+      "en": "需要潮湿的气候才能生长。需要34天生长成可怕的花朵，极有可能长出巨型尺寸。",
+      "zh": "需要潮湿的气候才能生长。需要34天生长成可怕的花朵，极有可能长出巨型尺寸。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 500,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 61,
+      "x": 208,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_exclusive",
+      "cornucopia_pack_extendedflowers",
+      "cornucopia_season_summer",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_RoseSpringSeeds",
+    "name": "Cornucopia_RoseSpringSeeds",
+    "displayName": {
+      "en": "Cornucopia_RoseSpringSeeds",
+      "zh": "春日玫瑰花架"
+    },
+    "description": {
+      "en": "春季种植。12天后开出著名的美丽花朵，收获后还能继续开花。在棚架上生长。",
+      "zh": "春季种植。12天后开出著名的美丽花朵，收获后还能继续开花。在棚架上生长。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 100,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 71,
+      "x": 368,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedflowers",
+      "cornucopia_season_spring",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_RoseSummerSeeds",
+    "name": "Cornucopia_RoseSummerSeeds",
+    "displayName": {
+      "en": "Cornucopia_RoseSummerSeeds",
+      "zh": "夏日玫瑰花架"
+    },
+    "description": {
+      "en": "夏季种植。12天后开出著名的美丽花朵，收获后还能继续开花。在棚架上生长。",
+      "zh": "夏季种植。12天后开出著名的美丽花朵，收获后还能继续开花。在棚架上生长。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 100,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 73,
+      "x": 16,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedflowers",
+      "cornucopia_season_summer",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_VioletSeeds",
+    "name": "Cornucopia_VioletSeeds",
+    "displayName": {
+      "en": "Cornucopia_VioletSeeds",
+      "zh": "紫罗兰种子"
+    },
+    "description": {
+      "en": "春季种植。6天后开出深紫色花朵。",
+      "zh": "春季种植。6天后开出深紫色花朵。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 10,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 11,
+      "x": 176,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedflowers",
+      "cornucopia_season_spring",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_RoseWinterSeeds",
+    "name": "Cornucopia_RoseWinterSeeds",
+    "displayName": {
+      "en": "Cornucopia_RoseWinterSeeds",
+      "zh": "冬日玫瑰花架"
+    },
+    "description": {
+      "en": "冬季种植。12天后开出著名的美丽花朵，收获后还能继续开花。在棚架上生长。",
+      "zh": "冬季种植。12天后开出著名的美丽花朵，收获后还能继续开花。在棚架上生长。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 100,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 77,
+      "x": 80,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedflowers",
+      "cornucopia_season_winter",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.moreflowers"
+    ]
+  },
+  {
+    "id": "Cornucopia_WolfsbaneSeeds",
+    "name": "Cornucopia_WolfsbaneSeeds",
+    "displayName": {
+      "en": "Cornucopia_WolfsbaneSeeds",
+      "zh": "狼毒乌头种子"
+    },
+    "description": {
+      "en": "夏季种植。13天成熟。",
+      "zh": "夏季种植。13天成熟。"
+    },
+    "type": "Seed",
+    "category": -74,
+    "price": 25,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 85,
+      "x": 208,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_crop_seed",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedflowers",
+      "cornucopia_season_summer",
+      "modid_cornucopia.moreflowers"
+    ]
+  }
+]

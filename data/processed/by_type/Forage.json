@@ -1,0 +1,2368 @@
+[
+  {
+    "id": "skellady.SBVCP_TwilightFeather",
+    "name": "skellady.SBVCP_TwilightFeather",
+    "displayName": {
+      "en": "skellady.SBVCP_TwilightFeather",
+      "zh": "暮色羽毛"
+    },
+    "description": {
+      "en": "一片有着暮色天空色泽的羽毛，是阳莓村暮色节期间使用的货币。要好好收下！",
+      "zh": "一片有着暮色天空色泽的羽毛，是阳莓村暮色节期间使用的货币。要好好收下！"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 70,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/MiscItems",
+      "index": 24,
+      "x": 0,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_purple",
+      "color_orange",
+      "forage_item",
+      "feather_item"
+    ]
+  },
+  {
+    "id": "DTZ.DowntownZuzuCP_SpanishLime",
+    "name": "DTZ.DowntownZuzuCP_SpanishLime",
+    "displayName": {
+      "en": "DTZ.DowntownZuzuCP_SpanishLime",
+      "zh": "西班牙青柠"
+    },
+    "description": {
+      "en": "热带岛屿上生长的异国水果，酸甜可口。",
+      "zh": "热带岛屿上生长的异国水果，酸甜可口。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 120,
+    "sprite": {
+      "texture": "Mods/DTZ.DowntownZuzuCP/Items/Spanish Lime",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 25
+  },
+  {
+    "id": "DTZ.DowntownZuzuCP_Jackfruit",
+    "name": "DTZ.DowntownZuzuCP_Jackfruit",
+    "displayName": {
+      "en": "DTZ.DowntownZuzuCP_Jackfruit",
+      "zh": "菠萝蜜"
+    },
+    "description": {
+      "en": "热带岛屿上生长的异国水果，富含维生素和膳食纤维",
+      "zh": "热带岛屿上生长的异国水果，富含维生素和膳食纤维"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 130,
+    "sprite": {
+      "texture": "Mods/DTZ.DowntownZuzuCP/Items/Jackfruit",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 26
+  },
+  {
+    "id": "DTZ.DowntownZuzuCP_Araza",
+    "name": "DTZ.DowntownZuzuCP_Araza",
+    "displayName": {
+      "en": "DTZ.DowntownZuzuCP_Araza",
+      "zh": "大果番樱桃"
+    },
+    "description": {
+      "en": "热带岛屿上生长的异国水果，强酸微苦。",
+      "zh": "热带岛屿上生长的异国水果，强酸微苦。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 115,
+    "sprite": {
+      "texture": "Mods/DTZ.DowntownZuzuCP/Items/Araza",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 23
+  },
+  {
+    "id": "DTZ.DowntownZuzuCP_Ackee",
+    "name": "DTZ.DowntownZuzuCP_Ackee",
+    "displayName": {
+      "en": "DTZ.DowntownZuzuCP_Ackee",
+      "zh": "西非荔枝果"
+    },
+    "description": {
+      "en": "热带岛屿上生长的异国水果，一种荔枝的近亲，具有精致的坚果风味。",
+      "zh": "热带岛屿上生长的异国水果，一种荔枝的近亲，具有精致的坚果风味。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 120,
+    "sprite": {
+      "texture": "Mods/DTZ.DowntownZuzuCP/Items/Ackee",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 20
+  },
+  {
+    "id": "DTZ.DowntownZuzuCP_Cherimoya",
+    "name": "DTZ.DowntownZuzuCP_Cherimoya",
+    "displayName": {
+      "en": "DTZ.DowntownZuzuCP_Cherimoya",
+      "zh": "毛叶番荔枝"
+    },
+    "description": {
+      "en": "热带岛屿上生长的异国水果，清淡爽口的水果，让人想起水果沙拉的味道。",
+      "zh": "热带岛屿上生长的异国水果，清淡爽口的水果，让人想起水果沙拉的味道。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 140,
+    "sprite": {
+      "texture": "Mods/DTZ.DowntownZuzuCP/Items/Cherimoya",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 28
+  },
+  {
+    "id": "DN.SnS_mushroom1",
+    "name": "DN.SnS_mushroom1",
+    "displayName": {
+      "en": "DN.SnS_mushroom1",
+      "zh": "暗色腐化蘑菇 (A型)"
+    },
+    "description": {
+      "en": "深暗回廊原生的四种蘑菇之一。",
+      "zh": "深暗回廊原生的四种蘑菇之一。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 200,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 110,
+      "x": 224,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": -200,
+    "contextTags": [
+      "color_dark_blue",
+      "forage_item_cave",
+      "seedmaker_banned",
+      "vpp_forageThrowGame_banned",
+      "Kedi_VPP_Poisonous_Mushroom"
+    ]
+  },
+  {
+    "id": "DN.SnS_mushroom2",
+    "name": "DN.SnS_mushroom2",
+    "displayName": {
+      "en": "DN.SnS_mushroom2",
+      "zh": "暗色腐化蘑菇 (B型)"
+    },
+    "description": {
+      "en": "深暗回廊原生的四种蘑菇之一。",
+      "zh": "深暗回廊原生的四种蘑菇之一。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 200,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 111,
+      "x": 240,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": -200,
+    "contextTags": [
+      "color_dark_blue",
+      "forage_item_cave",
+      "seedmaker_banned",
+      "vpp_forageThrowGame_banned",
+      "Kedi_VPP_Poisonous_Mushroom"
+    ]
+  },
+  {
+    "id": "DN.SnS_mushroom3",
+    "name": "DN.SnS_mushroom3",
+    "displayName": {
+      "en": "DN.SnS_mushroom3",
+      "zh": "暗色腐化蘑菇 (C型)"
+    },
+    "description": {
+      "en": "深暗回廊原生的四种蘑菇之一。",
+      "zh": "深暗回廊原生的四种蘑菇之一。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 200,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 112,
+      "x": 256,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": -200,
+    "contextTags": [
+      "color_dark_blue",
+      "forage_item_cave",
+      "seedmaker_banned",
+      "vpp_forageThrowGame_banned",
+      "Kedi_VPP_Poisonous_Mushroom"
+    ]
+  },
+  {
+    "id": "DN.SnS_mushroom4",
+    "name": "DN.SnS_mushroom4",
+    "displayName": {
+      "en": "DN.SnS_mushroom4",
+      "zh": "暗色腐化蘑菇 (D型)"
+    },
+    "description": {
+      "en": "深暗回廊原生的四种蘑菇之一。",
+      "zh": "深暗回廊原生的四种蘑菇之一。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 200,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 113,
+      "x": 272,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": -200,
+    "contextTags": [
+      "color_dark_blue",
+      "forage_item_cave",
+      "seedmaker_banned",
+      "vpp_forageThrowGame_banned",
+      "Kedi_VPP_Poisonous_Mushroom"
+    ]
+  },
+  {
+    "id": "DN.SnS_taintedcrocus",
+    "name": "DN.SnS_taintedcrocus",
+    "displayName": {
+      "en": "DN.SnS_taintedcrocus",
+      "zh": "暗色腐化番红花"
+    },
+    "description": {
+      "en": "一朵天然生长的花，却被附近的冥铁矿脉所污染。",
+      "zh": "一朵天然生长的花，却被附近的冥铁矿脉所污染。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 200,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 115,
+      "x": 304,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 15,
+    "contextTags": [
+      "color_dark_blue",
+      "forage_item_cave",
+      "seedmaker_banned",
+      "vpp_forageThrowGame_banned"
+    ]
+  },
+  {
+    "id": "DN.SnS_taintedcorn",
+    "name": "DN.SnS_taintedcorn",
+    "displayName": {
+      "en": "DN.SnS_taintedcorn",
+      "zh": "暗色腐化玉米"
+    },
+    "description": {
+      "en": "一种天然生长的谷物，却被附近的冥铁矿脉所污染。",
+      "zh": "一种天然生长的谷物，却被附近的冥铁矿脉所污染。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 200,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 117,
+      "x": 336,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 15,
+    "contextTags": [
+      "color_dark_blue",
+      "forage_item_cave",
+      "seedmaker_banned",
+      "vpp_forageThrowGame_banned"
+    ]
+  },
+  {
+    "id": "DN.SnS_taintedgrasses",
+    "name": "DN.SnS_taintedgrasses",
+    "displayName": {
+      "en": "DN.SnS_taintedgrasses",
+      "zh": "暗色腐化草簇"
+    },
+    "description": {
+      "en": "一捆天然生长的草， 却被附近的冥铁矿脉所污染。",
+      "zh": "一捆天然生长的草， 却被附近的冥铁矿脉所污染。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 200,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 116,
+      "x": 320,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 15,
+    "contextTags": [
+      "color_dark_blue",
+      "forage_item_cave",
+      "seedmaker_banned",
+      "vpp_forageThrowGame_banned"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Alchemists_Hat",
+    "name": "Wildflour.SASS_Alchemists_Hat",
+    "displayName": {
+      "en": "Wildflour.SASS_Alchemists_Hat",
+      "zh": "炼金术师帽菇"
+    },
+    "description": {
+      "en": "以众人最爱的蘑菇猎人命名。",
+      "zh": "以众人最爱的蘑菇猎人命名。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 90,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 123,
+      "x": 48,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 20,
+    "contextTags": [
+      "faerie_forage",
+      "edible_mushroom",
+      "season_winter",
+      "magical_mushroom_item",
+      "seedmaker_banned",
+      "color_pink"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Baby_Bluegill",
+    "name": "Wildflour.SASS_Baby_Bluegill",
+    "displayName": {
+      "en": "Wildflour.SASS_Baby_Bluegill",
+      "zh": "蓝鳍宝宝菇"
+    },
+    "description": {
+      "en": "传闻，小巧玲珑的蓝蘑菇总会在寒夜悄然冒头。",
+      "zh": "传闻，小巧玲珑的蓝蘑菇总会在寒夜悄然冒头。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 90,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 44,
+      "x": 320,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 20,
+    "contextTags": [
+      "faerie_forage",
+      "edible_mushroom",
+      "season_winter",
+      "magical_mushroom_item",
+      "seedmaker_banned",
+      "color_blue"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Blushing_TopHat",
+    "name": "Wildflour.SASS_Blushing_TopHat",
+    "displayName": {
+      "en": "Wildflour.SASS_Blushing_TopHat",
+      "zh": "奶油霜礼帽菇"
+    },
+    "description": {
+      "en": "这是一种高高挺立、呈桃色的蘑菇，尝起来像纸杯蛋糕上的糖霜一样甜。",
+      "zh": "这是一种高高挺立、呈桃色的蘑菇，尝起来像纸杯蛋糕上的糖霜一样甜。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 80,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 52,
+      "x": 64,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 7,
+    "contextTags": [
+      "faerie_forage",
+      "forage_item",
+      "season_summer",
+      "magical_mushroom_item",
+      "edible_mushroom",
+      "seedmaker_banned",
+      "color_pink"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Bubblegum_Funnel",
+    "name": "Wildflour.SASS_Bubblegum_Funnel",
+    "displayName": {
+      "en": "Wildflour.SASS_Bubblegum_Funnel",
+      "zh": "泡泡糖漏斗菇"
+    },
+    "description": {
+      "en": "一种色泽鲜艳的紫红色蘑菇。尝起来会像泡泡糖吗？",
+      "zh": "一种色泽鲜艳的紫红色蘑菇。尝起来会像泡泡糖吗？"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 95,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 60,
+      "x": 192,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 30,
+    "contextTags": [
+      "faerie_forage",
+      "magical_forage_item",
+      "edible_mushroom",
+      "magical_mushroom_item",
+      "seedmaker_banned",
+      "season_spring",
+      "color_white"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Candy_Button",
+    "name": "Wildflour.SASS_Candy_Button",
+    "displayName": {
+      "en": "Wildflour.SASS_Candy_Button",
+      "zh": "纽扣糖果菇"
+    },
+    "description": {
+      "en": "常常能看到一些小小的粉红色蘑菇，簇拥着生长在枯树干的周围。",
+      "zh": "常常能看到一些小小的粉红色蘑菇，簇拥着生长在枯树干的周围。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 30,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 42,
+      "x": 288,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "faerie_forage",
+      "forage_item",
+      "season_spring",
+      "edible_mushroom",
+      "seedmaker_banned",
+      "magical_mushroom_item",
+      "color_pink"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Cocoa_Agaric",
+    "name": "Wildflour.SASS_Cocoa_Agaric",
+    "displayName": {
+      "en": "Wildflour.SASS_Cocoa_Agaric",
+      "zh": "可可伞菌"
+    },
+    "description": {
+      "en": "唔，好浓郁的巧克力味呀。",
+      "zh": "唔，好浓郁的巧克力味呀。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 70,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 118,
+      "x": 352,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 20,
+    "contextTags": [
+      "faerie_forage",
+      "edible_mushroom",
+      "season_winter",
+      "magical_mushroom_item",
+      "seedmaker_banned",
+      "color_brown"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Cookie_Cap",
+    "name": "Wildflour.SASS_Cookie_Cap",
+    "displayName": {
+      "en": "Wildflour.SASS_Cookie_Cap",
+      "zh": "曲奇帽菇"
+    },
+    "description": {
+      "en": "这绝对是饼干怪兽最爱的蘑菇。",
+      "zh": "这绝对是饼干怪兽最爱的蘑菇。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 140,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 119,
+      "x": 368,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 20,
+    "contextTags": [
+      "faerie_forage",
+      "edible_mushroom",
+      "season_winter",
+      "magical_mushroom_item",
+      "seedmaker_banned",
+      "color_sand"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Coral_Fungus",
+    "name": "Wildflour.SASS_Coral_Fungus",
+    "displayName": {
+      "en": "Wildflour.SASS_Coral_Fungus",
+      "zh": "珊瑚菌"
+    },
+    "description": {
+      "en": "这种蘑菇模仿了海珊瑚的形状。",
+      "zh": "这种蘑菇模仿了海珊瑚的形状。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 160,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 59,
+      "x": 176,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 10,
+    "contextTags": [
+      "faerie_forage",
+      "magical_forage_item",
+      "magical_mushroom_item",
+      "edible_mushroom",
+      "seedmaker_banned",
+      "season_summer",
+      "color_salmon"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Custard_Cap",
+    "name": "Wildflour.SASS_Custard_Cap",
+    "displayName": {
+      "en": "Wildflour.SASS_Custard_Cap",
+      "zh": "蛋奶沙司帽菇"
+    },
+    "description": {
+      "en": "一种质地柔滑的白色蘑菇。",
+      "zh": "一种质地柔滑的白色蘑菇。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 90,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 125,
+      "x": 80,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 20,
+    "contextTags": [
+      "faerie_forage",
+      "edible_mushroom",
+      "season_winter",
+      "magical_mushroom_item",
+      "seedmaker_banned",
+      "color_white"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Doughnut_Mushroom",
+    "name": "Wildflour.SASS_Doughnut_Mushroom",
+    "displayName": {
+      "en": "Wildflour.SASS_Doughnut_Mushroom",
+      "zh": "果酱甜甜圈蘑菇"
+    },
+    "description": {
+      "en": "唔……蘑菇真香啊。",
+      "zh": "唔……蘑菇真香啊。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 145,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 124,
+      "x": 64,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 20,
+    "contextTags": [
+      "faerie_forage",
+      "edible_mushroom",
+      "season_winter",
+      "magical_mushroom_item",
+      "seedmaker_banned",
+      "color_iridium"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Festive_Agaric",
+    "name": "Wildflour.SASS_Festive_Agaric",
+    "displayName": {
+      "en": "Wildflour.SASS_Festive_Agaric",
+      "zh": "节庆伞菌"
+    },
+    "description": {
+      "en": "这种蘑菇会让你联想到一棵节日装饰树。",
+      "zh": "这种蘑菇会让你联想到一棵节日装饰树。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 330,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 120,
+      "x": 0,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 20,
+    "contextTags": [
+      "faerie_forage",
+      "edible_mushroom",
+      "season_winter",
+      "magical_mushroom_item",
+      "seedmaker_banned",
+      "color_green"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Frilly_Gilly",
+    "name": "Wildflour.SASS_Frilly_Gilly",
+    "displayName": {
+      "en": "Wildflour.SASS_Frilly_Gilly",
+      "zh": "褶边吉利菇"
+    },
+    "description": {
+      "en": "对于那些采摘蘑菇的人来说，这是一种稀有的春日美味，这种蘑菇喜欢藏身在繁花似锦的草甸上。",
+      "zh": "对于那些采摘蘑菇的人来说，这是一种稀有的春日美味，这种蘑菇喜欢藏身在繁花似锦的草甸上。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 100,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 41,
+      "x": 272,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 25,
+    "contextTags": [
+      "faerie_forage",
+      "edible_mushroom",
+      "season_spring",
+      "seedmaker_banned",
+      "magical_mushroom_item",
+      "color_pale_violet_red"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Ghostly_Parasol",
+    "name": "Wildflour.SASS_Ghostly_Parasol",
+    "displayName": {
+      "en": "Wildflour.SASS_Ghostly_Parasol",
+      "zh": "幽影伞菇"
+    },
+    "description": {
+      "en": "这是一种稀有的毒蘑菇，只有那些足够大胆或是愚昧无知的人才会在冬季去寻觅它的踪迹。",
+      "zh": "这是一种稀有的毒蘑菇，只有那些足够大胆或是愚昧无知的人才会在冬季去寻觅它的踪迹。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 50,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 47,
+      "x": 368,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 15,
+    "contextTags": [
+      "faerie_forage",
+      "season_winter",
+      "seedmaker_banned",
+      "edible_mushroom",
+      "magical_mushroom_item",
+      "color_aqua"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Gumdrop_Fungus",
+    "name": "Wildflour.SASS_Gumdrop_Fungus",
+    "displayName": {
+      "en": "Wildflour.SASS_Gumdrop_Fungus",
+      "zh": "软糖真菌"
+    },
+    "description": {
+      "en": "它的色彩让你沉醉不已。",
+      "zh": "它的色彩让你沉醉不已。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 170,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 121,
+      "x": 16,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 20,
+    "contextTags": [
+      "faerie_forage",
+      "edible_mushroom",
+      "season_winter",
+      "magical_mushroom_item",
+      "seedmaker_banned",
+      "color_pink"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Indigo_Cap",
+    "name": "Wildflour.SASS_Indigo_Cap",
+    "displayName": {
+      "en": "Wildflour.SASS_Indigo_Cap",
+      "zh": "靛蓝帽菇"
+    },
+    "description": {
+      "en": "这种蘑菇是鹅膏菌家族中的稀有品种，毒性极强，却也是价值极高的炼金原料。",
+      "zh": "这种蘑菇是鹅膏菌家族中的稀有品种，毒性极强，却也是价值极高的炼金原料。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 125,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 46,
+      "x": 352,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 17,
+    "contextTags": [
+      "faerie_forage",
+      "season_spring",
+      "edible_mushroom",
+      "seedmaker_banned",
+      "magical_mushroom_item",
+      "color_iridium"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Jack_Agaric",
+    "name": "Wildflour.SASS_Jack_Agaric",
+    "displayName": {
+      "en": "Wildflour.SASS_Jack_Agaric",
+      "zh": "杰克伞菌"
+    },
+    "description": {
+      "en": "一款诡异又美味的菌菇小食。",
+      "zh": "一款诡异又美味的菌菇小食。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 320,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 122,
+      "x": 32,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 20,
+    "contextTags": [
+      "faerie_forage",
+      "edible_mushroom",
+      "season_winter",
+      "magical_mushroom_item",
+      "seedmaker_banned",
+      "color_orange"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Lilac_Funnel",
+    "name": "Wildflour.SASS_Lilac_Funnel",
+    "displayName": {
+      "en": "Wildflour.SASS_Lilac_Funnel",
+      "zh": "丁香紫漏斗菇"
+    },
+    "description": {
+      "en": "尽管这种蘑菇和一种可食用花卉同名，但它毒性极高，必须用极为特殊的方法处理后才可食用。",
+      "zh": "尽管这种蘑菇和一种可食用花卉同名，但它毒性极高，必须用极为特殊的方法处理后才可食用。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 70,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 77,
+      "x": 80,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "faerie_forage",
+      "edible_mushroom",
+      "magical_mushroom_item",
+      "season_fall",
+      "seedmaker_banned",
+      "magical_forage_item",
+      "color_iridium"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Limey_Bonnet",
+    "name": "Wildflour.SASS_Limey_Bonnet",
+    "displayName": {
+      "en": "Wildflour.SASS_Limey_Bonnet",
+      "zh": "莱姆帽菇"
+    },
+    "description": {
+      "en": "它鲜亮的绿色，是对可能想吃掉它的动物发出的警告。",
+      "zh": "它鲜亮的绿色，是对可能想吃掉它的动物发出的警告。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 225,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 64,
+      "x": 256,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 9,
+    "contextTags": [
+      "faerie_forage",
+      "magical_forage_item",
+      "magical_mushroom_item",
+      "seedmaker_banned",
+      "edible_mushroom",
+      "season_summer",
+      "color_lime"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Lunar_Poof",
+    "name": "Wildflour.SASS_Lunar_Poof",
+    "displayName": {
+      "en": "Wildflour.SASS_Lunar_Poof",
+      "zh": "月辉蓬蓬菇"
+    },
+    "description": {
+      "en": "月辉蓬蓬菇是马勃菌家族的一员，据说会在秋夜爽朗之时，于枯树旁生长出来。",
+      "zh": "月辉蓬蓬菇是马勃菌家族的一员，据说会在秋夜爽朗之时，于枯树旁生长出来。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 65,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 48,
+      "x": 0,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "faerie_forage",
+      "magical_mushroom_item",
+      "edible_mushroom",
+      "seedmaker_banned",
+      "season_fall",
+      "color_sand"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Midas_Cap",
+    "name": "Wildflour.SASS_Midas_Cap",
+    "displayName": {
+      "en": "Wildflour.SASS_Midas_Cap",
+      "zh": "迈达斯帽菇"
+    },
+    "description": {
+      "en": "一种金黄色的蘑菇。",
+      "zh": "一种金黄色的蘑菇。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 200,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 55,
+      "x": 112,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 100,
+    "contextTags": [
+      "faerie_forage",
+      "magical_mushroom_item",
+      "edible_mushroom",
+      "seedmaker_banned",
+      "magical_forage_item",
+      "season_fall",
+      "color_gold"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Midnight_Milkcap",
+    "name": "Wildflour.SASS_Midnight_Milkcap",
+    "displayName": {
+      "en": "Wildflour.SASS_Midnight_Milkcap",
+      "zh": "午夜乳菇"
+    },
+    "description": {
+      "en": "千万别搞错，此“乳”可不是彼“乳”。劳累一天后，谁都不会乐意享用这玩意儿。",
+      "zh": "千万别搞错，此“乳”可不是彼“乳”。劳累一天后，谁都不会乐意享用这玩意儿。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 63,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 67,
+      "x": 304,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 12,
+    "contextTags": [
+      "faerie_forage",
+      "magical_forage_item",
+      "magical_mushroom_item",
+      "season_winter",
+      "seedmaker_banned",
+      "edible_mushroom",
+      "color_light_blue"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Mottled_Fieldcap",
+    "name": "Wildflour.SASS_Mottled_Fieldcap",
+    "displayName": {
+      "en": "Wildflour.SASS_Mottled_Fieldcap",
+      "zh": "浓缩咖啡田头菇"
+    },
+    "description": {
+      "en": "浓缩咖啡田头菇是秋季采菇人的心头好，带着浓郁的咖啡香气。",
+      "zh": "浓缩咖啡田头菇是秋季采菇人的心头好，带着浓郁的咖啡香气。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 110,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 57,
+      "x": 144,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 30,
+    "contextTags": [
+      "faerie_forage",
+      "magical_forage_item",
+      "magical_mushroom_item",
+      "seedmaker_banned",
+      "season_fall",
+      "edible_mushroom",
+      "color_copper"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Popping_Parasols",
+    "name": "Wildflour.SASS_Popping_Parasols",
+    "displayName": {
+      "en": "Wildflour.SASS_Popping_Parasols",
+      "zh": "爆浆伞菌"
+    },
+    "description": {
+      "en": "你好奇它的味道是否和形似的冰棒一样。",
+      "zh": "你好奇它的味道是否和形似的冰棒一样。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 35,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 143,
+      "x": 368,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 20,
+    "contextTags": [
+      "faerie_forage",
+      "edible_mushroom",
+      "season_winter",
+      "magical_mushroom_item",
+      "seedmaker_banned",
+      "color_iridium"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Queen_Bolete",
+    "name": "Wildflour.SASS_Queen_Bolete",
+    "displayName": {
+      "en": "Wildflour.SASS_Queen_Bolete",
+      "zh": "女王牛杆菌"
+    },
+    "description": {
+      "en": "所有菌类中最具王者风范的。",
+      "zh": "所有菌类中最具王者风范的。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 195,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 50,
+      "x": 32,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 55,
+    "contextTags": [
+      "faerie_forage",
+      "magical_mushroom_item",
+      "edible_mushroom",
+      "seedmaker_banned",
+      "season_summer",
+      "color_brown"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Rosey_Elfcup",
+    "name": "Wildflour.SASS_Rosey_Elfcup",
+    "displayName": {
+      "en": "Wildflour.SASS_Rosey_Elfcup",
+      "zh": "绯色精灵杯菌"
+    },
+    "description": {
+      "en": "据说，它之所以叫这个名字，是因为精灵族常把它当作酒杯来用。",
+      "zh": "据说，它之所以叫这个名字，是因为精灵族常把它当作酒杯来用。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 75,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 65,
+      "x": 272,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "faerie_forage",
+      "magical_forage_item",
+      "edible_mushroom",
+      "magical_mushroom_item",
+      "seedmaker_banned",
+      "season_summer",
+      "color_salmon"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Rustgill",
+    "name": "Wildflour.SASS_Rustgill",
+    "displayName": {
+      "en": "Wildflour.SASS_Rustgill",
+      "zh": "面包牛肝菌"
+    },
+    "description": {
+      "en": "这是一种味道淡雅的蘑菇，尝起来会让人想起一片温热的烤面包片。",
+      "zh": "这是一种味道淡雅的蘑菇，尝起来会让人想起一片温热的烤面包片。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 215,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 54,
+      "x": 96,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 15,
+    "contextTags": [
+      "faerie_forage",
+      "edible_mushroom",
+      "magical_mushroom_item",
+      "seedmaker_banned",
+      "season_fall",
+      "color_dark_brown"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Seafoam_Waxcap",
+    "name": "Wildflour.SASS_Seafoam_Waxcap",
+    "displayName": {
+      "en": "Wildflour.SASS_Seafoam_Waxcap",
+      "zh": "海沫蜡伞菌"
+    },
+    "description": {
+      "en": "美人鱼会把这些送给那些纠缠不休、令人头疼的水手。",
+      "zh": "美人鱼会把这些送给那些纠缠不休、令人头疼的水手。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 130,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 49,
+      "x": 16,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 6,
+    "contextTags": [
+      "faerie_forage",
+      "magical_mushroom_item",
+      "season_summer",
+      "seedmaker_banned",
+      "edible_mushroom",
+      "color_dark_cyan"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Shrumbus",
+    "name": "Wildflour.SASS_Shrumbus",
+    "displayName": {
+      "en": "Wildflour.SASS_Shrumbus",
+      "zh": "施伦布菇"
+    },
+    "description": {
+      "en": "它就是个小家伙。",
+      "zh": "它就是个小家伙。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 100,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 62,
+      "x": 224,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 8,
+    "contextTags": [
+      "faerie_forage",
+      "magical_forage_item",
+      "edible_mushroom",
+      "magical_mushroom_item",
+      "seedmaker_banned",
+      "season_fall",
+      "color_sand"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Sparkling_Agaric",
+    "name": "Wildflour.SASS_Sparkling_Agaric",
+    "displayName": {
+      "en": "Wildflour.SASS_Sparkling_Agaric",
+      "zh": "闪亮伞菌"
+    },
+    "description": {
+      "en": "大多数采菇人都会对看似有毒的鹅膏菌避之不及；然而，这一种却莫名地透着一股诱人的气息。",
+      "zh": "大多数采菇人都会对看似有毒的鹅膏菌避之不及；然而，这一种却莫名地透着一股诱人的气息。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 68,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 53,
+      "x": 80,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 16,
+    "contextTags": [
+      "faerie_forage",
+      "magical_mushroom_item",
+      "edible_mushroom",
+      "seedmaker_banned",
+      "season_fall",
+      "color_red"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Stout_Funnel",
+    "name": "Wildflour.SASS_Stout_Funnel",
+    "displayName": {
+      "en": "Wildflour.SASS_Stout_Funnel",
+      "zh": "敦实漏斗菌"
+    },
+    "description": {
+      "en": "它也被称作“穷人的鸡油菌”，尝起来莫名会让人联想到……煎饼？",
+      "zh": "它也被称作“穷人的鸡油菌”，尝起来莫名会让人联想到……煎饼？"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 120,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 43,
+      "x": 304,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 15,
+    "contextTags": [
+      "faerie_forage",
+      "season_fall",
+      "magical_mushroom_item",
+      "seedmaker_banned",
+      "edible_mushroom",
+      "color_dark_yellow"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Tea_Grass_Fungus",
+    "name": "Wildflour.SASS_Tea_Grass_Fungus",
+    "displayName": {
+      "en": "Wildflour.SASS_Tea_Grass_Fungus",
+      "zh": "茶草真菌"
+    },
+    "description": {
+      "en": "难道什么都能用来泡茶吗？",
+      "zh": "难道什么都能用来泡茶吗？"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 35,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 105,
+      "x": 144,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 20,
+    "contextTags": [
+      "faerie_forage",
+      "edible_mushroom",
+      "season_winter",
+      "magical_mushroom_item",
+      "seedmaker_banned",
+      "color_green"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Crow_Feather",
+    "name": "Wildflour.SASS_Crow_Feather",
+    "displayName": {
+      "en": "Wildflour.SASS_Crow_Feather",
+      "zh": "乌鸦羽毛"
+    },
+    "description": {
+      "en": "这根羽毛黑得如同夜空一般。",
+      "zh": "这根羽毛黑得如同夜空一般。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 75,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 69,
+      "x": 336,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "faerie_forage",
+      "magical_forage_item",
+      "feather_item",
+      "color_gray"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Lady_Luck",
+    "name": "Wildflour.SASS_Lady_Luck",
+    "displayName": {
+      "en": "Wildflour.SASS_Lady_Luck",
+      "zh": "幸运女士"
+    },
+    "description": {
+      "en": "一种稀有的四叶草，常常在旅行者启程前作为带来好运的礼物送给他们。",
+      "zh": "一种稀有的四叶草，常常在旅行者启程前作为带来好运的礼物送给他们。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 30,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 75,
+      "x": 48,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 0,
+    "contextTags": [
+      "faerie_forage",
+      "magical_forage_item",
+      "color_light_green"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Lovebird_Feather",
+    "name": "Wildflour.SASS_Lovebird_Feather",
+    "displayName": {
+      "en": "Wildflour.SASS_Lovebird_Feather",
+      "zh": "爱情鸟羽毛"
+    },
+    "description": {
+      "en": "一根色彩斑斓的爱情鸟羽毛。",
+      "zh": "一根色彩斑斓的爱情鸟羽毛。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 80,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 70,
+      "x": 352,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "faerie_forage",
+      "magical_forage_item",
+      "feather_item",
+      "color_light_green"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Rosefinch_Feather",
+    "name": "Wildflour.SASS_Rosefinch_Feather",
+    "displayName": {
+      "en": "Wildflour.SASS_Rosefinch_Feather",
+      "zh": "朱雀羽毛"
+    },
+    "description": {
+      "en": "一根来自朱雀的亮粉色羽毛。",
+      "zh": "一根来自朱雀的亮粉色羽毛。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 105,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 71,
+      "x": 368,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "faerie_forage",
+      "magical_forage_item",
+      "feather_item",
+      "color_light_pink"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Unicorn_Horn",
+    "name": "Wildflour.SASS_Unicorn_Horn",
+    "displayName": {
+      "en": "Wildflour.SASS_Unicorn_Horn",
+      "zh": "独角兽角"
+    },
+    "description": {
+      "en": "一根从年轻独角兽身上脱落的角。对于任何女巫或法师来说，这都是一件稀有且珍贵的发现。",
+      "zh": "一根从年轻独角兽身上脱落的角。对于任何女巫或法师来说，这都是一件稀有且珍贵的发现。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 400,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 76,
+      "x": 64,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "faerie_forage",
+      "magical_forage_item",
+      "color_light_blue"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_BlackChanterelle",
+    "name": "Black Chanterelle",
+    "displayName": {
+      "en": "Black Chanterelle",
+      "zh": "灰喇叭菌"
+    },
+    "description": {
+      "en": "尽管有时会被冠以恶名，但这种蘑菇能安全食用且味道鲜美的。被发现于雾呜山峰上。",
+      "zh": "尽管有时会被冠以恶名，但这种蘑菇能安全食用且味道鲜美的。被发现于雾呜山峰上。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 432,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Forage",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 15,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_forage",
+      "mushroom_item",
+      "edible_mushroom",
+      "preserves_pickle",
+      "color_black"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Porchini",
+    "name": "Porchini",
+    "displayName": {
+      "en": "Porchini",
+      "zh": "哞肝菌"
+    },
+    "description": {
+      "en": "一种深受美食家喜爱的蘑菇。被发现于雾呜山峰。",
+      "zh": "一种深受美食家喜爱的蘑菇。被发现于雾呜山峰。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 150,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Forage",
+      "index": 1,
+      "x": 16,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 24,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_forage",
+      "mushroom_item",
+      "edible_mushroom",
+      "preserves_pickle",
+      "color_orange"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_PurpleCupFlower",
+    "name": "Purple Cup Flower",
+    "displayName": {
+      "en": "Purple Cup Flower",
+      "zh": "紫杯花"
+    },
+    "description": {
+      "en": "一种被发现生长在雾呜山峰森林的花，形状像杯子。",
+      "zh": "一种被发现生长在雾呜山峰森林的花，形状像杯子。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 40,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Forage",
+      "index": 2,
+      "x": 32,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_forage",
+      "flower_item",
+      "color_purple"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_WoodSilkFlower",
+    "name": "Wood Silk Flower",
+    "displayName": {
+      "en": "Wood Silk Flower",
+      "zh": "木丝花"
+    },
+    "description": {
+      "en": "通常能在在雨后的雾呜山峰森林中发现，它的花瓣极为娇嫩。",
+      "zh": "通常能在在雨后的雾呜山峰森林中发现，它的花瓣极为娇嫩。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 120,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Forage",
+      "index": 3,
+      "x": 48,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_forage",
+      "flower_item",
+      "color_purple"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_CrystalRose",
+    "name": "Crystal Rose",
+    "displayName": {
+      "en": "Crystal Rose",
+      "zh": "水晶玫瑰"
+    },
+    "description": {
+      "en": "无论是植物还是岩石，或者两者兼而有之，其真正本质仍然是个谜。",
+      "zh": "无论是植物还是岩石，或者两者兼而有之，其真正本质仍然是个谜。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 540,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Forage",
+      "index": 4,
+      "x": 64,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_forage",
+      "museum_donatable",
+      "color_pink"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_LaceFlower",
+    "name": "Laceflower",
+    "displayName": {
+      "en": "Laceflower",
+      "zh": "蕾丝花"
+    },
+    "description": {
+      "en": "花瓣上有看起来像精美蕾丝的图案。",
+      "zh": "花瓣上有看起来像精美蕾丝的图案。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 56,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Forage",
+      "index": 5,
+      "x": 80,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_forage",
+      "flower_item",
+      "color_pink"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_WoodgoatMushroom",
+    "name": "Woodgoat Mushroom",
+    "displayName": {
+      "en": "Woodgoat Mushroom",
+      "zh": "木山羊蘑菇"
+    },
+    "description": {
+      "en": "它可以用来制作奶酪，也因此成为一种受欢迎的野生蘑菇。",
+      "zh": "它可以用来制作奶酪，也因此成为一种受欢迎的野生蘑菇。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 250,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Forage",
+      "index": 7,
+      "x": 112,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 32,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_forage",
+      "mushroom_item",
+      "edible_mushroom",
+      "preserves_pickle",
+      "color_brown"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Reed",
+    "name": "Reed",
+    "displayName": {
+      "en": "Reed",
+      "zh": "铜芦苇"
+    },
+    "description": {
+      "en": "一种生长在水边的植物，有时用作各种工艺品的材料。",
+      "zh": "一种生长在水边的植物，有时用作各种工艺品的材料。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 91,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Forage",
+      "index": 8,
+      "x": 128,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 3,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_forage",
+      "color_brown"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Nevaril",
+    "name": "Nevaril",
+    "displayName": {
+      "en": "Nevaril",
+      "zh": "恒瓣花"
+    },
+    "description": {
+      "en": "果实形成时花瓣不会掉落。在适当的干燥后，是一种很受欢迎的装饰品。",
+      "zh": "果实形成时花瓣不会掉落。在适当的干燥后，是一种很受欢迎的装饰品。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 72,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Forage",
+      "index": 9,
+      "x": 144,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 6,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_forage",
+      "flower_item",
+      "color_pink"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_PixieBell",
+    "name": "Pixie Bell",
+    "displayName": {
+      "en": "Pixie Bell",
+      "zh": "叮铃花"
+    },
+    "description": {
+      "en": "传说中小仙女们会在花中捉迷藏。孩子们也因此喜欢往里看，希望能发现一个。",
+      "zh": "传说中小仙女们会在花中捉迷藏。孩子们也因此喜欢往里看，希望能发现一个。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 325,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Forage",
+      "index": 12,
+      "x": 192,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_forage",
+      "flower_item",
+      "color_gray",
+      "seedmaker_banned"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_BlueClover",
+    "name": "Blue Clover",
+    "displayName": {
+      "en": "Blue Clover",
+      "zh": "蓝色三叶草"
+    },
+    "description": {
+      "en": "一种常见的采集物，本身价值不高。农民会利用来给土地施肥。",
+      "zh": "一种常见的采集物，本身价值不高。农民会利用来给土地施肥。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 10,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Forage",
+      "index": 13,
+      "x": 208,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 3,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_plant",
+      "flower_item",
+      "color_blue",
+      "seedmaker_banned"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Rosemary",
+    "name": "Rosemary",
+    "displayName": {
+      "en": "Rosemary",
+      "zh": "迷迭香"
+    },
+    "description": {
+      "en": "香气四溢，味道十分浓郁。",
+      "zh": "香气四溢，味道十分浓郁。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 33,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Forage",
+      "index": 14,
+      "x": 224,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 7,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_plant",
+      "ingredient_herb",
+      "ingredient_rosemary",
+      "herb_item",
+      "rosemary_item",
+      "color_green"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_SeaBuckthornBerry",
+    "name": "SeaBuckthorn Berry",
+    "displayName": {
+      "en": "SeaBuckthorn Berry",
+      "zh": "沙棘果"
+    },
+    "description": {
+      "en": "一种适应恶劣生长环境的坚固灌木的果实，可以加工炼成油。",
+      "zh": "一种适应恶劣生长环境的坚固灌木的果实，可以加工炼成油。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 15,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Forage",
+      "index": 15,
+      "x": 240,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 13,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_plant",
+      "color_orange"
+    ]
+  },
+  {
+    "id": "Cornucopia_PitcherPlant",
+    "name": "Cornucopia_PitcherPlant",
+    "displayName": {
+      "en": "Cornucopia_PitcherPlant",
+      "zh": "猪笼草"
+    },
+    "description": {
+      "en": "一种生长在沼泽中的植物，带有钟形的花朵，可以捕捉昆虫。",
+      "zh": "一种生长在沼泽中的植物，带有钟形的花朵，可以捕捉昆虫。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 150,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 62,
+      "x": 224,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_lime",
+      "season_fall",
+      "dye_medium",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_exclusive",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "pitcher_plant_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_Rafflesia",
+    "name": "Cornucopia_Rafflesia",
+    "displayName": {
+      "en": "Cornucopia_Rafflesia",
+      "zh": "宝石大王花"
+    },
+    "description": {
+      "en": "一种气味难闻且体型巨大的花，是世界上最大的花。",
+      "zh": "一种气味难闻且体型巨大的花，是世界上最大的花。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 2400,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 60,
+      "x": 192,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_red",
+      "season_summer",
+      "dye_medium",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_exclusive",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "rafflesia_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_RafflesiaPurple",
+    "name": "Cornucopia_RafflesiaPurple",
+    "displayName": {
+      "en": "Cornucopia_RafflesiaPurple",
+      "zh": "宝石大王花"
+    },
+    "description": {
+      "en": "一种气味难闻且体型巨大的花，是世界上最大的花。",
+      "zh": "一种气味难闻且体型巨大的花，是世界上最大的花。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 3000,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 83,
+      "x": 176,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_purple",
+      "season_summer",
+      "dye_medium",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_exclusive",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "rafflesia_item"
+    ]
+  },
+  {
+    "id": "TenebrousNova.EliDylan.CP_Bluffshroom",
+    "name": "TenebrousNova.EliDylan.CP_Bluffshroom",
+    "displayName": {
+      "en": "TenebrousNova.EliDylan.CP_Bluffshroom",
+      "zh": "骗菇"
+    },
+    "description": {
+      "en": "这种蘑菇似乎极力想要让你认为它有毒，以至于它的菌盖上演化出了一个可爱的小骷髅图案。然而，事实上，它完全无害，可安全食用。",
+      "zh": "这种蘑菇似乎极力想要让你认为它有毒，以至于它的菌盖上演化出了一个可爱的小骷髅图案。然而，事实上，它完全无害，可安全食用。"
+    },
+    "type": "Forage",
+    "category": -75,
+    "price": 75,
+    "sprite": {
+      "texture": "Mods/EnD/Objects",
+      "index": 12,
+      "x": 192,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 15,
+    "contextTags": [
+      "edible_mushroom"
+    ]
+  },
+  {
+    "id": "TenebrousNova.EliDylan.CP_Marimo",
+    "name": "TenebrousNova.EliDylan.CP_Marimo",
+    "displayName": {
+      "en": "TenebrousNova.EliDylan.CP_Marimo",
+      "zh": "绿球藻"
+    },
+    "description": {
+      "en": "一种水生苔藓，呈球状生长，常在河流和湖泊的底部滚动。这在水族馆中非常受欢迎。",
+      "zh": "一种水生苔藓，呈球状生长，常在河流和湖泊的底部滚动。这在水族馆中非常受欢迎。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 50,
+    "sprite": {
+      "texture": "Mods/EnD/Objects",
+      "index": 18,
+      "x": 288,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 10,
+    "contextTags": [
+      "color_green",
+      "forage_marimo"
+    ]
+  },
+  {
+    "id": "TenebrousNova.EliDylan.CP_FrogspawnCoral",
+    "name": "TenebrousNova.EliDylan.CP_FrogspawnCoral",
+    "displayName": {
+      "en": "TenebrousNova.EliDylan.CP_FrogspawnCoral",
+      "zh": "蛙卵珊瑚"
+    },
+    "description": {
+      "en": "这种石珊瑚拥有大型息肉，外观酷似蛙卵。当周围的珊瑚生长得离自己太近时，它们能够伸出长长的刺触手进行攻击。",
+      "zh": "这种石珊瑚拥有大型息肉，外观酷似蛙卵。当周围的珊瑚生长得离自己太近时，它们能够伸出长长的刺触手进行攻击。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 80,
+    "sprite": {
+      "texture": "Mods/EnD/Objects",
+      "index": 19,
+      "x": 304,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_green",
+      "forage_frogspawncoral",
+      "forage_item_beach"
+    ]
+  },
+  {
+    "id": "TenebrousNova.EliDylan.CP_TorchCoral",
+    "name": "TenebrousNova.EliDylan.CP_TorchCoral",
+    "displayName": {
+      "en": "TenebrousNova.EliDylan.CP_TorchCoral",
+      "zh": "火炬珊瑚"
+    },
+    "description": {
+      "en": "一种石珊瑚，拥有大型的息肉，末端是长而色彩鲜艳的触手。它具有攻击性，会刺伤附近其他珊瑚。",
+      "zh": "一种石珊瑚，拥有大型的息肉，末端是长而色彩鲜艳的触手。它具有攻击性，会刺伤附近其他珊瑚。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 80,
+    "sprite": {
+      "texture": "Mods/EnD/Objects",
+      "index": 20,
+      "x": 320,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_purple",
+      "forage_torchcoral",
+      "forage_item_beach"
+    ]
+  },
+  {
+    "id": "TenebrousNova.EliDylan.CP_DuncanCoral",
+    "name": "TenebrousNova.EliDylan.CP_DuncanCoral",
+    "displayName": {
+      "en": "TenebrousNova.EliDylan.CP_DuncanCoral",
+      "zh": "榔头珊瑚"
+    },
+    "description": {
+      "en": "一种生长迅速的石珊瑚，拥有鲜艳的蓝绿色息肉，末端带有短小的紫色触手。它们食欲旺盛，但并不具有攻击性。",
+      "zh": "一种生长迅速的石珊瑚，拥有鲜艳的蓝绿色息肉，末端带有短小的紫色触手。它们食欲旺盛，但并不具有攻击性。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 85,
+    "sprite": {
+      "texture": "Mods/EnD/Objects",
+      "index": 21,
+      "x": 336,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_cyan",
+      "forage_duncancoral",
+      "forage_item_beach"
+    ]
+  },
+  {
+    "id": "TenebrousNova.EliDylan.CP_Trachyphyllia",
+    "name": "TenebrousNova.EliDylan.CP_Trachyphyllia",
+    "displayName": {
+      "en": "TenebrousNova.EliDylan.CP_Trachyphyllia",
+      "zh": "糙叶珊瑚"
+    },
+    "description": {
+      "en": "也被称为开脑珊瑚，它能够膨胀自己的组织，借助水流的帮助慢慢移动。",
+      "zh": "也被称为开脑珊瑚，它能够膨胀自己的组织，借助水流的帮助慢慢移动。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 90,
+    "sprite": {
+      "texture": "Mods/EnD/Objects",
+      "index": 22,
+      "x": 352,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_blue",
+      "forage_trachyphyllia",
+      "forage_item_beach"
+    ]
+  },
+  {
+    "id": "TenebrousNova.EliDylan.CP_Scolymia",
+    "name": "TenebrousNova.EliDylan.CP_Scolymia",
+    "displayName": {
+      "en": "TenebrousNova.EliDylan.CP_Scolymia",
+      "zh": "纽扣珊瑚"
+    },
+    "description": {
+      "en": "一种十分美丽的石珊瑚，拥有多种令人惊叹的颜色。因此，它们深受水族爱好者的喜爱。",
+      "zh": "一种十分美丽的石珊瑚，拥有多种令人惊叹的颜色。因此，它们深受水族爱好者的喜爱。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 150,
+    "sprite": {
+      "texture": "Mods/EnD/Objects",
+      "index": 23,
+      "x": 368,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_red",
+      "forage_scolymia",
+      "forage_item_beach"
+    ]
+  },
+  {
+    "id": "TenebrousNova.EliDylan.CP_AcanCoral",
+    "name": "TenebrousNova.EliDylan.CP_AcanCoral",
+    "displayName": {
+      "en": "TenebrousNova.EliDylan.CP_AcanCoral",
+      "zh": "刺星珊瑚"
+    },
+    "description": {
+      "en": "各种石珊瑚颜色多变，它们在生长过程中会形成圆顶状的群落结构。",
+      "zh": "各种石珊瑚颜色多变，它们在生长过程中会形成圆顶状的群落结构。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 80,
+    "sprite": {
+      "texture": "Mods/EnD/Objects",
+      "index": 24,
+      "x": 0,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_purple",
+      "forage_acancoral",
+      "forage_item_beach"
+    ]
+  },
+  {
+    "id": "TenebrousNova.EliDylan.CP_ToadstoolCoral",
+    "name": "TenebrousNova.EliDylan.CP_ToadstoolCoral",
+    "displayName": {
+      "en": "TenebrousNova.EliDylan.CP_ToadstoolCoral",
+      "zh": "蘑菇珊瑚"
+    },
+    "description": {
+      "en": "这是一种皮革珊瑚。它的顶部覆盖着数百个微小的息肉，这让它的外表看起来既柔软又略带绒毛。这种珊瑚能够长得非常大。",
+      "zh": "这是一种皮革珊瑚。它的顶部覆盖着数百个微小的息肉，这让它的外表看起来既柔软又略带绒毛。这种珊瑚能够长得非常大。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 80,
+    "sprite": {
+      "texture": "Mods/EnD/Objects",
+      "index": 25,
+      "x": 16,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_orange",
+      "forage_toadstoolcoral",
+      "forage_item_beach"
+    ]
+  },
+  {
+    "id": "TenebrousNova.EliDylan.CP_CandycaneCoral",
+    "name": "TenebrousNova.EliDylan.CP_CandycaneCoral",
+    "displayName": {
+      "en": "TenebrousNova.EliDylan.CP_CandycaneCoral",
+      "zh": "绿叉枝干星珊瑚"
+    },
+    "description": {
+      "en": "这种石珊瑚也被称作糖果棒珊瑚，它有绿色、紫色和棕色等不同的颜色变体。珊瑚群落可以生长至大约5米宽。",
+      "zh": "这种石珊瑚也被称作糖果棒珊瑚，它有绿色、紫色和棕色等不同的颜色变体。珊瑚群落可以生长至大约5米宽。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 80,
+    "sprite": {
+      "texture": "Mods/EnD/Objects",
+      "index": 26,
+      "x": 32,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown",
+      "forage_Candycanecoral",
+      "forage_item_beach"
+    ]
+  },
+  {
+    "id": "TenebrousNova.EliDylan.CP_AcroporaCoral",
+    "name": "TenebrousNova.EliDylan.CP_AcroporaCoral",
+    "displayName": {
+      "en": "TenebrousNova.EliDylan.CP_AcroporaCoral",
+      "zh": "鹿角珊瑚"
+    },
+    "description": {
+      "en": "一种石珊瑚，拥有丰富多彩的颜色，其生长呈现出独特的分支。它对水质变化非常敏感。",
+      "zh": "一种石珊瑚，拥有丰富多彩的颜色，其生长呈现出独特的分支。它对水质变化非常敏感。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 80,
+    "sprite": {
+      "texture": "Mods/EnD/Objects",
+      "index": 27,
+      "x": 48,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_yellow",
+      "forage_acroporacoral",
+      "forage_item_beach"
+    ]
+  },
+  {
+    "id": "TenebrousNova.EliDylan.CP_EleganceCoral",
+    "name": "TenebrousNova.EliDylan.CP_EleganceCoral",
+    "displayName": {
+      "en": "TenebrousNova.EliDylan.CP_EleganceCoral",
+      "zh": "优雅珊瑚"
+    },
+    "description": {
+      "en": "这种大型石珊瑚偶尔被人误认为是海葵。其长而摇曳的触手，确实配得上“优雅”这个美誉。",
+      "zh": "这种大型石珊瑚偶尔被人误认为是海葵。其长而摇曳的触手，确实配得上“优雅”这个美誉。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 120,
+    "sprite": {
+      "texture": "Mods/EnD/Objects",
+      "index": 28,
+      "x": 64,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_blue",
+      "forage_elegancecoral",
+      "forage_item_beach"
+    ]
+  },
+  {
+    "id": "TenebrousNova.EliDylan.CP_Gorgonian",
+    "name": "TenebrousNova.EliDylan.CP_Gorgonian",
+    "displayName": {
+      "en": "TenebrousNova.EliDylan.CP_Gorgonian",
+      "zh": "柳珊瑚"
+    },
+    "description": {
+      "en": "这种娇弱柳珊瑚是由一群微小的微生物聚集而成的。其中一些种类通过过滤水中的食物颗粒为生，而其他一些则通过进行光合作用来获取能量。",
+      "zh": "这种娇弱柳珊瑚是由一群微小的微生物聚集而成的。其中一些种类通过过滤水中的食物颗粒为生，而其他一些则通过进行光合作用来获取能量。"
+    },
+    "type": "Forage",
+    "category": -81,
+    "price": 80,
+    "sprite": {
+      "texture": "Mods/EnD/Objects",
+      "index": 29,
+      "x": 80,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_red",
+      "forage_gorgonian",
+      "forage_item_beach"
+    ]
+  }
+]

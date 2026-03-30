@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>星露谷工具箱 | Stardew Valley Toolbox</title>
+  <!-- Import Google Fonts for a more thematic look -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&family=Noto+Sans+SC:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-color: #8bb0c0;
+      /* Skyish Blue/Green */
+      --wood-dark: #5c3c26;
+      --wood-mid: #85583b;
+      --wood-light: #a47050;
+      --paper-bg: #fffbf0;
+      --paper-border: #d4cba8;
+      --text-main: #4a3627;
+      --accent-blue: #407fa7;
+      --accent-green: #6a9e38;
+      --accent-red: #c94a3d;
+      --shadow: rgba(68, 45, 30, 0.25);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Noto Sans SC', sans-serif;
+      background-color: var(--bg-color);
+      /* Simple pixel pattern overlay */
+      background-image:
+        linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 75%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0.1)),
+        linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 75%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0.1));
+      background-size: 40px 40px;
+      background-position: 0 0, 20px 20px;
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Main Container - The "Bulletin Board" */
+    .container {
+      width: 100%;
+      max-width: 1000px;
+      margin: 40px 20px;
+      background: var(--wood-mid);
+      border: 8px solid var(--wood-dark);
+      border-radius: 16px;
+      box-shadow:
+        inset 0 0 0 4px var(--wood-light),
+        0 20px 40px rgba(0, 0, 0, 0.3);
+      position: relative;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    /* Nail decoration */
+    .nail {
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      background: #3e2723;
+      border-radius: 50%;
+      box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.3), 2px 2px 4px rgba(0, 0, 0, 0.4);
+      z-index: 10;
+    }
+
+    .nail.tl {
+      top: 12px;
+      left: 12px;
+    }
+
+    .nail.tr {
+      top: 12px;
+      right: 12px;
+    }
+
+    .nail.bl {
+      bottom: 12px;
+      left: 12px;
+    }
+
+    .nail.br {
+      bottom: 12px;
+      right: 12px;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+      background: var(--paper-bg);
+      border: 2px solid var(--paper-border);
+      border-radius: 4px;
+      box-shadow: 0 4px 8px var(--shadow);
+      margin: 20px 20px 0;
+      position: relative;
+      transform: rotate(-1deg);
+    }
+
+    /* Tape effect for header */
+    .tape {
+      position: absolute;
+      top: -15px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 120px;
+      height: 30px;
+      background: rgba(255, 255, 255, 0.4);
+      border-left: 1px dashed rgba(0, 0, 0, 0.1);
+      border-right: 1px dashed rgba(0, 0, 0, 0.1);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-family: 'ZCOOL KuaiLe', cursive;
+      font-size: 48px;
+      color: var(--wood-dark);
+      text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
+    }
+
+    header p {
+      margin: 16px auto 0;
+      max-width: 600px;
+      line-height: 1.8;
+      font-size: 18px;
+      color: var(--text-main);
+    }
+
+    main {
+      padding: 0 20px 20px;
+      width: 100%;
+    }
+
+    .tool-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      margin-bottom: 40px;
+    }
+
+    /* Tool Cards */
+    .card {
+      background: var(--paper-bg);
+      border: 3px solid var(--wood-dark);
+      border-radius: 8px;
+      padding: 24px;
+      position: relative;
+      transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.27), box-shadow 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 6px 0 var(--wood-dark);
+    }
+
+    .card:hover {
+      transform: translateY(-8px) rotate(1deg);
+      box-shadow: 0 12px 0 var(--wood-dark);
+    }
+
+    .card h2 {
+      margin: 0 0 16px;
+      font-family: 'ZCOOL KuaiLe', cursive;
+      font-size: 26px;
+      color: var(--accent-blue);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      border-bottom: 2px dashed var(--paper-border);
+      padding-bottom: 12px;
+    }
+
+    .card p {
+      margin: 0 0 20px;
+      line-height: 1.6;
+      color: #665245;
+      flex: 1;
+      font-size: 16px;
+    }
+
+    .card a {
+      display: inline-block;
+      text-align: center;
+      background: var(--accent-green);
+      color: white;
+      text-decoration: none;
+      padding: 12px;
+      border-radius: 4px;
+      font-weight: 700;
+      border: 2px solid #4a7729;
+      box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.3), 0 3px 0 #4a7729;
+      transition: all 0.1s ease;
+      font-family: 'ZCOOL KuaiLe', cursive;
+      letter-spacing: 1px;
+    }
+
+    .card a:active {
+      transform: translateY(3px);
+      box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.3), 0 0 0 #4a7729;
+    }
+
+    /* Icons (Emoji fallback styled) */
+    .icon {
+      font-style: normal;
+      font-size: 28px;
+    }
+
+    /* Roadmap Section */
+    .roadmap {
+      background: rgba(255, 255, 255, 0.9);
+      border: 2px dashed var(--wood-light);
+      border-radius: 8px;
+      padding: 30px;
+      position: relative;
+    }
+
+    .roadmap::before {
+      content: '📌';
+      position: absolute;
+      top: -15px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 24px;
+    }
+
+    .roadmap h3 {
+      margin: 0 0 20px;
+      font-family: 'ZCOOL KuaiLe', cursive;
+      color: var(--wood-dark);
+      font-size: 24px;
+      text-align: center;
+    }
+
+    .roadmap ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 16px;
+    }
+
+    .roadmap li {
+      padding-left: 28px;
+      position: relative;
+      line-height: 1.5;
+    }
+
+    .roadmap li::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      color: var(--wood-light);
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 14px;
+      margin-bottom: 20px;
+      text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        margin: 10px;
+        width: auto;
+        border-width: 4px;
+      }
+
+      header h1 {
+        font-size: 32px;
+      }
+
+      .card h2 {
+        font-size: 22px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="nail tl"></div>
+    <div class="nail tr"></div>
+    <div class="nail bl"></div>
+    <div class="nail br"></div>
+
+    <header>
+      <div class="tape"></div>
+      <h1>🌾 星露谷工具箱</h1>
+      <p>
+        欢迎丸子来到啊森为你定制的星露谷工具箱！这里收集了各种实用的小工具，
+        希望能帮助你更好的经营农场。
+      </p>
+    </header>
+
+    <main>
+      <section class="tool-grid">
+        <article class="card">
+          <h2><span class="icon">📦</span> 物品代码查询</h2>
+          <p>
+            支持 1.6 全物品数据，提供中文搜索、聚焦模式以及批量命令生成。
+            <br><small style="opacity: 0.8; margin-top: 8px; display: block;">再也不用担心找不到物品ID啦！</small>
+          </p>
+          <a href="./stardewids/public/index.html">
+            打开查询器
+          </a>
+        </article>
+
+        <article class="card">
+          <h2><span class="icon">🐟</span> 鱼类图鉴</h2>
+          <p>
+            归纳每种鱼的出现季节、地点、天气、价格等信息。
+            <br><small style="opacity: 0.8; margin-top: 8px; display: block;">钓鱼佬永不空军！</small>
+          </p>
+          <a href="./stardew_fish_by_season/index.html">
+            查阅图鉴
+          </a>
+        </article>
+
+        <article class="card">
+          <h2><span class="icon">🧩</span> 里奇赛德谜题攻略</h2>
+          <p>
+            集中整理里奇赛德的解谜、观察题与任务专题入口，狐灵花追踪已归档到子页中。
+            <br><small style="opacity: 0.8; margin-top: 8px; display: block;">以后和里奇赛德有关的攻略都从这里进入。</small>
+          </p>
+          <a href="./ridgeside_secrets_guide/index.html">
+            打开攻略页
+          </a>
+        </article>
+
+        <article class="card">
+          <h2><span class="icon">🏝️</span> 姜岛解谜工具箱</h2>
+          <p>
+            新建姜岛专题总入口，先把金核桃收集指南和后续预留专题统一收进一个目录。
+            <br><small style="opacity: 0.8; margin-top: 8px; display: block;">后面补资料时，就不用再把姜岛内容分散到不同页面里。</small>
+          </p>
+          <a href="./ginger_island_puzzle_toolbox/index.html">
+            打开专题页
+          </a>
+        </article>
+
+        <article class="card">
+          <h2><span class="icon">🍳</span> 菜谱计数器</h2>
+          <p>
+            统计已学菜谱与缺失列表,支持 1.6 数据与快速筛选。
+            <br><small style="opacity: 0.8; margin-top: 8px; display: block;">一键看看还差哪些料理。</small>
+          </p>
+          <a href="./stardew_recipes_counter/src/enhanced_index.html">
+            打开计数器
+          </a>
+        </article>
+
+        <article class="card">
+          <h2><span class="icon">🔨</span> 制作配方查询</h2>
+          <p>
+            查询所有制作配方的材料、产物和解锁条件。
+            <br><small style="opacity: 0.8; margin-top: 8px; display: block;">轻松掌握制作技巧！</small>
+          </p>
+          <a href="./stardew_crafting_recipes/index.html">
+            查询配方
+          </a>
+        </article>
+      </section>
+    </main>
+  </div>
+
+  <footer>Made with 啊森 & GPT & Gemini & Claude for 丸子♥️.</footer>
+</body>
+
+</html>

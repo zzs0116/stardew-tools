@@ -1,0 +1,500 @@
+[
+  {
+    "id": "71",
+    "name": "Trimmed Lucky Purple Shorts",
+    "displayName": {
+      "en": "Trimmed Lucky Purple Shorts",
+      "zh": "镶边幸运紫色短裤"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:TrimmedLuckyPurpleShorts_Description]",
+      "zh": "镶了金边的紫色丝织短裤……"
+    },
+    "type": "Quest",
+    "category": 0,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 71,
+      "x": 368,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "191",
+    "name": "Ornate Necklace",
+    "displayName": {
+      "en": "Ornate Necklace",
+      "zh": "华丽的项链"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:OrnateNecklace_Description]",
+      "zh": "在浴室外的水中找到的华丽项链。还是湿的……"
+    },
+    "type": "Quest",
+    "category": 0,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 191,
+      "x": 368,
+      "y": 112,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "742",
+    "name": "Haley's Lost Bracelet",
+    "displayName": {
+      "en": "Haley's Lost Bracelet",
+      "zh": "Haley's Lost Bracelet"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:HaleysLostBracelet_Description]",
+      "zh": "A family heirloom."
+    },
+    "type": "Quest",
+    "category": 0,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 742,
+      "x": 352,
+      "y": 480,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "788",
+    "name": "Lost Axe",
+    "displayName": {
+      "en": "Lost Axe",
+      "zh": "丢失的斧子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:LostAxe_Description]",
+      "zh": "罗宾正到处在找它。"
+    },
+    "type": "Quest",
+    "category": 0,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 788,
+      "x": 320,
+      "y": 512,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "789",
+    "name": "Lucky Purple Shorts",
+    "displayName": {
+      "en": "Lucky Purple Shorts",
+      "zh": "幸运紫色短裤"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:LuckyPurpleShorts_Description]",
+      "zh": "最好别细看。"
+    },
+    "type": "Quest",
+    "category": 0,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 789,
+      "x": 336,
+      "y": 512,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "790",
+    "name": "Berry Basket",
+    "displayName": {
+      "en": "Berry Basket",
+      "zh": "浆果篮"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:BerryBasket_Description]",
+      "zh": "编条上占满了浆果汁。"
+    },
+    "type": "Quest",
+    "category": 0,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 790,
+      "x": 352,
+      "y": 512,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "791",
+    "name": "Golden Coconut",
+    "displayName": {
+      "en": "Golden Coconut",
+      "zh": "金色椰子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:GoldenCoconut_Description]",
+      "zh": "这玩意儿很难开，但是有专家可以敲开。"
+    },
+    "type": "Quest",
+    "category": 0,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 791,
+      "x": 368,
+      "y": 512,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_yellow",
+      "geode_crusher_ignored"
+    ]
+  },
+  {
+    "id": "864",
+    "name": "War Memento",
+    "displayName": {
+      "en": "War Memento",
+      "zh": "战争纪念物"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:WarMemento_Description]",
+      "zh": "这是一张褪色的士兵照片……"
+    },
+    "type": "Quest",
+    "category": 0,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 864,
+      "x": 0,
+      "y": 576,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "865",
+    "name": "Gourmet Tomato Salt",
+    "displayName": {
+      "en": "Gourmet Tomato Salt",
+      "zh": "美食家番茄盐"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:GourmetTomatoSalt_Description]",
+      "zh": "一种稀有、美味、可口的盐。"
+    },
+    "type": "Quest",
+    "category": 0,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 865,
+      "x": 16,
+      "y": 576,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "866",
+    "name": "Stardew Valley Rose",
+    "displayName": {
+      "en": "Stardew Valley Rose",
+      "zh": "星露谷玫瑰"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:StardewValleyRose_Description]",
+      "zh": "会让你想起星露谷的玫瑰。香气令人愉悦。"
+    },
+    "type": "Quest",
+    "category": 0,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 866,
+      "x": 32,
+      "y": 576,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "867",
+    "name": "Advanced TV Remote",
+    "displayName": {
+      "en": "Advanced TV Remote",
+      "zh": "高级电视遥控器"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:AdvancedTVRemote_Description]",
+      "zh": "比一般的遥控器按键更多。专为资深电视迷设计！"
+    },
+    "type": "Quest",
+    "category": 0,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 867,
+      "x": 48,
+      "y": 576,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "868",
+    "name": "Arctic Shard",
+    "displayName": {
+      "en": "Arctic Shard",
+      "zh": "极寒碎片"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:ArcticShard_Description]",
+      "zh": "这块碎片散发出超脱尘世的蓝色光芒。"
+    },
+    "type": "Quest",
+    "category": 0,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 868,
+      "x": 64,
+      "y": 576,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "869",
+    "name": "Wriggling Worm",
+    "displayName": {
+      "en": "Wriggling Worm",
+      "zh": "蠕动蚯蚓"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:WrigglingWorm_Description]",
+      "zh": "一条湿漉漉的，还在蠕动的蚯蚓。"
+    },
+    "type": "Quest",
+    "category": 0,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 869,
+      "x": 80,
+      "y": 576,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "870",
+    "name": "Pirate's Locket",
+    "displayName": {
+      "en": "Pirate's Locket",
+      "zh": "海盗项链"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:PiratesLocket_Description]",
+      "zh": "这是老海盗的纪念品。"
+    },
+    "type": "Quest",
+    "category": 0,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 870,
+      "x": 96,
+      "y": 576,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "875",
+    "name": "Ectoplasm",
+    "displayName": {
+      "en": "Ectoplasm",
+      "zh": "灵外质"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Ectoplasm_Description]",
+      "zh": "厚实的粘液，法师不知道为何想要它。"
+    },
+    "type": "Quest",
+    "category": 0,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 875,
+      "x": 176,
+      "y": 576,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "897",
+    "name": "Pierre's Missing Stocklist",
+    "displayName": {
+      "en": "Pierre's Missing Stocklist",
+      "zh": "皮埃尔丢失的存货单"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:PierresMissingStocklist_Description]",
+      "zh": "皮埃尔可能会感兴趣。"
+    },
+    "type": "Quest",
+    "category": 0,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 897,
+      "x": 144,
+      "y": 592,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "GoldenBobber",
+    "name": "Golden Bobber",
+    "displayName": {
+      "en": "Golden Bobber",
+      "zh": "黄金浮漂"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:GoldenBobber_Description]",
+      "zh": "威利在寻找它。"
+    },
+    "type": "Quest",
+    "category": 0,
+    "price": 0,
+    "sprite": {
+      "texture": "TileSheets/Objects_2",
+      "index": 9,
+      "x": 144,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "EastScarp_Vintage_Ruby_Ring",
+    "name": "EastScarp_Vintage_Ruby_Ring",
+    "displayName": {
+      "en": "EastScarp_Vintage_Ruby_Ring",
+      "zh": "古老的红宝石戒指"
+    },
+    "description": {
+      "en": "镶嵌着一圈蓝宝石碎片的红宝石戒指，看起来很古老。可惜你戴不上去。",
+      "zh": "镶嵌着一圈蓝宝石碎片的红宝石戒指，看起来很古老。可惜你戴不上去。"
+    },
+    "type": "Quest",
+    "category": 0,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 22,
+      "x": 352,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "EastScarp_Tristan_Oversized_Woolly_Hat",
+    "name": "EastScarp_Tristan_Oversized_Woolly_Hat",
+    "displayName": {
+      "en": "EastScarp_Tristan_Oversized_Woolly_Hat",
+      "zh": "特里斯坦的羊毛帽"
+    },
+    "description": {
+      "en": "这顶帽子大得有点滑稽，很难戴上。可以用羊毛在缝纫机里加工。",
+      "zh": "这顶帽子大得有点滑稽，很难戴上。可以用羊毛在缝纫机里加工。"
+    },
+    "type": "Quest",
+    "category": 0,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 60,
+      "x": 192,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_purple"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_Teren_Book",
+    "name": "MadDog.HashtagBearFam_Teren_Book",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_Teren_Book",
+      "zh": "特伦的食谱书"
+    },
+    "description": {
+      "en": "特伦的食谱书，破破烂烂还用胶带粘着。那是个弹孔吗？",
+      "zh": "特伦的食谱书，破破烂烂还用胶带粘着。那是个弹孔吗？"
+    },
+    "type": "Quest",
+    "category": 0,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/NonWeaponEquipment",
+      "index": 14,
+      "x": 224,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "prevent_loss_on_death",
+      "trash_bear_ignore"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_KingoftheForest_Whiskey",
+    "name": "MadDog.HashtagBearFam_KingoftheForest_Whiskey",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_KingoftheForest_Whiskey",
+      "zh": "森林之王威士忌"
+    },
+    "description": {
+      "en": "在诺斯传说中，驼鹿是森林的王者。而这款威士忌，正是给王者享用的。",
+      "zh": "在诺斯传说中，驼鹿是森林的王者。而这款威士忌，正是给王者享用的。"
+    },
+    "type": "Quest",
+    "category": 0,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/NonWeaponEquipment",
+      "index": 15,
+      "x": 240,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "prevent_loss_on_death",
+      "trash_bear_ignore"
+    ]
+  }
+]

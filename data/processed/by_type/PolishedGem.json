@@ -1,0 +1,613 @@
+[
+  {
+    "id": "Lumisteria.MtVapius_Demantoide_Polished",
+    "name": "Polished Demantoide",
+    "displayName": {
+      "en": "Polished Demantoide",
+      "zh": "抛光翠榴石"
+    },
+    "description": {
+      "en": "这颗抛光过的宝石，闪耀得就像春天树叶透过的阳光。",
+      "zh": "这颗抛光过的宝石，闪耀得就像春天树叶透过的阳光。"
+    },
+    "type": "PolishedGem",
+    "category": 0,
+    "price": 600,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Gems",
+      "index": 5,
+      "x": 80,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_mineral",
+      "color_green",
+      "crystalarium_banned",
+      "polished_gem",
+      "not_museum_donatable"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Carnelian_Polished",
+    "name": "Polished Carnelian",
+    "displayName": {
+      "en": "Polished Carnelian",
+      "zh": "抛光红玉髓"
+    },
+    "description": {
+      "en": "这颗抛光过的宝石，如此的晶莹剔透。",
+      "zh": "这颗抛光过的宝石，如此的晶莹剔透。"
+    },
+    "type": "PolishedGem",
+    "category": 0,
+    "price": 825,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Gems",
+      "index": 7,
+      "x": 112,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_mineral",
+      "color_orange",
+      "crystalarium_banned",
+      "polished_gem",
+      "not_museum_donatable"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Turquoise_Polished",
+    "name": "Turquoise Polished",
+    "displayName": {
+      "en": "Turquoise Polished",
+      "zh": "抛光绿松石"
+    },
+    "description": {
+      "en": "这颗抛光过的宝石呈现出绿蓝色调，金色的闪烁纹理使其更加熠熠生辉。",
+      "zh": "这颗抛光过的宝石呈现出绿蓝色调，金色的闪烁纹理使其更加熠熠生辉。"
+    },
+    "type": "PolishedGem",
+    "category": 0,
+    "price": 1125,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Gems",
+      "index": 9,
+      "x": 144,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_mineral",
+      "color_blue",
+      "crystalarium_banned",
+      "polished_gem",
+      "not_museum_donatable"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Garnet_Polished",
+    "name": "Garnet Polished",
+    "displayName": {
+      "en": "Garnet Polished",
+      "zh": "抛光石榴石"
+    },
+    "description": {
+      "en": "这颗抛光过的宝石呈现出不同深浅的红色。",
+      "zh": "这颗抛光过的宝石呈现出不同深浅的红色。"
+    },
+    "type": "PolishedGem",
+    "category": 0,
+    "price": 1400,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Gems",
+      "index": 11,
+      "x": 176,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_mineral",
+      "color_red",
+      "crystalarium_banned",
+      "polished_gem",
+      "not_museum_donatable"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Morganite_Polished",
+    "name": "Morganite Polished",
+    "displayName": {
+      "en": "Morganite Polished",
+      "zh": "抛光摩根石"
+    },
+    "description": {
+      "en": "这颗抛光过的宝石，有着总在变化的细腻色彩。",
+      "zh": "这颗抛光过的宝石，有着总在变化的细腻色彩。"
+    },
+    "type": "PolishedGem",
+    "category": 0,
+    "price": 1700,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Gems",
+      "index": 13,
+      "x": 208,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_mineral",
+      "color_pink",
+      "crystalarium_banned",
+      "polished_gem",
+      "not_museum_donatable"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Heliodor_Polished",
+    "name": "Heliodor Polished",
+    "displayName": {
+      "en": "Heliodor Polished",
+      "zh": "抛光金绿柱石"
+    },
+    "description": {
+      "en": "这颗抛光过的宝石，放大了每一缕光线。",
+      "zh": "这颗抛光过的宝石，放大了每一缕光线。"
+    },
+    "type": "PolishedGem",
+    "category": 0,
+    "price": 1800,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Gems",
+      "index": 15,
+      "x": 240,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_mineral",
+      "color_yellow",
+      "crystalarium_banned",
+      "polished_gem",
+      "not_museum_donatable"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Labradorite_Polished",
+    "name": "Labradorite Polished",
+    "displayName": {
+      "en": "Labradorite Polished",
+      "zh": "抛光拉长石"
+    },
+    "description": {
+      "en": "这颗抛光过的石头，展现了天蓝色的色调，并带有黄色和绿色的高光。",
+      "zh": "这颗抛光过的石头，展现了天蓝色的色调，并带有黄色和绿色的高光。"
+    },
+    "type": "PolishedGem",
+    "category": 0,
+    "price": 1800,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Gems",
+      "index": 21,
+      "x": 336,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_mineral",
+      "color_blue",
+      "crystalarium_banned",
+      "polished_gem",
+      "not_museum_donatable"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Diamond_Polished",
+    "name": "Polished Diamond",
+    "displayName": {
+      "en": "Polished Diamond",
+      "zh": "抛光钻石"
+    },
+    "description": {
+      "en": "这颗钻石的每个刻面都反射着光线。",
+      "zh": "这颗钻石的每个刻面都反射着光线。"
+    },
+    "type": "PolishedGem",
+    "category": 0,
+    "price": 1875,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Gems",
+      "index": 22,
+      "x": 352,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "color_white",
+      "crystalarium_banned",
+      "polished_gem",
+      "not_museum_donatable"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Emerald_Polished",
+    "name": "Polished Emerald",
+    "displayName": {
+      "en": "Polished Emerald",
+      "zh": "抛光绿宝石"
+    },
+    "description": {
+      "en": "一块绿宝石切成了绿宝石形状。",
+      "zh": "一块绿宝石切成了绿宝石形状。"
+    },
+    "type": "PolishedGem",
+    "category": 0,
+    "price": 625,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Gems",
+      "index": 23,
+      "x": 368,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "color_green",
+      "crystalarium_banned",
+      "polished_gem",
+      "not_museum_donatable"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Ruby_Polished",
+    "name": "Polished Ruby",
+    "displayName": {
+      "en": "Polished Ruby",
+      "zh": "抛光红宝石"
+    },
+    "description": {
+      "en": "这种打磨方式增强了宝石红色光泽。",
+      "zh": "这种打磨方式增强了宝石红色光泽。"
+    },
+    "type": "PolishedGem",
+    "category": 0,
+    "price": 625,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Gems",
+      "index": 24,
+      "x": 0,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "color_red",
+      "crystalarium_banned",
+      "polished_gem",
+      "not_museum_donatable"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Amethyst_Polished",
+    "name": "Polished Amethyst",
+    "displayName": {
+      "en": "Polished Amethyst",
+      "zh": "抛光紫水晶"
+    },
+    "description": {
+      "en": "尽管表面已经被打磨光滑，但里面可能仍然易碎。",
+      "zh": "尽管表面已经被打磨光滑，但里面可能仍然易碎。"
+    },
+    "type": "PolishedGem",
+    "category": 0,
+    "price": 250,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Gems",
+      "index": 25,
+      "x": 16,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "color_purple",
+      "crystalarium_banned",
+      "polished_gem",
+      "not_museum_donatable"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_SweetGemBerry_Polished",
+    "name": "Polished SweetGemBerry",
+    "displayName": {
+      "en": "Polished SweetGemBerry",
+      "zh": "抛光宝石甜莓"
+    },
+    "description": {
+      "en": "现在确实是一颗宝石了。",
+      "zh": "现在确实是一颗宝石了。"
+    },
+    "type": "PolishedGem",
+    "category": 0,
+    "price": 4600,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Gems",
+      "index": 26,
+      "x": 32,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "color_orange",
+      "crystalarium_banned",
+      "polished_gem",
+      "not_museum_donatable"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Aquamarine_Polished",
+    "name": "Polished Aquamarine",
+    "displayName": {
+      "en": "Polished Aquamarine",
+      "zh": "抛光海蓝宝石"
+    },
+    "description": {
+      "en": "就像你手中的大海，不断变换着深浅的蓝色。",
+      "zh": "就像你手中的大海，不断变换着深浅的蓝色。"
+    },
+    "type": "PolishedGem",
+    "category": 0,
+    "price": 450,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Gems",
+      "index": 27,
+      "x": 48,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "color_aquamarine",
+      "crystalarium_banned",
+      "polished_gem",
+      "not_museum_donatable"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Topaz_Polished",
+    "name": "Polished Topaz",
+    "displayName": {
+      "en": "Polished Topaz",
+      "zh": "抛光黄水晶"
+    },
+    "description": {
+      "en": "平滑表面使它看起来更加闪亮。",
+      "zh": "平滑表面使它看起来更加闪亮。"
+    },
+    "type": "PolishedGem",
+    "category": 0,
+    "price": 200,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Gems",
+      "index": 28,
+      "x": 64,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "color_gold",
+      "crystalarium_banned",
+      "polished_gem",
+      "not_museum_donatable"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Jade_Polished",
+    "name": "Polished Jade",
+    "displayName": {
+      "en": "Polished Jade",
+      "zh": "抛光翡翠"
+    },
+    "description": {
+      "en": "更突出了不同深浅的绿色。",
+      "zh": "更突出了不同深浅的绿色。"
+    },
+    "type": "PolishedGem",
+    "category": 0,
+    "price": 500,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Gems",
+      "index": 29,
+      "x": 80,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "color_jade",
+      "crystalarium_banned",
+      "polished_gem",
+      "not_museum_donatable"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_VoidDiamond_Polished",
+    "name": "Void Diamond Polished",
+    "displayName": {
+      "en": "Void Diamond Polished",
+      "zh": "抛光虚空钻石"
+    },
+    "description": {
+      "en": "看着让人空虚，但同时又如噩梦般沉重。",
+      "zh": "看着让人空虚，但同时又如噩梦般沉重。"
+    },
+    "type": "PolishedGem",
+    "category": 0,
+    "price": 3000,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Gems",
+      "index": 33,
+      "x": 144,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_mineral",
+      "color_purple",
+      "crystalarium_banned",
+      "polished_gem",
+      "not_museum_donatable"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_QuartzGem_Polished",
+    "name": "Polished Quartz Gem",
+    "displayName": {
+      "en": "Polished Quartz Gem",
+      "zh": "抛光石英宝石"
+    },
+    "description": {
+      "en": "一种抛光宝石，可用于制造珠宝。",
+      "zh": "一种抛光宝石，可用于制造珠宝。"
+    },
+    "type": "PolishedGem",
+    "category": 0,
+    "price": 300,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Gems",
+      "index": 34,
+      "x": 160,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "color_white",
+      "crystalarium_banned",
+      "polished_gem",
+      "not_museum_donatable"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Tourmaline_Polished",
+    "name": "Tourmaline Polished",
+    "displayName": {
+      "en": "Tourmaline Polished",
+      "zh": "抛光电气石"
+    },
+    "description": {
+      "en": "宝石的半透明性通过其打磨而增强。",
+      "zh": "宝石的半透明性通过其打磨而增强。"
+    },
+    "type": "PolishedGem",
+    "category": 0,
+    "price": 1570,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Gems",
+      "index": 36,
+      "x": 192,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_mineral",
+      "color_green",
+      "crystalarium_banned",
+      "polished_gem",
+      "not_museum_donatable"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Larimar_Polished",
+    "name": "Larimar Polished",
+    "displayName": {
+      "en": "Larimar Polished",
+      "zh": "抛光海纹石"
+    },
+    "description": {
+      "en": "它让你想起海上的泡沫。",
+      "zh": "它让你想起海上的泡沫。"
+    },
+    "type": "PolishedGem",
+    "category": 0,
+    "price": 1800,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Gems",
+      "index": 38,
+      "x": 224,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_mineral",
+      "color_blue",
+      "crystalarium_banned",
+      "polished_gem",
+      "not_museum_donatable"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_BlueAgathe_Polished",
+    "name": "BlueAgathe Polished",
+    "displayName": {
+      "en": "BlueAgathe Polished",
+      "zh": "抛光蓝玛瑙"
+    },
+    "description": {
+      "en": "每一层面都清晰可见。",
+      "zh": "每一层面都清晰可见。"
+    },
+    "type": "PolishedGem",
+    "category": 0,
+    "price": 630,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Gems",
+      "index": 40,
+      "x": 256,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_mineral",
+      "color_blue",
+      "crystalarium_banned",
+      "polished_gem",
+      "not_museum_donatable"
+    ]
+  }
+]

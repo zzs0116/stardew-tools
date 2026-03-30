@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>岛屿办事处 | 姜岛解谜工具箱</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&family=Noto+Sans+SC:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <style>
+    :root {
+      --sky: #8cc4de;
+      --sky-deep: #6ea7c4;
+      --wood: #7e5437;
+      --wood-dark: #573722;
+      --paper: #fff8e6;
+      --paper-line: #dccb9d;
+      --text: #433022;
+      --green: #6e9b41;
+      --green-dark: #4c6f2a;
+      --blue: #3f77b2;
+      --blue-soft: #eef5ff;
+      --gold: #d2a542;
+      --soft-border: #bfd1ea;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      padding: 24px 16px;
+      background:
+        radial-gradient(circle at 14% 10%, rgba(255, 255, 255, 0.34), transparent 16%),
+        radial-gradient(circle at 82% 14%, rgba(255, 244, 185, 0.28), transparent 14%),
+        linear-gradient(180deg, var(--sky) 0%, var(--sky-deep) 100%);
+      color: var(--text);
+      font-family: 'Noto Sans SC', sans-serif;
+      display: flex;
+      justify-content: center;
+    }
+
+    .board {
+      width: min(1160px, 100%);
+      background: var(--wood);
+      border: 8px solid var(--wood-dark);
+      border-radius: 18px;
+      padding: 20px;
+      box-shadow: inset 0 0 0 4px rgba(255, 240, 210, 0.16), 0 20px 40px rgba(0, 0, 0, 0.25);
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-bottom: 16px;
+      padding: 10px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      background: var(--green);
+      color: #fff;
+      border: 2px solid var(--green-dark);
+      box-shadow: 0 4px 0 var(--green-dark);
+      font-family: 'ZCOOL KuaiLe', cursive;
+    }
+
+    .paper,
+    .panel,
+    .animal-group,
+    .donation-row,
+    .survey-card,
+    .reward-card {
+      background: var(--paper);
+      border: 2px solid var(--paper-line);
+      border-radius: 12px;
+      padding: 22px;
+      margin-bottom: 18px;
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin: 0;
+      font-family: 'ZCOOL KuaiLe', cursive;
+    }
+
+    h1 {
+      font-size: 38px;
+      color: var(--wood-dark);
+      margin-bottom: 12px;
+    }
+
+    h2 {
+      color: #8d661b;
+      margin-bottom: 12px;
+    }
+
+    h3 {
+      color: var(--blue);
+      margin-bottom: 8px;
+      font-size: 24px;
+    }
+
+    p,
+    li {
+      line-height: 1.85;
+    }
+
+    .status {
+      display: inline-block;
+      margin-bottom: 14px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: #fff1c8;
+      border: 1px solid #e2c46d;
+      color: #8a6618;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .hero-note {
+      background: var(--blue-soft);
+      border: 2px solid var(--soft-border);
+      border-radius: 12px;
+      padding: 16px 18px;
+      margin-top: 14px;
+    }
+
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .summary-box {
+      background: rgba(255, 249, 234, 0.92);
+      border: 2px dashed #dbc998;
+      border-radius: 10px;
+      padding: 14px 16px;
+    }
+
+    .summary-box strong {
+      display: block;
+      font-size: 26px;
+      font-family: 'ZCOOL KuaiLe', cursive;
+      color: #8d661b;
+      margin-bottom: 4px;
+    }
+
+    .donation-list,
+    .survey-list,
+    .reward-list {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .animal-group {
+      margin-bottom: 0;
+      padding: 18px;
+      background: #fffaf0;
+      border-style: dashed;
+    }
+
+    .animal-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 14px;
+      padding-bottom: 10px;
+      border-bottom: 2px dashed #d9c798;
+    }
+
+    .animal-header h3 {
+      margin-bottom: 0;
+    }
+
+    .animal-badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: #eaf3ff;
+      border: 1px solid #bfd1ea;
+      color: #5a78a1;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .animal-items {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .donation-row,
+    .survey-card,
+    .reward-card {
+      margin-bottom: 0;
+    }
+
+    .donation-row {
+      display: grid;
+      grid-template-columns: 82px 170px 72px minmax(0, 1fr);
+      gap: 14px;
+      align-items: start;
+    }
+
+    .donation-image {
+      width: 82px;
+      height: 82px;
+      border-radius: 12px;
+      background: #eef4ff;
+      border: 2px solid #b9cae4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .donation-image img {
+      width: 72px;
+      height: 72px;
+      object-fit: contain;
+      display: block;
+    }
+
+    .donation-animal,
+    .donation-item,
+    .donation-count,
+    .donation-source {
+      line-height: 1.8;
+    }
+
+    .label {
+      display: block;
+      font-size: 12px;
+      color: #8c775b;
+      letter-spacing: 0.04em;
+      margin-bottom: 6px;
+    }
+
+    .donation-item strong,
+    .donation-animal strong,
+    .reward-card strong,
+    .survey-card strong {
+      color: var(--blue);
+    }
+
+    .donation-count {
+      text-align: center;
+      font-weight: 700;
+      color: #8c6312;
+    }
+
+    .survey-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 14px;
+    }
+
+    .reward-list ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    @media (max-width: 860px) {
+      .board {
+        border-width: 4px;
+        padding: 14px;
+      }
+
+      .paper,
+      .panel,
+      .animal-group,
+      .donation-row,
+      .survey-card,
+      .reward-card {
+        padding: 16px;
+      }
+
+      h1 {
+        font-size: 30px;
+      }
+
+      .donation-row {
+        grid-template-columns: 1fr;
+      }
+
+      .back-link {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="board">
+    <a class="back-link" href="../index.html">返回姜岛工具箱</a>
+
+    <section class="paper">
+      <span class="status">已建子页</span>
+      <h1>岛屿办事处</h1>
+      <p>
+        这个页面把岛屿办事处里最容易反复查的两块内容拆出来：一块是化石 / 木乃伊捐赠清单，另一块是岛屿调查的正确答案。
+      </p>
+      <div class="hero-note">
+        你可以在岛屿办事处捐赠化石或者木乃伊来重建 4 种动物的骨骼或身体形态。部分部位需要多块，捐赠界面中的“提示”会给出物品的大致来源位置。
+      </div>
+      <div class="summary-grid">
+        <div class="summary-box">
+          <strong>4 类</strong>
+          <span>可重建的动物 / 标本</span>
+        </div>
+        <div class="summary-box">
+          <strong>10 项</strong>
+          <span>捐赠部件总数</span>
+        </div>
+        <div class="summary-box">
+          <strong>2 题</strong>
+          <span>岛屿调查问答</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>捐赠</h2>
+      <div class="donation-list">
+        <article class="animal-group">
+          <div class="animal-header">
+            <h3 id="bear-fossils">熊</h3>
+            <span class="animal-badge">5 个部件</span>
+          </div>
+          <div class="animal-items">
+            <article class="donation-row">
+              <div class="donation-image"><img
+                  src="https://stardewvalleywiki.com/mediawiki/images/0/09/Fossilized_Leg.png" alt="腿骨化石"></div>
+              <div class="donation-item"><span class="label">物品</span><strong>腿骨化石</strong></div>
+              <div class="donation-count"><span class="label">个数</span>2</div>
+              <div class="donation-source"><span class="label">获取途径和概率</span>开采姜岛挖掘场的骨头矿（10%）。</div>
+            </article>
+            <article class="donation-row">
+              <div class="donation-image"><img
+                  src="https://stardewvalleywiki.com/mediawiki/images/f/fc/Fossilized_Ribs.png" alt="肋骨化石"></div>
+              <div class="donation-item"><span class="label">物品</span><strong>肋骨化石</strong></div>
+              <div class="donation-count"><span class="label">个数</span>1</div>
+              <div class="donation-source"><span class="label">获取途径和概率</span>开采姜岛挖掘场的骨头矿（1.35%）；挖掘姜岛南部的远古斑点（25%）。</div>
+            </article>
+            <article class="donation-row">
+              <div class="donation-image"><img
+                  src="https://stardewvalleywiki.com/mediawiki/images/7/72/Fossilized_Skull.png" alt="颅骨化石"></div>
+              <div class="donation-item"><span class="label">物品</span><strong>颅骨化石</strong></div>
+              <div class="donation-count"><span class="label">个数</span>1</div>
+              <div class="donation-source"><span class="label">获取途径和概率</span>打开金色椰子（14%，首次打开不会出现）。</div>
+            </article>
+            <article class="donation-row">
+              <div class="donation-image"><img
+                  src="https://stardewvalleywiki.com/mediawiki/images/5/5c/Fossilized_Spine.png" alt="脊柱化石"></div>
+              <div class="donation-item"><span class="label">物品</span><strong>脊柱化石</strong></div>
+              <div class="donation-count"><span class="label">个数</span>1</div>
+              <div class="donation-source"><span class="label">获取途径和概率</span>在姜岛挖掘场旁的小河钓鱼（10%）。</div>
+            </article>
+            <article class="donation-row">
+              <div class="donation-image"><img
+                  src="https://stardewvalleywiki.com/mediawiki/images/3/3a/Fossilized_Tail.png" alt="尾巴化石"></div>
+              <div class="donation-item"><span class="label">物品</span><strong>尾巴化石</strong></div>
+              <div class="donation-count"><span class="label">个数</span>1</div>
+              <div class="donation-source"><span class="label">获取途径和概率</span>在姜岛挖掘场旁的小河淘金（20%）。</div>
+            </article>
+          </div>
+        </article>
+
+        <article class="animal-group">
+          <div class="animal-header">
+            <h3 id="frog-mummy">青蛙</h3>
+            <span class="animal-badge">1 个部件</span>
+          </div>
+          <div class="animal-items">
+            <article class="donation-row">
+              <div class="donation-image"><img
+                  src="https://stardewvalleywiki.com/mediawiki/images/e/e9/Mummified_Frog.png" alt="青蛙木乃伊"></div>
+              <div class="donation-item"><span class="label">物品</span><strong>青蛙木乃伊</strong></div>
+              <div class="donation-count"><span class="label">个数</span>1</div>
+              <div class="donation-source"><span class="label">获取途径和概率</span>清除姜岛东部丛林内的杂草；清除危险矿井内部会掉落芋头块茎的杂草。</div>
+            </article>
+          </div>
+        </article>
+
+        <article class="animal-group">
+          <div class="animal-header">
+            <h3 id="bat-mummy">蝙蝠</h3>
+            <span class="animal-badge">1 个部件</span>
+          </div>
+          <div class="animal-items">
+            <article class="donation-row">
+              <div class="donation-image"><img
+                  src="https://stardewvalleywiki.com/mediawiki/images/6/6f/Mummified_Bat.png" alt="蝙蝠木乃伊"></div>
+              <div class="donation-item"><span class="label">物品</span><strong>蝙蝠木乃伊</strong></div>
+              <div class="donation-count"><span class="label">个数</span>1</div>
+              <div class="donation-source"><span class="label">获取途径和概率</span>在火山地牢开采石头（0.5%）。</div>
+            </article>
+          </div>
+        </article>
+
+        <article class="animal-group">
+          <div class="animal-header">
+            <h3 id="snake-fossils">蛇</h3>
+            <span class="animal-badge">2 个部件</span>
+          </div>
+          <div class="animal-items">
+            <article class="donation-row">
+              <div class="donation-image"><img src="https://stardewvalleywiki.com/mediawiki/images/2/25/Snake_Skull.png"
+                  alt="蛇头骨"></div>
+              <div class="donation-item"><span class="label">物品</span><strong>蛇头骨</strong></div>
+              <div class="donation-count"><span class="label">个数</span>1</div>
+              <div class="donation-source"><span
+                  class="label">获取途径和概率</span>姜岛挖掘场的远古斑点（10%）；挖掘姜岛西部的远古斑点（10%）；在姜岛西部钓鱼（10%）。</div>
+            </article>
+            <article class="donation-row">
+              <div class="donation-image"><img
+                  src="https://stardewvalleywiki.com/mediawiki/images/7/7e/Snake_Vertebrae.png" alt="蛇脊椎骨"></div>
+              <div class="donation-item"><span class="label">物品</span><strong>蛇脊椎骨</strong></div>
+              <div class="donation-count"><span class="label">个数</span>2</div>
+              <div class="donation-source"><span
+                  class="label">获取途径和概率</span>挖掘姜岛西部的远古斑点（22.5%）；开采姜岛西部的蚌矿（2.5%）；开采姜岛西部的石头（1%）。</div>
+            </article>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>调查</h2>
+      <p>与岛屿办事处北侧墙壁上的物品交互后，会依次被问到两个问题。游戏内每天只能回答一次，直到答对为止。</p>
+      <div class="survey-grid">
+        <article class="survey-card">
+          <h3 id="purple-flowers">紫色花</h3>
+          <p><strong>答案：</strong>一共有 22 朵紫色花。</p>
+          <p><strong>奖励：</strong>答对后奖励 1 个金色核桃。</p>
+        </article>
+        <article class="survey-card">
+          <h3 id="purple-starfish">紫色海星</h3>
+          <p><strong>答案：</strong>一共有 18 个紫色海星。</p>
+          <p><strong>奖励：</strong>答对后奖励 1 个金色核桃。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>完成奖励</h2>
+      <div class="reward-list">
+        <article class="reward-card">
+          <ul>
+            <li>完成巨大动物的化石收集后，可以从蜗牛教授处领取 6 个金色核桃和 1 棵香蕉树苗。</li>
+            <li>完成蛇的化石收集后，可以从蜗牛教授处领取 3 个金色核桃和 1 棵芒果幼苗。</li>
+            <li>捐赠青蛙木乃伊后，可以从蜗牛教授处领取 1 个金色核桃。</li>
+            <li>捐赠蝙蝠木乃伊后，可以从蜗牛教授处领取 1 个金色核桃。</li>
+            <li>每次完成岛屿调查会奖励 1 个金色核桃，一共 2 个。</li>
+            <li>完成所有化石捐赠和岛屿调查后，可以获得鸵鸟孵化器配方。</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,252 @@
+[
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Green_Mushroom",
+    "name": "Green Mushroom",
+    "displayName": {
+      "en": "Green Mushroom",
+      "zh": "绿蘑菇"
+    },
+    "description": {
+      "en": "吃掉以后你会觉得仿佛重获新生。",
+      "zh": "吃掉以后你会觉得仿佛重获新生。"
+    },
+    "type": "Greens",
+    "category": -81,
+    "price": 1250,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Green Mushroom",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 500
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Lucky_Four_Leaf_Clover",
+    "name": "Lucky Four Leaf Clover",
+    "displayName": {
+      "en": "Lucky Four Leaf Clover",
+      "zh": "四叶草"
+    },
+    "description": {
+      "en": "据说能带来好运。是一份不错的礼物。",
+      "zh": "据说能带来好运。是一份不错的礼物。"
+    },
+    "type": "Greens",
+    "category": -81,
+    "price": 400,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Lucky Four Leaf Clover",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_green"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Mushroom_Colony",
+    "name": "Mushroom Colony",
+    "displayName": {
+      "en": "Mushroom Colony",
+      "zh": "蘑菇菌落"
+    },
+    "description": {
+      "en": "由大量小蘑菇组成。",
+      "zh": "由大量小蘑菇组成。"
+    },
+    "type": "Greens",
+    "category": -81,
+    "price": 105,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Mushroom Colony",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "edible_mushroom"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Poison_Mushroom",
+    "name": "Poison Mushroom",
+    "displayName": {
+      "en": "Poison Mushroom",
+      "zh": "毒蘑菇"
+    },
+    "description": {
+      "en": "看起来很正常的蘑菇，实则带有剧毒。",
+      "zh": "看起来很正常的蘑菇，实则带有剧毒。"
+    },
+    "type": "Greens",
+    "category": -81,
+    "price": 60,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Poison Mushroom",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": -100,
+    "contextTags": [
+      "color_brown"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Smelly_Rafflesia",
+    "name": "Smelly Rafflesia",
+    "displayName": {
+      "en": "Smelly Rafflesia",
+      "zh": "芬吉尔大王花"
+    },
+    "description": {
+      "en": "它会释放一种吸引昆虫的臭味。",
+      "zh": "它会释放一种吸引昆虫的臭味。"
+    },
+    "type": "Greens",
+    "category": -81,
+    "price": 375,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Smelly Rafflesia",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Wildflour.SASS_Mugwort",
+    "name": "Wildflour.SASS_Mugwort",
+    "displayName": {
+      "en": "Wildflour.SASS_Mugwort",
+      "zh": "艾蒿"
+    },
+    "description": {
+      "en": "作为雏菊家族的一员，这种植物被女巫种植，因为它具有助于做梦和占卜的特性。",
+      "zh": "作为雏菊家族的一员，这种植物被女巫种植，因为它具有助于做梦和占卜的特性。"
+    },
+    "type": "Greens",
+    "category": -81,
+    "price": 55,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 73,
+      "x": 16,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 7,
+    "contextTags": [
+      "faerie_forage",
+      "forage_item",
+      "magical_herb_item",
+      "color_dark_green"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Thistle",
+    "name": "Wildflour.SASS_Thistle",
+    "displayName": {
+      "en": "Wildflour.SASS_Thistle",
+      "zh": "蓟"
+    },
+    "description": {
+      "en": "一种常见的开花植物，人类常将其视为杂草，但女巫珍视它，因为它具有精神治愈的特性。",
+      "zh": "一种常见的开花植物，人类常将其视为杂草，但女巫珍视它，因为它具有精神治愈的特性。"
+    },
+    "type": "Greens",
+    "category": -81,
+    "price": 40,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 74,
+      "x": 32,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 10,
+    "contextTags": [
+      "faerie_forage",
+      "forage_item",
+      "magical_herb_item",
+      "color_dark_pink"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Valerian",
+    "name": "Wildflour.SASS_Valerian",
+    "displayName": {
+      "en": "Wildflour.SASS_Valerian",
+      "zh": "缬草"
+    },
+    "description": {
+      "en": "一种常被用于制作助眠茶的草药。它也可用于抵御雷电和洪水。",
+      "zh": "一种常被用于制作助眠茶的草药。它也可用于抵御雷电和洪水。"
+    },
+    "type": "Greens",
+    "category": -81,
+    "price": 40,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 72,
+      "x": 0,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 5,
+    "contextTags": [
+      "faerie_forage",
+      "forage_item",
+      "magical_herb_item",
+      "color_pink"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Yarrow",
+    "name": "Wildflour.SASS_Yarrow",
+    "displayName": {
+      "en": "Wildflour.SASS_Yarrow",
+      "zh": "蓍草"
+    },
+    "description": {
+      "en": "蓍草也被称为“魔鬼荨麻”，几个世纪以来，聪慧的女巫和觅食者们一直用它来缓解胃痉挛。",
+      "zh": "蓍草也被称为“魔鬼荨麻”，几个世纪以来，聪慧的女巫和觅食者们一直用它来缓解胃痉挛。"
+    },
+    "type": "Greens",
+    "category": -81,
+    "price": 125,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 14,
+      "x": 224,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 15,
+    "contextTags": [
+      "faerie_forage",
+      "forage_item",
+      "magical_herb_item",
+      "season_spring",
+      "season_summer",
+      "seedmaker_banned",
+      "color_yellow"
+    ]
+  }
+]

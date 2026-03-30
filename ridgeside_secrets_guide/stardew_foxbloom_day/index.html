@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    <title>狐灵花日程 | Foxbloom Schedule</title>
+
+    <!-- Import Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&family=Noto+Sans+SC:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-color: #8bb0c0;
+            --wood-dark: #5c3c26;
+            --wood-mid: #85583b;
+            --wood-light: #a47050;
+            --paper-bg: #fffbf0;
+            --paper-border: #d4cba8;
+            --text-main: #4a3627;
+            --accent-blue: #407fa7;
+            --accent-green: #6a9e38;
+            --accent-red: #c94a3d;
+            --shadow: rgba(68, 45, 30, 0.25);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Noto Sans SC', sans-serif;
+            background-color: var(--bg-color);
+            background-image:
+                linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 75%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0.1)),
+                linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 75%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0.1));
+            background-size: 40px 40px;
+            background-position: 0 0, 20px 20px;
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Main Container - The "Bulletin Board" */
+        .container {
+            width: 100%;
+            max-width: 1000px;
+            margin: 40px 20px;
+            background: var(--wood-mid);
+            border: 8px solid var(--wood-dark);
+            border-radius: 16px;
+            box-shadow:
+                inset 0 0 0 4px var(--wood-light),
+                0 20px 40px rgba(0, 0, 0, 0.3);
+            position: relative;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            min-height: 80vh;
+        }
+
+        /* Nails */
+        .nail {
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            background: #3e2723;
+            border-radius: 50%;
+            box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.3), 2px 2px 4px rgba(0, 0, 0, 0.4);
+            z-index: 10;
+        }
+
+        .nail.tl {
+            top: 12px;
+            left: 12px;
+        }
+
+        .nail.tr {
+            top: 12px;
+            right: 12px;
+        }
+
+        .nail.bl {
+            bottom: 12px;
+            left: 12px;
+        }
+
+        .nail.br {
+            bottom: 12px;
+            right: 12px;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background: var(--paper-bg);
+            border: 2px solid var(--paper-border);
+            border-radius: 4px;
+            box-shadow: 0 4px 8px var(--shadow);
+            margin: 0 auto 20px;
+            position: relative;
+            transform: rotate(-1deg);
+            max-width: 600px;
+            width: 100%;
+        }
+
+        .tape {
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 120px;
+            height: 30px;
+            background: rgba(255, 255, 255, 0.4);
+            border-left: 1px dashed rgba(0, 0, 0, 0.1);
+            border-right: 1px dashed rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            margin: 0;
+            font-family: 'ZCOOL KuaiLe', cursive;
+            font-size: 36px;
+            color: var(--wood-dark);
+            text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Table Area (Paper Style) */
+        .paper-sheet {
+            background: #fff;
+            padding: 30px;
+            border-radius: 2px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            position: relative;
+            transform: rotate(0.5deg);
+        }
+
+        .paper-sheet::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image:
+                linear-gradient(#e5e5e5 1px, transparent 1px),
+                linear-gradient(90deg, #e5e5e5 1px, transparent 1px);
+            background-size: 20px 20px;
+            opacity: 0.3;
+            pointer-events: none;
+        }
+
+        /* Pin for paper */
+        .pin {
+            position: absolute;
+            top: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 24px;
+            z-index: 5;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        table.article-table {
+            width: 100%;
+            border-collapse: collapse;
+            border-spacing: 0;
+            position: relative;
+            z-index: 1;
+        }
+
+        table.article-table th {
+            font-family: 'ZCOOL KuaiLe', cursive;
+            background-color: var(--accent-blue);
+            color: white;
+            font-size: 18px;
+            padding: 12px;
+            text-align: center;
+            border: 2px solid var(--wood-dark);
+            letter-spacing: 1px;
+        }
+
+        table.article-table td {
+            padding: 16px;
+            border: 2px solid var(--wood-light);
+            vertical-align: middle;
+            font-size: 15px;
+            background: rgba(255, 255, 255, 0.8);
+        }
+
+        /* Day Cell Special Styling */
+        .day-cell {
+            text-align: center;
+            font-weight: bold;
+            font-size: 24px;
+            color: var(--wood-dark);
+            font-family: 'ZCOOL KuaiLe', cursive;
+            background: var(--paper-bg) !important;
+        }
+
+        .difficulty-cell {
+            text-align: center;
+        }
+
+        /* Difficulty Badges */
+        .difficulty-badge {
+            display: inline-block;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 14px;
+            border: 2px solid rgba(0, 0, 0, 0.1);
+            color: white;
+            text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+        }
+
+        .diff-easy {
+            background: #8bc34a;
+            border-color: #689f38;
+        }
+
+        .diff-medium {
+            background: #ffca28;
+            border-color: #ffb300;
+            color: #5d4037;
+        }
+
+        .diff-hard {
+            background: #ef5350;
+            border-color: #d32f2f;
+        }
+
+        /* Images */
+        .image img {
+            border: 4px solid #fff;
+            border-radius: 2px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s ease;
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            transform: rotate(-2deg);
+        }
+
+        .image img:hover {
+            transform: scale(1.1) rotate(0deg);
+            z-index: 10;
+            position: relative;
+        }
+
+        /* Home Button */
+        .home-btn {
+            position: absolute;
+            top: 24px;
+            left: 24px;
+            background: var(--accent-green);
+            color: white;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-weight: bold;
+            border: 2px solid #4a7729;
+            box-shadow: 0 4px 0 #4a7729;
+            z-index: 100;
+            font-family: 'ZCOOL KuaiLe', cursive;
+            transition: all 0.1s;
+            font-size: 16px;
+        }
+
+        .home-btn:hover {
+            background: #7cb342;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 0 #4a7729;
+        }
+
+        .home-btn:active {
+            transform: translateY(2px);
+            box-shadow: 0 0 0 #4a7729;
+        }
+
+        @media (max-width: 800px) {
+            .home-btn {
+                position: relative;
+                top: 0;
+                left: 0;
+                display: inline-block;
+                margin-bottom: 10px;
+                width: 100%;
+                text-align: center;
+            }
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+                width: auto;
+                border-width: 4px;
+                margin: 10px;
+            }
+
+            table.article-table th,
+            table.article-table td {
+                padding: 8px;
+                font-size: 13px;
+            }
+
+            .day-cell {
+                font-size: 18px;
+            }
+
+            .image img {
+                width: 100px;
+            }
+        }
+
+        /* 返回顶部按钮样式 */
+        #backToTop {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background: #68CAF2;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 24px;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 8px var(--shadow);
+            transition: all 0.3s ease;
+            z-index: 1000;
+            font-weight: bold;
+        }
+
+        #backToTop:hover {
+            background: #4BAED8;
+            transform: translateY(-4px);
+            box-shadow: 0 6px 12px var(--shadow);
+        }
+
+        #backToTop:active {
+            transform: translateY(-2px);
+            box-shadow: 0 2px 4px var(--shadow);
+        }
+
+        #backToTop.show {
+            display: flex;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 600px) {
+            #backToTop {
+                width: 45px;
+                height: 45px;
+                bottom: 20px;
+                right: 20px;
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="nail tl"></div>
+        <div class="nail tr"></div>
+        <div class="nail bl"></div>
+        <div class="nail br"></div>
+
+        <header>
+            <div class="tape"></div>
+            <a href="../index.html" class="home-btn">🧩 返回攻略页</a>
+            <h1>🌸 狐灵花日程表</h1>
+        </header>
+
+        <div class="paper-sheet">
+            <div class="pin">📌</div>
+            <table class="article-table">
+                <thead>
+                    <tr>
+                        <th width="10%">日期</th>
+                        <th width="15%">难度</th>
+                        <th width="35%">位置快照</th>
+                        <th width="40%">线索与任务</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Day 7 -->
+                    <tr>
+                        <td rowspan="3" class="day-cell">7日</td>
+                        <td class="difficulty-cell"><span class="difficulty-badge diff-easy">简单</span></td>
+                        <td>
+                            <div class="image"><img alt="FoxbloomEasy7" src="ps/FoxbloomEasy7.webp" width="180"></div>
+                        </td>
+                        <td>📍 地点：艾墨森府邸</td>
+                    </tr>
+                    <tr>
+                        <td class="difficulty-cell"><span class="difficulty-badge diff-medium">中等</span></td>
+                        <td>
+                            <div class="image"><img alt="FoxbloomMedium7" src="ps/FoxbloomMedium7.webp" width="180">
+                            </div>
+                        </td>
+                        <td>
+                            <b>🔍 统计任务：</b><br>
+                            A: 灵界岛屿数量<br>
+                            B: 爱之瀑布中的树木数量
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="difficulty-cell"><span class="difficulty-badge diff-hard">困难</span></td>
+                        <td>
+                            <div class="image"><img alt="FoxbloomHard7" src="ps/FoxbloomHard7.webp" width="180"></div>
+                        </td>
+                        <td>
+                            📍 地点：夜莺果园<br>
+                            <b>🔢 计算：</b><br>
+                            A: 春天每天树上果实总数<br>
+                            B: 夏天每天树上果实总数<br>
+                            X: 年平均每天树上果实总数（不包括冬天）
+                        </td>
+                    </tr>
+
+                    <!-- Day 14 -->
+                    <tr>
+                        <td rowspan="3" class="day-cell">14日</td>
+                        <td class="difficulty-cell"><span class="difficulty-badge diff-easy">简单</span></td>
+                        <td>
+                            <div class="image"><img alt="FoxbloomEasy14" src="ps/FoxbloomEasy14.webp" width="180"></div>
+                        </td>
+                        <td>📍 地点：山脊瀑布</td>
+                    </tr>
+                    <tr>
+                        <td class="difficulty-cell"><span class="difficulty-badge diff-medium">中等</span></td>
+                        <td>
+                            <div class="image"><img alt="FoxbloomMedium14" src="ps/FoxbloomMedium14.webp" width="180">
+                            </div>
+                        </td>
+                        <td>
+                            <b>👥 村民统计（仅限里奇赛德）：</b><br>
+                            A: 村庄中的稻草人数量<br>
+                            B: 有孩子的父母数量
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="difficulty-cell"><span class="difficulty-badge diff-hard">困难</span></td>
+                        <td>
+                            <div class="image"><img alt="FoxbloomHard14" src="ps/FoxbloomHard14.webp" width="180"></div>
+                        </td>
+                        <td>
+                            📍 地点：山坡便利店首层室内<br>
+                            <b>📋 招牌计数：</b><br>
+                            A: 所有招牌数量<br>
+                            B: "HEAPS"招牌数量<br>
+                            X: 白色"SALE"招牌数量<br>
+                            Y: 蓝色"SALE"招牌数量
+                        </td>
+                    </tr>
+
+                    <!-- Day 21 -->
+                    <tr>
+                        <td rowspan="3" class="day-cell">21日</td>
+                        <td class="difficulty-cell"><span class="difficulty-badge diff-easy">简单</span></td>
+                        <td>
+                            <div class="image"><img alt="FoxbloomEasy21" src="ps/FoxbloomEasy21.webp" width="180"></div>
+                        </td>
+                        <td>
+                            📍 地点：里奇赛德村<br>
+                            <small>(注：动物颜色不影响结果)</small>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="difficulty-cell"><span class="difficulty-badge diff-medium">中等</span></td>
+                        <td>
+                            <div class="image"><img alt="FoxbloomMedium21" src="ps/FoxbloomMedium21.webp" width="180">
+                            </div>
+                        </td>
+                        <td>
+                            A: 玛蒂家里的植物<br>
+                            B: 里奇赛德诊所大楼里的座位<br>
+                            <small>(注："座位"指可以坐的地方)</small>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="difficulty-cell"><span class="difficulty-badge diff-hard">困难</span></td>
+                        <td>
+                            <div class="image"><img alt="FoxbloomHard21" src="ps/FoxbloomHard21.webp" width="180"></div>
+                        </td>
+                        <td>
+                            📍 地点：山脊森林<br>
+                            A: 总瀑布数量<br>
+                            B: 总水平桥梁<br>
+                            X: 总不同悬崖级别*<br>
+                            Y: 总垂直桥梁<br>
+                            <small>(*包括不可访问的悬崖层)</small>
+                        </td>
+                    </tr>
+
+                    <!-- Day 28 -->
+                    <tr>
+                        <td rowspan="3" class="day-cell">28日</td>
+                        <td class="difficulty-cell"><span class="difficulty-badge diff-easy">简单</span></td>
+                        <td>
+                            <div class="image"><img alt="FoxbloomEasy28" src="ps/FoxbloomEasy28.webp" width="180"></div>
+                        </td>
+                        <td>📍 地点：金珀小屋</td>
+                    </tr>
+                    <tr>
+                        <td class="difficulty-cell"><span class="difficulty-badge diff-medium">中等</span></td>
+                        <td>
+                            <div class="image"><img alt="FoxbloomMedium28" src="ps/FoxbloomMedium28.webp" width="180">
+                            </div>
+                        </td>
+                        <td>
+                            📍 地点：里奇赛德村<br>
+                            X: 风车<br>
+                            Y: 多层建筑<br>
+                            A: 石桥
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="difficulty-cell"><span class="difficulty-badge diff-hard">困难</span></td>
+                        <td>
+                            <div class="image"><img alt="FoxbloomHard28" src="ps/FoxbloomHard28.webp" width="180"></div>
+                        </td>
+                        <td>
+                            <b>👥 村民统计（仅限里奇赛德）：</b><br>
+                            A: 最常见的周二生日<br>
+                            B: 冬季出生的女性村民总数<br>
+                            X: 月份第一周生日为偶数的村民数量
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- 返回顶部按钮 -->
+    <button id="backToTop" title="返回顶部">
+        <img src="../data/arrow_up.png" alt="返回顶部" style="width: 100%; height: 100%; object-fit: contain;">
+    </button>
+
+    <!-- 返回顶部按钮功能 -->
+    <script>
+        const backToTopBtn = document.getElementById('backToTop');
+
+        // 监听滚动事件
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopBtn.classList.add('show');
+            } else {
+                backToTopBtn.classList.remove('show');
+            }
+        });
+
+        // 点击按钮回到顶部
+        backToTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+
+</html>

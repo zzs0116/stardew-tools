@@ -1,0 +1,29 @@
+[
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Galdoran_Gem",
+    "name": "Galdoran Gem",
+    "displayName": {
+      "en": "Galdoran Gem",
+      "zh": "盖多兰宝石"
+    },
+    "description": {
+      "en": "一颗巨大的绯红宝石，散发着神秘的能量。",
+      "zh": "一颗巨大的绯红宝石，散发着神秘的能量。"
+    },
+    "type": "None",
+    "category": 0,
+    "price": 600,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Galdoran Gem",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_red",
+      "galdoran_gem_item"
+    ]
+  }
+]

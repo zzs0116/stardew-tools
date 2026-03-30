@@ -1,0 +1,240 @@
+[
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Aurora_Vineyard_Property_Deed",
+    "name": "Aurora Vineyard Property Deed",
+    "displayName": {
+      "en": "Aurora Vineyard Property Deed",
+      "zh": "极光葡萄园地产契约"
+    },
+    "description": {
+      "en": "这需要交给权威人士来审查。",
+      "zh": "这需要交给权威人士来审查。"
+    },
+    "type": "0",
+    "category": 0,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Aurora Vineyard Property Deed",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_white",
+      "not_giftable"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Golden_Key",
+    "name": "Golden Key",
+    "displayName": {
+      "en": "Golden Key",
+      "zh": "金钥匙"
+    },
+    "description": {
+      "en": "也许能打开附近的某把锁？",
+      "zh": "也许能打开附近的某把锁？"
+    },
+    "type": "0",
+    "category": 0,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/GoldenKey",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_gold"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Grampleton_Orange_Chicken",
+    "name": "Grampleton Orange Chicken",
+    "displayName": {
+      "en": "Grampleton Orange Chicken",
+      "zh": "格兰普顿香橙鸡"
+    },
+    "description": {
+      "en": "金黄酥脆的鸡肉，搭配新鲜的米饭。",
+      "zh": "金黄酥脆的鸡肉，搭配新鲜的米饭。"
+    },
+    "type": "0",
+    "category": 0,
+    "price": 400,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Grampleton Orange Chicken",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 65,
+    "contextTags": [
+      "color_orange",
+      "food_pantry"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Lance's_Schedule",
+    "name": "Lance's Schedule",
+    "displayName": {
+      "en": "Lance's Schedule",
+      "zh": "兰斯的日程表"
+    },
+    "description": {
+      "en": "周一：盖多兰前哨站周二：星露谷周三：星露谷周四：姜岛周五：姜岛周六：高地周日：高地",
+      "zh": "周一：盖多兰前哨站周二：星露谷周三：星露谷周四：姜岛周五：姜岛周六：高地周日：高地"
+    },
+    "type": "0",
+    "category": 0,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Lance's_Schedule",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_white",
+      "not_giftable"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Castle_Village_Outpost_Vendor_Schedule",
+    "name": "Castle Village Outpost Vendor Schedule",
+    "displayName": {
+      "en": "Castle Village Outpost Vendor Schedule",
+      "zh": "盖多兰前哨站商店时间表"
+    },
+    "description": {
+      "en": "阿莱西娅：3、4、13、21、23、25 日卡米拉： 7、22、28 日艾萨克：1、8、12、19、24 日",
+      "zh": "阿莱西娅：3、4、13、21、23、25 日卡米拉： 7、22、28 日艾萨克：1、8、12、19、24 日"
+    },
+    "type": "0",
+    "category": 0,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Castle_Village_Outpost_Vendor_Schedule",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_white",
+      "not_giftable"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Ornate_Treasure_Chest",
+    "name": "Ornate Treasure Chest",
+    "displayName": {
+      "en": "Ornate Treasure Chest",
+      "zh": "华丽的宝箱"
+    },
+    "description": {
+      "en": "里面装满了金子和宝石。",
+      "zh": "里面装满了金子和宝石。"
+    },
+    "type": "0",
+    "category": 0,
+    "price": 10000,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Ornate Treasure Chest",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Property_Deed",
+    "name": "Property Deed",
+    "displayName": {
+      "en": "Property Deed",
+      "zh": "地产契约"
+    },
+    "description": {
+      "en": "这需要交给权威人士来审查。",
+      "zh": "这需要交给权威人士来审查。"
+    },
+    "type": "0",
+    "category": 0,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Property Deed",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "not_giftable"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Super_Joja_Cola",
+    "name": "Super Joja Cola",
+    "displayName": {
+      "en": "Super Joja Cola",
+      "zh": "超级Joja可乐"
+    },
+    "description": {
+      "en": "免责声明：饮用后皮肤小概率会变蓝。",
+      "zh": "免责声明：饮用后皮肤小概率会变蓝。"
+    },
+    "type": "0",
+    "category": 0,
+    "price": 350,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Super Joja Cola",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 150,
+    "isDrink": true,
+    "contextTags": [
+      "color_orange"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Super_Starfruit",
+    "name": "Super Starfruit",
+    "displayName": {
+      "en": "Super Starfruit",
+      "zh": "超级杨桃"
+    },
+    "description": {
+      "en": "对祝尼魔而言有象征意义。作为礼物送出的话，有希望对方以朋友身份一起生活的含义。",
+      "zh": "对祝尼魔而言有象征意义。作为礼物送出的话，有希望对方以朋友身份一起生活的含义。"
+    },
+    "type": "0",
+    "category": 0,
+    "price": 4500,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Super Starfruit",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "propose_roommate_apples"
+    ]
+  }
+]

@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>准备工作九件物品 | Preparations Item Guide</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&family=Noto+Sans+SC:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-color: #8bb0c0;
+      --wood-dark: #5c3c26;
+      --wood-mid: #85583b;
+      --wood-light: #a47050;
+      --paper-bg: #fffbf0;
+      --paper-border: #d4cba8;
+      --text-main: #4a3627;
+      --accent-blue: #407fa7;
+      --accent-green: #6a9e38;
+      --accent-gold: #c8952d;
+      --shadow: rgba(68, 45, 30, 0.25);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Noto Sans SC', sans-serif;
+      background-color: var(--bg-color);
+      background-image:
+        linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 75%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0.1)),
+        linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 75%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0.1));
+      background-size: 40px 40px;
+      background-position: 0 0, 20px 20px;
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1080px;
+      margin: 40px 20px;
+      background: var(--wood-mid);
+      border: 8px solid var(--wood-dark);
+      border-radius: 16px;
+      box-shadow:
+        inset 0 0 0 4px var(--wood-light),
+        0 20px 40px rgba(0, 0, 0, 0.3);
+      position: relative;
+      padding: 24px;
+    }
+
+    .nail {
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      background: #3e2723;
+      border-radius: 50%;
+      box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.3), 2px 2px 4px rgba(0, 0, 0, 0.4);
+    }
+
+    .nail.tl {
+      top: 12px;
+      left: 12px;
+    }
+
+    .nail.tr {
+      top: 12px;
+      right: 12px;
+    }
+
+    .nail.bl {
+      bottom: 12px;
+      left: 12px;
+    }
+
+    .nail.br {
+      bottom: 12px;
+      right: 12px;
+    }
+
+    .home-btn {
+      display: inline-block;
+      margin-bottom: 18px;
+      background: var(--accent-green);
+      color: white;
+      text-decoration: none;
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-weight: 700;
+      border: 2px solid #4a7729;
+      box-shadow: 0 4px 0 #4a7729;
+      font-family: 'ZCOOL KuaiLe', cursive;
+    }
+
+    .hero,
+    .summary,
+    .item-card {
+      background: var(--paper-bg);
+      border-radius: 8px;
+      box-shadow: 0 4px 8px var(--shadow);
+    }
+
+    .hero {
+      border: 2px solid var(--paper-border);
+      padding: 28px;
+      position: relative;
+      margin-bottom: 22px;
+    }
+
+    .tape {
+      position: absolute;
+      top: -14px;
+      left: 52px;
+      width: 110px;
+      height: 26px;
+      background: rgba(255, 255, 255, 0.4);
+      border-left: 1px dashed rgba(0, 0, 0, 0.1);
+      border-right: 1px dashed rgba(0, 0, 0, 0.1);
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin: 0;
+      font-family: 'ZCOOL KuaiLe', cursive;
+      color: var(--wood-dark);
+    }
+
+    h1 {
+      font-size: 38px;
+      margin-bottom: 14px;
+    }
+
+    .hero p,
+    .summary p,
+    .item-card p,
+    .item-card li {
+      line-height: 1.75;
+    }
+
+    .summary {
+      border: 2px dashed var(--wood-light);
+      padding: 18px 22px;
+      margin-bottom: 22px;
+    }
+
+    .items-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .item-card {
+      border: 3px solid var(--wood-dark);
+      padding: 20px;
+      box-shadow: 0 6px 0 var(--wood-dark);
+    }
+
+    .item-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+
+    .item-title h3 {
+      flex: 1;
+    }
+
+    .item-icon {
+      width: 64px;
+      height: 64px;
+      flex: 0 0 auto;
+      display: block;
+      image-rendering: pixelated;
+      margin: 0;
+    }
+
+    .location-image {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin: 14px 0;
+      border-radius: 6px;
+      border: 3px solid #fff;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+      background: #f7f2e7;
+    }
+
+    .item-no {
+      display: inline-block;
+      min-width: 42px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: #f5e7bf;
+      border: 1px solid #d8bc73;
+      color: #7a5815;
+      font-size: 13px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .status {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: #e9f4fb;
+      color: var(--accent-blue);
+      font-weight: 700;
+      font-size: 13px;
+    }
+
+    ul {
+      margin: 10px 0 0;
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 0 20px 24px;
+      color: rgba(255, 255, 255, 0.82);
+      font-size: 14px;
+      text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    @media (max-width: 640px) {
+      .container {
+        margin: 12px;
+        width: auto;
+        border-width: 4px;
+        padding: 14px;
+      }
+
+      .hero,
+      .summary,
+      .item-card {
+        padding: 16px;
+      }
+
+      h1 {
+        font-size: 30px;
+      }
+
+      .home-btn {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="nail tl"></div>
+    <div class="nail tr"></div>
+    <div class="nail bl"></div>
+    <div class="nail br"></div>
+
+    <a class="home-btn" href="../index.html">🧩 返回攻略页</a>
+
+    <section class="hero">
+      <div class="tape"></div>
+      <h1>📦 “准备工作”九件物品</h1>
+      <p>
+        这个页面整理里奇赛德任务“准备工作”里需要提交的九个物品，包含每个物品的中文获取说明，以及你提供的位置截图，方便按图索骥逐个收集。
+      </p>
+    </section>
+
+    <section class="summary">
+      <h2>📝 收集提示</h2>
+      <p>
+        这九件物品里，有些是雨雪天气才会刷新，有些需要在特定日期、夜间，或击败指定怪物后获得。建议先看刷新条件，再决定当天优先跑哪一条路线。
+      </p>
+    </section>
+
+    <section class="items-grid">
+      <article class="item-card">
+        <span class="item-no">物品 1</span>
+        <div class="item-title">
+          <img class="item-icon" src="./item_sprites/银鱼骨.png" alt="银鱼骨图标">
+          <h3>银鱼骨</h3>
+        </div>
+        <img class="location-image" src="./locations_of_items/银鱼骨.webp" alt="银鱼骨位置图">
+        <p>这件遗物会刷新在瀑布附近的泥地区域，也就是平时会出现石头和矿点的那类地面。下图就是银鱼骨的一个典型刷新位置。</p>
+        <ul>
+          <li>主要来源：瀑布附近的泥地拾取。</li>
+          <li>推荐做法：经过瀑布地带时顺手检查地面刷新物。</li>
+          <li>注意事项：重点看泥地区，不是在普通草地上出现。</li>
+        </ul>
+        <span class="status">可直接捡取</span>
+      </article>
+
+      <article class="item-card">
+        <span class="item-no">物品 2</span>
+        <div class="item-title">
+          <img class="item-icon" src="./item_sprites/墨迹化石.png" alt="墨迹化石图标">
+          <h3>墨迹化石</h3>
+        </div>
+        <img class="location-image" src="./locations_of_items/墨迹化石.webp" alt="墨迹化石位置图">
+        <p>这件遗物同样会刷新在瀑布附近的泥地区域，和石头、矿点会出现的地块类似。下图展示的是墨迹化石的一个刷新示例。</p>
+        <ul>
+          <li>主要来源：瀑布附近的泥地拾取。</li>
+          <li>推荐做法：和银鱼骨一起沿瀑布区域巡一圈。</li>
+          <li>注意事项：和银鱼骨的刷新逻辑相近，适合一起找。</li>
+        </ul>
+        <span class="status">可直接捡取</span>
+      </article>
+
+      <article class="item-card">
+        <span class="item-no">物品 3</span>
+        <div class="item-title">
+          <img class="item-icon" src="./item_sprites/空心泰迪熊.png" alt="空心泰迪熊图标">
+          <h3>空心泰迪熊</h3>
+        </div>
+        <img class="location-image" src="./locations_of_items/空心泰迪熊.webp" alt="空心泰迪熊位置图">
+        <p>前往森林中、位于“爱之神秘瀑布”上方偏右的树屋。下雨天时，会有一个小女孩从树屋下来并站在外面，和图片中的位置一致。与她对话后，她会把空心泰迪熊交给你。</p>
+        <ul>
+          <li>主要来源：雨天与树屋外的小女孩互动。</li>
+          <li>推荐做法：下雨天优先跑这条路线，避免错过当天触发。</li>
+          <li>注意事项：对话前背包必须至少空出 1 个格子，否则当天拿不到物品。</li>
+        </ul>
+        <span class="status">雨天限定互动</span>
+      </article>
+
+      <article class="item-card">
+        <span class="item-no">物品 4</span>
+        <div class="item-title">
+          <img class="item-icon" src="./item_sprites/被掩埋的戒指.png" alt="被掩埋的戒指图标">
+          <h3>被掩埋的戒指</h3>
+        </div>
+        <img class="location-image" src="./locations_of_items/被掩埋的戒指.webp" alt="被掩埋的戒指位置图">
+        <p>这件物品需要击杀怪物后获得，目标怪物是 Viperial。这个怪会在山脊森林（The Ridge Forest）出现。</p>
+        <ul>
+          <li>主要来源：击败山脊森林中的 Viperial。</li>
+          <li>推荐做法：带上战斗装备，在森林里专门清怪。</li>
+          <li>注意事项：不是地面拾取，而是怪物掉落。</li>
+        </ul>
+        <span class="status">怪物掉落</span>
+      </article>
+
+      <article class="item-card">
+        <span class="item-no">物品 5</span>
+        <div class="item-title">
+          <img class="item-icon" src="./item_sprites/金颅珊瑚.png" alt="金颅珊瑚图标">
+          <h3>金颅珊瑚</h3>
+        </div>
+        <img class="location-image" src="./locations_of_items/金颅珊瑚.webp" alt="金颅珊瑚位置图">
+        <p>这件物品同样是击杀怪物掉落，目标也是山脊森林里的 Viperial。</p>
+        <ul>
+          <li>主要来源：击败山脊森林中的 Viperial。</li>
+          <li>推荐做法：刷被掩埋的戒指时一起刷，节省跑图时间。</li>
+          <li>注意事项：和被掩埋的戒指共享同类获取方式。</li>
+        </ul>
+        <span class="status">怪物掉落</span>
+      </article>
+
+      <article class="item-card">
+        <span class="item-no">物品 6</span>
+        <div class="item-title">
+          <img class="item-icon" src="./item_sprites/贝壳手镯.png" alt="贝壳手镯图标">
+          <h3>贝壳手镯</h3>
+        </div>
+        <img class="location-image" src="./locations_of_items/贝壳手镯.webp" alt="贝壳手镯位置图">
+        <p>前往“献祭瀑布”上方森林里的两座墓碑附近。无论任何季节，只要是下雨、雷暴或下雪天气，贝壳手镯就会按图中的位置刷新出来。</p>
+        <ul>
+          <li>主要来源：特殊天气时在墓碑附近地面拾取。</li>
+          <li>推荐做法：雨雪天气把这里和黄色木雕一起跑。</li>
+          <li>注意事项：晴天不会出现，必须等天气条件满足。</li>
+        </ul>
+        <span class="status">雨雪天气刷新</span>
+      </article>
+
+      <article class="item-card">
+        <span class="item-no">物品 7</span>
+        <div class="item-title">
+          <img class="item-icon" src="./item_sprites/情人之殇.png" alt="情人之殇图标">
+          <h3>情人之殇</h3>
+        </div>
+        <img class="location-image" src="./locations_of_items/情人之殇.webp" alt="情人之殇位置图">
+        <p>每个月的 3、6、9、12、15、18、21、24、27 日，山脊森林中央会出现一个浅蓝色版本的 Corrupt Spirit，位置如图。它不会攻击你，直接与它对话，就会获得“情人之殇”。</p>
+        <ul>
+          <li>主要来源：在指定日期与浅蓝色 Corrupt Spirit 对话。</li>
+          <li>推荐做法：记好日期，提前安排当天去山脊森林中心。</li>
+          <li>注意事项：它是可互动目标，不需要战斗击杀。</li>
+        </ul>
+        <span class="status">固定日期触发</span>
+      </article>
+
+      <article class="item-card">
+        <span class="item-no">物品 8</span>
+        <div class="item-title">
+          <img class="item-icon" src="./item_sprites/黄色木雕.png" alt="黄色木雕图标">
+          <h3>黄色木雕</h3>
+        </div>
+        <img class="location-image" src="./locations_of_items/黄色木雕.webp" alt="黄色木雕位置图">
+        <p>进入森林后立刻往左走，到左下区域的黄色帐篷附近。无论任何季节，只要是下雨、雷暴或下雪天气，黄色木雕就会按图中位置出现在帐篷前方。</p>
+        <ul>
+          <li>主要来源：特殊天气时在黄色帐篷前拾取。</li>
+          <li>推荐做法：和贝壳手镯安排在同一趟天气路线里。</li>
+          <li>注意事项：进入森林后先往左，位置在左下区域。</li>
+        </ul>
+        <span class="status">雨雪天气刷新</span>
+      </article>
+
+      <article class="item-card">
+        <span class="item-no">物品 9</span>
+        <div class="item-title">
+          <img class="item-icon" src="./item_sprites/夜黑钻石.png" alt="夜黑钻石图标">
+          <h3>夜黑钻石</h3>
+        </div>
+        <img class="location-image" src="./locations_of_items/夜黑钻石.webp" alt="夜黑钻石位置图">
+        <p>它会在夜间出现，也就是晚上 6 点以后，刷新在森林里那些会生成石头和矿点的小型采石区，位置如图。拿取时不需要任何工具，像采集地面可拾取物一样直接捡起即可。</p>
+        <ul>
+          <li>主要来源：晚上 6 点后在小采石区直接拾取。</li>
+          <li>推荐做法：把它放在当天路线最后，夜里顺路去拿。</li>
+          <li>注意事项：不必用镐子，只要直接互动拾取。</li>
+        </ul>
+        <span class="status">夜间刷新</span>
+      </article>
+    </section>
+  </div>
+
+  <footer>Task prep starts with a clean checklist.</footer>
+</body>
+
+</html>

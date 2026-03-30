@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>金核桃收集指南 | 姜岛解谜工具箱</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&family=Noto+Sans+SC:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <style>
+    :root {
+      --sky: #91c1df;
+      --sky-deep: #72a6cb;
+      --wood: #7e5437;
+      --wood-dark: #573722;
+      --paper: #fff8e6;
+      --paper-line: #dccb9d;
+      --text: #433022;
+      --green: #6e9b41;
+      --green-dark: #4c6f2a;
+      --green-bright: #7eab4f;
+      --gold: #d4aa3d;
+      --cream: #f8f1d7;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      padding: 24px 16px;
+      background:
+        radial-gradient(circle at 20% 10%, rgba(255, 255, 255, 0.45), transparent 18%),
+        radial-gradient(circle at 85% 18%, rgba(255, 243, 185, 0.35), transparent 14%),
+        linear-gradient(180deg, var(--sky) 0%, var(--sky-deep) 100%);
+      font-family: 'Noto Sans SC', sans-serif;
+      color: var(--text);
+      display: flex;
+      justify-content: center;
+    }
+
+    .board {
+      width: min(1120px, 100%);
+      background: var(--wood);
+      border: 8px solid var(--wood-dark);
+      border-radius: 18px;
+      padding: 20px;
+      box-shadow: inset 0 0 0 4px rgba(255, 240, 210, 0.16), 0 20px 40px rgba(0, 0, 0, 0.25);
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-bottom: 16px;
+      padding: 10px 16px;
+      border-radius: 8px;
+      text-decoration: none;
+      background: #6e9b41;
+      color: #fff;
+      border: 2px solid #4c6f2a;
+      box-shadow: 0 4px 0 #4c6f2a;
+      font-family: 'ZCOOL KuaiLe', cursive;
+    }
+
+    .paper,
+    .panel,
+    .reward-row,
+    .section-entry {
+      background: var(--paper);
+      border: 2px solid var(--paper-line);
+      border-radius: 12px;
+      padding: 22px;
+      margin-bottom: 18px;
+    }
+
+    h1,
+    h2 {
+      margin: 0;
+      font-family: 'ZCOOL KuaiLe', cursive;
+    }
+
+    h1 {
+      font-size: 38px;
+      color: var(--wood-dark);
+      margin-bottom: 12px;
+    }
+
+    h2 {
+      color: #8d661b;
+      margin-bottom: 10px;
+    }
+
+    p,
+    li {
+      line-height: 1.8;
+    }
+
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .stat {
+      background: rgba(255, 249, 234, 0.92);
+      border: 2px dashed #dbc998;
+      border-radius: 10px;
+      padding: 14px 16px;
+    }
+
+    .stat strong {
+      display: block;
+      font-size: 26px;
+      font-family: 'ZCOOL KuaiLe', cursive;
+      color: #8d661b;
+      margin-bottom: 6px;
+    }
+
+    .section-list {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    details.section-block {
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 8px 18px rgba(52, 39, 27, 0.18);
+    }
+
+    details.section-block[open] {
+      background: rgba(255, 255, 255, 0.12);
+    }
+
+    summary.section-toggle {
+      list-style: none;
+      cursor: pointer;
+      background: linear-gradient(180deg, var(--green-bright), var(--green));
+      color: #fff;
+      padding: 16px 18px;
+      font-size: 26px;
+      font-family: 'ZCOOL KuaiLe', cursive;
+      border: 3px solid var(--green-dark);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.24);
+    }
+
+    summary.section-toggle::-webkit-details-marker {
+      display: none;
+    }
+
+    .toggle-meta {
+      font-size: 18px;
+      white-space: nowrap;
+    }
+
+    .section-body {
+      background: rgba(255, 248, 230, 0.98);
+      border: 3px solid var(--green-dark);
+      border-top: none;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .entry-grid {
+      display: grid;
+      grid-template-columns: 220px minmax(0, 1fr);
+      gap: 16px;
+      align-items: stretch;
+    }
+
+    .entry-media {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .entry-images {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .entry-image {
+      width: 105px;
+      aspect-ratio: 1 / 1;
+      border-radius: 10px;
+      overflow: hidden;
+      background: #dbe8ef;
+      border: 2px solid #afc5d3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .entry-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .entry-content {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .entry-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 700;
+      background: #eef5d8;
+      border: 1px solid #bfd39b;
+      color: #48622f;
+    }
+
+    .pill.quantity {
+      background: #fff2ca;
+      border-color: #e5c46a;
+      color: #8c6312;
+    }
+
+    .entry-method {
+      line-height: 1.8;
+      font-size: 15px;
+    }
+
+    .entry-notes {
+      color: #8a6618;
+      font-size: 14px;
+    }
+
+    .source-link {
+      color: #2e6f9a;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .source-link:hover {
+      text-decoration: underline;
+    }
+
+    .internal-link {
+      color: #2e6f9a;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .internal-link:hover {
+      text-decoration: underline;
+    }
+
+    .reward-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .reward-row {
+      margin-bottom: 0;
+      display: grid;
+      grid-template-columns: minmax(140px, 200px) minmax(0, 1fr) minmax(110px, 160px) 92px;
+      gap: 14px;
+      align-items: start;
+    }
+
+    .reward-name {
+      font-family: 'ZCOOL KuaiLe', cursive;
+      font-size: 24px;
+      color: #8d661b;
+      margin-top: 10px;
+    }
+
+    .reward-desc,
+    .reward-location,
+    .reward-cost {
+      line-height: 1.8;
+    }
+
+    .reward-label {
+      display: block;
+      font-size: 12px;
+      letter-spacing: 0.04em;
+      color: #8c775b;
+      margin-bottom: 4px;
+    }
+
+    .reward-cost {
+      text-align: center;
+      font-weight: 700;
+      color: #8c6312;
+    }
+
+    .empty-image {
+      font-size: 13px;
+      color: #6d8290;
+      text-align: center;
+      padding: 0 10px;
+    }
+
+    .preview-layer {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 190px;
+      padding: 10px;
+      background: rgba(255, 248, 230, 0.98);
+      border: 2px solid var(--paper-line);
+      border-radius: 12px;
+      box-shadow: 0 14px 28px rgba(40, 30, 20, 0.22);
+      pointer-events: none;
+      opacity: 0;
+      transform: translateY(6px);
+      transition: opacity 120ms ease, transform 120ms ease;
+      z-index: 999;
+    }
+
+    .preview-layer.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .preview-layer img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 2px solid #afc5d3;
+      background: #dbe8ef;
+    }
+
+    .preview-caption {
+      margin-top: 8px;
+      font-size: 12px;
+      line-height: 1.5;
+      color: #7b6149;
+    }
+
+    @media (max-width: 760px) {
+      .board {
+        border-width: 4px;
+        padding: 14px;
+      }
+
+      .paper,
+      .panel,
+      .section-entry {
+        padding: 16px;
+      }
+
+      h1 {
+        font-size: 30px;
+      }
+
+      .back-link {
+        width: 100%;
+        text-align: center;
+      }
+
+      summary.section-toggle {
+        font-size: 21px;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .toggle-meta {
+        font-size: 16px;
+      }
+
+      .entry-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .entry-images {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .reward-row {
+        grid-template-columns: 1fr;
+      }
+
+      .preview-layer {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="board">
+    <a class="back-link" href="../index.html">返回姜岛工具箱</a>
+
+    <section class="paper">
+      <h1>金核桃收集指南</h1>
+      <div class="summary" id="summary"></div>
+    </section>
+
+    <section class="panel">
+      <h2>区域分组</h2>
+      <div class="section-list" id="section-list"></div>
+    </section>
+
+    <section class="panel">
+      <h2>兑换奖励</h2>
+      <div class="reward-list" id="reward-list"></div>
+    </section>
+  </div>
+
+  <div class="preview-layer" id="preview-layer" aria-hidden="true">
+    <img id="preview-image" alt="">
+    <div class="preview-caption" id="preview-caption"></div>
+  </div>
+
+  <script src="./guide_data.js"></script>
+  <script>
+    const data = window.GOLDEN_WALNUT_GUIDE_DATA;
+    const summaryEl = document.getElementById('summary');
+    const sectionListEl = document.getElementById('section-list');
+    const rewardListEl = document.getElementById('reward-list');
+    const previewLayer = document.getElementById('preview-layer');
+    const previewImage = document.getElementById('preview-image');
+    const previewCaption = document.getElementById('preview-caption');
+
+    function escapeHtml(text) {
+      return String(text)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    function quantityLabel(entry) {
+      if (Number.isInteger(entry.quantity)) {
+        return `${entry.quantity} 个`;
+      }
+      return entry.quantity_raw ? `${entry.quantity_raw}` : '数量待确认';
+    }
+
+    function renderSummary(payload) {
+      const totalEntries = payload.sections.reduce((sum, section) => sum + section.item_count, 0);
+      const totalWalnuts = payload.sections.reduce((sum, section) => sum + section.walnut_total, 0);
+      const stats = [
+        { label: '绿色分组', value: payload.sections.length },
+        { label: '收录条目', value: totalEntries },
+        { label: '核桃总数', value: totalWalnuts },
+        { label: '来源页面', value: '中文 Wiki' }
+      ];
+      summaryEl.innerHTML = stats.map((stat) => `
+        <div class="stat">
+          <strong>${escapeHtml(stat.value)}</strong>
+          <span>${escapeHtml(stat.label)}</span>
+        </div>
+      `).join('');
+    }
+
+    function applyBold(text, terms) {
+      let output = text;
+      terms.forEach((term) => {
+        const escapedTerm = escapeHtml(term);
+        output = output.split(escapedTerm).join(`<strong>${escapedTerm}</strong>`);
+      });
+      return output;
+    }
+
+    function formatEntryMethod(sectionTitle, entry, entryIndex) {
+      let formatted = escapeHtml(entry.method || '');
+      formatted = applyBold(formatted, ['岛屿北部', '岛屿东部', '岛屿南部', '岛屿西部', '注意']);
+
+      if (
+        sectionTitle === '岛屿东部' &&
+        entryIndex === 4
+      ) {
+        formatted = applyBold(formatted, ['海蓝宝石，黄水晶，紫水晶，绿宝石 和 红宝石。']);
+      }
+
+      if (sectionTitle === '岛屿西部') {
+        formatted = applyBold(formatted, ['甜瓜', '小麦', '蒜']);
+        formatted = formatted.replace(
+          /海盗的妻子/g,
+          '<a class="internal-link" href="../pirates_wife_quest/index.html">海盗的妻子</a>'
+        );
+        formatted = formatted.replace(
+          /五彩水晶谜题/g,
+          '<a class="internal-link" href="../five_color_crystal_puzzle/index.html">五彩水晶谜题</a>'
+        );
+      }
+
+      if (sectionTitle === '岛屿北部') {
+        formatted = formatted.replace(
+          /巨大动物化石/g,
+          '<a class="internal-link" href="../island_field_office/index.html#bear-fossils">巨大动物化石</a>'
+        );
+        formatted = formatted.replace(
+          /蛇化石捐赠/g,
+          '<a class="internal-link" href="../island_field_office/index.html#snake-fossils">蛇化石捐赠</a>'
+        );
+        formatted = formatted.replace(
+          /青蛙木乃伊/g,
+          '<a class="internal-link" href="../island_field_office/index.html#frog-mummy">青蛙木乃伊</a>'
+        );
+        formatted = formatted.replace(
+          /蝙蝠木乃伊/g,
+          '<a class="internal-link" href="../island_field_office/index.html#bat-mummy">蝙蝠木乃伊</a>'
+        );
+        formatted = formatted.replace(
+          /紫色花的岛屿调查/g,
+          '<a class="internal-link" href="../island_field_office/index.html#purple-flowers">紫色花的岛屿调查</a>'
+        );
+        formatted = formatted.replace(
+          /紫色海星的岛屿调查/g,
+          '<a class="internal-link" href="../island_field_office/index.html#purple-starfish">紫色海星的岛屿调查</a>'
+        );
+      }
+
+      return formatted;
+    }
+
+    function renderEntry(sectionTitle, entry, entryIndex) {
+      const imageHtml = entry.images && entry.images.length
+        ? `<div class="entry-images">${entry.images.map((image, index) => `
+            <div class="entry-image">
+              <img class="previewable-image" src="${escapeHtml(image)}" alt="${escapeHtml(entry.method)} ${index + 1}" data-preview-src="${escapeHtml(image)}" data-preview-caption="${escapeHtml(entry.source_type || '未分类')}｜${escapeHtml(quantityLabel(entry))}">
+            </div>
+          `).join('')}</div>`
+        : '<div class="entry-image"><div class="empty-image">暂无配图</div></div>';
+      const notesHtml = entry.notes
+        ? `<div class="entry-notes">备注：${escapeHtml(entry.notes)}</div>`
+        : '';
+      return `
+        <article class="section-entry">
+          <div class="entry-grid">
+            <div class="entry-media">${imageHtml}</div>
+            <div class="entry-content">
+              <div class="entry-meta">
+                <span class="pill quantity">数量 ${escapeHtml(quantityLabel(entry))}</span>
+                <span class="pill">${escapeHtml(entry.source_type || '未分类')}</span>
+              </div>
+              <div class="entry-method">${formatEntryMethod(sectionTitle, entry, entryIndex)}</div>
+              ${notesHtml}
+            </div>
+          </div>
+        </article>
+      `;
+    }
+
+    function renderSections(payload) {
+      sectionListEl.innerHTML = payload.sections.map((section, index) => `
+        <details class="section-block">
+          <summary class="section-toggle">
+            <span>${escapeHtml(section.title)}（共 ${section.walnut_total} 个）</span>
+            <span class="toggle-meta">[展开]</span>
+          </summary>
+          <div class="section-body">
+            ${section.entries.map((entry, entryIndex) => renderEntry(section.title, entry, entryIndex)).join('')}
+          </div>
+        </details>
+      `).join('');
+    }
+
+    function renderSource(payload) {
+      const panel = document.querySelector('.panel');
+      const meta = document.createElement('p');
+      meta.innerHTML = `数据来源：<a class="source-link" href="${escapeHtml(payload.source_url)}" target="_blank" rel="noreferrer">中文 Stardew Valley Wiki 金色核桃页面</a>`;
+      panel.insertBefore(meta, sectionListEl);
+    }
+
+    function renderRewards(payload) {
+      const rewards = Array.isArray(payload.rewards) ? payload.rewards : [];
+      const totalCost = rewards.reduce((sum, item) => sum + (Number.isInteger(item.cost) ? item.cost : 0), 0);
+      const intro = document.createElement('p');
+      intro.textContent = `当前共整理 ${rewards.length} 项奖励，合计花费 ${totalCost} 个金色核桃。`;
+      rewardListEl.parentNode.insertBefore(intro, rewardListEl);
+      rewardListEl.innerHTML = rewards.map((reward) => `
+        <article class="reward-row">
+          <div>
+            <span class="reward-label">奖励</span>
+            <div class="reward-name">${escapeHtml(reward.reward_name || '未命名奖励')}</div>
+          </div>
+          <div class="reward-desc">
+            <span class="reward-label">描述</span>
+            ${escapeHtml(reward.description || '')}
+          </div>
+          <div class="reward-location">
+            <span class="reward-label">位置</span>
+            ${escapeHtml(reward.location || '未标注')}
+          </div>
+          <div class="reward-cost">
+            <span class="reward-label">花费</span>
+            ${escapeHtml(Number.isInteger(reward.cost) ? `${reward.cost}` : (reward.cost_raw || ''))}
+          </div>
+        </article>
+      `).join('');
+    }
+
+    function positionPreview(event) {
+      const offset = 18;
+      const layerWidth = 190;
+      const layerHeight = previewLayer.offsetHeight || 230;
+      let left = event.clientX + offset;
+      let top = event.clientY + offset;
+
+      if (left + layerWidth > window.innerWidth - 16) {
+        left = event.clientX - layerWidth - offset;
+      }
+      if (top + layerHeight > window.innerHeight - 16) {
+        top = window.innerHeight - layerHeight - 16;
+      }
+      if (top < 16) {
+        top = 16;
+      }
+      if (left < 16) {
+        left = 16;
+      }
+
+      previewLayer.style.left = `${left}px`;
+      previewLayer.style.top = `${top}px`;
+    }
+
+    function bindPreviewEvents() {
+      if (window.matchMedia('(hover: none)').matches) {
+        return;
+      }
+
+      document.querySelectorAll('.previewable-image').forEach((image) => {
+        image.addEventListener('mouseenter', (event) => {
+          previewImage.src = image.dataset.previewSrc || image.currentSrc || image.src;
+          previewImage.alt = image.alt || '';
+          previewCaption.textContent = image.dataset.previewCaption || '';
+          previewLayer.classList.add('visible');
+          previewLayer.setAttribute('aria-hidden', 'false');
+          positionPreview(event);
+        });
+
+        image.addEventListener('mousemove', positionPreview);
+
+        image.addEventListener('mouseleave', () => {
+          previewLayer.classList.remove('visible');
+          previewLayer.setAttribute('aria-hidden', 'true');
+        });
+      });
+    }
+
+    if (data && Array.isArray(data.sections)) {
+      renderSummary(data);
+      renderSections(data);
+      renderSource(data);
+      renderRewards(data);
+      bindPreviewEvents();
+      document.querySelectorAll('details.section-block').forEach((block) => {
+        block.addEventListener('toggle', () => {
+          const toggle = block.querySelector('.toggle-meta');
+          if (toggle) {
+            toggle.textContent = block.open ? '[收起]' : '[展开]';
+          }
+        });
+      });
+    } else {
+      sectionListEl.innerHTML = '<p>页面数据尚未生成。</p>';
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,2527 @@
+[
+  {
+    "id": "96",
+    "name": "Dwarf Scroll I",
+    "displayName": {
+      "en": "Dwarf Scroll I",
+      "zh": "矮人卷轴 I"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:DwarfScrollI_Description]",
+      "zh": "一个写满矮人语的黄色羊皮卷轴。这一个上面系着红色蝴蝶结。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 1,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 96,
+      "x": 0,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_red",
+      "dye_strong",
+      "scroll_item"
+    ]
+  },
+  {
+    "id": "97",
+    "name": "Dwarf Scroll II",
+    "displayName": {
+      "en": "Dwarf Scroll II",
+      "zh": "矮人卷轴 II"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:DwarfScrollII_Description]",
+      "zh": "一个写满矮人语的黄色羊皮卷轴。这一个上面系着绿色丝带。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 1,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 97,
+      "x": 16,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_green",
+      "dye_strong",
+      "scroll_item"
+    ]
+  },
+  {
+    "id": "98",
+    "name": "Dwarf Scroll III",
+    "displayName": {
+      "en": "Dwarf Scroll III",
+      "zh": "矮人卷轴 III"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:DwarfScrollIII_Description]",
+      "zh": "一个写满矮人语的黄色羊皮卷轴。这一个上面系着蓝色绳子。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 1,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 98,
+      "x": 32,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_blue",
+      "dye_strong",
+      "scroll_item"
+    ]
+  },
+  {
+    "id": "99",
+    "name": "Dwarf Scroll IV",
+    "displayName": {
+      "en": "Dwarf Scroll IV",
+      "zh": "矮人卷轴 IV"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:DwarfScrollIV_Description]",
+      "zh": "一个写满矮人语的黄色羊皮卷轴。这一个上面系着金色链子。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 1,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 99,
+      "x": 48,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_yellow",
+      "dye_strong",
+      "scroll_item"
+    ]
+  },
+  {
+    "id": "100",
+    "name": "Chipped Amphora",
+    "displayName": {
+      "en": "Chipped Amphora",
+      "zh": "有缺口的土罐"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:ChippedAmphora_Description]",
+      "zh": "陶瓷做的古老容器。用来运送各种货物。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 40,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 100,
+      "x": 64,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "ancient_item",
+      "ceramic_item",
+      "color_brown",
+      "dye_strong"
+    ]
+  },
+  {
+    "id": "101",
+    "name": "Arrowhead",
+    "displayName": {
+      "en": "Arrowhead",
+      "zh": "箭头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Arrowhead_Description]",
+      "zh": "用于打猎的粗制尖状物。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 40,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 101,
+      "x": 80,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_gray",
+      "dye_strong",
+      "hunting_item"
+    ]
+  },
+  {
+    "id": "103",
+    "name": "Ancient Doll",
+    "displayName": {
+      "en": "Ancient Doll",
+      "zh": "古代玩偶"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:AncientDoll_Description]",
+      "zh": "一个满身污垢的古代玩偶。它可以用做玩具，也可以用做装饰，还可以用做某种仪式的道具。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 60,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 103,
+      "x": 112,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_blue",
+      "doll_item",
+      "dye_strong",
+      "toy_item"
+    ]
+  },
+  {
+    "id": "104",
+    "name": "Elvish Jewelry",
+    "displayName": {
+      "en": "Elvish Jewelry",
+      "zh": "精灵珠宝"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:ElvishJewelry_Description]",
+      "zh": "很脏但是依然美丽。上边有被认为是古代精灵语的流畅字迹。但还没有人见过精灵的遗骸。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 200,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 104,
+      "x": 128,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_yellow",
+      "dye_strong",
+      "elvish_item"
+    ]
+  },
+  {
+    "id": "105",
+    "name": "Chewing Stick",
+    "displayName": {
+      "en": "Chewing Stick",
+      "zh": "咀嚼洁齿棒"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:ChewingStick_Description]",
+      "zh": "古代人通过嚼这些来保持口腔清洁。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 50,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 105,
+      "x": 144,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "ancient_item",
+      "color_brown",
+      "dye_strong"
+    ]
+  },
+  {
+    "id": "106",
+    "name": "Ornamental Fan",
+    "displayName": {
+      "en": "Ornamental Fan",
+      "zh": "装饰用扇子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:OrnamentalFan_Description]",
+      "zh": "这把精致的扇子很有可能属于一个贵妇人。历史学家认为星露谷是第六纪元富人的度假胜地。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 300,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 106,
+      "x": 160,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_white",
+      "dye_strong",
+      "noble_item"
+    ]
+  },
+  {
+    "id": "107",
+    "name": "Dinosaur Egg",
+    "displayName": {
+      "en": "Dinosaur Egg",
+      "zh": "恐龙蛋"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:DinosaurEgg_Description]",
+      "zh": "一个巨大的恐龙蛋……它的壳还保存的很完整呢！"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 385,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 107,
+      "x": 176,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_green",
+      "dinosaur_item",
+      "dye_strong",
+      "egg_item"
+    ]
+  },
+  {
+    "id": "108",
+    "name": "Rare Disc",
+    "displayName": {
+      "en": "Rare Disc",
+      "zh": "稀有圆盘"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:RareDisc_Description]",
+      "zh": "一个镶着奇异红石头的厚重黑色圆盘。当你握住它的时候，恐惧漫上了心头。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 300,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 108,
+      "x": 192,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_dark_gray",
+      "dye_strong"
+    ]
+  },
+  {
+    "id": "109",
+    "name": "Ancient Sword",
+    "displayName": {
+      "en": "Ancient Sword",
+      "zh": "古剑"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:AncientSword_Description]",
+      "zh": "这是一把古剑的残骸。绝大部分刀刃都生锈了，但是剑柄很精致。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 100,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 109,
+      "x": 208,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "ancient_item",
+      "color_gray",
+      "dye_strong"
+    ]
+  },
+  {
+    "id": "110",
+    "name": "Rusty Spoon",
+    "displayName": {
+      "en": "Rusty Spoon",
+      "zh": "生锈的汤匙"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:RustySpoon_Description]",
+      "zh": "一个普通的旧汤匙，大概有 10 年之久了。没什么意思。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 25,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 110,
+      "x": 224,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_gray",
+      "cooking_item",
+      "dye_strong"
+    ]
+  },
+  {
+    "id": "111",
+    "name": "Rusty Spur",
+    "displayName": {
+      "en": "Rusty Spur",
+      "zh": "生锈的靴刺"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:RustySpur_Description]",
+      "zh": "曾经连在某个牛仔靴子上的旧靴刺。肯定已经有好几代的人在此饲养动物了。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 25,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 111,
+      "x": 240,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown",
+      "cowboy_item",
+      "dye_strong"
+    ]
+  },
+  {
+    "id": "112",
+    "name": "Rusty Cog",
+    "displayName": {
+      "en": "Rusty Cog",
+      "zh": "生锈的齿轮"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:RustyCog_Description]",
+      "zh": "一个保存完好的齿轮，它一定是某个古代机器的一部分。这可能是矮人工艺出品。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 25,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 112,
+      "x": 256,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown",
+      "dye_strong",
+      "machine_item"
+    ]
+  },
+  {
+    "id": "113",
+    "name": "Chicken Statue",
+    "displayName": {
+      "en": "Chicken Statue",
+      "zh": "鸡雕像"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:ChickenStatue_Description]",
+      "zh": "一个青铜底座的鸡雕像。这个地区的古代人一定很喜欢鸡。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 50,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 113,
+      "x": 272,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "chicken_item",
+      "color_sand",
+      "dye_strong",
+      "statue_item"
+    ]
+  },
+  {
+    "id": "114",
+    "name": "Ancient Seed",
+    "displayName": {
+      "en": "Ancient Seed",
+      "zh": "古代种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:AncientSeed_Description]",
+      "zh": "某个古代植物的干老种子。它显然早就死了……"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 5,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 114,
+      "x": 288,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "115",
+    "name": "Prehistoric Tool",
+    "displayName": {
+      "en": "Prehistoric Tool",
+      "zh": "史前工具"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:PrehistoricTool_Description]",
+      "zh": "某种粗糙古老的挖掘工具。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 50,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 115,
+      "x": 304,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_gray",
+      "dye_strong",
+      "prehistoric_item"
+    ]
+  },
+  {
+    "id": "116",
+    "name": "Dried Starfish",
+    "displayName": {
+      "en": "Dried Starfish",
+      "zh": "干海星"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:DriedStarfish_Description]",
+      "zh": "原始海洋里的海星。这是个非常纯净的标本！"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 40,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 116,
+      "x": 320,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_yellow",
+      "dye_strong",
+      "marine_item"
+    ]
+  },
+  {
+    "id": "117",
+    "name": "Anchor",
+    "displayName": {
+      "en": "Anchor",
+      "zh": "锚"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Anchor_Description]",
+      "zh": "它可能属于古代海盗。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 100,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 117,
+      "x": 336,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_gray",
+      "dye_strong",
+      "marine_item"
+    ]
+  },
+  {
+    "id": "118",
+    "name": "Glass Shards",
+    "displayName": {
+      "en": "Glass Shards",
+      "zh": "玻璃碎片"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:GlassShards_Description]",
+      "zh": "被几个世纪海浪冲刷光滑的玻璃碎片混合物。可能是古代拼花装饰或者项链上的东西。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 20,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 118,
+      "x": 352,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_cyan",
+      "dye_strong"
+    ]
+  },
+  {
+    "id": "119",
+    "name": "Bone Flute",
+    "displayName": {
+      "en": "Bone Flute",
+      "zh": "骨笛"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:BoneFlute_Description]",
+      "zh": "一个用动物骨头雕刻而成的史前管乐器。它发出的声音很诡异。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 100,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 119,
+      "x": 368,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "bone_item",
+      "color_sand",
+      "dye_strong",
+      "instrument_item",
+      "prehistoric_item"
+    ]
+  },
+  {
+    "id": "120",
+    "name": "Prehistoric Handaxe",
+    "displayName": {
+      "en": "Prehistoric Handaxe",
+      "zh": "史前手斧"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:PrehistoricHandaxe_Description]",
+      "zh": "人类最早的工具之一。用两块石头互相撞击以形成锋利的边缘，这种\"粗糙的\"工具就是这样造出来的。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 50,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 120,
+      "x": 0,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_gray",
+      "dye_strong",
+      "prehistoric_item"
+    ]
+  },
+  {
+    "id": "121",
+    "name": "Dwarvish Helm",
+    "displayName": {
+      "en": "Dwarvish Helm",
+      "zh": "矮人头盔"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:DwarvishHelm_Description]",
+      "zh": "这是矮人常戴的头盔之一。厚厚的金属镀层能保护他们不受落石伤害。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 100,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 121,
+      "x": 16,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown",
+      "dwarvish_item",
+      "dye_strong"
+    ]
+  },
+  {
+    "id": "122",
+    "name": "Dwarf Gadget",
+    "displayName": {
+      "en": "Dwarf Gadget",
+      "zh": "矮人小工具"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:DwarfGadget_Description]",
+      "zh": "这个小工具是矮人先进工艺的一小块结晶。它还在发光和响动，但是你无法理解它的工作原理。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 200,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 122,
+      "x": 32,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_gray",
+      "dwarvish_item",
+      "dye_strong",
+      "machine_item"
+    ]
+  },
+  {
+    "id": "123",
+    "name": "Ancient Drum",
+    "displayName": {
+      "en": "Ancient Drum",
+      "zh": "古代鼓"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:AncientDrum_Description]",
+      "zh": "这是一个用木头和动物皮做的鼓。它能发出低沉、经久不息的声音。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 100,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 123,
+      "x": 48,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "ancient_item",
+      "color_purple",
+      "dye_strong",
+      "instrument_item"
+    ]
+  },
+  {
+    "id": "124",
+    "name": "Golden Mask",
+    "displayName": {
+      "en": "Golden Mask",
+      "zh": "黄金面具"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:GoldenMask_Description]",
+      "zh": "一个大概被用于古代法术仪式的恐怖黄金面具。前额部位嵌着一个巨大的紫色宝石。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 500,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 124,
+      "x": 64,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_gold",
+      "dye_strong",
+      "golden_relic_item"
+    ]
+  },
+  {
+    "id": "125",
+    "name": "Golden Relic",
+    "displayName": {
+      "en": "Golden Relic",
+      "zh": "黄金遗物"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:GoldenRelic_Description]",
+      "zh": "是一个黄金板，它的正面刻绘着象形文字和图画。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 250,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 125,
+      "x": 80,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_gold",
+      "dye_strong",
+      "golden_relic_item"
+    ]
+  },
+  {
+    "id": "126",
+    "name": "Strange Doll",
+    "displayName": {
+      "en": "Strange Doll",
+      "zh": "诡异玩偶"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:StrangeDoll_Description]",
+      "zh": "???"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 1000,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 126,
+      "x": 96,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_green",
+      "doll_item",
+      "dye_strong",
+      "strange_doll_1"
+    ]
+  },
+  {
+    "id": "127",
+    "name": "Strange Doll",
+    "displayName": {
+      "en": "Strange Doll",
+      "zh": "诡异玩偶"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:StrangeDoll_Description]",
+      "zh": "???"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 1000,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 127,
+      "x": 112,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_yellow",
+      "doll_item",
+      "dye_strong",
+      "strange_doll_2"
+    ]
+  },
+  {
+    "id": "579",
+    "name": "Prehistoric Scapula",
+    "displayName": {
+      "en": "Prehistoric Scapula",
+      "zh": "史前肩胛骨"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:PrehistoricScapula_Description]",
+      "zh": "一般都被说成是“肩部刀刃”……无法确定这是什么生物的骨头。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 100,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 579,
+      "x": 48,
+      "y": 384,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "bone_item",
+      "color_white",
+      "prehistoric_item"
+    ]
+  },
+  {
+    "id": "580",
+    "name": "Prehistoric Tibia",
+    "displayName": {
+      "en": "Prehistoric Tibia",
+      "zh": "史前胫骨"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:PrehistoricTibia_Description]",
+      "zh": "又大又坚硬的腿骨。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 100,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 580,
+      "x": 64,
+      "y": 384,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "bone_item",
+      "color_white",
+      "prehistoric_item"
+    ]
+  },
+  {
+    "id": "581",
+    "name": "Prehistoric Skull",
+    "displayName": {
+      "en": "Prehistoric Skull",
+      "zh": "史前头骨"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:PrehistoricSkull_Description]",
+      "zh": "这绝对是一个哺乳类动物的头盖骨。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 100,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 581,
+      "x": 80,
+      "y": 384,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "bone_item",
+      "color_white",
+      "prehistoric_item"
+    ]
+  },
+  {
+    "id": "582",
+    "name": "Skeletal Hand",
+    "displayName": {
+      "en": "Skeletal Hand",
+      "zh": "手部骨骼"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:SkeletalHand_Description]",
+      "zh": "这些史前遗迹能够存在这么久真是个奇迹。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 100,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 582,
+      "x": 96,
+      "y": 384,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "bone_item",
+      "color_white",
+      "prehistoric_item"
+    ]
+  },
+  {
+    "id": "583",
+    "name": "Prehistoric Rib",
+    "displayName": {
+      "en": "Prehistoric Rib",
+      "zh": "史前肋骨"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:PrehistoricRib_Description]",
+      "zh": "肋骨一侧的浅沟说明这根肋骨曾经是什么人的晚餐。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 100,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 583,
+      "x": 112,
+      "y": 384,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "bone_item",
+      "color_white",
+      "prehistoric_item"
+    ]
+  },
+  {
+    "id": "584",
+    "name": "Prehistoric Vertebra",
+    "displayName": {
+      "en": "Prehistoric Vertebra",
+      "zh": "史前脊骨"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:PrehistoricVertebra_Description]",
+      "zh": "某个史前生物脊椎的一部分。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 100,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 584,
+      "x": 128,
+      "y": 384,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "bone_item",
+      "color_white",
+      "prehistoric_item"
+    ]
+  },
+  {
+    "id": "585",
+    "name": "Skeletal Tail",
+    "displayName": {
+      "en": "Skeletal Tail",
+      "zh": "尾部骨骼"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:SkeletalTail_Description]",
+      "zh": "这尾巴还真短。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 100,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 585,
+      "x": 144,
+      "y": 384,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "bone_item",
+      "color_white",
+      "prehistoric_item"
+    ]
+  },
+  {
+    "id": "586",
+    "name": "Nautilus Fossil",
+    "displayName": {
+      "en": "Nautilus Fossil",
+      "zh": "鹦鹉螺化石"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:NautilusFossil_Description]",
+      "zh": "这肯定是在亿万年前从一个古老的珊瑚礁上被冲上岸的。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 80,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 586,
+      "x": 160,
+      "y": 384,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "bone_item",
+      "color_white",
+      "fossil_item",
+      "marine_item",
+      "prehistoric_item"
+    ]
+  },
+  {
+    "id": "587",
+    "name": "Amphibian Fossil",
+    "displayName": {
+      "en": "Amphibian Fossil",
+      "zh": "两栖动物化石"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:AmphibianFossil_Description]",
+      "zh": "比较短的后腿说明它们是某种原始的蟾蜍。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 150,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 587,
+      "x": 176,
+      "y": 384,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "bone_item",
+      "color_white",
+      "fossil_item",
+      "marine_item",
+      "prehistoric_item"
+    ]
+  },
+  {
+    "id": "588",
+    "name": "Palm Fossil",
+    "displayName": {
+      "en": "Palm Fossil",
+      "zh": "棕榈化石"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:PalmFossil_Description]",
+      "zh": "棕榈化石比较常见，但这一个恰好是比较完整的。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 100,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 588,
+      "x": 192,
+      "y": 384,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "bone_item",
+      "color_white",
+      "fossil_item"
+    ]
+  },
+  {
+    "id": "589",
+    "name": "Trilobite",
+    "displayName": {
+      "en": "Trilobite",
+      "zh": "三叶虫"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Trilobite_Description]",
+      "zh": "一种早已灭绝的生物，和螃蟹有亲缘关系。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 50,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 589,
+      "x": 208,
+      "y": 384,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "bone_item",
+      "color_white",
+      "fossil_item"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Fossilized_Apple",
+    "name": "Fossilized Apple",
+    "displayName": {
+      "en": "Fossilized Apple",
+      "zh": "苹果化石"
+    },
+    "description": {
+      "en": "这个古老的苹果是通过矿化过程而形成，为我们提供了一个窥探远古世界的机会。",
+      "zh": "这个古老的苹果是通过矿化过程而形成，为我们提供了一个窥探远古世界的机会。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 80,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Fossilized Apple",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_black",
+      "dye_strong",
+      "fossil_item"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Rusty_Shield",
+    "name": "Rusty Shield",
+    "displayName": {
+      "en": "Rusty Shield",
+      "zh": "生锈的盾"
+    },
+    "description": {
+      "en": "一种曾用于战斗的重铁盾牌。",
+      "zh": "一种曾用于战斗的重铁盾牌。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 250,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Rusty Shield",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_gray",
+      "dye_strong",
+      "ancient_item"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Amber",
+    "name": "Amber",
+    "displayName": {
+      "en": "Amber",
+      "zh": "琥珀"
+    },
+    "description": {
+      "en": "含远古昆虫残骸的化石树脂。",
+      "zh": "含远古昆虫残骸的化石树脂。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 750,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Amber",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_yellow",
+      "dye_strong",
+      "fossil_item"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Stone_of_Yoba",
+    "name": "Stone of Yoba",
+    "displayName": {
+      "en": "Stone of Yoba",
+      "zh": "由巴之石"
+    },
+    "description": {
+      "en": "一块古老的石板，上面刻有未知的语言，同时刻有由巴的标志。",
+      "zh": "一块古老的石板，上面刻有未知的语言，同时刻有由巴的标志。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 1500,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Stone of Yoba",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_gray",
+      "dye_strong",
+      "statue_item"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Faded_Button",
+    "name": "Faded Button",
+    "displayName": {
+      "en": "Faded Button",
+      "zh": "陈旧按钮"
+    },
+    "description": {
+      "en": "这是一颗曾经属于某人的破旧纽扣。",
+      "zh": "这是一颗曾经属于某人的破旧纽扣。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 35,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Faded Button",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown",
+      "dye_strong"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Boomerang",
+    "name": "Boomerang",
+    "displayName": {
+      "en": "Boomerang",
+      "zh": "回旋镖"
+    },
+    "description": {
+      "en": "一种远古时代的古老空气动力学狩猎工具，也曾用于娱乐活动。",
+      "zh": "一种远古时代的古老空气动力学狩猎工具，也曾用于娱乐活动。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 125,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Boomerang",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown",
+      "dye_strong",
+      "hunting_item"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Old_Coin",
+    "name": "Old Coin",
+    "displayName": {
+      "en": "Old Coin",
+      "zh": "旧钱币"
+    },
+    "description": {
+      "en": "一种已经停止流通的废弃芬吉尔货币。",
+      "zh": "一种已经停止流通的废弃芬吉尔货币。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 100,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Old Coin",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown",
+      "dye_strong"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_MushroomStatue",
+    "name": "skellady.SBVCP_MushroomStatue",
+    "displayName": {
+      "en": "skellady.SBVCP_MushroomStatue",
+      "zh": "蘑菇雕像"
+    },
+    "description": {
+      "en": "造型精致的小型蘑菇雕像。适合用来装饰或作为礼物赠送。",
+      "zh": "造型精致的小型蘑菇雕像。适合用来装饰或作为礼物赠送。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 110,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/GemsArtifacts",
+      "index": 7,
+      "x": 112,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "not_museum_donatable",
+      "sbv_artifact"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_AncientStaff",
+    "name": "skellady.SBVCP_AncientStaff",
+    "displayName": {
+      "en": "skellady.SBVCP_AncientStaff",
+      "zh": "古代法杖"
+    },
+    "description": {
+      "en": "一根强大的法杖，其中蕴含的强大魔力似乎已完全耗尽。",
+      "zh": "一根强大的法杖，其中蕴含的强大魔力似乎已完全耗尽。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 120,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/GemsArtifacts",
+      "index": 8,
+      "x": 128,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "not_museum_donatable",
+      "sbv_artifact"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_SilverMask",
+    "name": "skellady.SBVCP_SilverMask",
+    "displayName": {
+      "en": "skellady.SBVCP_SilverMask",
+      "zh": "银面具"
+    },
+    "description": {
+      "en": "一副优雅的银面具，额头处的凹槽镶嵌着硕大的紫色宝石。",
+      "zh": "一副优雅的银面具，额头处的凹槽镶嵌着硕大的紫色宝石。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 200,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/GemsArtifacts",
+      "index": 9,
+      "x": 144,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "not_museum_donatable",
+      "sbv_artifact"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_LapisNecklace",
+    "name": "skellady.SBVCP_LapisNecklace",
+    "displayName": {
+      "en": "skellady.SBVCP_LapisNecklace",
+      "zh": "青金石项链"
+    },
+    "description": {
+      "en": "缀有大块青金石的华美项链。",
+      "zh": "缀有大块青金石的华美项链。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 90,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/GemsArtifacts",
+      "index": 10,
+      "x": 160,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "not_museum_donatable",
+      "sbv_artifact"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_WickedVase",
+    "name": "skellady.SBVCP_WickedVase",
+    "displayName": {
+      "en": "skellady.SBVCP_WickedVase",
+      "zh": "邪气花瓶"
+    },
+    "description": {
+      "en": "捧着这个花瓶让你感到不安。",
+      "zh": "捧着这个花瓶让你感到不安。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 80,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/GemsArtifacts",
+      "index": 11,
+      "x": 176,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "not_museum_donatable",
+      "sbv_artifact"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_GoldenCoins",
+    "name": "skellady.SBVCP_GoldenCoins",
+    "displayName": {
+      "en": "skellady.SBVCP_GoldenCoins",
+      "zh": "黄金硬币"
+    },
+    "description": {
+      "en": "这些金币表面铭刻着象形文字。",
+      "zh": "这些金币表面铭刻着象形文字。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 250,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/GemsArtifacts",
+      "index": 12,
+      "x": 192,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "not_museum_donatable",
+      "sbv_artifact"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_ChippedJug",
+    "name": "skellady.SBVCP_ChippedJug",
+    "displayName": {
+      "en": "skellady.SBVCP_ChippedJug",
+      "zh": "破损水罐"
+    },
+    "description": {
+      "en": "原本用于装液体的大型容器，现在似乎没法用了。",
+      "zh": "原本用于装液体的大型容器，现在似乎没法用了。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 120,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/GemsArtifacts",
+      "index": 13,
+      "x": 208,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "not_museum_donatable",
+      "sbv_artifact"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_DwarfKeyI",
+    "name": "skellady.SBVCP_DwarfKeyI",
+    "displayName": {
+      "en": "skellady.SBVCP_DwarfKeyI",
+      "zh": "矮人钥匙一"
+    },
+    "description": {
+      "en": "一块刻有红色矮人文字的矩形薄石板。",
+      "zh": "一块刻有红色矮人文字的矩形薄石板。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 10,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/GemsArtifacts",
+      "index": 14,
+      "x": 224,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "not_museum_donatable",
+      "sbv_artifact"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_DwarfKeyII",
+    "name": "skellady.SBVCP_DwarfKeyII",
+    "displayName": {
+      "en": "skellady.SBVCP_DwarfKeyII",
+      "zh": "矮人钥匙二"
+    },
+    "description": {
+      "en": "一块刻有绿色矮人文字的矩形薄石板。",
+      "zh": "一块刻有绿色矮人文字的矩形薄石板。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 10,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/GemsArtifacts",
+      "index": 15,
+      "x": 240,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "not_museum_donatable",
+      "sbv_artifact"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_DwarfKeyIII",
+    "name": "skellady.SBVCP_DwarfKeyIII",
+    "displayName": {
+      "en": "skellady.SBVCP_DwarfKeyIII",
+      "zh": "矮人钥匙三"
+    },
+    "description": {
+      "en": "一块刻有蓝色矮人文字的矩形薄石板。",
+      "zh": "一块刻有蓝色矮人文字的矩形薄石板。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 10,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/GemsArtifacts",
+      "index": 16,
+      "x": 256,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "not_museum_donatable",
+      "sbv_artifact"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_DwarfKeyIV",
+    "name": "skellady.SBVCP_DwarfKeyIV",
+    "displayName": {
+      "en": "skellady.SBVCP_DwarfKeyIV",
+      "zh": "矮人钥匙四"
+    },
+    "description": {
+      "en": "一块刻有黄色矮人文字的矩形薄石板。",
+      "zh": "一块刻有黄色矮人文字的矩形薄石板。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 10,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/GemsArtifacts",
+      "index": 17,
+      "x": 272,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "not_museum_donatable",
+      "sbv_artifact"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Treasures_FossilisedStarfish",
+    "name": "Fossilised Starfish",
+    "displayName": {
+      "en": "Fossilised Starfish",
+      "zh": "海星化石"
+    },
+    "description": {
+      "en": "已经石化了",
+      "zh": "已经石化了"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 250,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Treasures",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "prehistoric_item",
+      "color_sand",
+      "marine_item",
+      "fossil_item",
+      "mt_vapius_archeology"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Treasures_FossilisedMoth",
+    "name": "Fossilised Moth",
+    "displayName": {
+      "en": "Fossilised Moth",
+      "zh": "蛾化石"
+    },
+    "description": {
+      "en": "它翅膀的大小令人印象深刻。",
+      "zh": "它翅膀的大小令人印象深刻。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 300,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Treasures",
+      "index": 1,
+      "x": 16,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "prehistoric_item",
+      "color_sand",
+      "fossil_item",
+      "mt_vapius_archeology"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Treasures_FossilisedFern",
+    "name": "Fossilised Fern",
+    "displayName": {
+      "en": "Fossilised Fern",
+      "zh": "蕨菜化石"
+    },
+    "description": {
+      "en": "叶子的细节刻在石头里。",
+      "zh": "叶子的细节刻在石头里。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 350,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Treasures",
+      "index": 2,
+      "x": 32,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "prehistoric_item",
+      "color_sand",
+      "fossil_item",
+      "mt_vapius_archeology"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Treasures_FossilisedFish",
+    "name": "Fossilised Fish",
+    "displayName": {
+      "en": "Fossilised Fish",
+      "zh": "鱼化石"
+    },
+    "description": {
+      "en": "它正在原始海洋中游泳。",
+      "zh": "它正在原始海洋中游泳。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 370,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Treasures",
+      "index": 3,
+      "x": 48,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "prehistoric_item",
+      "color_sand",
+      "marine_item",
+      "fossil_item",
+      "mt_vapius_archeology"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Treasures_FossilisedAmmonites",
+    "name": "Fossilised Ammonites",
+    "displayName": {
+      "en": "Fossilised Ammonites",
+      "zh": "菊石化石"
+    },
+    "description": {
+      "en": "一组保存完好的菊石。",
+      "zh": "一组保存完好的菊石。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 400,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Treasures",
+      "index": 4,
+      "x": 64,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "prehistoric_item",
+      "color_sand",
+      "marine_item",
+      "fossil_item",
+      "mt_vapius_archeology"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Treasures_GiantTusk",
+    "name": "Giant Tusk",
+    "displayName": {
+      "en": "Giant Tusk",
+      "zh": "巨型獠牙"
+    },
+    "description": {
+      "en": "它属于某种史前动物。",
+      "zh": "它属于某种史前动物。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 450,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Treasures",
+      "index": 5,
+      "x": 80,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "bone_item",
+      "prehistoric_item",
+      "color_white",
+      "mt_vapius_archeology"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Treasures_BrokenWatch",
+    "name": "Broken Watch",
+    "displayName": {
+      "en": "Broken Watch",
+      "zh": "破损的手表"
+    },
+    "description": {
+      "en": "内部精密的机械装置大部分仍然完好无损。",
+      "zh": "内部精密的机械装置大部分仍然完好无损。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 460,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Treasures",
+      "index": 6,
+      "x": 96,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "color_gold",
+      "machine_item",
+      "mt_vapius_archeology",
+      "mt_vapius_fishingtreasure"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Treasures_BrokenTeaCup",
+    "name": "Broken TeaCup",
+    "displayName": {
+      "en": "Broken TeaCup",
+      "zh": "破碎的茶杯"
+    },
+    "description": {
+      "en": "是优质瓷器。",
+      "zh": "是优质瓷器。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 330,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Treasures",
+      "index": 7,
+      "x": 112,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "color_white",
+      "ceramic_item",
+      "mt_vapius_archeology",
+      "mt_vapius_fishingtreasure"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Treasures_EfficientCog",
+    "name": "Efficient Cog",
+    "displayName": {
+      "en": "Efficient Cog",
+      "zh": "高效齿轮"
+    },
+    "description": {
+      "en": "仍然完好无损的旧机件，用于各种设备。",
+      "zh": "仍然完好无损的旧机件，用于各种设备。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 700,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Treasures",
+      "index": 8,
+      "x": 128,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "color_purple",
+      "machine_item",
+      "mt_vapius_archeology",
+      "mt_vapius_fishingtreasure"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Treasures_DwarvishDevice",
+    "name": "Dwarvish Device",
+    "displayName": {
+      "en": "Dwarvish Device",
+      "zh": "矮人装置"
+    },
+    "description": {
+      "en": "按压时会发出“哔”的声音。",
+      "zh": "按压时会发出“哔”的声音。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 540,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Treasures",
+      "index": 9,
+      "x": 144,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "color_purple",
+      "machine_item",
+      "mt_vapius_archeology"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Treasures_PetrifiedFlower",
+    "name": "Petrified Flower",
+    "displayName": {
+      "en": "Petrified Flower",
+      "zh": "石化花"
+    },
+    "description": {
+      "en": "随着岁月的流逝，花瓣慢慢变成了石头。",
+      "zh": "随着岁月的流逝，花瓣慢慢变成了石头。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 360,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Treasures",
+      "index": 11,
+      "x": 176,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "prehistoric_item",
+      "color_sand",
+      "fossil_item",
+      "mt_vapius_archeology"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Treasures_RailroadNail",
+    "name": "RailroadNail",
+    "displayName": {
+      "en": "RailroadNail",
+      "zh": "铁路道钉"
+    },
+    "description": {
+      "en": "最早用于制造山区铁路的其中之一。上头有着符号和数字的代码。",
+      "zh": "最早用于制造山区铁路的其中之一。上头有着符号和数字的代码。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 153,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Treasures",
+      "index": 12,
+      "x": 192,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "color_black",
+      "mt_vapius_archeology",
+      "mt_vapius_fishingtreasure"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Treasures_DahuStatuette",
+    "name": "Dahu Statuette",
+    "displayName": {
+      "en": "Dahu Statuette",
+      "zh": "大羊怪雕像"
+    },
+    "description": {
+      "en": "它代表了一种传说中的动物。它一侧的腿较短，永远不会从陡坡上摔下来，但只能朝一个方向绕山行走。",
+      "zh": "它代表了一种传说中的动物。它一侧的腿较短，永远不会从陡坡上摔下来，但只能朝一个方向绕山行走。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 345,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Treasures",
+      "index": 13,
+      "x": 208,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "color_brown",
+      "mt_vapius_archeology"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Treasures_FaiencePlate",
+    "name": "Faience Plate",
+    "displayName": {
+      "en": "Faience Plate",
+      "zh": "彩陶盘"
+    },
+    "description": {
+      "en": "以其白色和蓝色的花饰而闻名。",
+      "zh": "以其白色和蓝色的花饰而闻名。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 225,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Treasures",
+      "index": 14,
+      "x": 224,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "color_white",
+      "ceramic_item",
+      "mt_vapius_archeology"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Treasures_CopperFibula",
+    "name": "Copper Fibula",
+    "displayName": {
+      "en": "Copper Fibula",
+      "zh": "铜制腓骨"
+    },
+    "description": {
+      "en": "一种装饰品，由铜合金制成。",
+      "zh": "一种装饰品，由铜合金制成。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 418,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Treasures",
+      "index": 15,
+      "x": 240,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "color_green",
+      "prehistoric_item",
+      "mt_vapius_archeology",
+      "mt_vapius_fishingtreasure"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Treasures_GlassBowl",
+    "name": "Glass Bowl",
+    "displayName": {
+      "en": "Glass Bowl",
+      "zh": "玻璃碗"
+    },
+    "description": {
+      "en": "可能用于丧葬仪式，但这只是一些毫无头绪的考古学家的默认想法。",
+      "zh": "可能用于丧葬仪式，但这只是一些毫无头绪的考古学家的默认想法。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 334,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Treasures",
+      "index": 16,
+      "x": 256,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "color_blue",
+      "prehistoric_item",
+      "mt_vapius_archeology"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Treasures_FragmentMask",
+    "name": "Fragment of Mask",
+    "displayName": {
+      "en": "Fragment of Mask",
+      "zh": "面具碎片"
+    },
+    "description": {
+      "en": "即使破碎，仍保持优雅。",
+      "zh": "即使破碎，仍保持优雅。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 642,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Treasures",
+      "index": 17,
+      "x": 272,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "color_blue",
+      "prehistoric_item",
+      "mt_vapius_archeology"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Treasures_OldMinerLamp",
+    "name": "Old Miner Lamp",
+    "displayName": {
+      "en": "Old Miner Lamp",
+      "zh": "老旧矿灯"
+    },
+    "description": {
+      "en": "每个矿工都会定制自己的灯具：每一盏都能发现不同之处。",
+      "zh": "每个矿工都会定制自己的灯具：每一盏都能发现不同之处。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 338,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Treasures",
+      "index": 18,
+      "x": 288,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "color_iron",
+      "mt_vapius_archeology",
+      "mt_vapius_fishingtreasure"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Treasures_RustyRing",
+    "name": "Rusty Ring",
+    "displayName": {
+      "en": "Rusty Ring",
+      "zh": "生锈的戒指"
+    },
+    "description": {
+      "en": "已经不能再戴上了。",
+      "zh": "已经不能再戴上了。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 311,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Treasures",
+      "index": 19,
+      "x": 304,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "color_brown",
+      "mt_vapius_archeology",
+      "mt_vapius_fishingtreasure"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Treasures_StainedGlass",
+    "name": "Stained Glass",
+    "displayName": {
+      "en": "Stained Glass",
+      "zh": "彩色玻璃"
+    },
+    "description": {
+      "en": "这块碎片保存完好，展示了一只鸟的细节。是某个市场大厅装饰的一部分",
+      "zh": "这块碎片保存完好，展示了一只鸟的细节。是某个市场大厅装饰的一部分"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 275,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Treasures",
+      "index": 20,
+      "x": 320,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "color_blue",
+      "mt_vapius_archeology"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Treasures_BlueCameo",
+    "name": "Blue Cameo",
+    "displayName": {
+      "en": "Blue Cameo",
+      "zh": "蓝色浮雕"
+    },
+    "description": {
+      "en": "刻在石头上的，是一位年轻女子的肖像。",
+      "zh": "刻在石头上的，是一位年轻女子的肖像。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 360,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Treasures",
+      "index": 21,
+      "x": 336,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "color_blue",
+      "mt_vapius_archeology"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Treasures_BrokenSundial",
+    "name": "Broken Sundial",
+    "displayName": {
+      "en": "Broken Sundial",
+      "zh": "破损的日晷"
+    },
+    "description": {
+      "en": "用来记录时间的流逝。",
+      "zh": "用来记录时间的流逝。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 215,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Treasures",
+      "index": 22,
+      "x": 352,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "color_sand",
+      "mt_vapius_archeology"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Treasures_OldShield",
+    "name": "Old Shield",
+    "displayName": {
+      "en": "Old Shield",
+      "zh": "旧盾牌"
+    },
+    "description": {
+      "en": "它主要由护送旅行者的战士使用。",
+      "zh": "它主要由护送旅行者的战士使用。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 137,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Treasures",
+      "index": 23,
+      "x": 368,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "color_blue",
+      "mt_vapius_archeology",
+      "mt_vapius_fishingtreasure"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Treasures_FossilFragment01",
+    "name": "Fragment of Fossil I",
+    "displayName": {
+      "en": "Fragment of Fossil I",
+      "zh": "化石碎片 一"
+    },
+    "description": {
+      "en": "远古生物的头颅。",
+      "zh": "远古生物的头颅。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 560,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Treasures",
+      "index": 24,
+      "x": 0,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "fossil_item",
+      "prehistoric_item",
+      "color_sand",
+      "mt_vapius_archeology"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Treasures_FossilFragment02",
+    "name": "Fragment of Fossil II",
+    "displayName": {
+      "en": "Fragment of Fossil II",
+      "zh": "化石碎片 二"
+    },
+    "description": {
+      "en": "远古生物的骨头。",
+      "zh": "远古生物的骨头。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 450,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Treasures",
+      "index": 25,
+      "x": 16,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "fossil_item",
+      "prehistoric_item",
+      "color_sand",
+      "mt_vapius_archeology"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Treasures_FossilFragment03",
+    "name": "Fragment of Fossil III",
+    "displayName": {
+      "en": "Fragment of Fossil III",
+      "zh": "化石碎片 三"
+    },
+    "description": {
+      "en": "远古生物的身躯。",
+      "zh": "远古生物的身躯。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 510,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Treasures",
+      "index": 26,
+      "x": 32,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "fossil_item",
+      "prehistoric_item",
+      "color_sand",
+      "mt_vapius_archeology"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Treasures_RareStamp",
+    "name": "Rare Stamp",
+    "displayName": {
+      "en": "Rare Stamp",
+      "zh": "稀有邮票"
+    },
+    "description": {
+      "en": "收藏家们正在寻找这些。",
+      "zh": "收藏家们正在寻找这些。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 436,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Treasures",
+      "index": 27,
+      "x": 48,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "color_white",
+      "mt_vapius_archeology"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Treasures_Medallion",
+    "name": "Medallion",
+    "displayName": {
+      "en": "Medallion",
+      "zh": "奖章"
+    },
+    "description": {
+      "en": "周围残留着保护魔法。",
+      "zh": "周围残留着保护魔法。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 360,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Treasures",
+      "index": 28,
+      "x": 64,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "color_gold",
+      "mt_vapius_archeology"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Treasures_Cyanotype",
+    "name": "Cyanotype",
+    "displayName": {
+      "en": "Cyanotype",
+      "zh": "蓝晒法"
+    },
+    "description": {
+      "en": "现代照相技术的前身，因其深蓝色而得名。",
+      "zh": "现代照相技术的前身，因其深蓝色而得名。"
+    },
+    "type": "Arch",
+    "category": 0,
+    "price": 600,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Treasures",
+      "index": 29,
+      "x": 80,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "color_blue",
+      "mt_vapius_archeology"
+    ]
+  }
+]

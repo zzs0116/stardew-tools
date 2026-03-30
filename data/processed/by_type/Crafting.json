@@ -1,0 +1,2605 @@
+[
+  {
+    "id": "93",
+    "name": "Torch",
+    "displayName": {
+      "en": "Torch",
+      "zh": "火把"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Torch_Description]",
+      "zh": "能提供少许亮光。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 5,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 93,
+      "x": 336,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_yellow",
+      "light_source",
+      "torch_item"
+    ]
+  },
+  {
+    "id": "94",
+    "name": "Spirit Torch",
+    "displayName": {
+      "en": "Spirit Torch",
+      "zh": "精灵火把"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:SpiritTorch_Description]",
+      "zh": "不清楚这些蓝色的亮光是从哪来的……"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 5,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 94,
+      "x": 352,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_light_cyan",
+      "light_source",
+      "torch_item"
+    ]
+  },
+  {
+    "id": "261",
+    "name": "Warp Totem: Desert",
+    "displayName": {
+      "en": "Warp Totem: Desert",
+      "zh": "传送图腾：沙漠"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:WarpTotemDesert_Description]",
+      "zh": "直接将你传送到卡利科沙漠。消耗品。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 20,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 261,
+      "x": 336,
+      "y": 160,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown",
+      "not_placeable",
+      "totem_item"
+    ]
+  },
+  {
+    "id": "286",
+    "name": "Cherry Bomb",
+    "displayName": {
+      "en": "Cherry Bomb",
+      "zh": "樱桃炸弹"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:CherryBomb_Description]",
+      "zh": "会发生小爆炸。靠后站！"
+    },
+    "type": "Crafting",
+    "category": -8,
+    "price": 50,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 286,
+      "x": 352,
+      "y": 176,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "bomb_item",
+      "color_red"
+    ]
+  },
+  {
+    "id": "287",
+    "name": "Bomb",
+    "displayName": {
+      "en": "Bomb",
+      "zh": "炸弹"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Bomb_Description]",
+      "zh": "会发生爆炸。小心了！"
+    },
+    "type": "Crafting",
+    "category": -8,
+    "price": 50,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 287,
+      "x": 368,
+      "y": 176,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "bomb_item",
+      "color_black"
+    ]
+  },
+  {
+    "id": "288",
+    "name": "Mega Bomb",
+    "displayName": {
+      "en": "Mega Bomb",
+      "zh": "超级炸弹"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:MegaBomb_Description]",
+      "zh": "会发生大爆炸。使用时请格外小心。"
+    },
+    "type": "Crafting",
+    "category": -8,
+    "price": 50,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 288,
+      "x": 0,
+      "y": 192,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "bomb_item",
+      "color_red"
+    ]
+  },
+  {
+    "id": "293",
+    "name": "Brick Floor",
+    "displayName": {
+      "en": "Brick Floor",
+      "zh": "红砖地板"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:BrickFloor_Description]",
+      "zh": "放在地上修建小路，也可以装饰地板。"
+    },
+    "type": "Crafting",
+    "category": -24,
+    "price": 1,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 293,
+      "x": 80,
+      "y": 192,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "297",
+    "name": "Grass Starter",
+    "displayName": {
+      "en": "Grass Starter",
+      "zh": "草籽"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:GrassStarter_Description]",
+      "zh": "把它种在你的农场上，来得到一块新的草坪。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 50,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 297,
+      "x": 144,
+      "y": 192,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "use_reverse_name_for_sorting"
+    ]
+  },
+  {
+    "id": "298",
+    "name": "Hardwood Fence",
+    "displayName": {
+      "en": "Hardwood Fence",
+      "zh": "硬木围栏"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:HardwoodFence_Description]",
+      "zh": "一种最耐用的围栏。"
+    },
+    "type": "Crafting",
+    "category": -8,
+    "price": 10,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 298,
+      "x": 160,
+      "y": 192,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "309",
+    "name": "Acorn",
+    "displayName": {
+      "en": "Acorn",
+      "zh": "橡子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Acorn_Description]",
+      "zh": "可以种出一棵橡树。"
+    },
+    "type": "Crafting",
+    "category": -74,
+    "price": 20,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 309,
+      "x": 336,
+      "y": 192,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown",
+      "tree_seed_item"
+    ]
+  },
+  {
+    "id": "310",
+    "name": "Maple Seed",
+    "displayName": {
+      "en": "Maple Seed",
+      "zh": "枫树种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:MapleSeed_Description]",
+      "zh": "可以种出一棵枫树。"
+    },
+    "type": "Crafting",
+    "category": -74,
+    "price": 5,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 310,
+      "x": 352,
+      "y": 192,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown",
+      "tree_seed_item"
+    ]
+  },
+  {
+    "id": "311",
+    "name": "Pine Cone",
+    "displayName": {
+      "en": "Pine Cone",
+      "zh": "松果"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:PineCone_Description]",
+      "zh": "可以种出一棵松树。"
+    },
+    "type": "Crafting",
+    "category": -74,
+    "price": 5,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 311,
+      "x": 368,
+      "y": 192,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown",
+      "tree_seed_item"
+    ]
+  },
+  {
+    "id": "322",
+    "name": "Wood Fence",
+    "displayName": {
+      "en": "Wood Fence",
+      "zh": "木围栏"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:WoodFence_Description]",
+      "zh": "让小草以及动物呆在里面！"
+    },
+    "type": "Crafting",
+    "category": -8,
+    "price": 1,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 322,
+      "x": 160,
+      "y": 208,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "323",
+    "name": "Stone Fence",
+    "displayName": {
+      "en": "Stone Fence",
+      "zh": "石围栏"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:StoneFence_Description]",
+      "zh": "比木围栏更耐用。"
+    },
+    "type": "Crafting",
+    "category": -8,
+    "price": 2,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 323,
+      "x": 176,
+      "y": 208,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "324",
+    "name": "Iron Fence",
+    "displayName": {
+      "en": "Iron Fence",
+      "zh": "铁围栏"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:IronFence_Description]",
+      "zh": "比石围栏更耐用。"
+    },
+    "type": "Crafting",
+    "category": -8,
+    "price": 6,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 324,
+      "x": 192,
+      "y": 208,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "325",
+    "name": "Gate",
+    "displayName": {
+      "en": "Gate",
+      "zh": "大门"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Gate_Description]",
+      "zh": "让你有办法穿过围栏。"
+    },
+    "type": "Crafting",
+    "category": -8,
+    "price": 4,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 325,
+      "x": 208,
+      "y": 208,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "326",
+    "name": "Dwarvish Translation Guide",
+    "displayName": {
+      "en": "Dwarvish Translation Guide",
+      "zh": "矮人语教程"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:DwarvishTranslationGuide_Description]",
+      "zh": "教你矮人语。"
+    },
+    "type": "Crafting",
+    "category": -8,
+    "price": 50,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 326,
+      "x": 224,
+      "y": 208,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "328",
+    "name": "Wood Floor",
+    "displayName": {
+      "en": "Wood Floor",
+      "zh": "木地板"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:WoodFloor_Description]",
+      "zh": "放在地上修建小路，也可以装饰地板。"
+    },
+    "type": "Crafting",
+    "category": -24,
+    "price": 1,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 328,
+      "x": 256,
+      "y": 208,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "329",
+    "name": "Stone Floor",
+    "displayName": {
+      "en": "Stone Floor",
+      "zh": "石头地板"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:StoneFloor_Description]",
+      "zh": "放在地上修建小路，也可以装饰地板。"
+    },
+    "type": "Crafting",
+    "category": -24,
+    "price": 1,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 329,
+      "x": 272,
+      "y": 208,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "331",
+    "name": "Weathered Floor",
+    "displayName": {
+      "en": "Weathered Floor",
+      "zh": "风化地板"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:WeatheredFloor_Description]",
+      "zh": "放在地上修建小路，也可以装饰地板。"
+    },
+    "type": "Crafting",
+    "category": -24,
+    "price": 1,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 331,
+      "x": 304,
+      "y": 208,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "333",
+    "name": "Crystal Floor",
+    "displayName": {
+      "en": "Crystal Floor",
+      "zh": "水晶地板"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:CrystalFloor_Description]",
+      "zh": "放在地上修建小路，也可以装饰地板。"
+    },
+    "type": "Crafting",
+    "category": -24,
+    "price": 1,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 333,
+      "x": 336,
+      "y": 208,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "349",
+    "name": "Energy Tonic",
+    "displayName": {
+      "en": "Energy Tonic",
+      "zh": "能量滋补水"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:EnergyTonic_Description]",
+      "zh": "补充大量能量。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 500,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 349,
+      "x": 208,
+      "y": 224,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 200,
+    "isDrink": true,
+    "contextTags": [
+      "color_red",
+      "medicine_item"
+    ]
+  },
+  {
+    "id": "351",
+    "name": "Muscle Remedy",
+    "displayName": {
+      "en": "Muscle Remedy",
+      "zh": "肌肉回复药"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:MuscleRemedy_Description]",
+      "zh": "当你使自己的身体过度劳累时，喝下它来解除“筋疲力尽”的状态。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 500,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 351,
+      "x": 240,
+      "y": 224,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 20,
+    "isDrink": true,
+    "contextTags": [
+      "color_dark_yellow",
+      "medicine_item"
+    ]
+  },
+  {
+    "id": "395",
+    "name": "Coffee",
+    "displayName": {
+      "en": "Coffee",
+      "zh": "咖啡"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Coffee_Description]",
+      "zh": "闻上去就很好喝。它肯定能让你充满活力。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 150,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 395,
+      "x": 176,
+      "y": 256,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 1,
+    "isDrink": true,
+    "contextTags": [
+      "color_dark_brown",
+      "coffee_item"
+    ]
+  },
+  {
+    "id": "401",
+    "name": "Straw Floor",
+    "displayName": {
+      "en": "Straw Floor",
+      "zh": "稻草地板"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:StrawFloor_Description]",
+      "zh": "放在地上修建小路，也可以装饰地板。"
+    },
+    "type": "Crafting",
+    "category": -24,
+    "price": 1,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 401,
+      "x": 272,
+      "y": 256,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "403",
+    "name": "Field Snack",
+    "displayName": {
+      "en": "Field Snack",
+      "zh": "工作小食"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:FieldSnack_Description]",
+      "zh": "给饥饿的采集者迅速补充能量。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 20,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 403,
+      "x": 304,
+      "y": 256,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "color_brown"
+    ]
+  },
+  {
+    "id": "405",
+    "name": "Wood Path",
+    "displayName": {
+      "en": "Wood Path",
+      "zh": "木头小径"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:WoodPath_Description]",
+      "zh": "放在地上修建小路，也可以装饰地板。"
+    },
+    "type": "Crafting",
+    "category": -24,
+    "price": 1,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 405,
+      "x": 336,
+      "y": 256,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "407",
+    "name": "Gravel Path",
+    "displayName": {
+      "en": "Gravel Path",
+      "zh": "砾石小径"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:GravelPath_Description]",
+      "zh": "放在地上修建小路，也可以装饰地板。"
+    },
+    "type": "Crafting",
+    "category": -24,
+    "price": 1,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 407,
+      "x": 368,
+      "y": 256,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "409",
+    "name": "Crystal Path",
+    "displayName": {
+      "en": "Crystal Path",
+      "zh": "水晶小径"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:CrystalPath_Description]",
+      "zh": "放在地上修建小路，也可以装饰地板。"
+    },
+    "type": "Crafting",
+    "category": -24,
+    "price": 1,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 409,
+      "x": 16,
+      "y": 272,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "411",
+    "name": "Cobblestone Path",
+    "displayName": {
+      "en": "Cobblestone Path",
+      "zh": "鹅卵石小径"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:CobblestonePath_Description]",
+      "zh": "放在地上修建小路，也可以装饰地板。"
+    },
+    "type": "Crafting",
+    "category": -24,
+    "price": 1,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 411,
+      "x": 48,
+      "y": 272,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "415",
+    "name": "Stepping Stone Path",
+    "displayName": {
+      "en": "Stepping Stone Path",
+      "zh": "垫脚石小径"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:SteppingStonePath_Description]",
+      "zh": "放在地上修建小路，也可以装饰地板。"
+    },
+    "type": "Crafting",
+    "category": -24,
+    "price": 1,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 415,
+      "x": 112,
+      "y": 272,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "434",
+    "name": "Stardrop",
+    "displayName": {
+      "en": "Stardrop",
+      "zh": "星之果实"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stardrop_Description]",
+      "zh": "一种神秘莫测的水果，给予食用者力量。它有梦幻般的味道……给人留下十分强烈的回忆，然而只可意会不可言传。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 7777,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 434,
+      "x": 32,
+      "y": 288,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 100
+  },
+  {
+    "id": "461",
+    "name": "Decorative Pot",
+    "displayName": {
+      "en": "Decorative Pot",
+      "zh": "装饰壶"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:DecorativePot_Description]",
+      "zh": "一件古代壶的复制品。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 200,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 461,
+      "x": 80,
+      "y": 304,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "463",
+    "name": "Drum Block",
+    "displayName": {
+      "en": "Drum Block",
+      "zh": "鼓块"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:DrumBlock_Description]",
+      "zh": "走上去的时候会发出鼓声。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 100,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 463,
+      "x": 112,
+      "y": 304,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "464",
+    "name": "Flute Block",
+    "displayName": {
+      "en": "Flute Block",
+      "zh": "长笛块"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:FluteBlock_Description]",
+      "zh": "走上去的时候会发出笛子的声音。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 100,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 464,
+      "x": 128,
+      "y": 304,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "599",
+    "name": "Sprinkler",
+    "displayName": {
+      "en": "Sprinkler",
+      "zh": "洒水器"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Sprinkler_Description]",
+      "zh": "每天早上给四块邻近的土地浇水。"
+    },
+    "type": "Crafting",
+    "category": -8,
+    "price": 100,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 599,
+      "x": 368,
+      "y": 384,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "621",
+    "name": "Quality Sprinkler",
+    "displayName": {
+      "en": "Quality Sprinkler",
+      "zh": "优质洒水器"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:QualitySprinkler_Description]",
+      "zh": "每天早晨灌溉临近的 8 个地块。"
+    },
+    "type": "Crafting",
+    "category": -8,
+    "price": 450,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 621,
+      "x": 336,
+      "y": 400,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "645",
+    "name": "Iridium Sprinkler",
+    "displayName": {
+      "en": "Iridium Sprinkler",
+      "zh": "铱制洒水器"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:IridiumSprinkler_Description]",
+      "zh": "每天早晨灌溉临近的 24 个地块。"
+    },
+    "type": "Crafting",
+    "category": -8,
+    "price": 1000,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 645,
+      "x": 336,
+      "y": 416,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "681",
+    "name": "Rain Totem",
+    "displayName": {
+      "en": "Rain Totem",
+      "zh": "雨水图腾"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:RainTotem_Description]",
+      "zh": "激活后，大大增加明天下雨的概率。消耗品。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 20,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 681,
+      "x": 144,
+      "y": 448,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown",
+      "not_placeable",
+      "totem_item"
+    ]
+  },
+  {
+    "id": "688",
+    "name": "Warp Totem: Farm",
+    "displayName": {
+      "en": "Warp Totem: Farm",
+      "zh": "传送图腾：农场"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:WarpTotemFarm_Description]",
+      "zh": "直接将你传送到农场。消耗品。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 20,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 688,
+      "x": 256,
+      "y": 448,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown",
+      "not_placeable",
+      "totem_item"
+    ]
+  },
+  {
+    "id": "689",
+    "name": "Warp Totem: Mountains",
+    "displayName": {
+      "en": "Warp Totem: Mountains",
+      "zh": "传送图腾：山岭"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:WarpTotemMountains_Description]",
+      "zh": "直接将你传送到山岭。消耗品。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 20,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 689,
+      "x": 272,
+      "y": 448,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown",
+      "not_placeable",
+      "totem_item"
+    ]
+  },
+  {
+    "id": "690",
+    "name": "Warp Totem: Beach",
+    "displayName": {
+      "en": "Warp Totem: Beach",
+      "zh": "传送图腾：海滩"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:WarpTotemBeach_Description]",
+      "zh": "直接将你传送到海滩。消耗品。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 20,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 690,
+      "x": 288,
+      "y": 448,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown",
+      "not_placeable",
+      "totem_item"
+    ]
+  },
+  {
+    "id": "710",
+    "name": "Crab Pot",
+    "displayName": {
+      "en": "Crab Pot",
+      "zh": "蟹笼"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:CrabPot_Description]",
+      "zh": "放在水中，装上诱饵，隔一天再检查有没有抓到东西。可以在溪流、湖泊和大海使用。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 50,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 710,
+      "x": 224,
+      "y": 464,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown"
+    ]
+  },
+  {
+    "id": "746",
+    "name": "Jack-O-Lantern",
+    "displayName": {
+      "en": "Jack-O-Lantern",
+      "zh": "南瓜灯"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:JackOLantern_Description]",
+      "zh": "秋天的怪异装饰品。"
+    },
+    "type": "Crafting",
+    "category": -8,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 746,
+      "x": 32,
+      "y": 496,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_orange"
+    ]
+  },
+  {
+    "id": "292",
+    "name": "Mahogany Seed",
+    "displayName": {
+      "en": "Mahogany Seed",
+      "zh": "桃花心木种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:MahoganySeed_Description]",
+      "zh": "可以种出一棵桃花心木。"
+    },
+    "type": "Crafting",
+    "category": -74,
+    "price": 100,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 292,
+      "x": 64,
+      "y": 192,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown",
+      "tree_seed_item"
+    ]
+  },
+  {
+    "id": "840",
+    "name": "Rustic Plank Floor",
+    "displayName": {
+      "en": "Rustic Plank Floor",
+      "zh": "乡村木地板"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:RusticPlankFloor_Description]",
+      "zh": "放在地上修建小路，也可以装饰地板。"
+    },
+    "type": "Crafting",
+    "category": -24,
+    "price": 1,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 840,
+      "x": 0,
+      "y": 560,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "841",
+    "name": "Stone Walkway Floor",
+    "displayName": {
+      "en": "Stone Walkway Floor",
+      "zh": "石制走道地板"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:StoneWalkwayFloor_Description]",
+      "zh": "放在地上修建小路，也可以装饰地板。"
+    },
+    "type": "Crafting",
+    "category": -24,
+    "price": 1,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 841,
+      "x": 16,
+      "y": 560,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "874",
+    "name": "Bug Steak",
+    "displayName": {
+      "en": "Bug Steak",
+      "zh": "虫肉块"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:BugSteak_Description]",
+      "zh": "洞穴探险家饥饿时最后的生存手段。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 50,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 874,
+      "x": 160,
+      "y": 576,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "color_pink",
+      "meat_item"
+    ]
+  },
+  {
+    "id": "879",
+    "name": "Monster Musk",
+    "displayName": {
+      "en": "Monster Musk",
+      "zh": "怪兽香水"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:MonsterMusk_Description]",
+      "zh": "喷上这个可以吸引更多的怪物出来。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 50,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 879,
+      "x": 240,
+      "y": 576,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_purple",
+      "not_placeable",
+      "potion_item"
+    ]
+  },
+  {
+    "id": "886",
+    "name": "Warp Totem: Island",
+    "displayName": {
+      "en": "Warp Totem: Island",
+      "zh": "传送图腾：姜岛"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:WarpTotemIsland_Description]",
+      "zh": "直接将你传送到姜岛。消耗品。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 20,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 886,
+      "x": 352,
+      "y": 576,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown",
+      "not_placeable",
+      "totem_item"
+    ]
+  },
+  {
+    "id": "891",
+    "name": "Mushroom Tree Seed",
+    "displayName": {
+      "en": "Mushroom Tree Seed",
+      "zh": "蘑菇树种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:MushroomTreeSeed_Description]",
+      "zh": "把它种在你的农场上，可以种出蘑菇树。"
+    },
+    "type": "Crafting",
+    "category": -74,
+    "price": 100,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 891,
+      "x": 48,
+      "y": 592,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_red"
+    ]
+  },
+  {
+    "id": "892",
+    "name": "Warp Totem: Qi's Arena",
+    "displayName": {
+      "en": "Warp Totem: Qi's Arena",
+      "zh": "传送图腾：齐先生的场地"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:WarpTotemQisArena_Description]",
+      "zh": "传送到齐先生的场地。做好准备迎接挑战！"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 20,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 892,
+      "x": 64,
+      "y": 592,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "not_placeable",
+      "totem_item"
+    ]
+  },
+  {
+    "id": "893",
+    "name": "Fireworks (Red)",
+    "displayName": {
+      "en": "Fireworks (Red)",
+      "zh": "烟花（红色）"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:FireworksRed_Description]",
+      "zh": "一种庆祝节日和活动的传统习俗。小心燃放！"
+    },
+    "type": "Crafting",
+    "category": -8,
+    "price": 50,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 893,
+      "x": 80,
+      "y": 592,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_red"
+    ]
+  },
+  {
+    "id": "894",
+    "name": "Fireworks (Purple)",
+    "displayName": {
+      "en": "Fireworks (Purple)",
+      "zh": "烟花（紫色）"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:FireworksPurple_Description]",
+      "zh": "一种庆祝节日和活动的传统习俗。小心燃放！"
+    },
+    "type": "Crafting",
+    "category": -8,
+    "price": 50,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 894,
+      "x": 96,
+      "y": 592,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_purple"
+    ]
+  },
+  {
+    "id": "895",
+    "name": "Fireworks (Green)",
+    "displayName": {
+      "en": "Fireworks (Green)",
+      "zh": "烟花（绿色）"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:FireworksGreen_Description]",
+      "zh": "一种庆祝节日和活动的传统习俗。小心燃放！"
+    },
+    "type": "Crafting",
+    "category": -8,
+    "price": 50,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 895,
+      "x": 112,
+      "y": 592,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_green"
+    ]
+  },
+  {
+    "id": "896",
+    "name": "Galaxy Soul",
+    "displayName": {
+      "en": "Galaxy Soul",
+      "zh": "银河之魂"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:GalaxySoul_Description]",
+      "zh": "将 3 份银河之魂锻造进银河武器即可解锁最终形态。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 5000,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 896,
+      "x": 128,
+      "y": 592,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "not_placeable"
+    ]
+  },
+  {
+    "id": "911",
+    "name": "Horse Flute",
+    "displayName": {
+      "en": "Horse Flute",
+      "zh": "马笛"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:HorseFlute_Description]",
+      "zh": "吹这支笛子可以召唤出你的马，只在户外有效。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 3000,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 911,
+      "x": 368,
+      "y": 592,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "not_placeable"
+    ]
+  },
+  {
+    "id": "922",
+    "name": "SupplyCrate",
+    "displayName": {
+      "en": "SupplyCrate",
+      "zh": "补给箱"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:SupplyCrate_Description]",
+      "zh": "……"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 1,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 922,
+      "x": 160,
+      "y": 608,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "923",
+    "name": "SupplyCrate",
+    "displayName": {
+      "en": "SupplyCrate",
+      "zh": "补给箱"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:SupplyCrate_Description]",
+      "zh": "……"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 1,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 923,
+      "x": 176,
+      "y": 608,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "924",
+    "name": "SupplyCrate",
+    "displayName": {
+      "en": "SupplyCrate",
+      "zh": "补给箱"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:SupplyCrate_Description]",
+      "zh": "……"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 1,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 924,
+      "x": 192,
+      "y": 608,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "925",
+    "name": "Slime Crate",
+    "displayName": {
+      "en": "Slime Crate",
+      "zh": "史莱姆箱"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:SlimeCrate_Description]",
+      "zh": "可以用来将一只家养的史莱姆转移到其他地方。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 3000,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 925,
+      "x": 208,
+      "y": 608,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "926",
+    "name": "Cookout Kit",
+    "displayName": {
+      "en": "Cookout Kit",
+      "zh": "野炊工具"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:CookoutKit_Description]",
+      "zh": "可以生成一个用于烹饪的营火，让你随时随地都能烹饪！"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 80,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 926,
+      "x": 224,
+      "y": 608,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "927",
+    "name": "Camping Stove",
+    "displayName": {
+      "en": "Camping Stove",
+      "zh": "野营灶"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:CampingStove_Description]",
+      "zh": "让你可以随处烹饪，可多次使用。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 1,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 927,
+      "x": 240,
+      "y": 608,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "929",
+    "name": "Hedge",
+    "displayName": {
+      "en": "Hedge",
+      "zh": "树篱"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Hedge_Description]",
+      "zh": "造型灌木，可当作围栏使用。"
+    },
+    "type": "Crafting",
+    "category": -8,
+    "price": 10,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 929,
+      "x": 272,
+      "y": 608,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "MossySeed",
+    "name": "Mossy Seed",
+    "displayName": {
+      "en": "Mossy Seed",
+      "zh": "长满苔藓的种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:MossySeed_Description]",
+      "zh": "可以种出稀有的野树。"
+    },
+    "type": "Crafting",
+    "category": -74,
+    "price": 100,
+    "sprite": {
+      "texture": "TileSheets/Objects_2",
+      "index": 39,
+      "x": 240,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "TentKit",
+    "name": "Tent Kit",
+    "displayName": {
+      "en": "Tent Kit",
+      "zh": "便携帐篷"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:TentKit_Description]",
+      "zh": "可以放置一顶一次性帐篷用来睡觉，只能在户外使用。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 200,
+    "sprite": {
+      "texture": "TileSheets/Objects_2",
+      "index": 59,
+      "x": 176,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown"
+    ]
+  },
+  {
+    "id": "MysticTreeSeed",
+    "name": "Mystic Tree Seed",
+    "displayName": {
+      "en": "Mystic Tree Seed",
+      "zh": "神秘树种"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:MysticTreeSeed_Description]",
+      "zh": "可以种出特别的树。"
+    },
+    "type": "Crafting",
+    "category": -74,
+    "price": 100,
+    "sprite": {
+      "texture": "TileSheets/Objects_2",
+      "index": 61,
+      "x": 208,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "TreasureTotem",
+    "name": "Treasure Totem",
+    "displayName": {
+      "en": "Treasure Totem",
+      "zh": "宝藏图腾"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:TreasureTotem_Description]",
+      "zh": "在可挖掘的地形上使用即可召唤一圈宝藏挖掘点。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 20,
+    "sprite": {
+      "texture": "TileSheets/Objects_2",
+      "index": 71,
+      "x": 368,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown",
+      "not_placeable",
+      "totem_item"
+    ]
+  },
+  {
+    "id": "BlueGrassStarter",
+    "name": "Blue Grass Starter",
+    "displayName": {
+      "en": "Blue Grass Starter",
+      "zh": "蓝色草籽"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:BlueGrassStarter_Description]",
+      "zh": "播撒在农场上即可种出蓝色草丛。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 50,
+    "sprite": {
+      "texture": "TileSheets/Objects_2",
+      "index": 143,
+      "x": 368,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_blue",
+      "use_reverse_name_for_sorting"
+    ]
+  },
+  {
+    "id": "MNF.MoreNewFish_fishing_elixir",
+    "name": "MNF.MoreNewFish_fishing_elixir",
+    "displayName": {
+      "en": "MNF.MoreNewFish_fishing_elixir",
+      "zh": "渔夫药水"
+    },
+    "description": {
+      "en": "一种神奇的药水，能让你一整天都拥有史上最强的渔民流传下来的智慧。",
+      "zh": "一种神奇的药水，能让你一整天都拥有史上最强的渔民流传下来的智慧。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 2500,
+    "sprite": {
+      "texture": "Mods/MNF.MoreNewFish/Objects/Objects",
+      "index": 61,
+      "x": 208,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "isDrink": true,
+    "contextTags": [
+      "potion_item"
+    ]
+  },
+  {
+    "id": "MNF.MoreNewFish_warrior_elixir",
+    "name": "MNF.MoreNewFish_warrior_elixir",
+    "displayName": {
+      "en": "MNF.MoreNewFish_warrior_elixir",
+      "zh": "战士药水"
+    },
+    "description": {
+      "en": "口感非常恶心，但是喝了之后你会感到自己变得很强。",
+      "zh": "口感非常恶心，但是喝了之后你会感到自己变得很强。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 2500,
+    "sprite": {
+      "texture": "Mods/MNF.MoreNewFish/Objects/Objects",
+      "index": 62,
+      "x": 224,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "isDrink": true,
+    "contextTags": [
+      "potion_item"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Aegis_Elixir",
+    "name": "Aegis Elixir",
+    "displayName": {
+      "en": "Aegis Elixir",
+      "zh": "宙斯盾药水"
+    },
+    "description": {
+      "en": "让在短时间内对伤害免疫。可以与急速药水的效果叠加。",
+      "zh": "让在短时间内对伤害免疫。可以与急速药水的效果叠加。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 12000,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Aegis Elixir",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 1
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Armor_Elixir",
+    "name": "Armor Elixir",
+    "displayName": {
+      "en": "Armor Elixir",
+      "zh": "护甲药水"
+    },
+    "description": {
+      "en": "强化你的身体。可与急速药水的效果堆叠。",
+      "zh": "强化你的身体。可与急速药水的效果堆叠。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 2000,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Armor Elixir",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 2,
+    "contextTags": [
+      "color_green",
+      "potion_item"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Barbarian_Elixir",
+    "name": "Barbarian Elixir",
+    "displayName": {
+      "en": "Barbarian Elixir",
+      "zh": "野蛮人药水"
+    },
+    "description": {
+      "en": "激发使用者的野蛮力量。",
+      "zh": "激发使用者的野蛮力量。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 10000,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Barbarian Elixir",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 1
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Gravity_Elixir",
+    "name": "Gravity Elixir",
+    "displayName": {
+      "en": "Gravity Elixir",
+      "zh": "引力药水"
+    },
+    "description": {
+      "en": "大大增加你吸引物体的半径。效果持续到下次日出前，能与攻击和护甲药水叠加。",
+      "zh": "大大增加你吸引物体的半径。效果持续到下次日出前，能与攻击和护甲药水叠加。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 1500,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Gravity Elixir",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 1,
+    "isDrink": true
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Haste_Elixir",
+    "name": "Haste Elixir",
+    "displayName": {
+      "en": "Haste Elixir",
+      "zh": "急速药水"
+    },
+    "description": {
+      "en": "让你感觉健步如飞，效果可与攻击和护甲药水叠加。",
+      "zh": "让你感觉健步如飞，效果可与攻击和护甲药水叠加。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 2000,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Haste Elixir",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 2,
+    "isDrink": true,
+    "contextTags": [
+      "color_blue",
+      "potion_item"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Hero_Elixir",
+    "name": "Hero Elixir",
+    "displayName": {
+      "en": "Hero Elixir",
+      "zh": "英雄药水"
+    },
+    "description": {
+      "en": "给予你英雄般的勇气与无畏，可与急速药水的效果叠加。",
+      "zh": "给予你英雄般的勇气与无畏，可与急速药水的效果叠加。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 2650,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Hero Elixir",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 2,
+    "contextTags": [
+      "color_red",
+      "potion_item"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Lightning_Elixir",
+    "name": "Lightning Elixir",
+    "displayName": {
+      "en": "Lightning Elixir",
+      "zh": "闪电药水"
+    },
+    "description": {
+      "en": "让你在一分钟内跑得非常快。效果与攻击和护甲药水叠加。",
+      "zh": "让你在一分钟内跑得非常快。效果与攻击和护甲药水叠加。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 5000,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Lightning Elixir",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 1,
+    "isDrink": true
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Birch_Seed",
+    "name": "Birch Seed",
+    "displayName": {
+      "en": "Birch Seed",
+      "zh": "桦树种子"
+    },
+    "description": {
+      "en": "这可以用来种植桦树。",
+      "zh": "这可以用来种植桦树。"
+    },
+    "type": "Crafting",
+    "category": -74,
+    "price": 5,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Birch Seed",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown",
+      "tree_seed_item"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Fir_Cone",
+    "name": "Fir Cone",
+    "displayName": {
+      "en": "Fir Cone",
+      "zh": "冷杉果"
+    },
+    "description": {
+      "en": "这可以用来种植冷杉树。",
+      "zh": "这可以用来种植冷杉树。"
+    },
+    "type": "Crafting",
+    "category": -74,
+    "price": 5,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Fir Cone",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown",
+      "tree_seed_item"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Seed_Cookie",
+    "name": "Seed Cookie",
+    "displayName": {
+      "en": "Seed Cookie",
+      "zh": "种子饼干"
+    },
+    "description": {
+      "en": "营养丰富、香脆可口的美食，可补充能量。",
+      "zh": "营养丰富、香脆可口的美食，可补充能量。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 35,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Seed Cookie",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 30,
+    "contextTags": [
+      "color_brown"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Small_Hardwood_Fence_Tilesheet",
+    "name": "Small Hardwood Fence",
+    "displayName": {
+      "en": "Small Hardwood Fence",
+      "zh": "小硬木围栏"
+    },
+    "description": {
+      "en": "“硬木围栏”的替代设计。",
+      "zh": "“硬木围栏”的替代设计。"
+    },
+    "type": "Crafting",
+    "category": -8,
+    "price": 8,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Small Hardwood Fence",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Hedge_Fence_Tilesheet",
+    "name": "Hedge Fence",
+    "displayName": {
+      "en": "Hedge Fence",
+      "zh": "树篱围栏"
+    },
+    "description": {
+      "en": "持续时间较长，并随季节变化。",
+      "zh": "持续时间较长，并随季节变化。"
+    },
+    "type": "Crafting",
+    "category": -8,
+    "price": 8,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Hedge Fence",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Marsh_Tonic",
+    "name": "Marsh Tonic",
+    "displayName": {
+      "en": "Marsh Tonic",
+      "zh": "沼泽滋补水"
+    },
+    "description": {
+      "en": "闻起来像潮湿的泥土。能增强攻击、速度和防御。",
+      "zh": "闻起来像潮湿的泥土。能增强攻击、速度和防御。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 750,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Marsh Tonic",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "isDrink": true,
+    "contextTags": [
+      "potion_item",
+      "color_purple"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Bombardier_Elixir",
+    "name": "Bombardier Elixir",
+    "displayName": {
+      "en": "Bombardier Elixir",
+      "zh": "投弹手药水"
+    },
+    "description": {
+      "en": "闻起来像火药。大幅提高爆炸、弹弓、格挡和低伤害武器的威力。无法与速度增益叠加。",
+      "zh": "闻起来像火药。大幅提高爆炸、弹弓、格挡和低伤害武器的威力。无法与速度增益叠加。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 5000,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Bombardier Elixir",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "isDrink": true,
+    "contextTags": [
+      "potion_item",
+      "color_orange"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Wind_Totem",
+    "name": "Wind Totem",
+    "displayName": {
+      "en": "Wind Totem",
+      "zh": "微风图腾"
+    },
+    "description": {
+      "en": "激活可大大增加明天有风的机会。冬天没有效果。消耗品。",
+      "zh": "激活可大大增加明天有风的机会。冬天没有效果。消耗品。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 30,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Wind Totem",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown",
+      "not_placeable",
+      "totem_item"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Sun_Totem",
+    "name": "Sun Totem",
+    "displayName": {
+      "en": "Sun Totem",
+      "zh": "太阳图腾"
+    },
+    "description": {
+      "en": "激活可大大增加明天晴天的机会。消耗品。",
+      "zh": "激活可大大增加明天晴天的机会。消耗品。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 30,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Sun Totem",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown",
+      "not_placeable",
+      "totem_item"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_WarpTotemSunberry",
+    "name": "skellady.SBVCP_WarpTotemSunberry",
+    "displayName": {
+      "en": "skellady.SBVCP_WarpTotemSunberry",
+      "zh": "传送图腾：阳莓村"
+    },
+    "description": {
+      "en": "直接将你传送到阳莓村。消耗品。",
+      "zh": "直接将你传送到阳莓村。消耗品。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 20,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/MiscItems",
+      "index": 21,
+      "x": 336,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "not_placeable",
+      "totem_item"
+    ]
+  },
+  {
+    "id": "EastScarp_Scarp_Warp_Totem",
+    "name": "EastScarp_Scarp_Warp_Totem",
+    "displayName": {
+      "en": "EastScarp_Scarp_Warp_Totem",
+      "zh": "东斯卡普传送图腾"
+    },
+    "description": {
+      "en": "传送到东斯卡普的图腾！",
+      "zh": "传送到东斯卡普的图腾！"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 20,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 21,
+      "x": 336,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown",
+      "not_placeable",
+      "totem_item"
+    ]
+  },
+  {
+    "id": "Lemurkat.EastScarp_GlassTile",
+    "name": "Lemurkat.EastScarp_GlassTile",
+    "displayName": {
+      "en": "Lemurkat.EastScarp_GlassTile",
+      "zh": "玻璃小径"
+    },
+    "description": {
+      "en": "放置在地上铺设道路或者美化地面。",
+      "zh": "放置在地上铺设道路或者美化地面。"
+    },
+    "type": "Crafting",
+    "category": -24,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 100,
+      "x": 64,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "DN.SnS_TeleportCircle",
+    "name": "DN.SnS_TeleportCircle",
+    "displayName": {
+      "en": "DN.SnS_TeleportCircle",
+      "zh": "传送法阵"
+    },
+    "description": {
+      "en": "传送法阵的核心符文。",
+      "zh": "传送法阵的核心符文。"
+    },
+    "type": "Crafting",
+    "category": -24,
+    "price": 0,
+    "sprite": {
+      "texture": "Textures/DN.SnS/TeleportCircle",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "DN.SnS_farafieldsnack",
+    "name": "DN.SnS_farafieldsnack",
+    "displayName": {
+      "en": "DN.SnS_farafieldsnack",
+      "zh": "远方小吃"
+    },
+    "description": {
+      "en": "烹饪受污染的食物竟意外地做出了美味的小吃！",
+      "zh": "烹饪受污染的食物竟意外地做出了美味的小吃！"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 100,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 118,
+      "x": 352,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 150,
+    "contextTags": [
+      "color_dark_cyan"
+    ]
+  },
+  {
+    "id": "DN.SnS_mushroomtreeseed",
+    "name": "DN.SnS_mushroomtreeseed",
+    "displayName": {
+      "en": "DN.SnS_mushroomtreeseed",
+      "zh": "暗色腐化蘑菇树种子"
+    },
+    "description": {
+      "en": "可长出一棵暗色蘑菇树",
+      "zh": "可长出一棵暗色蘑菇树"
+    },
+    "type": "Crafting",
+    "category": -74,
+    "price": 100,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 114,
+      "x": 288,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Lumisteria.MtVapius_BlackChanterelleTreeSeed",
+    "name": "Black Chanterelle Tree Seed",
+    "displayName": {
+      "en": "Black Chanterelle Tree Seed",
+      "zh": "灰喇叭菌树种子"
+    },
+    "description": {
+      "en": "一种带有异常大小孢子的灰喇叭菌，据说能长出参天巨型蘑菇树。",
+      "zh": "一种带有异常大小孢子的灰喇叭菌，据说能长出参天巨型蘑菇树。"
+    },
+    "type": "Crafting",
+    "category": -74,
+    "price": 432,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Forage",
+      "index": 10,
+      "x": 160,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_forage",
+      "mushroom_item",
+      "preserves_pickle",
+      "color_black"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_OwlCarving",
+    "name": "Lumisteria.MtVapius_OwlCarving",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_OwlCarving",
+      "zh": "猫头鹰雕刻"
+    },
+    "description": {
+      "en": "精美的木雕。直接将你传送到雾呜山峰的珀光小区。消耗品。",
+      "zh": "精美的木雕。直接将你传送到雾呜山峰的珀光小区。消耗品。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 145,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Objects",
+      "index": 17,
+      "x": 272,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown",
+      "mt_vapius",
+      "not_placeable",
+      "totem_item"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_JunimoCarving",
+    "name": "Lumisteria.MtVapius_JunimoCarving",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_JunimoCarving",
+      "zh": "祝尼魔雕像"
+    },
+    "description": {
+      "en": "精美的木雕。使用后可传送至雾呜山峰的森林中心。消耗品。",
+      "zh": "精美的木雕。使用后可传送至雾呜山峰的森林中心。消耗品。"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 300,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Objects",
+      "index": 18,
+      "x": 288,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown",
+      "mt_vapius",
+      "not_placeable",
+      "totem_item"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_RiverSteppingStones",
+    "name": "River Stepping Stones",
+    "displayName": {
+      "en": "River Stepping Stones",
+      "zh": "河流踏脚石小径"
+    },
+    "description": {
+      "en": "来自河流的扁平石头。放在地上修建小路，也可以装饰地板。",
+      "zh": "来自河流的扁平石头。放在地上修建小路，也可以装饰地板。"
+    },
+    "type": "Crafting",
+    "category": -24,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Decor",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Lumisteria.MtVapius_Planks",
+    "name": "Planks",
+    "displayName": {
+      "en": "Planks",
+      "zh": "河流踏脚石小径"
+    },
+    "description": {
+      "en": "来自河流的扁平石头。放在地上修建小路，也可以装饰地板。",
+      "zh": "来自河流的扁平石头。放在地上修建小路，也可以装饰地板。"
+    },
+    "type": "Crafting",
+    "category": -24,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Decor",
+      "index": 1,
+      "x": 16,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Lumisteria.MtVapius_ConnectedPlanks",
+    "name": "Connected Planks",
+    "displayName": {
+      "en": "Connected Planks",
+      "zh": "河流踏脚石小径"
+    },
+    "description": {
+      "en": "来自河流的扁平石头。放在地上修建小路，也可以装饰地板。",
+      "zh": "来自河流的扁平石头。放在地上修建小路，也可以装饰地板。"
+    },
+    "type": "Crafting",
+    "category": -24,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Decor",
+      "index": 2,
+      "x": 32,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Cornucopia_CinnamonSticksSapling",
+    "name": "Cornucopia_CinnamonSticksSapling",
+    "displayName": {
+      "en": "Cornucopia_CinnamonSticksSapling",
+      "zh": "肉桂树苗"
+    },
+    "description": {
+      "en": "28天后长成肉桂树。冬天收获。只有周围的8块\"地块\"为空时才会生长。",
+      "zh": "28天后长成肉桂树。冬天收获。只有周围的8块\"地块\"为空时才会生长。"
+    },
+    "type": "Crafting",
+    "category": -74,
+    "price": 1500,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 399,
+      "x": 240,
+      "y": 256,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "cornucopia_fruittree_sapling",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_herbs",
+      "cornucopia_shop_pierre",
+      "modid_cornucopia.morecrops"
+    ]
+  },
+  {
+    "id": "TenebrousNova.EliDylan.CP_ChaosTotem",
+    "name": "TenebrousNova.EliDylan.CP_ChaosTotem",
+    "displayName": {
+      "en": "TenebrousNova.EliDylan.CP_ChaosTotem",
+      "zh": "传送图腾:混沌"
+    },
+    "description": {
+      "en": "一个测试阶段的传送图腾，传送方位随机。警告：请谨慎使用！",
+      "zh": "一个测试阶段的传送图腾，传送方位随机。警告：请谨慎使用！"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 250,
+    "sprite": {
+      "texture": "Mods/EnD/Objects",
+      "index": 30,
+      "x": 96,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "not_placeable",
+      "totem_item"
+    ]
+  },
+  {
+    "id": "TenebrousNova.EliDylan.CP_JunimoTotem",
+    "name": "TenebrousNova.EliDylan.CP_JunimoTotem",
+    "displayName": {
+      "en": "TenebrousNova.EliDylan.CP_JunimoTotem",
+      "zh": "传送图腾:古老森林"
+    },
+    "description": {
+      "en": "一个能将你传送到古老森林的传送图腾",
+      "zh": "一个能将你传送到古老森林的传送图腾"
+    },
+    "type": "Crafting",
+    "category": 0,
+    "price": 250,
+    "sprite": {
+      "texture": "Mods/EnD/Objects",
+      "index": 31,
+      "x": 112,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "not_placeable",
+      "totem_item"
+    ]
+  }
+]

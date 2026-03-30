@@ -1,0 +1,25 @@
+[
+  {
+    "id": "MNF.MoreNewFish_i_voted_sticker",
+    "name": "MNF.MoreNewFish_duff",
+    "displayName": {
+      "en": "MNF.MoreNewFish_duff",
+      "zh": "“我投票了”贴纸"
+    },
+    "description": {
+      "en": "你投票了的证据。",
+      "zh": "你投票了的证据。"
+    },
+    "type": "Trash",
+    "category": -20,
+    "price": 15,
+    "sprite": {
+      "texture": "Mods/MNF.MoreNewFish/Objects/Objects",
+      "index": 141,
+      "x": 336,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    }
+  }
+]

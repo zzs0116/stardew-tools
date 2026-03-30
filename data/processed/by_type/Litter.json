@@ -1,0 +1,3311 @@
+[
+  {
+    "id": "0",
+    "name": "Weeds",
+    "displayName": {
+      "en": "Weeds",
+      "zh": "杂草"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Weeds_Description]",
+      "zh": "一束令人讨厌的野草。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "2",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "Diamond Stone"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:DiamondStone_Description]",
+      "zh": "Break apart to obtain diamonds."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 2,
+      "x": 32,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "4",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "Ruby Stone"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:RubyStone_Description]",
+      "zh": "Break apart to obtain rubies."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 4,
+      "x": 64,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "6",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "Jade Stone"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:JadeStone_Description]",
+      "zh": "Break apart to obtain jade."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 6,
+      "x": 96,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "8",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "Amethyst Stone"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:AmethystStone_Description]",
+      "zh": "Break apart to obtain amethysts."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 8,
+      "x": 128,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "10",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "Topaz Stone"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:TopazStone_Description]",
+      "zh": "Break apart to obtain topaz."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 10,
+      "x": 160,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "12",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "Emerald Stone"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:EmeraldStone_Description]",
+      "zh": "Break apart to obtain emeralds."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 12,
+      "x": 192,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "14",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "Aquamarine Stone"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:AquamarineStone_Description]",
+      "zh": "Break apart to obtain aquamarines."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 14,
+      "x": 224,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "32",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Node_Description]",
+      "zh": "Break apart to obtain stone, ores, or geodes."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 32,
+      "x": 128,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "34",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Node_Description]",
+      "zh": "Break apart to obtain stone, ores, or geodes."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 34,
+      "x": 160,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "36",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Node_Description]",
+      "zh": "Break apart to obtain stone, ores, or geodes."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 36,
+      "x": 192,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "38",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Node_Description]",
+      "zh": "Break apart to obtain stone, ores, or geodes."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 38,
+      "x": 224,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "40",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Node_Description]",
+      "zh": "Break apart to obtain stone, ores, or geodes."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 40,
+      "x": 256,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "42",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Node_Description]",
+      "zh": "Break apart to obtain stone, ores, or geodes."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 42,
+      "x": 288,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "44",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "Gem Stone"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:GemStone_Description]",
+      "zh": "Break apart to obtain stone, ores, or geodes."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 44,
+      "x": 320,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "46",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "Mystic Stone"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:MysticStone_Description]",
+      "zh": "Break apart to obtain stone, ores, or geodes."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 46,
+      "x": 352,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "48",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "Snowy Stone"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:SnowyStone_Description]",
+      "zh": "Break apart to obtain stone, ores, or geodes."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 48,
+      "x": 0,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "50",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "Snowy Stone"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:SnowyStone_Description]",
+      "zh": "Break apart to obtain stone, ores, or geodes."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 50,
+      "x": 32,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "52",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "Snowy Stone"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:SnowyStone_Description]",
+      "zh": "Break apart to obtain stone, ores, or geodes."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 52,
+      "x": 64,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "54",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "Snowy Stone"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:SnowyStone_Description]",
+      "zh": "Break apart to obtain stone, ores, or geodes."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 54,
+      "x": 96,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "56",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "Snowy Stone"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:SnowyStone_Description]",
+      "zh": "Break apart to obtain stone, ores, or geodes."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 56,
+      "x": 128,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "58",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "Snowy Stone"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:SnowyStone_Description]",
+      "zh": "Break apart to obtain stone, ores, or geodes."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 58,
+      "x": 160,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "75",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "Geode Stone"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:GeodeStone_Description]",
+      "zh": "Break apart to obtain geodes."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 75,
+      "x": 48,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "76",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "Frozen Geode Stone"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:FrozenGeodeStone_Description]",
+      "zh": "Break apart to obtain frozen geodes."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 76,
+      "x": 64,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "77",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "Magma Geode Stone"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:MagmaGeodeStone_Description]",
+      "zh": "Break apart to obtain magma geodes."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 77,
+      "x": 80,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "95",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "Radioactive Stone"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:RadioactiveStone_Description]",
+      "zh": "含有放射性矿石。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 95,
+      "x": 368,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "290",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "Iron Stone"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:IronStone_Description]",
+      "zh": "Break apart to obtain iron ore."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 290,
+      "x": 32,
+      "y": 192,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "294",
+    "name": "Twig",
+    "displayName": {
+      "en": "Twig",
+      "zh": "嫩枝"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Twig_Description]",
+      "zh": "A broken branch. Chop with an axe to obtain wood."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 294,
+      "x": 96,
+      "y": 192,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "295",
+    "name": "Twig",
+    "displayName": {
+      "en": "Twig",
+      "zh": "嫩枝"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Twig_Description]",
+      "zh": "A broken branch. Chop with an axe to obtain wood."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 295,
+      "x": 112,
+      "y": 192,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "313",
+    "name": "Weeds",
+    "displayName": {
+      "en": "Weeds",
+      "zh": "杂草"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Description]",
+      "zh": "Might contain fibers or mixed seeds."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 313,
+      "x": 16,
+      "y": 208,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "314",
+    "name": "Weeds",
+    "displayName": {
+      "en": "Weeds",
+      "zh": "杂草"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Description]",
+      "zh": "Might contain fibers or mixed seeds."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 314,
+      "x": 32,
+      "y": 208,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "315",
+    "name": "Weeds",
+    "displayName": {
+      "en": "Weeds",
+      "zh": "杂草"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Description]",
+      "zh": "Might contain fibers or mixed seeds."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 315,
+      "x": 48,
+      "y": 208,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "316",
+    "name": "Weeds",
+    "displayName": {
+      "en": "Weeds",
+      "zh": "杂草"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Description]",
+      "zh": "Might contain fibers or mixed seeds."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 316,
+      "x": 64,
+      "y": 208,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "317",
+    "name": "Weeds",
+    "displayName": {
+      "en": "Weeds",
+      "zh": "杂草"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Description]",
+      "zh": "Might contain fibers or mixed seeds."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 317,
+      "x": 80,
+      "y": 208,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "318",
+    "name": "Weeds",
+    "displayName": {
+      "en": "Weeds",
+      "zh": "杂草"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Description]",
+      "zh": "Might contain fibers or mixed seeds."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 318,
+      "x": 96,
+      "y": 208,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "319",
+    "name": "Weeds",
+    "displayName": {
+      "en": "Weeds",
+      "zh": "Ice Crystal"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:IceCrystal_Description]",
+      "zh": "Might contain fibers or mixed seeds."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 319,
+      "x": 112,
+      "y": 208,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "320",
+    "name": "Weeds",
+    "displayName": {
+      "en": "Weeds",
+      "zh": "Ice Crystal"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:IceCrystal_Description]",
+      "zh": "Might contain fibers or mixed seeds."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 320,
+      "x": 128,
+      "y": 208,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "321",
+    "name": "Weeds",
+    "displayName": {
+      "en": "Weeds",
+      "zh": "Ice Crystal"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:IceCrystal_Description]",
+      "zh": "Might contain fibers or mixed seeds."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 321,
+      "x": 144,
+      "y": 208,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "343",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_NodeStoneOnly_Description]",
+      "zh": "Break apart to obtain stone."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 343,
+      "x": 112,
+      "y": 224,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "450",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_NodeStoneOnly_Description]",
+      "zh": "Break apart to obtain stone."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 450,
+      "x": 288,
+      "y": 288,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "452",
+    "name": "Weeds",
+    "displayName": {
+      "en": "Weeds",
+      "zh": "杂草"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Weeds_DryBush_Description]",
+      "zh": "一簇干燥、老灌木丛。 Might contain fibers or mixed seeds."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 452,
+      "x": 320,
+      "y": 288,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "668",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_NodeWithCoal_Description]",
+      "zh": "Break apart to obtain stone with a chance of coal."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 668,
+      "x": 320,
+      "y": 432,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "670",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_NodeWithCoal_Description]",
+      "zh": "Break apart to obtain stone with a chance of coal."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 670,
+      "x": 352,
+      "y": 432,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "674",
+    "name": "Weeds",
+    "displayName": {
+      "en": "Weeds",
+      "zh": "杂草"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Ugly_Description]",
+      "zh": "一束令人讨厌的野草。 Might contain fibers or mixed seeds."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 674,
+      "x": 32,
+      "y": 448,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "675",
+    "name": "Weeds",
+    "displayName": {
+      "en": "Weeds",
+      "zh": "杂草"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Ugly_Description]",
+      "zh": "一束令人讨厌的野草。 Might contain fibers or mixed seeds."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 675,
+      "x": 48,
+      "y": 448,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "676",
+    "name": "Weeds",
+    "displayName": {
+      "en": "Weeds",
+      "zh": "杂草"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Ugly_Description]",
+      "zh": "一束令人讨厌的野草。 Might contain fibers or mixed seeds."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 676,
+      "x": 64,
+      "y": 448,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "677",
+    "name": "Weeds",
+    "displayName": {
+      "en": "Weeds",
+      "zh": "杂草"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Ugly_Description]",
+      "zh": "一束令人讨厌的野草。 Might contain fibers or mixed seeds."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 677,
+      "x": 80,
+      "y": 448,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "678",
+    "name": "Weeds",
+    "displayName": {
+      "en": "Weeds",
+      "zh": "杂草"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Ugly_Description]",
+      "zh": "一束令人讨厌的野草。 Might contain fibers or mixed seeds."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 678,
+      "x": 96,
+      "y": 448,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "679",
+    "name": "Weeds",
+    "displayName": {
+      "en": "Weeds",
+      "zh": "杂草"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Ugly_Description]",
+      "zh": "一束令人讨厌的野草。 Might contain fibers or mixed seeds."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 679,
+      "x": 112,
+      "y": 448,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "750",
+    "name": "Weeds",
+    "displayName": {
+      "en": "Weeds",
+      "zh": "杂草"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Ugly_Description]",
+      "zh": "一束令人讨厌的野草。 Might contain fibers or mixed seeds."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 750,
+      "x": 96,
+      "y": 496,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "751",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "Copper Stone"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:CopperStone_Description]",
+      "zh": "这块石头里面有铜矿。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 751,
+      "x": 112,
+      "y": 496,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "760",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Node_Description]",
+      "zh": "Break apart to obtain stone, ores, or geodes."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 760,
+      "x": 256,
+      "y": 496,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "762",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Node_Description]",
+      "zh": "Break apart to obtain stone, ores, or geodes."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 762,
+      "x": 288,
+      "y": 496,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "764",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "Gold Stone"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:GoldStone_Description]",
+      "zh": "Break apart to obtain gold ore."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 764,
+      "x": 320,
+      "y": 496,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "765",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "Iridium Stone"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:IridiumStone_Description]",
+      "zh": "Break apart to obtain iridium ore."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 765,
+      "x": 336,
+      "y": 496,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "784",
+    "name": "Weeds",
+    "displayName": {
+      "en": "Weeds",
+      "zh": "杂草"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Ugly_Description]",
+      "zh": "一束令人讨厌的野草。 Might contain fibers or mixed seeds."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 784,
+      "x": 256,
+      "y": 512,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "785",
+    "name": "Weeds",
+    "displayName": {
+      "en": "Weeds",
+      "zh": "杂草"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Ugly_Description]",
+      "zh": "一束令人讨厌的野草。 Might contain fibers or mixed seeds."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 785,
+      "x": 272,
+      "y": 512,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "786",
+    "name": "Weeds",
+    "displayName": {
+      "en": "Weeds",
+      "zh": "杂草"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Ugly_Description]",
+      "zh": "一束令人讨厌的野草。 Might contain fibers or mixed seeds."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 786,
+      "x": 288,
+      "y": 512,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "792",
+    "name": "Weeds",
+    "displayName": {
+      "en": "Weeds",
+      "zh": "杂草"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Weeds_Fiber_Ugly_Description]",
+      "zh": "一束令人讨厌的野草。 Cut to obtain wild seeds."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 792,
+      "x": 0,
+      "y": 528,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "793",
+    "name": "Weeds",
+    "displayName": {
+      "en": "Weeds",
+      "zh": "杂草"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Weeds_Fiber_Ugly_Description]",
+      "zh": "一束令人讨厌的野草。 Cut to obtain wild seeds."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 793,
+      "x": 16,
+      "y": 528,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "794",
+    "name": "Weeds",
+    "displayName": {
+      "en": "Weeds",
+      "zh": "杂草"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Weeds_Fiber_Ugly_Description]",
+      "zh": "一束令人讨厌的野草。 Cut to obtain wild seeds."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 794,
+      "x": 32,
+      "y": 528,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "25",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "Mussel Stone"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:MusselStone_Description]",
+      "zh": "这石头里面有贻贝。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 25,
+      "x": 16,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "816",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "Fossil Stone"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:FossilStone_Description]",
+      "zh": "Break apart to obtain fossils and bones."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 816,
+      "x": 0,
+      "y": 544,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "817",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "Fossil Stone"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:FossilStone_Description]",
+      "zh": "Break apart to obtain fossils and bones."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 817,
+      "x": 16,
+      "y": 544,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "818",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "Clay Stone"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:ClayStone_Description]",
+      "zh": "Break apart to obtain clay."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 818,
+      "x": 32,
+      "y": 544,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "819",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "Omni Geode Stone"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:OmniGeodeStone_Description]",
+      "zh": "Break apart to obtain omni geodes."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 819,
+      "x": 48,
+      "y": 544,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "843",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "Cinder Shard Stone"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:CinderShardStone_Description]",
+      "zh": "Break apart to obtain cinder shards."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 843,
+      "x": 48,
+      "y": 560,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "844",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "Cinder Shard Stone"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:CinderShardStone_Description]",
+      "zh": "Break apart to obtain cinder shards."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 844,
+      "x": 64,
+      "y": 560,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "845",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_NodeWithCoal_Description]",
+      "zh": "Break apart to obtain stone with a chance of coal."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 845,
+      "x": 80,
+      "y": 560,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "846",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_NodeWithCoal_Description]",
+      "zh": "Break apart to obtain stone with a chance of coal."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 846,
+      "x": 96,
+      "y": 560,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "847",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_NodeWithCoal_Description]",
+      "zh": "Break apart to obtain stone with a chance of coal."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 847,
+      "x": 112,
+      "y": 560,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "849",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "Copper Stone"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:CopperStone_Description]",
+      "zh": "这块石头里面有铜矿。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 849,
+      "x": 144,
+      "y": 560,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "850",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "Iron Stone"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:IronStone_Description]",
+      "zh": "Break apart to obtain iron ore."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 850,
+      "x": 160,
+      "y": 560,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "882",
+    "name": "Weeds",
+    "displayName": {
+      "en": "Weeds",
+      "zh": "杂草"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Description]",
+      "zh": "Might contain fibers or mixed seeds."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 882,
+      "x": 288,
+      "y": 576,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "883",
+    "name": "Weeds",
+    "displayName": {
+      "en": "Weeds",
+      "zh": "杂草"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Description]",
+      "zh": "Might contain fibers or mixed seeds."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 883,
+      "x": 304,
+      "y": 576,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "884",
+    "name": "Weeds",
+    "displayName": {
+      "en": "Weeds",
+      "zh": "杂草"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Weeds_FiberOrMixedSeeds_Description]",
+      "zh": "Might contain fibers or mixed seeds."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 884,
+      "x": 320,
+      "y": 576,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "CalicoEggStone_0",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "卡利科三花石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:CalicoEggStone_Description]",
+      "zh": "砸开即可获得卡利科三花蛋。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "TileSheets/Objects_2",
+      "index": 10,
+      "x": 160,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "CalicoEggStone_1",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "卡利科三花石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:CalicoEggStone_Description]",
+      "zh": "砸开即可获得卡利科三花蛋。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "TileSheets/Objects_2",
+      "index": 11,
+      "x": 176,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "CalicoEggStone_2",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "卡利科三花石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:CalicoEggStone_Description]",
+      "zh": "砸开即可获得卡利科三花蛋。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "TileSheets/Objects_2",
+      "index": 12,
+      "x": 192,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "GreenRainWeeds0",
+    "name": "GreenRainWeeds0",
+    "displayName": {
+      "en": "GreenRainWeeds0",
+      "zh": "绿雨杂草"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:GreenRainWeeds_Description]",
+      "zh": "可能含有纤维或混合种子。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "TileSheets/Objects_2",
+      "index": 40,
+      "x": 256,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "GreenRainWeeds1",
+    "name": "GreenRainWeeds1",
+    "displayName": {
+      "en": "GreenRainWeeds1",
+      "zh": "绿雨杂草"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:GreenRainWeeds_Description]",
+      "zh": "可能含有纤维或混合种子。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "TileSheets/Objects_2",
+      "index": 41,
+      "x": 272,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "GreenRainWeeds2",
+    "name": "GreenRainWeeds2",
+    "displayName": {
+      "en": "GreenRainWeeds2",
+      "zh": "绿雨杂草"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:GreenRainWeeds_Description]",
+      "zh": "可能含有纤维或混合种子。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "TileSheets/Objects_2",
+      "index": 42,
+      "x": 288,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "GreenRainWeeds3",
+    "name": "GreenRainWeeds3",
+    "displayName": {
+      "en": "GreenRainWeeds3",
+      "zh": "绿雨杂草"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:GreenRainWeeds_Description]",
+      "zh": "可能含有纤维或混合种子。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "TileSheets/Objects_2",
+      "index": 43,
+      "x": 304,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "GreenRainWeeds4",
+    "name": "GreenRainWeeds4",
+    "displayName": {
+      "en": "GreenRainWeeds4",
+      "zh": "绿雨杂草"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:GreenRainWeeds_Description]",
+      "zh": "可能含有纤维或混合种子。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "TileSheets/Objects_2",
+      "index": 48,
+      "x": 0,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "GreenRainWeeds5",
+    "name": "GreenRainWeeds5",
+    "displayName": {
+      "en": "GreenRainWeeds5",
+      "zh": "绿雨杂草"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:GreenRainWeeds_Description]",
+      "zh": "可能含有纤维或混合种子。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "TileSheets/Objects_2",
+      "index": 49,
+      "x": 16,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "GreenRainWeeds6",
+    "name": "GreenRainWeeds6",
+    "displayName": {
+      "en": "GreenRainWeeds6",
+      "zh": "绿雨杂草"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:GreenRainWeeds_Description]",
+      "zh": "可能含有纤维或混合种子。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "TileSheets/Objects_2",
+      "index": 50,
+      "x": 32,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "GreenRainWeeds7",
+    "name": "GreenRainWeeds7",
+    "displayName": {
+      "en": "GreenRainWeeds7",
+      "zh": "绿雨杂草"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:GreenRainWeeds_Description]",
+      "zh": "可能含有纤维或混合种子。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "TileSheets/Objects_2",
+      "index": 51,
+      "x": 48,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "VolcanoGoldNode",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "金矿原石"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:VolcanoGoldNode_Description]",
+      "zh": "凿开可以获得金矿石。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "TileSheets/Objects_2",
+      "index": 60,
+      "x": 192,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "VolcanoCoalNode0",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_NodeWithCoal_Description]",
+      "zh": "Break apart to obtain stone with a chance of coal."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "TileSheets/Objects_2",
+      "index": 136,
+      "x": 256,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "VolcanoCoalNode1",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_NodeWithCoal_Description]",
+      "zh": "Break apart to obtain stone with a chance of coal."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "TileSheets/Objects_2",
+      "index": 137,
+      "x": 272,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "BasicCoalNode0",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_NodeWithCoal_Description]",
+      "zh": "Break apart to obtain stone with a chance of coal."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "TileSheets/Objects_2",
+      "index": 146,
+      "x": 32,
+      "y": 96,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "BasicCoalNode1",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_NodeWithCoal_Description]",
+      "zh": "Break apart to obtain stone with a chance of coal."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "TileSheets/Objects_2",
+      "index": 147,
+      "x": 48,
+      "y": 96,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Cornucopia_SeaSaltRock",
+    "name": "Cornucopia_SeaSaltRock",
+    "displayName": {
+      "en": "Cornucopia_SeaSaltRock",
+      "zh": "Cornucopia_SeaSaltRock"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:DiamondStone_Description]",
+      "zh": "Break apart to obtain diamonds."
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Cornucopia.ArtisanMachines/Objects",
+      "index": 89,
+      "x": 272,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "skellady.SBVCP_SunberryGeodeNode",
+    "name": "skellady.SBVCP_SunberryGeodeNode",
+    "displayName": {
+      "en": "skellady.SBVCP_SunberryGeodeNode",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/Nodes",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "placeable"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_PurpuriteNode",
+    "name": "skellady.SBVCP_PurpuriteNode",
+    "displayName": {
+      "en": "skellady.SBVCP_PurpuriteNode",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/Nodes",
+      "index": 1,
+      "x": 16,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "placeable"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_BlueAuraQuartzNode",
+    "name": "skellady.SBVCP_BlueAuraQuartzNode",
+    "displayName": {
+      "en": "skellady.SBVCP_BlueAuraQuartzNode",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/Nodes",
+      "index": 2,
+      "x": 32,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "placeable"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_AnnabergiteNode",
+    "name": "skellady.SBVCP_AnnabergiteNode",
+    "displayName": {
+      "en": "skellady.SBVCP_AnnabergiteNode",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/Nodes",
+      "index": 3,
+      "x": 48,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "placeable"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_CitrineNode",
+    "name": "skellady.SBVCP_CitrineNode",
+    "displayName": {
+      "en": "skellady.SBVCP_CitrineNode",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/Nodes",
+      "index": 4,
+      "x": 64,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "placeable"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_SerpentineNode",
+    "name": "skellady.SBVCP_SerpentineNode",
+    "displayName": {
+      "en": "skellady.SBVCP_SerpentineNode",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/Nodes",
+      "index": 5,
+      "x": 80,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "placeable"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_SunriseOrbNode",
+    "name": "skellady.SBVCP_SunriseOrbNode",
+    "displayName": {
+      "en": "skellady.SBVCP_SunriseOrbNode",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/Nodes",
+      "index": 6,
+      "x": 96,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "placeable"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_SunsetOrbNode",
+    "name": "skellady.SBVCP_SunsetOrbNode",
+    "displayName": {
+      "en": "skellady.SBVCP_SunsetOrbNode",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/Nodes",
+      "index": 7,
+      "x": 112,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "placeable"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_MidnightOrbNode",
+    "name": "skellady.SBVCP_MidnightOrbNode",
+    "displayName": {
+      "en": "skellady.SBVCP_MidnightOrbNode",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/Nodes",
+      "index": 8,
+      "x": 128,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "placeable"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_EclipseOrbNode",
+    "name": "skellady.SBVCP_EclipseOrbNode",
+    "displayName": {
+      "en": "skellady.SBVCP_EclipseOrbNode",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/Nodes",
+      "index": 9,
+      "x": 144,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "placeable"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_SupplyCrate1",
+    "name": "skellady.SBVCP_SupplyCrate1",
+    "displayName": {
+      "en": "skellady.SBVCP_SupplyCrate1",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/Nodes",
+      "index": 10,
+      "x": 160,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "placeable"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_SupplyCrate2",
+    "name": "skellady.SBVCP_SupplyCrate2",
+    "displayName": {
+      "en": "skellady.SBVCP_SupplyCrate2",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/Nodes",
+      "index": 11,
+      "x": 176,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "placeable"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Node_AmberStump",
+    "name": "Lumisteria.MtVapius_Node_AmberStump",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Node_AmberStump",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Ores",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "lumisteria.stumpnode_tier_1"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Node_DemantoideOre",
+    "name": "Lumisteria.MtVapius_Node_DemantoideOre",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Node_DemantoideOre",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Ores",
+      "index": 2,
+      "x": 32,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "lumisteria.orenode_tier_1"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Node_CarnelianOre",
+    "name": "Lumisteria.MtVapius_Node_CarnelianOre",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Node_CarnelianOre",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Ores",
+      "index": 3,
+      "x": 48,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "lumisteria.orenode_tier_1"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Node_BlueAgatheOre",
+    "name": "Lumisteria.MtVapius_Node_BlueAgatheOre",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Node_BlueAgatheOre",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Ores",
+      "index": 14,
+      "x": 224,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "lumisteria.orenode_tier_1"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Node_GeodeOre",
+    "name": "Lumisteria.MtVapius_Node_GeodeOre",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Node_GeodeOre",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Ores",
+      "index": 20,
+      "x": 320,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "lumisteria.orenode_tier_1"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Node_TurquoiseOre",
+    "name": "Lumisteria.MtVapius_Node_TurquoiseOre",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Node_TurquoiseOre",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Ores",
+      "index": 4,
+      "x": 64,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "lumisteria.orenode_tier_2"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Node_GarnetOre",
+    "name": "Lumisteria.MtVapius_Node_GarnetOre",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Node_GarnetOre",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Ores",
+      "index": 5,
+      "x": 80,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "lumisteria.orenode_tier_2"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Node_TourmalineOre",
+    "name": "Lumisteria.MtVapius_Node_TourmalineOre",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Node_TourmalineOre",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Ores",
+      "index": 15,
+      "x": 240,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "lumisteria.orenode_tier_2"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Node_MorganiteOre",
+    "name": "Lumisteria.MtVapius_Node_MorganiteOre",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Node_MorganiteOre",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Ores",
+      "index": 6,
+      "x": 96,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "lumisteria.orenode_tier_3"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Node_HeliodorOre",
+    "name": "Lumisteria.MtVapius_Node_HeliodorOre",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Node_HeliodorOre",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Ores",
+      "index": 7,
+      "x": 112,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "lumisteria.orenode_tier_3"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Node_LabradoriteOre",
+    "name": "Lumisteria.MtVapius_Node_LabradoriteOre",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Node_LabradoriteOre",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Ores",
+      "index": 11,
+      "x": 176,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "lumisteria.orenode_tier_3"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Node_VoidDiamondOre",
+    "name": "Lumisteria.MtVapius_Node_VoidDiamondOre",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Node_VoidDiamondOre",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Ores",
+      "index": 12,
+      "x": 192,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "lumisteria.orenode_tier_3"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Node_LarimarOre",
+    "name": "Lumisteria.MtVapius_Node_LarimarOre",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Node_LarimarOre",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Ores",
+      "index": 13,
+      "x": 208,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "lumisteria.orenode_tier_3"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Node_FossilOre",
+    "name": "Lumisteria.MtVapius_Node_FossilOre",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Node_FossilOre",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Ores",
+      "index": 29,
+      "x": 80,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "lumisteria.orenode_tier_2"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Node_RareSeedWeed",
+    "name": "Lumisteria.MtVapius_Node_RareSeedWeed",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Node_RareSeedWeed",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Ores",
+      "index": 30,
+      "x": 96,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "lumisteria.weednode_tier_3"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Node_HardwoodStump",
+    "name": "Lumisteria.MtVapius_Node_HardwoodStump",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Node_HardwoodStump",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Ores",
+      "index": 21,
+      "x": 336,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "lumisteria.stumpnode_tier_1"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Node_BirchwoodStump",
+    "name": "Lumisteria.MtVapius_Node_BirchwoodStump",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Node_BirchwoodStump",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Ores",
+      "index": 34,
+      "x": 160,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "lumisteria.stumpnode_tier_1"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Node_BigHardwoodStump",
+    "name": "Lumisteria.MtVapius_Node_BigHardwoodStump",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Node_BigHardwoodStump",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Ores",
+      "index": 22,
+      "x": 352,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "lumisteria.stumpnode_tier_2"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Node_WoodgoatStump",
+    "name": "Lumisteria.MtVapius_Node_WoodgoatStump",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Node_WoodgoatStump",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Ores",
+      "index": 25,
+      "x": 16,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "lumisteria.stumpnode_tier_2"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Node_ShinyHardwoodStump",
+    "name": "Lumisteria.MtVapius_Node_ShinyHardwoodStump",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Node_ShinyHardwoodStump",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Ores",
+      "index": 33,
+      "x": 144,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "lumisteria.stumpnode_tier_3"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Node_DwarfTreasureStone",
+    "name": "Lumisteria.MtVapius_Node_DwarfTreasureStone",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Node_DwarfTreasureStone",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Ores",
+      "index": 27,
+      "x": 48,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "lumisteria.orenode_tier_3",
+      "lumisteria.dwarvishnode"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Node_DwarfTreasureHardwoodStump",
+    "name": "Lumisteria.MtVapius_Node_DwarfTreasureHardwoodStump",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Node_DwarfTreasureHardwoodStump",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Ores",
+      "index": 28,
+      "x": 64,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "lumisteria.stumpnode_tier_3",
+      "lumisteria.dwarvishnode"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Node_RareSeedWeedSpiral",
+    "name": "Lumisteria.MtVapius_Node_RareSeedWeedSpiral",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Node_RareSeedWeedSpiral",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Ores",
+      "index": 35,
+      "x": 176,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "lumisteria.weednode_tier_3"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Node_DwarfGearStone",
+    "name": "Lumisteria.MtVapius_Node_DwarfGearStone",
+    "displayName": {
+      "en": "Lumisteria.MtVapius_Node_DwarfGearStone",
+      "zh": "石头"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:Stone_Description]",
+      "zh": "一种常见的材料，在加工和建筑中有很广泛的用途。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Ores",
+      "index": 37,
+      "x": 208,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "lumisteria.orenode_tier_2",
+      "lumisteria.dwarvishnode"
+    ]
+  },
+  {
+    "id": "DN.SnS_StygiumOreStone",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "冥铁矿点"
+    },
+    "description": {
+      "en": "含有冥铁矿石的矿脉。",
+      "zh": "含有冥铁矿石的矿脉。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "maps/DeepDark-rocks",
+      "index": 30,
+      "x": 96,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "DN.SnS_StygiumOreStone1",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "冥铁矿点"
+    },
+    "description": {
+      "en": "含有冥铁矿石的矿脉。",
+      "zh": "含有冥铁矿石的矿脉。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "maps/DeepDark-rocks",
+      "index": 24,
+      "x": 0,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "DN.SnS_StygiumOreStone2",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "冥铁矿点"
+    },
+    "description": {
+      "en": "含有冥铁矿石的矿脉。",
+      "zh": "含有冥铁矿石的矿脉。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "maps/DeepDark-rocks",
+      "index": 25,
+      "x": 16,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "DN.SnS_StygiumOreStone3",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "冥铁矿点"
+    },
+    "description": {
+      "en": "含有冥铁矿石的矿脉。",
+      "zh": "含有冥铁矿石的矿脉。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "maps/DeepDark-rocks",
+      "index": 26,
+      "x": 32,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "DN.SnS_StygiumOreStone4",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "冥铁矿点"
+    },
+    "description": {
+      "en": "含有冥铁矿石的矿脉。",
+      "zh": "含有冥铁矿石的矿脉。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "maps/DeepDark-rocks",
+      "index": 27,
+      "x": 48,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "DN.SnS_StygiumOreStone5",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "冥铁矿点"
+    },
+    "description": {
+      "en": "含有冥铁矿石的矿脉。",
+      "zh": "含有冥铁矿石的矿脉。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "maps/DeepDark-rocks",
+      "index": 28,
+      "x": 64,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "DN.SnS_StygiumOreStone6",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "冥铁矿点"
+    },
+    "description": {
+      "en": "含有冥铁矿石的矿脉。",
+      "zh": "含有冥铁矿石的矿脉。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "maps/DeepDark-rocks",
+      "index": 29,
+      "x": 80,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "DN.SnS_StygiumOreStone8",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "冥铁矿点"
+    },
+    "description": {
+      "en": "含有冥铁矿石的矿脉。",
+      "zh": "含有冥铁矿石的矿脉。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "maps/DeepDark-rocks",
+      "index": 31,
+      "x": 112,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "DN.SnS_StygiumOreStone9",
+    "name": "Stone",
+    "displayName": {
+      "en": "Stone",
+      "zh": "冥铁矿点"
+    },
+    "description": {
+      "en": "含有冥铁矿石的矿脉。",
+      "zh": "含有冥铁矿石的矿脉。"
+    },
+    "type": "Litter",
+    "category": -999,
+    "price": 0,
+    "sprite": {
+      "texture": "maps/DeepDark-rocks",
+      "index": 32,
+      "x": 128,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    }
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "id": "DTZ.DowntownZuzuCP_Earth'sEssence",
+    "name": "DTZ.DowntownZuzuCP_Earth'sEssence",
+    "displayName": {
+      "en": "DTZ.DowntownZuzuCP_Earth'sEssence",
+      "zh": "大地精华"
+    },
+    "description": {
+      "en": "一种坚硬的矿物晶簇，呈森林绿色光泽。它们散发着一种与自然相连的特殊氛围。",
+      "zh": "一种坚硬的矿物晶簇，呈森林绿色光泽。它们散发着一种与自然相连的特殊氛围。"
+    },
+    "type": "Mineral",
+    "category": -12,
+    "price": 170,
+    "sprite": {
+      "texture": "Mods/DTZ.DowntownZuzuCP/Items/Earth's Essence",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "DTZ.DowntownZuzuCP_LotusCrystal",
+    "name": "DTZ.DowntownZuzuCP_LotusCrystal",
+    "displayName": {
+      "en": "DTZ.DowntownZuzuCP_LotusCrystal",
+      "zh": "莲花水晶"
+    },
+    "description": {
+      "en": "一个莲花形状的精致水晶。非常美丽。",
+      "zh": "一个莲花形状的精致水晶。非常美丽。"
+    },
+    "type": "Mineral",
+    "category": -12,
+    "price": 200,
+    "sprite": {
+      "texture": "Mods/DTZ.DowntownZuzuCP/Items/Lotus Crystal",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "DTZ.DowntownZuzuCP_Moonstone",
+    "name": "DTZ.DowntownZuzuCP_Moonstone",
+    "displayName": {
+      "en": "DTZ.DowntownZuzuCP_Moonstone",
+      "zh": "月岩"
+    },
+    "description": {
+      "en": "它的质地让你想起钻石，但颜色更深，更像珍珠一般的蓝色。",
+      "zh": "它的质地让你想起钻石，但颜色更深，更像珍珠一般的蓝色。"
+    },
+    "type": "Mineral",
+    "category": -12,
+    "price": 220,
+    "sprite": {
+      "texture": "Mods/DTZ.DowntownZuzuCP/Items/Moonstone",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "DTZ.DowntownZuzuCP_Stargazer'sOre",
+    "name": "DTZ.DowntownZuzuCP_Stargazer'sOre",
+    "displayName": {
+      "en": "DTZ.DowntownZuzuCP_Stargazer'sOre",
+      "zh": "星空矿石"
+    },
+    "description": {
+      "en": "它就像一个深蓝色水晶的晶洞。 它随着夜空的光芒而闪烁。",
+      "zh": "它就像一个深蓝色水晶的晶洞。 它随着夜空的光芒而闪烁。"
+    },
+    "type": "Mineral",
+    "category": -12,
+    "price": 200,
+    "sprite": {
+      "texture": "Mods/DTZ.DowntownZuzuCP/Items/Stargazer's Ore",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "DTZ.DowntownZuzuCP_SunsetFragment",
+    "name": "DTZ.DowntownZuzuCP_SunsetFragment",
+    "displayName": {
+      "en": "DTZ.DowntownZuzuCP_SunsetFragment",
+      "zh": "夕阳碎片"
+    },
+    "description": {
+      "en": "地狱水晶的一块，锻造于大地核心的深处。",
+      "zh": "地狱水晶的一块，锻造于大地核心的深处。"
+    },
+    "type": "Mineral",
+    "category": -12,
+    "price": 190,
+    "sprite": {
+      "texture": "Mods/DTZ.DowntownZuzuCP/Items/Sunset Fragment",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  }
+]

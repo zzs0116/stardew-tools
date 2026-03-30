@@ -1,0 +1,1444 @@
+[
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Bearberrys",
+    "name": "Bearberrys",
+    "displayName": {
+      "en": "Bearberrys",
+      "zh": "熊果"
+    },
+    "description": {
+      "en": "一种药用果实。",
+      "zh": "一种药用果实。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 55,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Bearberrys",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 15,
+    "contextTags": [
+      "color_red"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Dewdrop_Berry",
+    "name": "Dewdrop Berry",
+    "displayName": {
+      "en": "Dewdrop Berry",
+      "zh": "露水浆果"
+    },
+    "description": {
+      "en": "一种芳香迷人的水果，生长在传送阵。给予魔法能力能持续到下一次日出。",
+      "zh": "一种芳香迷人的水果，生长在传送阵。给予魔法能力能持续到下一次日出。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 45,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Dewdrop Berry",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 90,
+    "contextTags": [
+      "color_aquamarine"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Joja_Berry",
+    "name": "Joja Berry",
+    "displayName": {
+      "en": "Joja Berry",
+      "zh": "Joja浆果"
+    },
+    "description": {
+      "en": "一种魔法改良的浆果（MMO）。味道令人惊叹，价格也十分昂贵。",
+      "zh": "一种魔法改良的浆果（MMO）。味道令人惊叹，价格也十分昂贵。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 650,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Joja Berry",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 75,
+    "contextTags": [
+      "color_blue"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Monster_Fruit",
+    "name": "Monster Fruit",
+    "displayName": {
+      "en": "Monster Fruit",
+      "zh": "怪兽果"
+    },
+    "description": {
+      "en": "有着眼球状的图案。是口感最接近星之果实的一种水果。",
+      "zh": "有着眼球状的图案。是口感最接近星之果实的一种水果。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 1525,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Monster Fruit",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 85,
+    "contextTags": [
+      "color_purple"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Red_Baneberry",
+    "name": "Red Baneberry",
+    "displayName": {
+      "en": "Red Baneberry",
+      "zh": "红类叶升麻"
+    },
+    "description": {
+      "en": "对鸟类来说是一种美味的零食，但对人类来说不是。",
+      "zh": "对鸟类来说是一种美味的零食，但对人类来说不是。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 20,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Red Baneberry",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": -50,
+    "contextTags": [
+      "color_red"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Salal_Berry",
+    "name": "Salal Berry",
+    "displayName": {
+      "en": "Salal Berry",
+      "zh": "沙龙白珠果"
+    },
+    "description": {
+      "en": "一种富含抗氧化物的甜浆果。",
+      "zh": "一种富含抗氧化物的甜浆果。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 75,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Salal Berry",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 28,
+    "contextTags": [
+      "color_purple"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Slime_Berry",
+    "name": "Slime Berry",
+    "displayName": {
+      "en": "Slime Berry",
+      "zh": "史莱姆浆果"
+    },
+    "description": {
+      "en": "上面覆盖着一种奇怪的粘性物质。",
+      "zh": "上面覆盖着一种奇怪的粘性物质。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 65,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Slime Berry",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": -10,
+    "contextTags": [
+      "color_yellow_green"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Pear",
+    "name": "Pear",
+    "displayName": {
+      "en": "Pear",
+      "zh": "梨"
+    },
+    "description": {
+      "en": "一种甜美肉软的水果，常用于烘焙。",
+      "zh": "一种甜美肉软的水果，常用于烘焙。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 90,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Pear",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 20,
+    "contextTags": [
+      "color_green",
+      "fruit_item",
+      "fruit_tree_item",
+      "pear_item"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Nectarine",
+    "name": "Nectarine",
+    "displayName": {
+      "en": "Nectarine",
+      "zh": "油桃"
+    },
+    "description": {
+      "en": "它既多汁又美味。",
+      "zh": "它既多汁又美味。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 150,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Nectarine",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 28,
+    "contextTags": [
+      "color_red",
+      "fruit_item",
+      "fruit_tree_item",
+      "nectarine_item"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Persimmon",
+    "name": "Persimmon",
+    "displayName": {
+      "en": "Persimmon",
+      "zh": "柿子"
+    },
+    "description": {
+      "en": "一种甜中带点微涩的水果。",
+      "zh": "一种甜中带点微涩的水果。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 200,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Persimmon",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 28,
+    "contextTags": [
+      "color_orange",
+      "fruit_item",
+      "fruit_tree_item",
+      "persimmon_item"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Void_Mayo_Sandwich",
+    "name": "Void Mayo Sandwich",
+    "displayName": {
+      "en": "Void Mayo Sandwich",
+      "zh": "虚空蛋黄酱三明治"
+    },
+    "description": {
+      "en": "人类不应该食用。",
+      "zh": "人类不应该食用。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 100,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/VoidMayoSandwich",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 1,
+    "contextTags": [
+      "color_black"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_GoldenSunberry",
+    "name": "skellady.SBVCP_GoldenSunberry",
+    "displayName": {
+      "en": "skellady.SBVCP_GoldenSunberry",
+      "zh": "金阳莓"
+    },
+    "description": {
+      "en": "稀世的黄金阳莓，是女神们赠予阳莓村的最后礼物。尝起来像友谊的味道。",
+      "zh": "稀世的黄金阳莓，是女神们赠予阳莓村的最后礼物。尝起来像友谊的味道。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 750,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/Produce",
+      "index": 4,
+      "x": 64,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "season_spring",
+      "season_summer",
+      "season_fall",
+      "color_gold",
+      "jojabox_blocked"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_Sunberries",
+    "name": "skellady.SBVCP_Sunberries",
+    "displayName": {
+      "en": "skellady.SBVCP_Sunberries",
+      "zh": "阳莓"
+    },
+    "description": {
+      "en": "传说中，水果之神曾在极为困苦的时期把这种甜美绵软又饱腹感强的阳莓赐福给村民们。后来村民们便以这种莓果为村子命名。",
+      "zh": "传说中，水果之神曾在极为困苦的时期把这种甜美绵软又饱腹感强的阳莓赐福给村民们。后来村民们便以这种莓果为村子命名。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 110,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/Produce",
+      "index": 9,
+      "x": 144,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 20,
+    "contextTags": [
+      "season_summer",
+      "fruit_item",
+      "color_purple"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_Carob",
+    "name": "skellady.SBVCP_Carob",
+    "displayName": {
+      "en": "skellady.SBVCP_Carob",
+      "zh": "角豆"
+    },
+    "description": {
+      "en": "一种香甜成熟的豆荚，可以作为巧克力的替代品。",
+      "zh": "一种香甜成熟的豆荚，可以作为巧克力的替代品。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 150,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/Produce",
+      "index": 11,
+      "x": 176,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 30,
+    "contextTags": [
+      "season_fall",
+      "color_brown",
+      "cocoa_item"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_Cloudberry",
+    "name": "skellady.SBVCP_Cloudberry",
+    "displayName": {
+      "en": "skellady.SBVCP_Cloudberry",
+      "zh": "云莓"
+    },
+    "description": {
+      "en": "多汁甜美的夏季浆果，是制作甜点的绝佳选择！",
+      "zh": "多汁甜美的夏季浆果，是制作甜点的绝佳选择！"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 10,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/Produce",
+      "index": 15,
+      "x": 240,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 10,
+    "contextTags": [
+      "season_summer",
+      "fruit_item",
+      "color_orange"
+    ]
+  },
+  {
+    "id": "EastScarp_BiteBackMelon",
+    "name": "EastScarp_BiteBackMelon",
+    "displayName": {
+      "en": "EastScarp_BiteBackMelon",
+      "zh": "咬人瓜"
+    },
+    "description": {
+      "en": "甜瓜家族的一员，以其辛辣刺激的味道而得名。这是后天培养的风味。",
+      "zh": "甜瓜家族的一员，以其辛辣刺激的味道而得名。这是后天培养的风味。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 120,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 34,
+      "x": 160,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 20,
+    "contextTags": [
+      "category_fruit",
+      "category_ingredients",
+      "melon_item"
+    ]
+  },
+  {
+    "id": "EastScarp_FrostBerry",
+    "name": "EastScarp_FrostBerry",
+    "displayName": {
+      "en": "EastScarp_FrostBerry",
+      "zh": "冰霜浆果"
+    },
+    "description": {
+      "en": "这些甜甜的浆果是在极寒高山环境里的重要能量来源。",
+      "zh": "这些甜甜的浆果是在极寒高山环境里的重要能量来源。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 50,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 40,
+      "x": 256,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 17,
+    "contextTags": [
+      "category_fruit",
+      "color_blue",
+      "berry_item"
+    ]
+  },
+  {
+    "id": "Lemurkat.EastScarp_FairyCap",
+    "name": "Lemurkat.EastScarp_FairyCap",
+    "displayName": {
+      "en": "Lemurkat.EastScarp_FairyCap",
+      "zh": "仙女帽"
+    },
+    "description": {
+      "en": "据说仙女会用它们当枕头。",
+      "zh": "据说仙女会用它们当枕头。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 90,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 67,
+      "x": 304,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 20,
+    "contextTags": [
+      "category_fruits",
+      "category_ingredients",
+      "color_blue"
+    ]
+  },
+  {
+    "id": "Lemurkat.EastScarp_ZinfazuFruit",
+    "name": "Lemurkat.EastScarp_ZinfazuFruit",
+    "displayName": {
+      "en": "Lemurkat.EastScarp_ZinfazuFruit",
+      "zh": "辛法祖果"
+    },
+    "description": {
+      "en": "味道酸甜交织的浓郁水果",
+      "zh": "味道酸甜交织的浓郁水果"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 600,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 73,
+      "x": 16,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 15,
+    "contextTags": [
+      "category_fruits",
+      "category_ingredients",
+      "color_purple"
+    ]
+  },
+  {
+    "id": "Lemurkat.EastScarp_YohoFruit",
+    "name": "Lemurkat.EastScarp_YohoFruit",
+    "displayName": {
+      "en": "Lemurkat.EastScarp_YohoFruit",
+      "zh": "悦活果"
+    },
+    "description": {
+      "en": "这种水果质地丝滑，口感柔润，味道如奶油般细腻。",
+      "zh": "这种水果质地丝滑，口感柔润，味道如奶油般细腻。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 45,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 75,
+      "x": 48,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 6,
+    "contextTags": [
+      "category_fruits",
+      "category_ingredients",
+      "color_yellow"
+    ]
+  },
+  {
+    "id": "Lemurkat.EastScarp_DeepCaveFruit",
+    "name": "Lemurkat.EastScarp_DeepCaveFruit",
+    "displayName": {
+      "en": "Lemurkat.EastScarp_DeepCaveFruit",
+      "zh": "山洞果"
+    },
+    "description": {
+      "en": "看起来像一块石头，但其实是一种坚硬的果实。",
+      "zh": "看起来像一块石头，但其实是一种坚硬的果实。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 275,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 77,
+      "x": 80,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 3,
+    "contextTags": [
+      "category_fruits",
+      "category_ingredients",
+      "color_blue"
+    ]
+  },
+  {
+    "id": "Lemurkat.EastScarp_ChocoFruit",
+    "name": "Lemurkat.EastScarp_ChocoFruit",
+    "displayName": {
+      "en": "Lemurkat.EastScarp_ChocoFruit",
+      "zh": "可可豆"
+    },
+    "description": {
+      "en": "尝起来像巧克力，但是狗狗也可以安全食用。",
+      "zh": "尝起来像巧克力，但是狗狗也可以安全食用。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 70,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 85,
+      "x": 208,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 5,
+    "contextTags": [
+      "category_fruits",
+      "category_ingredients",
+      "category_Lemurkat.EastScarp_extractproduct",
+      "color_brown",
+      "cocoa_fruit_item"
+    ]
+  },
+  {
+    "id": "Lemurkat.EastScarp_ButtonFruit",
+    "name": "Lemurkat.EastScarp_ButtonFruit",
+    "displayName": {
+      "en": "Lemurkat.EastScarp_ButtonFruit",
+      "zh": "黄油果"
+    },
+    "description": {
+      "en": "像糖果一样甜，而且不会让你牙疼。由于外壳坚硬，吃的时候要小心。",
+      "zh": "像糖果一样甜，而且不会让你牙疼。由于外壳坚硬，吃的时候要小心。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 50,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 87,
+      "x": 240,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 6,
+    "contextTags": [
+      "category_fruits",
+      "category_ingredients",
+      "color_pink"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_FerskenPeach",
+    "name": "MadDog.HashtagBearFam_FerskenPeach",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_FerskenPeach",
+      "zh": "费什肯桃子"
+    },
+    "description": {
+      "en": "产自诺斯地区的一种饱满而带有毛绒的水果。",
+      "zh": "产自诺斯地区的一种饱满而带有毛绒的水果。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 169,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/FoodAdjacent",
+      "index": 34,
+      "x": 160,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 23,
+    "contextTags": [
+      "color_pink",
+      "category_fruit",
+      "trash_bear_ignore"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_StoneBrambleBerry",
+    "name": "MadDog.HashtagBearFam_StoneBrambleBerry",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_StoneBrambleBerry",
+      "zh": "石荆棘莓"
+    },
+    "description": {
+      "en": "浑身是刺的灌木丛里结出的微酸浆果，与糖、蜂蜜、牛奶和其他浆果都很搭配。",
+      "zh": "浑身是刺的灌木丛里结出的微酸浆果，与糖、蜂蜜、牛奶和其他浆果都很搭配。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 10,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/CropObject",
+      "index": 56,
+      "x": 128,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_salmon",
+      "category_fruit",
+      "trash_bear_ignore"
+    ]
+  },
+  {
+    "id": "DN.SnS_ancientelderberry",
+    "name": "DN.SnS_ancientelderberry",
+    "displayName": {
+      "en": "DN.SnS_ancientelderberry",
+      "zh": "上古接骨木莓"
+    },
+    "description": {
+      "en": "味道鲜美，但有点酸。可以制作出美味的水果酸酒或苏打水。",
+      "zh": "味道鲜美，但有点酸。可以制作出美味的水果酸酒或苏打水。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 110,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 37,
+      "x": 208,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_cyan",
+      "seedmaker_banned",
+      "sns_druidiccrop_item"
+    ]
+  },
+  {
+    "id": "DN.SnS_ancientgiantappleberry",
+    "name": "DN.SnS_ancientgiantappleberry",
+    "displayName": {
+      "en": "DN.SnS_ancientgiantappleberry",
+      "zh": "上古巨型苹果莓"
+    },
+    "description": {
+      "en": "它异常大。外面很软，但里面像苹果。令人困惑，但很好吃。",
+      "zh": "它异常大。外面很软，但里面像苹果。令人困惑，但很好吃。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 275,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 41,
+      "x": 272,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_cyan",
+      "category_fruits",
+      "seedmaker_banned",
+      "sns_druidiccrop_item"
+    ]
+  },
+  {
+    "id": "DN.SnS_ancientglowinghuckleberry",
+    "name": "DN.SnS_ancientglowinghuckleberry",
+    "displayName": {
+      "en": "DN.SnS_ancientglowinghuckleberry",
+      "zh": "上古发光越橘"
+    },
+    "description": {
+      "en": "一种巨大的、多汁的、微弱发光的浆果。",
+      "zh": "一种巨大的、多汁的、微弱发光的浆果。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 410,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 3,
+      "x": 48,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_cyan",
+      "seedmaker_banned",
+      "sns_druidiccrop_item"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Amber_MoonDrop",
+    "name": "Wildflour.SASS_Amber_MoonDrop",
+    "displayName": {
+      "en": "Wildflour.SASS_Amber_MoonDrop",
+      "zh": "琥珀月露"
+    },
+    "description": {
+      "en": "这是一种珍稀而美丽的金色葡萄品种，相传最初由芬吉尔共和国的精灵族培育而成。",
+      "zh": "这是一种珍稀而美丽的金色葡萄品种，相传最初由芬吉尔共和国的精灵族培育而成。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 95,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 2,
+      "x": 32,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 12,
+    "contextTags": [
+      "faerie_forage",
+      "season_summer",
+      "moondrop_item",
+      "magical_fruit_item",
+      "seedmaker_banned",
+      "color_gold"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Apple",
+    "name": "Wildflour.SASS_Apple",
+    "displayName": {
+      "en": "Wildflour.SASS_Apple",
+      "zh": "神肴苹果"
+    },
+    "description": {
+      "en": "这种鲜绿色的苹果以神话中众神的食物命名，甜得几乎让人受不了。",
+      "zh": "这种鲜绿色的苹果以神话中众神的食物命名，甜得几乎让人受不了。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 200,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 21,
+      "x": 336,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "faerie_forage",
+      "season_spring",
+      "magical_fruit_item",
+      "candy_apple_item",
+      "color_green"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Apricot",
+    "name": "Wildflour.SASS_Apricot",
+    "displayName": {
+      "en": "Wildflour.SASS_Apricot",
+      "zh": "月辉金杏"
+    },
+    "description": {
+      "en": "这是一种果皮浅淡、果肉金黄的杏子，据说乃是月神们最钟爱的水果。",
+      "zh": "这是一种果皮浅淡、果肉金黄的杏子，据说乃是月神们最钟爱的水果。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 100,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 22,
+      "x": 352,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "faerie_forage",
+      "magical_fruit_item",
+      "season_fall",
+      "color_salmon"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Banana",
+    "name": "Wildflour.SASS_Banana",
+    "displayName": {
+      "en": "Wildflour.SASS_Banana",
+      "zh": "美人蕉"
+    },
+    "description": {
+      "en": "这是一种细长且精致的香蕉品种，据说比传统香蕉要甜得多。",
+      "zh": "这是一种细长且精致的香蕉品种，据说比传统香蕉要甜得多。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 300,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 36,
+      "x": 192,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "faerie_forage",
+      "magical_fruit_item",
+      "season_winter",
+      "color_yellow"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Cherry",
+    "name": "Wildflour.SASS_Cherry",
+    "displayName": {
+      "en": "Wildflour.SASS_Cherry",
+      "zh": "流星酸樱桃"
+    },
+    "description": {
+      "en": "这种樱桃品种的味道很奇特，吃起来与其说是水果，不如说更像酸糖果。",
+      "zh": "这种樱桃品种的味道很奇特，吃起来与其说是水果，不如说更像酸糖果。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 160,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 16,
+      "x": 256,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "faerie_forage",
+      "magical_fruit_item",
+      "sour_cherry_item",
+      "season_fall",
+      "color_red"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Jade_MoonDrop",
+    "name": "Wildflour.SASS_Jade_MoonDrop",
+    "displayName": {
+      "en": "Wildflour.SASS_Jade_MoonDrop",
+      "zh": "翡翠月露"
+    },
+    "description": {
+      "en": "这是一个珍稀而美丽的绿色葡萄品种，相传最初由芬吉尔共和国的精灵族培育而成。",
+      "zh": "这是一个珍稀而美丽的绿色葡萄品种，相传最初由芬吉尔共和国的精灵族培育而成。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 95,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 4,
+      "x": 64,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "faerie_forage",
+      "season_fall",
+      "moondrop_item",
+      "magical_fruit_item",
+      "seedmaker_banned",
+      "color_jade"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Lapis_MoonDrop",
+    "name": "Wildflour.SASS_Lapis_MoonDrop",
+    "displayName": {
+      "en": "Wildflour.SASS_Lapis_MoonDrop",
+      "zh": "青金石月露"
+    },
+    "description": {
+      "en": "这是一种珍稀而美丽的蓝色葡萄品种，相传最初由芬吉尔共和国的精灵族培育而成。",
+      "zh": "这是一种珍稀而美丽的蓝色葡萄品种，相传最初由芬吉尔共和国的精灵族培育而成。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 95,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "faerie_forage",
+      "magical_fruit_item",
+      "moondrop_item",
+      "season_spring",
+      "seedmaker_banned",
+      "color_cyan"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Mango",
+    "name": "Wildflour.SASS_Mango",
+    "displayName": {
+      "en": "Wildflour.SASS_Mango",
+      "zh": "晚霞芒果"
+    },
+    "description": {
+      "en": "一种在夕阳余晖下成熟的娇嫩芒果。",
+      "zh": "一种在夕阳余晖下成熟的娇嫩芒果。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 260,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 27,
+      "x": 48,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "faerie_forage",
+      "magical_fruit_item",
+      "season_winter",
+      "color_gold"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Orange",
+    "name": "Wildflour.SASS_Orange",
+    "displayName": {
+      "en": "Wildflour.SASS_Orange",
+      "zh": "血橙"
+    },
+    "description": {
+      "en": "一种稀有的柑橘类水果。",
+      "zh": "一种稀有的柑橘类水果。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 200,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 17,
+      "x": 272,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "faerie_forage",
+      "season_winter",
+      "dreamsicle_item",
+      "magical_fruit_item",
+      "color_orange"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Peach",
+    "name": "Wildflour.SASS_Peach",
+    "displayName": {
+      "en": "Wildflour.SASS_Peach",
+      "zh": "雪美人桃"
+    },
+    "description": {
+      "en": "这是一种珍稀且娇贵的桃子，据说它是古代民间传说中某位公主最钟爱的水果。",
+      "zh": "这是一种珍稀且娇贵的桃子，据说它是古代民间传说中某位公主最钟爱的水果。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 280,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 32,
+      "x": 128,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "faerie_forage",
+      "season_winter",
+      "magical_fruit_item",
+      "color_pink"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Pearl_MoonDrop",
+    "name": "Wildflour.SASS_Pearl_MoonDrop",
+    "displayName": {
+      "en": "Wildflour.SASS_Pearl_MoonDrop",
+      "zh": "珍珠月露"
+    },
+    "description": {
+      "en": "这是一种珍稀而美丽的白色葡萄品种，相传最初由芬吉尔共和国的精灵族培育而成。",
+      "zh": "这是一种珍稀而美丽的白色葡萄品种，相传最初由芬吉尔共和国的精灵族培育而成。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 95,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 6,
+      "x": 96,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "faerie_forage",
+      "magical_fruit_item",
+      "season_winter",
+      "seedmaker_banned",
+      "color_white"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Pomegranate",
+    "name": "Wildflour.SASS_Pomegranate",
+    "displayName": {
+      "en": "Wildflour.SASS_Pomegranate",
+      "zh": "永恒甜石榴"
+    },
+    "description": {
+      "en": "这是一种色泽鲜艳夺目、充满神秘色彩的石榴。据传，无论在何时采摘，这种水果总是汁水丰富、甜美可口。",
+      "zh": "这是一种色泽鲜艳夺目、充满神秘色彩的石榴。据传，无论在何时采摘，这种水果总是汁水丰富、甜美可口。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 280,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 26,
+      "x": 32,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "faerie_forage",
+      "magical_fruit_item",
+      "season_spring",
+      "color_purple"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Sugar_Plum",
+    "name": "Wildflour.SASS_Sugar_Plum",
+    "displayName": {
+      "en": "Wildflour.SASS_Sugar_Plum",
+      "zh": "糖李"
+    },
+    "description": {
+      "en": "这是一颗李子，但总觉得有些……不太对劲。为什么它闻起来会这么香甜呢？",
+      "zh": "这是一颗李子，但总觉得有些……不太对劲。为什么它闻起来会这么香甜呢？"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 315,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 31,
+      "x": 112,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "faerie_forage",
+      "magical_fruit_item",
+      "season_fall",
+      "color_purple"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_MoonPods",
+    "name": "Moon Pods",
+    "displayName": {
+      "en": "Moon Pods",
+      "zh": "月亮豆荚"
+    },
+    "description": {
+      "en": "种荚看起来像新月。",
+      "zh": "种荚看起来像新月。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 45,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 7,
+      "x": 112,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": -4,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_plant",
+      "stellar_plant",
+      "stellar_item",
+      "color_gold"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_NightMiscanthus",
+    "name": "Night Miscanthus",
+    "displayName": {
+      "en": "Night Miscanthus",
+      "zh": "夜芒草"
+    },
+    "description": {
+      "en": "长出来的乳白色花序，与黑色的叶子形成鲜明对比。",
+      "zh": "长出来的乳白色花序，与黑色的叶子形成鲜明对比。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 135,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 8,
+      "x": 128,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_plant",
+      "stellar_plant",
+      "stellar_item",
+      "color_black"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_GalaxyFruit",
+    "name": "Galaxy Fruit",
+    "displayName": {
+      "en": "Galaxy Fruit",
+      "zh": "银河果"
+    },
+    "description": {
+      "en": "一种圆形水果，周围环绕着不同颜色的小水果。起源不明。",
+      "zh": "一种圆形水果，周围环绕着不同颜色的小水果。起源不明。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 896,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 23,
+      "x": 368,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 85,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_plant",
+      "stellar_plant",
+      "stellar_item",
+      "color_purple"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_FrostApple",
+    "name": "Frost Apple",
+    "displayName": {
+      "en": "Frost Apple",
+      "zh": "霜苹果"
+    },
+    "description": {
+      "en": "一种据说天气寒冷时会出现的水果。",
+      "zh": "一种据说天气寒冷时会出现的水果。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 896,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 11,
+      "x": 176,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 30,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_plant",
+      "color_blue"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_WhiteGrape",
+    "name": "White Grape",
+    "displayName": {
+      "en": "White Grape",
+      "zh": "白葡萄"
+    },
+    "description": {
+      "en": "比普通品种还要甜。可以放到架子上催熟成太阳葡萄。也可以晒干，但效率较低。",
+      "zh": "比普通品种还要甜。可以放到架子上催熟成太阳葡萄。也可以晒干，但效率较低。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 400,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 12,
+      "x": 192,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 20,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_plant",
+      "color_white"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_SunGrape",
+    "name": "Sun Grape",
+    "displayName": {
+      "en": "Sun Grape",
+      "zh": "太阳葡萄"
+    },
+    "description": {
+      "en": "所有的糖分都通过熟成而浓缩。",
+      "zh": "所有的糖分都通过熟成而浓缩。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 760,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 13,
+      "x": 208,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 32,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_plant",
+      "color_gold"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_ConstellatedWatermelon",
+    "name": "ConstellatedWatermelon",
+    "displayName": {
+      "en": "ConstellatedWatermelon",
+      "zh": "星座西瓜"
+    },
+    "description": {
+      "en": "外皮布满了小点。",
+      "zh": "外皮布满了小点。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 353,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 34,
+      "x": 160,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 34,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_plant",
+      "stellar_plant",
+      "stellar_item",
+      "color_green"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Ringfruit",
+    "name": "Ringfruit",
+    "displayName": {
+      "en": "Ringfruit",
+      "zh": "指环果"
+    },
+    "description": {
+      "en": "制作拐杖糖的秘密。",
+      "zh": "制作拐杖糖的秘密。"
+    },
+    "type": "Fruit",
+    "category": -79,
+    "price": 35,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 38,
+      "x": 224,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 24,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_plant",
+      "color_red"
+    ]
+  }
+]

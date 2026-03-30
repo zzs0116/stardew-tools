@@ -1,0 +1,3731 @@
+[
+  {
+    "id": "273",
+    "name": "Rice Shoot",
+    "displayName": {
+      "en": "Rice Shoot",
+      "zh": "稻苗"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:RiceShoot_Description]",
+      "zh": "春天下种。8 天成熟。如果种植在水体附近，生长会更快。用镰刀收获。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 20,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 273,
+      "x": 144,
+      "y": 176,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "299",
+    "name": "Amaranth Seeds",
+    "displayName": {
+      "en": "Amaranth Seeds",
+      "zh": "苋菜种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:AmaranthSeeds_Description]",
+      "zh": "秋天播种。7 天成熟。用镰刀收获。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 35,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 299,
+      "x": 176,
+      "y": 192,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "301",
+    "name": "Grape Starter",
+    "displayName": {
+      "en": "Grape Starter",
+      "zh": "葡萄种植者"
+    },
+    "description": {
+      "en": "需要16天成熟为灌木。在秋季每隔一天结出葡萄。",
+      "zh": "需要16天成熟为灌木。在秋季每隔一天结出葡萄。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 300,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 301,
+      "x": 208,
+      "y": 192,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "302",
+    "name": "Hops Starter",
+    "displayName": {
+      "en": "Hops Starter",
+      "zh": "啤酒花种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:HopsStarter_Description]",
+      "zh": "夏天播种。11 天成熟，之后循环生产。在架子上生长。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 30,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 302,
+      "x": 224,
+      "y": 192,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "347",
+    "name": "Rare Seed",
+    "displayName": {
+      "en": "Rare Seed",
+      "zh": "稀有种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:RareSeed_Description]",
+      "zh": "秋天播种。需要一个季度生长。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 200,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 347,
+      "x": 176,
+      "y": 224,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "433",
+    "name": "Coffee Bean",
+    "displayName": {
+      "en": "Coffee Bean",
+      "zh": "咖啡豆"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:CoffeeBean_Description]",
+      "zh": "在春季和夏季种植。在小桶里放五颗咖啡豆可以制作咖啡。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 15,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 433,
+      "x": 16,
+      "y": 288,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown",
+      "seedmaker_banned"
+    ]
+  },
+  {
+    "id": "472",
+    "name": "Parsnip Seeds",
+    "displayName": {
+      "en": "Parsnip Seeds",
+      "zh": "防风草种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:ParsnipSeeds_Description]",
+      "zh": "春天播种。4 天成熟。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 10,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 472,
+      "x": 256,
+      "y": 304,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "473",
+    "name": "Bean Starter",
+    "displayName": {
+      "en": "Bean Starter",
+      "zh": "青豆种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:BeanStarter_Description]",
+      "zh": "春天播种。10 天成熟，但是之后会不断结果。在架子上生长。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 30,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 473,
+      "x": 272,
+      "y": 304,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "474",
+    "name": "Cauliflower Seeds",
+    "displayName": {
+      "en": "Cauliflower Seeds",
+      "zh": "花椰菜种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:CauliflowerSeeds_Description]",
+      "zh": "春天播种。12 天后长成大花椰菜。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 40,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 474,
+      "x": 288,
+      "y": 304,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "475",
+    "name": "Potato Seeds",
+    "displayName": {
+      "en": "Potato Seeds",
+      "zh": "土豆种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:PotatoSeeds_Description]",
+      "zh": "春天播种。6 天成熟，有一定几率一次收获多个土豆。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 25,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 475,
+      "x": 304,
+      "y": 304,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "476",
+    "name": "Garlic Seeds",
+    "displayName": {
+      "en": "Garlic Seeds",
+      "zh": "大蒜种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:GarlicSeeds_Description]",
+      "zh": "春天播种。4 天成熟。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 20,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 476,
+      "x": 320,
+      "y": 304,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "477",
+    "name": "Kale Seeds",
+    "displayName": {
+      "en": "Kale Seeds",
+      "zh": "甘蓝种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:KaleSeeds_Description]",
+      "zh": "春天播种。6 天成熟。用镰刀收获。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 35,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 477,
+      "x": 336,
+      "y": 304,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "478",
+    "name": "Rhubarb Seeds",
+    "displayName": {
+      "en": "Rhubarb Seeds",
+      "zh": "大黄种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:RhubarbSeeds_Description]",
+      "zh": "春天播种。13 天成熟。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 50,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 478,
+      "x": 352,
+      "y": 304,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "479",
+    "name": "Melon Seeds",
+    "displayName": {
+      "en": "Melon Seeds",
+      "zh": "甜瓜种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:MelonSeeds_Description]",
+      "zh": "夏天播种。12 天成熟。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 40,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 479,
+      "x": 368,
+      "y": 304,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "480",
+    "name": "Tomato Seeds",
+    "displayName": {
+      "en": "Tomato Seeds",
+      "zh": "西红柿种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:TomatoSeeds_Description]",
+      "zh": "夏天播种。11 天成熟，收获之后还能继续结果。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 25,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 480,
+      "x": 0,
+      "y": 320,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "481",
+    "name": "Blueberry Seeds",
+    "displayName": {
+      "en": "Blueberry Seeds",
+      "zh": "蓝莓种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:BlueberrySeeds_Description]",
+      "zh": "夏天播种。13 天成熟，收获之后还能继续结果。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 40,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 481,
+      "x": 16,
+      "y": 320,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "482",
+    "name": "Pepper Seeds",
+    "displayName": {
+      "en": "Pepper Seeds",
+      "zh": "辣椒种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:PepperSeeds_Description]",
+      "zh": "夏天播种。5 天成熟，收获之后还能继续结果。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 20,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 482,
+      "x": 32,
+      "y": 320,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "483",
+    "name": "Wheat Seeds",
+    "displayName": {
+      "en": "Wheat Seeds",
+      "zh": "小麦种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:WheatSeeds_Description]",
+      "zh": "夏天或秋天播种。4 天成熟。用镰刀收获。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 5,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 483,
+      "x": 48,
+      "y": 320,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "484",
+    "name": "Radish Seeds",
+    "displayName": {
+      "en": "Radish Seeds",
+      "zh": "萝卜种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:RadishSeeds_Description]",
+      "zh": "夏天播种。6 天成熟。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 20,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 484,
+      "x": 64,
+      "y": 320,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "485",
+    "name": "Red Cabbage Seeds",
+    "displayName": {
+      "en": "Red Cabbage Seeds",
+      "zh": "红叶卷心菜种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:RedCabbageSeeds_Description]",
+      "zh": "夏天播种。9 天成熟。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 50,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 485,
+      "x": 80,
+      "y": 320,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "486",
+    "name": "Starfruit Seeds",
+    "displayName": {
+      "en": "Starfruit Seeds",
+      "zh": "杨桃种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:StarfruitSeeds_Description]",
+      "zh": "夏天播种。13 天成熟。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 200,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 486,
+      "x": 96,
+      "y": 320,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "487",
+    "name": "Corn Seeds",
+    "displayName": {
+      "en": "Corn Seeds",
+      "zh": "玉米种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:CornSeeds_Description]",
+      "zh": "夏天或秋天播种。14 天成熟，收获之后还能继续结果。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 75,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 487,
+      "x": 112,
+      "y": 320,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "488",
+    "name": "Eggplant Seeds",
+    "displayName": {
+      "en": "Eggplant Seeds",
+      "zh": "茄子种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:EggplantSeeds_Description]",
+      "zh": "秋天播种。5 天成熟，收获之后还能继续结果。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 10,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 488,
+      "x": 128,
+      "y": 320,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "489",
+    "name": "Artichoke Seeds",
+    "displayName": {
+      "en": "Artichoke Seeds",
+      "zh": "洋蓟种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:ArtichokeSeeds_Description]",
+      "zh": "秋天播种。8 天成熟。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 15,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 489,
+      "x": 144,
+      "y": 320,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "490",
+    "name": "Pumpkin Seeds",
+    "displayName": {
+      "en": "Pumpkin Seeds",
+      "zh": "南瓜种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:PumpkinSeeds_Description]",
+      "zh": "秋天播种。13 天成熟。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 50,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 490,
+      "x": 160,
+      "y": 320,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "491",
+    "name": "Bok Choy Seeds",
+    "displayName": {
+      "en": "Bok Choy Seeds",
+      "zh": "小白菜种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:BokChoySeeds_Description]",
+      "zh": "秋天播种。4 天成熟。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 25,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 491,
+      "x": 176,
+      "y": 320,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "492",
+    "name": "Yam Seeds",
+    "displayName": {
+      "en": "Yam Seeds",
+      "zh": "山药种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:YamSeeds_Description]",
+      "zh": "秋天播种。10 天成熟。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 30,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 492,
+      "x": 192,
+      "y": 320,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "493",
+    "name": "Cranberry Seeds",
+    "displayName": {
+      "en": "Cranberry Seeds",
+      "zh": "蔓越莓种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:CranberrySeeds_Description]",
+      "zh": "秋天播种。7 天成熟，收获之后还能继续结果。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 120,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 493,
+      "x": 208,
+      "y": 320,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "494",
+    "name": "Beet Seeds",
+    "displayName": {
+      "en": "Beet Seeds",
+      "zh": "甜菜种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:BeetSeeds_Description]",
+      "zh": "秋天播种。6 天成熟。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 10,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 494,
+      "x": 224,
+      "y": 320,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "495",
+    "name": "Spring Seeds",
+    "displayName": {
+      "en": "Spring Seeds",
+      "zh": "春季种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:SpringSeeds_Description]",
+      "zh": "各种各样的春季种子。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 35,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 495,
+      "x": 240,
+      "y": 320,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "496",
+    "name": "Summer Seeds",
+    "displayName": {
+      "en": "Summer Seeds",
+      "zh": "夏季种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:SummerSeeds_Description]",
+      "zh": "各种各样的夏季种子。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 55,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 496,
+      "x": 256,
+      "y": 320,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "497",
+    "name": "Fall Seeds",
+    "displayName": {
+      "en": "Fall Seeds",
+      "zh": "秋季种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:FallSeeds_Description]",
+      "zh": "各种各样的秋季种子。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 45,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 497,
+      "x": 272,
+      "y": 320,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "498",
+    "name": "Winter Seeds",
+    "displayName": {
+      "en": "Winter Seeds",
+      "zh": "冬季种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:WinterSeeds_Description]",
+      "zh": "各种各样的冬季种子。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 30,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 498,
+      "x": 288,
+      "y": 320,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "499",
+    "name": "Ancient Seeds",
+    "displayName": {
+      "en": "Ancient Seeds",
+      "zh": "上古种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:AncientSeeds_Description]",
+      "zh": "还能长出来吗？"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 30,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 499,
+      "x": 304,
+      "y": 320,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "427",
+    "name": "Tulip Bulb",
+    "displayName": {
+      "en": "Tulip Bulb",
+      "zh": "郁金香球茎"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:TulipBulb_Description]",
+      "zh": "春天下种。6 天产出鲜艳花朵。多种颜色。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 10,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 427,
+      "x": 304,
+      "y": 272,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "429",
+    "name": "Jazz Seeds",
+    "displayName": {
+      "en": "Jazz Seeds",
+      "zh": "蓝爵士种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:JazzSeeds_Description]",
+      "zh": "春天下种。7 天产出蓝色绒球花朵。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 15,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 429,
+      "x": 336,
+      "y": 272,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "453",
+    "name": "Poppy Seeds",
+    "displayName": {
+      "en": "Poppy Seeds",
+      "zh": "虞美人种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:PoppySeeds_Description]",
+      "zh": "夏天下种。7 天产出大红花。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 50,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 453,
+      "x": 336,
+      "y": 288,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "455",
+    "name": "Spangle Seeds",
+    "displayName": {
+      "en": "Spangle Seeds",
+      "zh": "夏季亮片种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:SpangleSeeds_Description]",
+      "zh": "夏天下种。8 天产出夺目的热带花朵。多种颜色。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 25,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 455,
+      "x": 368,
+      "y": 288,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "431",
+    "name": "Sunflower Seeds",
+    "displayName": {
+      "en": "Sunflower Seeds",
+      "zh": "向日葵种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:SunflowerSeeds_Description]",
+      "zh": "夏天或秋天播种。8 天产出巨大向日葵。收割时产出更多种子。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 20,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 431,
+      "x": 368,
+      "y": 272,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "425",
+    "name": "Fairy Seeds",
+    "displayName": {
+      "en": "Fairy Seeds",
+      "zh": "玫瑰仙子种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:FairySeeds_Description]",
+      "zh": "秋天下种。12 天产出神秘的花朵。多种颜色。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 100,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 425,
+      "x": 272,
+      "y": 272,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "745",
+    "name": "Strawberry Seeds",
+    "displayName": {
+      "en": "Strawberry Seeds",
+      "zh": "草莓种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:StrawberrySeeds_Description]",
+      "zh": "春天下种。8 天成熟，之后循环生产。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 745,
+      "x": 16,
+      "y": 496,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "770",
+    "name": "Mixed Seeds",
+    "displayName": {
+      "en": "Mixed Seeds",
+      "zh": "混合种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:MixedSeeds_Description]",
+      "zh": "各种种子都有一点。种下它们，看看长出来什么东西！"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 770,
+      "x": 32,
+      "y": 512,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "802",
+    "name": "Cactus Seeds",
+    "displayName": {
+      "en": "Cactus Seeds",
+      "zh": "仙人掌种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:CactusSeeds_Description]",
+      "zh": "只能在室内种植。需要 12 天才能成熟，然后每 3 天结一次果。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 0,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 802,
+      "x": 160,
+      "y": 528,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "831",
+    "name": "Taro Tuber",
+    "displayName": {
+      "en": "Taro Tuber",
+      "zh": "芋头块茎"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:TaroTuber_Description]",
+      "zh": "在温暖的天气里种下去。10 天成熟。种植在靠近水域的地方生长得更快。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 20,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 831,
+      "x": 240,
+      "y": 544,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "833",
+    "name": "Pineapple Seeds",
+    "displayName": {
+      "en": "Pineapple Seeds",
+      "zh": "菠萝种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:PineappleSeeds_Description]",
+      "zh": "在温暖的天气里种下去。14 天成熟，之后会持续生产果实。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 240,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 833,
+      "x": 272,
+      "y": 544,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "885",
+    "name": "Fiber Seeds",
+    "displayName": {
+      "en": "Fiber Seeds",
+      "zh": "纤维种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:FiberSeeds_Description]",
+      "zh": "所有季节都可以种植。不需要浇水。用镰刀收割。7 天长成。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 5,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 885,
+      "x": 336,
+      "y": 576,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "890",
+    "name": "Qi Bean",
+    "displayName": {
+      "en": "Qi Bean",
+      "zh": "齐豆"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:QiBean_Description]",
+      "zh": "所有季节都可以种植。每天浇水可以产出齐瓜。4 天成熟。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 1,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 890,
+      "x": 32,
+      "y": 592,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_blue"
+    ]
+  },
+  {
+    "id": "MixedFlowerSeeds",
+    "name": "Mixed Flower Seeds",
+    "displayName": {
+      "en": "Mixed Flower Seeds",
+      "zh": "混合花卉种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:MixedFlowerSeeds_Description]",
+      "zh": "各类花的种子，种下去看看会长出什么！"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 0,
+    "sprite": {
+      "texture": "TileSheets/Objects_2",
+      "index": 8,
+      "x": 128,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "CarrotSeeds",
+    "name": "Carrot Seeds",
+    "displayName": {
+      "en": "Carrot Seeds",
+      "zh": "胡萝卜种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:CarrotSeeds_Description]",
+      "zh": "春天播种，3 天长成。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 15,
+    "sprite": {
+      "texture": "TileSheets/Objects_2",
+      "index": 84,
+      "x": 192,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown"
+    ]
+  },
+  {
+    "id": "SummerSquashSeeds",
+    "name": "Summer Squash Seeds",
+    "displayName": {
+      "en": "Summer Squash Seeds",
+      "zh": "金皮西葫芦种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:SummerSquashSeeds_Description]",
+      "zh": "夏天播种，6 天长成，收获之后还能继续结果。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 20,
+    "sprite": {
+      "texture": "TileSheets/Objects_2",
+      "index": 85,
+      "x": 208,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown"
+    ]
+  },
+  {
+    "id": "BroccoliSeeds",
+    "name": "Broccoli Seeds",
+    "displayName": {
+      "en": "Broccoli Seeds",
+      "zh": "西蓝花种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:BroccoliSeeds_Description]",
+      "zh": "秋天播种，8 天成熟，收获之后还能继续生长。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 40,
+    "sprite": {
+      "texture": "TileSheets/Objects_2",
+      "index": 86,
+      "x": 224,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown"
+    ]
+  },
+  {
+    "id": "PowdermelonSeeds",
+    "name": "Powdermelon Seeds",
+    "displayName": {
+      "en": "Powdermelon Seeds",
+      "zh": "霜瓜种子"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:PowdermelonSeeds_Description]",
+      "zh": "冬天生长的特殊瓜类，7 天成熟。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 20,
+    "sprite": {
+      "texture": "TileSheets/Objects_2",
+      "index": 87,
+      "x": 240,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Ancient_Ferns_Seed",
+    "name": "Ancient Ferns Seed",
+    "displayName": {
+      "en": "Ancient Ferns Seed",
+      "zh": "上古蕨菜种子"
+    },
+    "description": {
+      "en": "被认为早已灭绝，夏天种植。12天成熟。",
+      "zh": "被认为早已灭绝，夏天种植。12天成熟。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Ancient Ferns Seed",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Fungus_Seed",
+    "name": "Fungus Seed",
+    "displayName": {
+      "en": "Fungus Seed",
+      "zh": "真菌种子"
+    },
+    "description": {
+      "en": "秋天种植。成熟需要13天。",
+      "zh": "秋天种植。成熟需要13天。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Fungus Seed",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Joja_Berry_Starter",
+    "name": "Joja Berry Starter",
+    "displayName": {
+      "en": "Joja Berry Starter",
+      "zh": "Joja浆果促酵剂"
+    },
+    "description": {
+      "en": "在春天，夏天或秋天种植。25天成熟，之后循环生产。所种地面会无法通行。准备好收获时，灯会变红。",
+      "zh": "在春天，夏天或秋天种植。25天成熟，之后循环生产。所种地面会无法通行。准备好收获时，灯会变红。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 1000,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Joja Berry Starter",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_blue"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Joja_Veggie_Seeds",
+    "name": "Joja Veggie Seeds",
+    "displayName": {
+      "en": "Joja Veggie Seeds",
+      "zh": "Joja蔬菜种子"
+    },
+    "description": {
+      "en": "在春天，夏天或秋天种植。13天成熟。所种地面会无法通行。准备好收获时，灯会变红。",
+      "zh": "在春天，夏天或秋天种植。13天成熟。所种地面会无法通行。准备好收获时，灯会变红。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 200,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Joja Veggie Seeds",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Stalk_Seed",
+    "name": "Stalk Seed",
+    "displayName": {
+      "en": "Stalk Seed",
+      "zh": "怪兽茎种子"
+    },
+    "description": {
+      "en": "夏天种植。25天成熟。",
+      "zh": "夏天种植。25天成熟。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Stalk Seed",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Shrub_Seed",
+    "name": "Shrub Seed",
+    "displayName": {
+      "en": "Shrub Seed",
+      "zh": "沙龙白珠树种子"
+    },
+    "description": {
+      "en": "春天或夏天播种。13天成熟，收获之后循环生产。",
+      "zh": "春天或夏天播种。13天成熟，收获之后循环生产。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Shrub Seed",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Void_Seed",
+    "name": "Void Seed",
+    "displayName": {
+      "en": "Void Seed",
+      "zh": "虚空种子"
+    },
+    "description": {
+      "en": "冬天种植。8天成熟。",
+      "zh": "冬天种植。8天成熟。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Void Seed",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Slime_Seed",
+    "name": "Slime Seed",
+    "displayName": {
+      "en": "Slime Seed",
+      "zh": "史莱姆种子"
+    },
+    "description": {
+      "en": "春天种植。13天成熟，之后循环生产。",
+      "zh": "春天种植。13天成熟，之后循环生产。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Slime Seed",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Cucumber_Seed",
+    "name": "Cucumber Seed",
+    "displayName": {
+      "en": "Cucumber Seed",
+      "zh": "黄瓜种子"
+    },
+    "description": {
+      "en": "春天播种。12天成熟，收获之后循环生产。",
+      "zh": "春天播种。12天成熟，收获之后循环生产。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 75,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Cucumber Seed",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Butternut_Squash_Seed",
+    "name": "Butternut Squash Seed",
+    "displayName": {
+      "en": "Butternut Squash Seed",
+      "zh": "奶油南瓜种子"
+    },
+    "description": {
+      "en": "夏天播种。需要12天天成熟。",
+      "zh": "夏天播种。需要12天天成熟。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 30,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Butternut Squash Seed",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Sweet_Potato_Seed",
+    "name": "Sweet Potato Seed",
+    "displayName": {
+      "en": "Sweet Potato Seed",
+      "zh": "红薯种子"
+    },
+    "description": {
+      "en": "秋天播种。需要12天成熟。",
+      "zh": "秋天播种。需要12天成熟。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 45,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Sweet Potato Seed",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Gold_Carrot_Seed",
+    "name": "Gold Carrot Seed",
+    "displayName": {
+      "en": "Gold Carrot Seed",
+      "zh": "金胡萝卜种子"
+    },
+    "description": {
+      "en": "春天，夏天或秋天播种。6天成熟",
+      "zh": "春天，夏天或秋天播种。6天成熟"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 300,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Gold Carrot Seed",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "EastScarp_Azure_Chrysanthemum_Seed",
+    "name": "EastScarp_Azure_Chrysanthemum_Seed",
+    "displayName": {
+      "en": "EastScarp_Azure_Chrysanthemum_Seed",
+      "zh": "天青菊种子"
+    },
+    "description": {
+      "en": "春季种植，开出漂亮的蓝色花朵。需要13天成熟，并在第一次收获后继续生长。",
+      "zh": "春季种植，开出漂亮的蓝色花朵。需要13天成熟，并在第一次收获后继续生长。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 125,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 1,
+      "x": 16,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "EastScarp_Serruria_Seed",
+    "name": "EastScarp_Serruria_Seed",
+    "displayName": {
+      "en": "EastScarp_Serruria_Seed",
+      "zh": "新娘花种子"
+    },
+    "description": {
+      "en": "冬季种植，在春季产出美丽的白色花朵。需要14天成熟，并在第一次收获后继续生长。",
+      "zh": "冬季种植，在春季产出美丽的白色花朵。需要14天成熟，并在第一次收获后继续生长。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 125,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 3,
+      "x": 48,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "EastScarp_Bird_Of_Paradise_Seed",
+    "name": "EastScarp_Bird_Of_Paradise_Seed",
+    "displayName": {
+      "en": "EastScarp_Bird_Of_Paradise_Seed",
+      "zh": "天堂鸟种子"
+    },
+    "description": {
+      "en": "春季或夏季种植，开出美丽的鸟状花朵。需要12天成熟，并在第一次收获后继续生长。",
+      "zh": "春季或夏季种植，开出美丽的鸟状花朵。需要12天成熟，并在第一次收获后继续生长。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 125,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 5,
+      "x": 80,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "EastScarp_Moonflower_Seed",
+    "name": "EastScarp_Moonflower_Seed",
+    "displayName": {
+      "en": "EastScarp_Moonflower_Seed",
+      "zh": "月光花种子"
+    },
+    "description": {
+      "en": "任意季节都可种植，产出漂亮的珍珠。需要一整个季度才能成熟，每个季节都会生出一颗珍珠。",
+      "zh": "任意季节都可种植，产出漂亮的珍珠。需要一整个季度才能成熟，每个季节都会生出一颗珍珠。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 125,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 6,
+      "x": 96,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "MadDog.HashtagBearFam_StoneBrambleSeed",
+    "name": "MadDog.HashtagBearFam_StoneBrambleSeed",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_StoneBrambleSeed",
+      "zh": "石荆棘莓"
+    },
+    "description": {
+      "en": "春天或夏季播种。需要13天成熟，之后每3天收获一次。",
+      "zh": "春天或夏季播种。需要13天成熟，之后每3天收获一次。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 2,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/SeedPacket",
+      "index": 17,
+      "x": 272,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "trash_bear_ignore"
+    ]
+  },
+  {
+    "id": "DN.SnS_ancientamaranth.seed",
+    "name": "DN.SnS_ancientamaranth.seed",
+    "displayName": {
+      "en": "DN.SnS_ancientamaranth.seed",
+      "zh": "上古苋菜种子"
+    },
+    "description": {
+      "en": "在夏季和秋季种植，需要7天成熟。不会再生。",
+      "zh": "在夏季和秋季种植，需要7天成熟。不会再生。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 2,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 9,
+      "x": 144,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "DN.SnS_ancientepiphyticfern.seed",
+    "name": "DN.SnS_ancientepiphyticfern.seed",
+    "displayName": {
+      "en": "DN.SnS_ancientepiphyticfern.seed",
+      "zh": "上古附生蕨种子"
+    },
+    "description": {
+      "en": "在春季和夏季种植。需要14天成熟，之后每3天再生一次。",
+      "zh": "在春季和夏季种植。需要14天成熟，之后每3天再生一次。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 2,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 11,
+      "x": 176,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "DN.SnS_glowingpolyporemushrooms.seed",
+    "name": "DN.SnS_glowingpolyporemushrooms.seed",
+    "displayName": {
+      "en": "DN.SnS_glowingpolyporemushrooms.seed",
+      "zh": "上古发光多孔菌孢子"
+    },
+    "description": {
+      "en": "在秋季和冬季种植。需要28天成熟，之后每3天再生一次。",
+      "zh": "在秋季和冬季种植。需要28天成熟，之后每3天再生一次。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 2,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 13,
+      "x": 208,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "DN.SnS_ancientwildfairyrose.seed",
+    "name": "DN.SnS_ancientwildfairyrose.seed",
+    "displayName": {
+      "en": "DN.SnS_ancientwildfairyrose.seed",
+      "zh": "上古野玫瑰仙子种子"
+    },
+    "description": {
+      "en": "在春季、夏季和秋季种植。需28天成熟，之后每3天再生一次。",
+      "zh": "在春季、夏季和秋季种植。需28天成熟，之后每3天再生一次。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 2,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 10,
+      "x": 160,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "DN.SnS_ancientelderberry.seed",
+    "name": "DN.SnS_ancientelderberry.seed",
+    "displayName": {
+      "en": "DN.SnS_ancientelderberry.seed",
+      "zh": "上古接骨木莓种子"
+    },
+    "description": {
+      "en": "在春季和夏季种植。需10天成熟，之后每3天再生一次。",
+      "zh": "在春季和夏季种植。需10天成熟，之后每3天再生一次。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 2,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 38,
+      "x": 224,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "DN.SnS_ancientbottlegourd.seed",
+    "name": "DN.SnS_ancientbottlegourd.seed",
+    "displayName": {
+      "en": "DN.SnS_ancientbottlegourd.seed",
+      "zh": "上古葫芦种子"
+    },
+    "description": {
+      "en": "在秋季种植。需12天成熟。不重复结果。",
+      "zh": "在秋季种植。需12天成熟。不重复结果。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 2,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 40,
+      "x": 256,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "DN.SnS_ancientgiantappleberry.seed",
+    "name": "DN.SnS_ancientgiantappleberry.seed",
+    "displayName": {
+      "en": "DN.SnS_ancientgiantappleberry.seed",
+      "zh": "上古巨型苹果莓种子"
+    },
+    "description": {
+      "en": "在春季、夏季和秋季种植。需10天成熟。不重复结果。",
+      "zh": "在春季、夏季和秋季种植。需10天成熟。不重复结果。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 2,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 42,
+      "x": 288,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "DN.SnS_ancientazuredetura.seed",
+    "name": "DN.SnS_ancientazuredetura.seed",
+    "displayName": {
+      "en": "DN.SnS_ancientazuredetura.seed",
+      "zh": "上古曼陀罗种子"
+    },
+    "description": {
+      "en": "在秋季和冬季种植。需8天成熟。不会再生。",
+      "zh": "在秋季和冬季种植。需8天成熟。不会再生。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 2,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 44,
+      "x": 320,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "DN.SnS_ancientglowinghuckleberry.seed",
+    "name": "DN.SnS_ancientglowinghuckleberry.seed",
+    "displayName": {
+      "en": "DN.SnS_ancientglowinghuckleberry.seed",
+      "zh": "上古发光越橘种子"
+    },
+    "description": {
+      "en": "之前处于休眠状态。需28天长成一棵成熟的越橘藤。在夏季和秋季结果。仅在周围8格为空时生长。",
+      "zh": "之前处于休眠状态。需28天长成一棵成熟的越橘藤。在夏季和秋季结果。仅在周围8格为空时生长。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 2,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 12,
+      "x": 192,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "DN.SnS_ancientsweettealeaves.seed",
+    "name": "DN.SnS_ancientsweettealeaves.seed",
+    "displayName": {
+      "en": "DN.SnS_ancientsweettealeaves.seed",
+      "zh": "上古甜茶树种子"
+    },
+    "description": {
+      "en": "在夏季和冬季种植。需13天成熟，之后每4天再生一次。",
+      "zh": "在夏季和冬季种植。需13天成熟，之后每4天再生一次。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 2,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 85,
+      "x": 208,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Wildflour.SASS_Arctic_Fox_Seeds",
+    "name": "Wildflour.SASS_Arctic_Fox_Seeds",
+    "displayName": {
+      "en": "Wildflour.SASS_Arctic_Fox_Seeds",
+      "zh": "北极狐种子"
+    },
+    "description": {
+      "en": "在冬季或春季种植。16天成熟，首次收获后还会持续产出。",
+      "zh": "在冬季或春季种植。16天成熟，首次收获后还会持续产出。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 9,
+      "x": 144,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Wildflour.SASS_Avalune_Seeds",
+    "name": "Wildflour.SASS_Avalune_Seeds",
+    "displayName": {
+      "en": "Wildflour.SASS_Avalune_Seeds",
+      "zh": "阿瓦莲种子"
+    },
+    "description": {
+      "en": "在冬季或春季种下。需要 20 天才能成熟，首次收获后还会继续生长产出。",
+      "zh": "在冬季或春季种下。需要 20 天才能成熟，首次收获后还会继续生长产出。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 11,
+      "x": 176,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Wildflour.SASS_Daisy_Seeds",
+    "name": "Wildflour.SASS_Daisy_Seeds",
+    "displayName": {
+      "en": "Wildflour.SASS_Daisy_Seeds",
+      "zh": "雏菊种子"
+    },
+    "description": {
+      "en": "于秋季种植，生长周期为 5 天。",
+      "zh": "于秋季种植，生长周期为 5 天。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 112,
+      "x": 256,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Wildflour.SASS_Hibiscus_Seeds",
+    "name": "Wildflour.SASS_Hibiscus_Seeds",
+    "displayName": {
+      "en": "Wildflour.SASS_Hibiscus_Seeds",
+      "zh": "木槿种子"
+    },
+    "description": {
+      "en": "于夏季或秋季种植，生长周期 15 天，成熟后每 4 天可采收一次。",
+      "zh": "于夏季或秋季种植，生长周期 15 天，成熟后每 4 天可采收一次。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 113,
+      "x": 272,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Wildflour.SASS_Lily_Seeds",
+    "name": "Wildflour.SASS_Lily_Seeds",
+    "displayName": {
+      "en": "Wildflour.SASS_Lily_Seeds",
+      "zh": "百合种子"
+    },
+    "description": {
+      "en": "于夏季种植，生长周期为 12 天。",
+      "zh": "于夏季种植，生长周期为 12 天。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 116,
+      "x": 320,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Wildflour.SASS_Nasturtium_Seeds",
+    "name": "Wildflour.SASS_Nasturtium_Seeds",
+    "displayName": {
+      "en": "Wildflour.SASS_Nasturtium_Seeds",
+      "zh": "旱金莲种子"
+    },
+    "description": {
+      "en": "于夏季或秋季种植，生长周期 12 天，成熟后每 3 天可采收一次。",
+      "zh": "于夏季或秋季种植，生长周期 12 天，成熟后每 3 天可采收一次。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 114,
+      "x": 288,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Wildflour.SASS_Peony_Seeds",
+    "name": "Wildflour.SASS_Peony_Seeds",
+    "displayName": {
+      "en": "Wildflour.SASS_Peony_Seeds",
+      "zh": "牡丹种子"
+    },
+    "description": {
+      "en": "于春季种植，生长周期 13 天，成熟后每 6 天可采收一次。",
+      "zh": "于春季种植，生长周期 13 天，成熟后每 6 天可采收一次。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 115,
+      "x": 304,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Wildflour.SASS_Pixie_Breath_Seeds",
+    "name": "Wildflour.SASS_Pixie_Breath_Seeds",
+    "displayName": {
+      "en": "Wildflour.SASS_Pixie_Breath_Seeds",
+      "zh": "精灵之息种子"
+    },
+    "description": {
+      "en": "在春季或夏季种下。需要 15 天成熟，首次收获后还会继续生长产出。",
+      "zh": "在春季或夏季种下。需要 15 天成熟，首次收获后还会继续生长产出。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 13,
+      "x": 208,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Wildflour.SASS_Snapdragon_Seeds",
+    "name": "Wildflour.SASS_Snapdragon_Seeds",
+    "displayName": {
+      "en": "Wildflour.SASS_Snapdragon_Seeds",
+      "zh": "金鱼草种子"
+    },
+    "description": {
+      "en": "于春季或秋季种植，生长周期 12 天，成熟后每 4 天可采收一次。",
+      "zh": "于春季或秋季种植，生长周期 12 天，成熟后每 4 天可采收一次。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 117,
+      "x": 336,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Wildflour.SASS_Yarrow_Seeds",
+    "name": "Wildflour.SASS_Yarrow_Seeds",
+    "displayName": {
+      "en": "Wildflour.SASS_Yarrow_Seeds",
+      "zh": "蓍草种子"
+    },
+    "description": {
+      "en": "在夏季或秋季种下。需要 12 天才能成熟，首次收获后还会继续生长产出。",
+      "zh": "在夏季或秋季种下。需要 12 天才能成熟，首次收获后还会继续生长产出。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 15,
+      "x": 240,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Wildflour.SASS_Fae_Queen_Flower_Seeds",
+    "name": "Wildflour.SASS_Fae_Queen_Flower_Seeds",
+    "displayName": {
+      "en": "Wildflour.SASS_Fae_Queen_Flower_Seeds",
+      "zh": "仙后花架"
+    },
+    "description": {
+      "en": "需要 30 天成熟为花丛，每 3 天产出魔法花朵。",
+      "zh": "需要 30 天成熟为花丛，每 3 天产出魔法花朵。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 145,
+      "x": 16,
+      "y": 96,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Wildflour.SASS_Secret_Garden_Flower_Seeds",
+    "name": "Wildflour.SASS_Secret_Garden_Flower_Seeds",
+    "displayName": {
+      "en": "Wildflour.SASS_Secret_Garden_Flower_Seeds",
+      "zh": "秘园花架"
+    },
+    "description": {
+      "en": "需要 30 天成熟为花丛，每 3 天产出魔法花朵。",
+      "zh": "需要 30 天成熟为花丛，每 3 天产出魔法花朵。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 146,
+      "x": 32,
+      "y": 96,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Wildflour.SASS_Magic_Meadow_Flower_Seeds",
+    "name": "Wildflour.SASS_Magic_Meadow_Flower_Seeds",
+    "displayName": {
+      "en": "Wildflour.SASS_Magic_Meadow_Flower_Seeds",
+      "zh": "幻野花架"
+    },
+    "description": {
+      "en": "需要 30 天成熟为花丛，每 3 天产出魔法花朵。",
+      "zh": "需要 30 天成熟为花丛，每 3 天产出魔法花朵。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 147,
+      "x": 48,
+      "y": 96,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Wildflour.SASS_Pantry_Mushroom_Seeds",
+    "name": "Wildflour.SASS_Pantry_Mushroom_Seeds",
+    "displayName": {
+      "en": "Wildflour.SASS_Pantry_Mushroom_Seeds",
+      "zh": "食阁蘑菇菌种"
+    },
+    "description": {
+      "en": "需要 30 天成熟为菌丛，每 3 天产出魔法蘑菇。",
+      "zh": "需要 30 天成熟为菌丛，每 3 天产出魔法蘑菇。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 148,
+      "x": 64,
+      "y": 96,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Wildflour.SASS_Cafe_Mushroom_Seeds",
+    "name": "Wildflour.SASS_Cafe_Mushroom_Seeds",
+    "displayName": {
+      "en": "Wildflour.SASS_Cafe_Mushroom_Seeds",
+      "zh": "咖啡屋蘑菇菌种"
+    },
+    "description": {
+      "en": "需要 30 天成熟为菌丛，每 3 天产出魔法蘑菇。",
+      "zh": "需要 30 天成熟为菌丛，每 3 天产出魔法蘑菇。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 149,
+      "x": 80,
+      "y": 96,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Wildflour.SASS_Alchemist_Mushroom_Seeds",
+    "name": "Wildflour.SASS_Alchemist_Mushroom_Seeds",
+    "displayName": {
+      "en": "Wildflour.SASS_Alchemist_Mushroom_Seeds",
+      "zh": "炼金术师蘑菇菌种"
+    },
+    "description": {
+      "en": "需要 30 天成熟为菌丛，每 3 天产出魔法蘑菇。",
+      "zh": "需要 30 天成熟为菌丛，每 3 天产出魔法蘑菇。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 150,
+      "x": 96,
+      "y": 96,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Wildflour.SASS_Cookie_Monster_Mushroom_Seeds",
+    "name": "Wildflour.SASS_Cookie_Monster_Mushroom_Seeds",
+    "displayName": {
+      "en": "Wildflour.SASS_Cookie_Monster_Mushroom_Seeds",
+      "zh": "饼干怪兽蘑菇菌种"
+    },
+    "description": {
+      "en": "需要 30 天成熟为菌丛，每 3 天产出魔法蘑菇。",
+      "zh": "需要 30 天成熟为菌丛，每 3 天产出魔法蘑菇。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 151,
+      "x": 112,
+      "y": 96,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Wildflour.SASS_Sweet_Tooth_Mushroom_Seeds",
+    "name": "Wildflour.SASS_Sweet_Tooth_Mushroom_Seeds",
+    "displayName": {
+      "en": "Wildflour.SASS_Sweet_Tooth_Mushroom_Seeds",
+      "zh": "嗜甜者蘑菇菌种"
+    },
+    "description": {
+      "en": "需要 30 天成熟为菌丛，每 3 天产出魔法蘑菇。",
+      "zh": "需要 30 天成熟为菌丛，每 3 天产出魔法蘑菇。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 152,
+      "x": 128,
+      "y": 96,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Wildflour.SASS_Blushing_TopHat_Seeds",
+    "name": "Wildflour.SASS_Blushing_TopHat_Seeds",
+    "displayName": {
+      "en": "Wildflour.SASS_Blushing_TopHat_Seeds",
+      "zh": "奶油霜礼帽菇培育苗"
+    },
+    "description": {
+      "en": "这是接种奶油霜礼帽菇菌种的木材，要是种到地里，便能长成一棵奶油霜礼帽菇树。",
+      "zh": "这是接种奶油霜礼帽菇菌种的木材，要是种到地里，便能长成一棵奶油霜礼帽菇树。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 78,
+      "x": 96,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Wildflour.SASS_Candy_Button_Seeds",
+    "name": "Wildflour.SASS_Candy_Button_Seeds",
+    "displayName": {
+      "en": "Wildflour.SASS_Candy_Button_Seeds",
+      "zh": "纽扣糖果菇培育苗"
+    },
+    "description": {
+      "en": "这是接种了纽扣糖果菇菌种的木材，要是种到地里，便能长成一棵纽扣糖果菇树。",
+      "zh": "这是接种了纽扣糖果菇菌种的木材，要是种到地里，便能长成一棵纽扣糖果菇树。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 79,
+      "x": 112,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Wildflour.SASS_Coral_Fungus_Seeds",
+    "name": "Wildflour.SASS_Coral_Fungus_Seeds",
+    "displayName": {
+      "en": "Wildflour.SASS_Coral_Fungus_Seeds",
+      "zh": "珊瑚菌培育苗"
+    },
+    "description": {
+      "en": "这是接种了珊瑚菌菌种的木材，要是种在地里，便能长成一棵珊瑚菌树。",
+      "zh": "这是接种了珊瑚菌菌种的木材，要是种在地里，便能长成一棵珊瑚菌树。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 90,
+      "x": 288,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Wildflour.SASS_Frilly_Gilly_Seeds",
+    "name": "Wildflour.SASS_Frilly_Gilly_Seeds",
+    "displayName": {
+      "en": "Wildflour.SASS_Frilly_Gilly_Seeds",
+      "zh": "褶边吉利菇培育苗"
+    },
+    "description": {
+      "en": "这是接种了褶边吉利菇菌种的木材，要是种在地里，便能长成一棵褶边吉利菇树。",
+      "zh": "这是接种了褶边吉利菇菌种的木材，要是种在地里，便能长成一棵褶边吉利菇树。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 91,
+      "x": 304,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Wildflour.SASS_Ghostly_Parasol_Seeds",
+    "name": "Wildflour.SASS_Ghostly_Parasol_Seeds",
+    "displayName": {
+      "en": "Wildflour.SASS_Ghostly_Parasol_Seeds",
+      "zh": "幽影伞菇培育苗"
+    },
+    "description": {
+      "en": "这是接种了幽影伞菇菌种的木材，要是种在地里，便能长成一棵幽影伞菇树。",
+      "zh": "这是接种了幽影伞菇菌种的木材，要是种在地里，便能长成一棵幽影伞菇树。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 92,
+      "x": 320,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Wildflour.SASS_Indigo_Cap_Seeds",
+    "name": "Wildflour.SASS_Indigo_Cap_Seeds",
+    "displayName": {
+      "en": "Wildflour.SASS_Indigo_Cap_Seeds",
+      "zh": "靛蓝帽菇培育苗"
+    },
+    "description": {
+      "en": "这是接种了靛蓝帽菇菌种的木材，要是种在地里，便能长成一棵靛蓝帽菇树。",
+      "zh": "这是接种了靛蓝帽菇菌种的木材，要是种在地里，便能长成一棵靛蓝帽菇树。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 93,
+      "x": 336,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Wildflour.SASS_Lilac_Funnel_Seeds",
+    "name": "Wildflour.SASS_Lilac_Funnel_Seeds",
+    "displayName": {
+      "en": "Wildflour.SASS_Lilac_Funnel_Seeds",
+      "zh": "丁香紫漏斗菇培育苗"
+    },
+    "description": {
+      "en": "这是接种了丁香紫漏斗菇菌种的木材，要是种在地里，便能长成一棵丁香紫漏斗菇树。",
+      "zh": "这是接种了丁香紫漏斗菇菌种的木材，要是种在地里，便能长成一棵丁香紫漏斗菇树。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 94,
+      "x": 352,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Wildflour.SASS_Limey_Bonnet_Seeds",
+    "name": "Wildflour.SASS_Limey_Bonnet_Seeds",
+    "displayName": {
+      "en": "Wildflour.SASS_Limey_Bonnet_Seeds",
+      "zh": "莱姆帽菇培育苗"
+    },
+    "description": {
+      "en": "这是接种了莱姆帽菇菌种的木材，要是种在地里，便能长成一棵莱姆帽菇树。",
+      "zh": "这是接种了莱姆帽菇菌种的木材，要是种在地里，便能长成一棵莱姆帽菇树。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 95,
+      "x": 368,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Wildflour.SASS_Lunar_Poof_Seeds",
+    "name": "Wildflour.SASS_Lunar_Poof_Seeds",
+    "displayName": {
+      "en": "Wildflour.SASS_Lunar_Poof_Seeds",
+      "zh": "月辉蓬蓬菇培育苗"
+    },
+    "description": {
+      "en": "这是接种了月辉蓬蓬菇菌种的木材，要是种在地里，便能长成一棵月辉蓬蓬菇树。",
+      "zh": "这是接种了月辉蓬蓬菇菌种的木材，要是种在地里，便能长成一棵月辉蓬蓬菇树。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 106,
+      "x": 160,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Wildflour.SASS_Rustgill_Seeds",
+    "name": "Wildflour.SASS_Rustgill_Seeds",
+    "displayName": {
+      "en": "Wildflour.SASS_Rustgill_Seeds",
+      "zh": "面包牛肝菌培育苗"
+    },
+    "description": {
+      "en": "这是接种了面包牛肝菌菌种的木材，要是种在地里，便能长成一棵面包牛肝菌树。",
+      "zh": "这是接种了面包牛肝菌菌种的木材，要是种在地里，便能长成一棵面包牛肝菌树。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 107,
+      "x": 176,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Wildflour.SASS_Seafoam_Waxcap_Seeds",
+    "name": "Wildflour.SASS_Seafoam_Waxcap_Seeds",
+    "displayName": {
+      "en": "Wildflour.SASS_Seafoam_Waxcap_Seeds",
+      "zh": "海沫蜡伞菌培育苗"
+    },
+    "description": {
+      "en": "这是接种了海沫蜡伞菌菌种的木材，要是种在地里，便能长成一棵海沫蜡伞菌树。",
+      "zh": "这是接种了海沫蜡伞菌菌种的木材，要是种在地里，便能长成一棵海沫蜡伞菌树。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 108,
+      "x": 192,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Wildflour.SASS_Sparkling_Agaric_Seeds",
+    "name": "Wildflour.SASS_Sparkling_Agaric_Seeds",
+    "displayName": {
+      "en": "Wildflour.SASS_Sparkling_Agaric_Seeds",
+      "zh": "闪亮伞菌培育苗"
+    },
+    "description": {
+      "en": "这是接种了闪亮伞菌菌种的木材，要是种在地里，便能长成一棵闪亮伞菌树。",
+      "zh": "这是接种了闪亮伞菌菌种的木材，要是种在地里，便能长成一棵闪亮伞菌树。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 109,
+      "x": 208,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Wildflour.SASS_Stout_Funnel_Seeds",
+    "name": "Wildflour.SASS_Stout_Funnel_Seeds",
+    "displayName": {
+      "en": "Wildflour.SASS_Stout_Funnel_Seeds",
+      "zh": "敦实漏斗菌培育苗"
+    },
+    "description": {
+      "en": "这是接种了敦实漏斗菌菌种的木材，要是种在地里，便能长成一棵敦实漏斗菌树。",
+      "zh": "这是接种了敦实漏斗菌菌种的木材，要是种在地里，便能长成一棵敦实漏斗菌树。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 110,
+      "x": 224,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Lumisteria.MtVapius_TagetesSeeds",
+    "name": "Tagetes Seeds",
+    "displayName": {
+      "en": "Tagetes Seeds",
+      "zh": "万寿菊种子"
+    },
+    "description": {
+      "en": "春天或夏季播种。需要4天成熟。",
+      "zh": "春天或夏季播种。需要4天成熟。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 20,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_FireBeansStarter",
+    "name": "Fire Beans Starter",
+    "displayName": {
+      "en": "Fire Beans Starter",
+      "zh": "火焰豆种子"
+    },
+    "description": {
+      "en": "春天和夏季种植。需要9天成熟，但收获之后循环生产。在架子上生长。",
+      "zh": "春天和夏季种植。需要9天成熟，但收获之后循环生产。在架子上生长。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 50,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 1,
+      "x": 16,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_RyeSeeds",
+    "name": "Rye Seeds",
+    "displayName": {
+      "en": "Rye Seeds",
+      "zh": "黑麦种子"
+    },
+    "description": {
+      "en": "冬天播种。需要4天成熟。收获后有机会使土地肥沃。",
+      "zh": "冬天播种。需要4天成熟。收获后有机会使土地肥沃。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 20,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 2,
+      "x": 32,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_BlueMorningGloryStarter",
+    "name": "Blue Morning Glory Starter",
+    "displayName": {
+      "en": "Blue Morning Glory Starter",
+      "zh": "蓝色牵牛花"
+    },
+    "description": {
+      "en": "夏天播种。需要5天成熟，但收获之后循环生产。在花架上生长。",
+      "zh": "夏天播种。需要5天成熟，但收获之后循环生产。在花架上生长。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 20,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 3,
+      "x": 48,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_PinkMorningGloryStarter",
+    "name": "Pink Morning Glory Starter",
+    "displayName": {
+      "en": "Pink Morning Glory Starter",
+      "zh": "粉色牵牛花"
+    },
+    "description": {
+      "en": "夏天播种。需要5天成熟，但收获之后循环生产。在花架上生长。",
+      "zh": "夏天播种。需要5天成熟，但收获之后循环生产。在花架上生长。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 20,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 4,
+      "x": 64,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_NympheaSeeds",
+    "name": "Nymphea Seeds",
+    "displayName": {
+      "en": "Nymphea Seeds",
+      "zh": "睡莲种子"
+    },
+    "description": {
+      "en": "秋天播种。需要10天成熟。如果种植在水体附近，生长速度会更快。",
+      "zh": "秋天播种。需要10天成熟。如果种植在水体附近，生长速度会更快。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 30,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 5,
+      "x": 80,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_StarShapedFlowerSeeds",
+    "name": "Star Shaped Flower Seeds",
+    "displayName": {
+      "en": "Star Shaped Flower Seeds",
+      "zh": "星形花种子"
+    },
+    "description": {
+      "en": "冬天和春天在雾呜山峰播种，其他地方只能冬天种植。需要寒冷的气候。需要15天成熟.",
+      "zh": "冬天和春天在雾呜山峰播种，其他地方只能冬天种植。需要寒冷的气候。需要15天成熟."
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 250,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 6,
+      "x": 96,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds",
+      "stellar_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_MoonPodsSeeds",
+    "name": "Moon Pods Seeds",
+    "displayName": {
+      "en": "Moon Pods Seeds",
+      "zh": "月亮豆荚"
+    },
+    "description": {
+      "en": "夏天和秋天播种。需要7天成熟。",
+      "zh": "夏天和秋天播种。需要7天成熟。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 20,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 7,
+      "x": 112,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds",
+      "stellar_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_NightMiscanthusSeeds",
+    "name": "Night Miscanthus Seeds",
+    "displayName": {
+      "en": "Night Miscanthus Seeds",
+      "zh": "夜芒草"
+    },
+    "description": {
+      "en": "春天和秋天播种。需要10天成熟。不需要浇水。",
+      "zh": "春天和秋天播种。需要10天成熟。不需要浇水。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 80,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 8,
+      "x": 128,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds",
+      "stellar_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_CloudFeatherSeeds",
+    "name": "Cloud Feather Seeds",
+    "displayName": {
+      "en": "Cloud Feather Seeds",
+      "zh": "云羽草"
+    },
+    "description": {
+      "en": "冬天播种。需要12天成熟。",
+      "zh": "冬天播种。需要12天成熟。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 100,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 9,
+      "x": 144,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds",
+      "stellar_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_GalaxySeeds",
+    "name": "Galaxy Seeds",
+    "displayName": {
+      "en": "Galaxy Seeds",
+      "zh": "银河种子"
+    },
+    "description": {
+      "en": "秋天和冬天在雾呜山峰播种，其他地方只能冬天种植。需要寒冷的气候。需要13天成熟。",
+      "zh": "秋天和冬天在雾呜山峰播种，其他地方只能冬天种植。需要寒冷的气候。需要13天成熟。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 750,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 10,
+      "x": 160,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds",
+      "stellar_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_BirchtreeSeeds",
+    "name": "Birch Tree Seeds",
+    "displayName": {
+      "en": "Birch Tree Seeds",
+      "zh": "桦树种子"
+    },
+    "description": {
+      "en": "这可以用来种植桦树。",
+      "zh": "这可以用来种植桦树。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 20,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 11,
+      "x": 176,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_BasilSeeds",
+    "name": "Basil Seeds",
+    "displayName": {
+      "en": "Basil Seeds",
+      "zh": "罗勒种子"
+    },
+    "description": {
+      "en": "夏天播种。需要10天天成熟，但收获之后循环生产。",
+      "zh": "夏天播种。需要10天天成熟，但收获之后循环生产。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 68,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 13,
+      "x": 208,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_PrimroseSeeds",
+    "name": "Primrose Seeds",
+    "displayName": {
+      "en": "Primrose Seeds",
+      "zh": "报春花种子"
+    },
+    "description": {
+      "en": "春天播种。需要7天成熟。",
+      "zh": "春天播种。需要7天成熟。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 72,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 15,
+      "x": 240,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds",
+      "mt_vapius_rare_flower_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_HelleboreSeeds",
+    "name": "Hellebore Seeds",
+    "displayName": {
+      "en": "Hellebore Seeds",
+      "zh": "铁筷子花种子"
+    },
+    "description": {
+      "en": "冬天播种。需要10天成熟，但收获之后循环生产。",
+      "zh": "冬天播种。需要10天成熟，但收获之后循环生产。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 95,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 16,
+      "x": 256,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds",
+      "mt_vapius_rare_flower_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_FugacineTubers",
+    "name": "Fugacine Tubers",
+    "displayName": {
+      "en": "Fugacine Tubers",
+      "zh": "刹那花块茎"
+    },
+    "description": {
+      "en": "夏天播种。需要12天天成熟。",
+      "zh": "夏天播种。需要12天天成熟。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 100,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 17,
+      "x": 272,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds",
+      "mt_vapius_rare_flower_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_ElfcupSeeds",
+    "name": "Elfcup Seeds",
+    "displayName": {
+      "en": "Elfcup Seeds",
+      "zh": "精灵杯种子"
+    },
+    "description": {
+      "en": "秋天播种。需要18天成熟。",
+      "zh": "秋天播种。需要18天成熟。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 300,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 18,
+      "x": 288,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds",
+      "mt_vapius_rare_flower_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_SweetMyriadinBulb",
+    "name": "Sweet Myriadin Bulb",
+    "displayName": {
+      "en": "Sweet Myriadin Bulb",
+      "zh": "百香花球茎"
+    },
+    "description": {
+      "en": "夏天播种。需要22天成熟。",
+      "zh": "夏天播种。需要22天成熟。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 350,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 19,
+      "x": 304,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds",
+      "mt_vapius_rare_flower_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_NeralbaneSeeds",
+    "name": "Neralbane Seeds",
+    "displayName": {
+      "en": "Neralbane Seeds",
+      "zh": "隐祸花种子"
+    },
+    "description": {
+      "en": "冬天播种。需要20天成熟。",
+      "zh": "冬天播种。需要20天成熟。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 120,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 20,
+      "x": 320,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds",
+      "mt_vapius_rare_flower_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_RedBouquetSeeds",
+    "name": "Red Bouquet Seeds",
+    "displayName": {
+      "en": "Red Bouquet Seeds",
+      "zh": "毒红花束种子"
+    },
+    "description": {
+      "en": "秋天播种。需要12天成熟。",
+      "zh": "秋天播种。需要12天成熟。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 150,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 21,
+      "x": 336,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds",
+      "mt_vapius_rare_flower_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_BalmcreekCarillonRhizome",
+    "name": "Balmcreek Carillon Rhizome",
+    "displayName": {
+      "en": "Balmcreek Carillon Rhizome",
+      "zh": "馥郁溪钟花根茎"
+    },
+    "description": {
+      "en": "春天播种。需要24天成熟。",
+      "zh": "春天播种。需要24天成熟。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 290,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 22,
+      "x": 352,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds",
+      "mt_vapius_rare_flower_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_GoblinGentianSeeds",
+    "name": "Goblin Gentian Seeds",
+    "displayName": {
+      "en": "Goblin Gentian Seeds",
+      "zh": "哥布林的龙胆花种子"
+    },
+    "description": {
+      "en": "春天播种。需要8天成熟。",
+      "zh": "春天播种。需要8天成熟。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 58,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 23,
+      "x": 368,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds",
+      "mt_vapius_rare_flower_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_VelvetIrisRhizome",
+    "name": "Velvet Iris Rhizome",
+    "displayName": {
+      "en": "Velvet Iris Rhizome",
+      "zh": "丝绒鸢尾花根茎"
+    },
+    "description": {
+      "en": "夏天播种。需要6天成熟。",
+      "zh": "夏天播种。需要6天成熟。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 72,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 24,
+      "x": 0,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds",
+      "mt_vapius_rare_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_CosmosSeeds",
+    "name": "Cosmos Seeds",
+    "displayName": {
+      "en": "Cosmos Seeds",
+      "zh": "波斯菊种子"
+    },
+    "description": {
+      "en": "秋天播种。需要13天成熟。在雾呜山峰可以有额外收获。",
+      "zh": "秋天播种。需要13天成熟。在雾呜山峰可以有额外收获。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 80,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 25,
+      "x": 16,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds",
+      "stellar_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_LambLettuceSeeds",
+    "name": "Lamb Lettuce Seeds",
+    "displayName": {
+      "en": "Lamb Lettuce Seeds",
+      "zh": "羊莴苣种子"
+    },
+    "description": {
+      "en": "冬天播种。需要10天成熟，但收获之后循环生产。",
+      "zh": "冬天播种。需要10天成熟，但收获之后循环生产。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 60,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 26,
+      "x": 32,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_ConstellatedWatermelonSeeds",
+    "name": "Constellated Watermelon Seeds",
+    "displayName": {
+      "en": "Constellated Watermelon Seeds",
+      "zh": "星座西瓜种子"
+    },
+    "description": {
+      "en": "夏天播种。需要18天成熟。",
+      "zh": "夏天播种。需要18天成熟。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 120,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 28,
+      "x": 64,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds",
+      "stellar_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_CometRootsSeeds",
+    "name": "Comet Roots Seeds",
+    "displayName": {
+      "en": "Comet Roots Seeds",
+      "zh": "彗星根种子"
+    },
+    "description": {
+      "en": "春天播种，可在春夏季节生长。需要14天成熟，但收获之后循环生产。",
+      "zh": "春天播种，可在春夏季节生长。需要14天成熟，但收获之后循环生产。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 120,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 29,
+      "x": 80,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds",
+      "stellar_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_SunrootSeeds",
+    "name": "Sunroot Seeds",
+    "displayName": {
+      "en": "Sunroot Seeds",
+      "zh": "太阳根种子"
+    },
+    "description": {
+      "en": "秋天播种。需要6天成熟，但收获之后循环生产。",
+      "zh": "秋天播种。需要6天成熟，但收获之后循环生产。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 15,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 30,
+      "x": 96,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_WoodgoatMushroomStarter",
+    "name": "Woodgoat Mushroom Starter",
+    "displayName": {
+      "en": "Woodgoat Mushroom Starter",
+      "zh": "木山羊蘑菇种子"
+    },
+    "description": {
+      "en": "春天播种。需要11天成熟，但收获之后循环生产。",
+      "zh": "春天播种。需要11天成熟，但收获之后循环生产。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 50,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 31,
+      "x": 112,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_ReedSeeds",
+    "name": "Reed Seeds",
+    "displayName": {
+      "en": "Reed Seeds",
+      "zh": "铜芦苇种子"
+    },
+    "description": {
+      "en": "夏天播种。需要8天成熟。如果种植在水体附近，生长速度会更快。",
+      "zh": "夏天播种。需要8天成熟。如果种植在水体附近，生长速度会更快。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 60,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 32,
+      "x": 128,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_WoodSilkFlowerSeeds",
+    "name": "Wood Silk Flower Seeds",
+    "displayName": {
+      "en": "Wood Silk Flower Seeds",
+      "zh": "木丝花种子"
+    },
+    "description": {
+      "en": "春天和秋天播种。需要8天成熟。",
+      "zh": "春天和秋天播种。需要8天成熟。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 73,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 33,
+      "x": 144,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_RingfruitSeeds",
+    "name": "Wood Silk Flower Seeds",
+    "displayName": {
+      "en": "Wood Silk Flower Seeds",
+      "zh": "指环果种子"
+    },
+    "description": {
+      "en": "夏天播种。需要7天成熟，但收获之后循环生产。",
+      "zh": "夏天播种。需要7天成熟，但收获之后循环生产。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 44,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 36,
+      "x": 192,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_PixieBellSeeds",
+    "name": "Pixie Bell",
+    "displayName": {
+      "en": "Pixie Bell",
+      "zh": "叮铃花种子"
+    },
+    "description": {
+      "en": "四季皆可种植。需要10天成熟。种植这种植物需要非凡的觅食技能。",
+      "zh": "四季皆可种植。需要10天成熟。种植这种植物需要非凡的觅食技能。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 100,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 37,
+      "x": 208,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_WildVapiusSeeds",
+    "name": "Wild Vapius Seeds",
+    "displayName": {
+      "en": "Wild Vapius Seeds",
+      "zh": "野生雾呜山峰种子"
+    },
+    "description": {
+      "en": "什么都有一点。种下它们，看看会生长出什么！",
+      "zh": "什么都有一点。种下它们，看看会生长出什么！"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 50,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 39,
+      "x": 240,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_MountainMeadowSeeds",
+    "name": "Mountain Meadow Seeds",
+    "displayName": {
+      "en": "Mountain Meadow Seeds",
+      "zh": "山地草甸种子"
+    },
+    "description": {
+      "en": "稀有的花卉种子，最好在季节初期种植，以确保它们有足够的时间生长。",
+      "zh": "稀有的花卉种子，最好在季节初期种植，以确保它们有足够的时间生长。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 100,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 40,
+      "x": 256,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_BlueCloverSeeds",
+    "name": "Blue Clover Seeds",
+    "displayName": {
+      "en": "Blue Clover Seeds",
+      "zh": "蓝色三叶草种子"
+    },
+    "description": {
+      "en": "春季播种，能存活至夏季和秋季。3天成熟，收获后使土地肥沃。技艺高超的农民也可以在夏季播种。",
+      "zh": "春季播种，能存活至夏季和秋季。3天成熟，收获后使土地肥沃。技艺高超的农民也可以在夏季播种。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 5,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Seeds",
+      "index": 41,
+      "x": 272,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_seeds"
+    ]
+  },
+  {
+    "id": "TenebrousNova.EliDylan.CP_MandrakeRootSeeds",
+    "name": "TenebrousNova.EliDylan.CP_MandrakeRootSeeds",
+    "displayName": {
+      "en": "TenebrousNova.EliDylan.CP_MandrakeRootSeeds",
+      "zh": "曼德拉草根种子"
+    },
+    "description": {
+      "en": "秋天播种，需要12天才能长出曼德拉草根。",
+      "zh": "秋天播种，需要12天才能长出曼德拉草根。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 30,
+    "sprite": {
+      "texture": "Mods/EnD/Objects",
+      "index": 1,
+      "x": 16,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "TenebrousNova.EliDylan.CP_SanguineHeartSeeds",
+    "name": "TenebrousNova.EliDylan.CP_SanguineHeartSeeds",
+    "displayName": {
+      "en": "TenebrousNova.EliDylan.CP_SanguineHeartSeeds",
+      "zh": "赤诚之心种子"
+    },
+    "description": {
+      "en": "秋天播种，十天后成熟。实话实说，这些果实可能会让人觉得不寒而栗。",
+      "zh": "秋天播种，十天后成熟。实话实说，这些果实可能会让人觉得不寒而栗。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 40,
+    "sprite": {
+      "texture": "Mods/EnD/Objects",
+      "index": 3,
+      "x": 48,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "TenebrousNova.EliDylan.CP_BeholderFruitSeeds",
+    "name": "TenebrousNova.EliDylan.CP_BeholderFruitSeeds",
+    "displayName": {
+      "en": "TenebrousNova.EliDylan.CP_BeholderFruitSeeds",
+      "zh": "凝视之果种子"
+    },
+    "description": {
+      "en": "秋天播种，13天后成熟，此后便可反复收获此硕果。",
+      "zh": "秋天播种，13天后成熟，此后便可反复收获此硕果。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 50,
+    "sprite": {
+      "texture": "Mods/EnD/Objects",
+      "index": 5,
+      "x": 80,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "TenebrousNova.EliDylan.CP_DragonEyeSeeds",
+    "name": "TenebrousNova.EliDylan.CP_DragonEyeSeeds",
+    "displayName": {
+      "en": "TenebrousNova.EliDylan.CP_DragonEyeSeeds",
+      "zh": "恶龙之眼种子"
+    },
+    "description": {
+      "en": "夏天播种，13天后成熟，之后便可反复收获恶龙之眼。",
+      "zh": "夏天播种，13天后成熟，之后便可反复收获恶龙之眼。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 50,
+    "sprite": {
+      "texture": "Mods/EnD/Objects",
+      "index": 7,
+      "x": 112,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "TenebrousNova.EliDylan.CP_CrystallineLilySeeds",
+    "name": "TenebrousNova.EliDylan.CP_CrystallineLilySeeds",
+    "displayName": {
+      "en": "TenebrousNova.EliDylan.CP_CrystallineLilySeeds",
+      "zh": "水晶百合种子"
+    },
+    "description": {
+      "en": "冬天播种，14天后，一朵超凡脱俗的花儿将孕育而生。",
+      "zh": "冬天播种，14天后，一朵超凡脱俗的花儿将孕育而生。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 60,
+    "sprite": {
+      "texture": "Mods/EnD/Objects",
+      "index": 9,
+      "x": 144,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "TenebrousNova.EliDylan.CP_PixieBloomSeeds",
+    "name": "TenebrousNova.EliDylan.CP_PixieBloomSeeds",
+    "displayName": {
+      "en": "TenebrousNova.EliDylan.CP_PixieBloomSeeds",
+      "zh": "幻灵绽花种子。"
+    },
+    "description": {
+      "en": "春天或者夏天播种，14天后，随风飘动地精灵便会孕育而生。",
+      "zh": "春天或者夏天播种，14天后，随风飘动地精灵便会孕育而生。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 60,
+    "sprite": {
+      "texture": "Mods/EnD/Objects",
+      "index": 11,
+      "x": 176,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "TenebrousNova.EliDylan.CP_BluffshroomStarter",
+    "name": "TenebrousNova.EliDylan.CP_BluffshroomStarter",
+    "displayName": {
+      "en": "TenebrousNova.EliDylan.CP_BluffshroomStarter",
+      "zh": "骗菇种子"
+    },
+    "description": {
+      "en": "春天或者冬天生长，8天后成熟，收获后会持续生产。生长在腐烂的树桩上。",
+      "zh": "春天或者冬天生长，8天后成熟，收获后会持续生产。生长在腐烂的树桩上。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 50,
+    "sprite": {
+      "texture": "Mods/EnD/Objects",
+      "index": 13,
+      "x": 208,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Squeaks.MGC.CP_ElderLilySeeds",
+    "name": "Squeaks.MGC.CP_ElderLilySeeds",
+    "displayName": {
+      "en": "Squeaks.MGC.CP_ElderLilySeeds",
+      "zh": "上古百合种子"
+    },
+    "description": {
+      "en": "让她温暖，让她安全。她老了,累了。",
+      "zh": "让她温暖，让她安全。她老了,累了。"
+    },
+    "type": "Seeds",
+    "category": -74,
+    "price": 30,
+    "sprite": {
+      "texture": "Mods/Squeaks.MGC.CP/Objects",
+      "index": 5,
+      "x": 80,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  }
+]

@@ -1,0 +1,3491 @@
+[
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Ferngill_Primrose",
+    "name": "Ferngill Primrose",
+    "displayName": {
+      "en": "Ferngill Primrose",
+      "zh": "芬吉尔报春花"
+    },
+    "description": {
+      "en": "有一种辛辣的味道。",
+      "zh": "有一种辛辣的味道。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 120,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Ferngill Primrose",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "color_white",
+      "edible_flower_item"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Golden_Ocean_Flower",
+    "name": "Golden Ocean Flower",
+    "displayName": {
+      "en": "Golden Ocean Flower",
+      "zh": "金色海洋花"
+    },
+    "description": {
+      "en": "收到时会留下永恒效果。",
+      "zh": "收到时会留下永恒效果。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 1000,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Golden Ocean Flower",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_gold"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Goldenrod",
+    "name": "Goldenrod",
+    "displayName": {
+      "en": "Goldenrod",
+      "zh": "金杆草"
+    },
+    "description": {
+      "en": "上面覆盖着甜甜的花蜜。",
+      "zh": "上面覆盖着甜甜的花蜜。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 160,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Goldenrod",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 23,
+    "contextTags": [
+      "color_yellow",
+      "edible_flower_item"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Thistle",
+    "name": "Thistle",
+    "displayName": {
+      "en": "Thistle",
+      "zh": "蓟"
+    },
+    "description": {
+      "en": "一种常见于山区的花。",
+      "zh": "一种常见于山区的花。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 120,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Thistle",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 10,
+    "contextTags": [
+      "color_purple",
+      "edible_flower_item"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Winter_Star_Rose",
+    "name": "Winter Star Rose",
+    "displayName": {
+      "en": "Winter Star Rose",
+      "zh": "冬日星玫瑰"
+    },
+    "description": {
+      "en": "一种散发着甜味和薄荷香气的花。",
+      "zh": "一种散发着甜味和薄荷香气的花。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 200,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Winter Star Rose",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 28
+  },
+  {
+    "id": "skellady.SBVCP_Arfaj",
+    "name": "skellady.SBVCP_Arfaj",
+    "displayName": {
+      "en": "skellady.SBVCP_Arfaj",
+      "zh": "无冠毛黄菊"
+    },
+    "description": {
+      "en": "一种叶片带刺的明亮小花。可作为燃料和香料使用。",
+      "zh": "一种叶片带刺的明亮小花。可作为燃料和香料使用。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 100,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/Produce",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 0,
+    "contextTags": [
+      "flower_item",
+      "season_spring",
+      "color_orange"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_CallaLilies",
+    "name": "skellady.SBVCP_CallaLilies",
+    "displayName": {
+      "en": "skellady.SBVCP_CallaLilies",
+      "zh": "马蹄莲"
+    },
+    "description": {
+      "en": "筒状花卉，花语是忠贞不渝。",
+      "zh": "筒状花卉，花语是忠贞不渝。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 90,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/Produce",
+      "index": 1,
+      "x": 16,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 0,
+    "contextTags": [
+      "flower_item",
+      "season_summer",
+      "color_pink",
+      "color_purple"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_CoffeeBlossom",
+    "name": "skellady.SBVCP_CoffeeBlossom",
+    "displayName": {
+      "en": "skellady.SBVCP_CoffeeBlossom",
+      "zh": "咖啡花"
+    },
+    "description": {
+      "en": "美丽的花朵，散发着浓郁茉莉香味。",
+      "zh": "美丽的花朵，散发着浓郁茉莉香味。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 100,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/Produce",
+      "index": 2,
+      "x": 32,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 0,
+    "contextTags": [
+      "flower_item",
+      "season_spring",
+      "color_sand"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_Cyclamen",
+    "name": "skellady.SBVCP_Cyclamen",
+    "displayName": {
+      "en": "skellady.SBVCP_Cyclamen",
+      "zh": "仙客来"
+    },
+    "description": {
+      "en": "小巧玲珑、香气扑鼻的花朵，在寒冬中盛放。",
+      "zh": "小巧玲珑、香气扑鼻的花朵，在寒冬中盛放。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 150,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/Produce",
+      "index": 3,
+      "x": 48,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 0,
+    "contextTags": [
+      "flower_item",
+      "season_winter",
+      "color_dark_pink"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_Hyacinth",
+    "name": "skellady.SBVCP_Hyacinth",
+    "displayName": {
+      "en": "skellady.SBVCP_Hyacinth",
+      "zh": "风信子"
+    },
+    "description": {
+      "en": "一朵芬芳多彩的花，很适合造成插花。",
+      "zh": "一朵芬芳多彩的花，很适合造成插花。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 110,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/Produce",
+      "index": 5,
+      "x": 80,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 0,
+    "contextTags": [
+      "season_spring",
+      "flower_item",
+      "color_dark_pink",
+      "color_sand"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_RoyalAnemone",
+    "name": "skellady.SBVCP_RoyalAnemone",
+    "displayName": {
+      "en": "skellady.SBVCP_RoyalAnemone",
+      "zh": "皇家银莲花"
+    },
+    "description": {
+      "en": "一朵无香味的粉色美艳花朵。",
+      "zh": "一朵无香味的粉色美艳花朵。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 80,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/Produce",
+      "index": 7,
+      "x": 112,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 0,
+    "contextTags": [
+      "season_fall",
+      "flower_item",
+      "color_salmon"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_Speedwell",
+    "name": "skellady.SBVCP_Speedwell",
+    "displayName": {
+      "en": "skellady.SBVCP_Speedwell",
+      "zh": "婆婆纳"
+    },
+    "description": {
+      "en": "象征善意与忠诚的精致小花。",
+      "zh": "象征善意与忠诚的精致小花。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 95,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/Produce",
+      "index": 8,
+      "x": 128,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 0,
+    "contextTags": [
+      "season_spring",
+      "flower_item",
+      "color_blue"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_WildMustard",
+    "name": "skellady.SBVCP_WildMustard",
+    "displayName": {
+      "en": "skellady.SBVCP_WildMustard",
+      "zh": "野芥末花"
+    },
+    "description": {
+      "en": "一种鲜黄色的花朵，常被用来为各种美食增添风味。",
+      "zh": "一种鲜黄色的花朵，常被用来为各种美食增添风味。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 120,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/Produce",
+      "index": 10,
+      "x": 160,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 15,
+    "contextTags": [
+      "season_fall",
+      "edible_flower_item",
+      "flower_item",
+      "color_yellow"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_CarmineBlossom",
+    "name": "skellady.SBVCP_CarmineBlossom",
+    "displayName": {
+      "en": "skellady.SBVCP_CarmineBlossom",
+      "zh": "胭红花"
+    },
+    "description": {
+      "en": "一种优雅的红色花朵，其蓝色枝叶透着一股超凡脱俗的气息。",
+      "zh": "一种优雅的红色花朵，其蓝色枝叶透着一股超凡脱俗的气息。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 65,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/Produce",
+      "index": 12,
+      "x": 192,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 12,
+    "contextTags": [
+      "season_winter",
+      "edible_flower_item",
+      "flower_item",
+      "color_dark_red",
+      "color_dark_blue"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_Marigold",
+    "name": "skellady.SBVCP_Marigold",
+    "displayName": {
+      "en": "skellady.SBVCP_Marigold",
+      "zh": "万寿菊"
+    },
+    "description": {
+      "en": "明艳动人的黄花，花瓣可冲泡出香醇的茶饮！",
+      "zh": "明艳动人的黄花，花瓣可冲泡出香醇的茶饮！"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 30,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/Produce",
+      "index": 13,
+      "x": 208,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 10,
+    "contextTags": [
+      "season_summer",
+      "edible_flower_item",
+      "flower_item",
+      "color_yellow"
+    ]
+  },
+  {
+    "id": "skellady.SBVCP_Bluestar",
+    "name": "skellady.SBVCP_Bluestar",
+    "displayName": {
+      "en": "skellady.SBVCP_Bluestar",
+      "zh": "蓝星花"
+    },
+    "description": {
+      "en": "一种不太需要维护的小型蓝色花朵，花瓣形似星星。",
+      "zh": "一种不太需要维护的小型蓝色花朵，花瓣形似星星。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 20,
+    "sprite": {
+      "texture": "Mods/skellady.SBVCP/Produce",
+      "index": 14,
+      "x": 224,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 10,
+    "contextTags": [
+      "season_spring",
+      "edible_flower_item",
+      "flower_item",
+      "color_blue"
+    ]
+  },
+  {
+    "id": "Lemurkat.EastScarp_CaveFlower",
+    "name": "Lemurkat.EastScarp_CaveFlower",
+    "displayName": {
+      "en": "Lemurkat.EastScarp_CaveFlower",
+      "zh": "山洞花"
+    },
+    "description": {
+      "en": "这种花朵的薄荷味可以用于给甜品增添风味，也可以作为草药用于治疗。",
+      "zh": "这种花朵的薄荷味可以用于给甜品增添风味，也可以作为草药用于治疗。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 75,
+    "sprite": {
+      "texture": "Mods/Lemurkat.EastScarp/esobjects",
+      "index": 79,
+      "x": 112,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 1,
+    "contextTags": [
+      "color_orange",
+      "category_flower",
+      "edible_flower_item"
+    ]
+  },
+  {
+    "id": "DN.SnS_ancientwildfairyrose",
+    "name": "DN.SnS_ancientwildfairyrose",
+    "displayName": {
+      "en": "DN.SnS_ancientwildfairyrose",
+      "zh": "上古野玫瑰仙子"
+    },
+    "description": {
+      "en": "普通玫瑰仙子的顽强祖先",
+      "zh": "普通玫瑰仙子的顽强祖先"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 345,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 1,
+      "x": 16,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_cyan",
+      "seedmaker_banned",
+      "sns_druidiccrop_item"
+    ]
+  },
+  {
+    "id": "DN.SnS_ancientazuredetura",
+    "name": "DN.SnS_ancientazuredetura",
+    "displayName": {
+      "en": "DN.SnS_ancientazuredetura",
+      "zh": "上古曼陀罗花"
+    },
+    "description": {
+      "en": "向日葵的休眠表亲。它的生命力非常强，可以在寒冷和微弱的光照下生长。",
+      "zh": "向日葵的休眠表亲。它的生命力非常强，可以在寒冷和微弱的光照下生长。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 160,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 43,
+      "x": 304,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_cyan",
+      "seedmaker_banned",
+      "sns_druidiccrop_item"
+    ]
+  },
+  {
+    "id": "DN.SnS_ancientsweettealeaves",
+    "name": "DN.SnS_ancientsweettealeaves",
+    "displayName": {
+      "en": "DN.SnS_ancientsweettealeaves",
+      "zh": "上古甜茶叶"
+    },
+    "description": {
+      "en": "一种在极端条件下生长最佳的奇特茶树。泡出的茶甘甜可口，就连不喜欢茶的人都会喜欢。",
+      "zh": "一种在极端条件下生长最佳的奇特茶树。泡出的茶甘甜可口，就连不喜欢茶的人都会喜欢。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 350,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 83,
+      "x": 176,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 50,
+    "contextTags": [
+      "color_cyan",
+      "seedmaker_banned",
+      "sns_druidiccrop_item"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Ambrosia",
+    "name": "Wildflour.SASS_Ambrosia",
+    "displayName": {
+      "en": "Wildflour.SASS_Ambrosia",
+      "zh": "神肴"
+    },
+    "description": {
+      "en": "这种花以神话中众神的食物命名，味道甜得几乎让人受不了。",
+      "zh": "这种花以神话中众神的食物命名，味道甜得几乎让人受不了。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 40,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 39,
+      "x": 240,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 7,
+    "contextTags": [
+      "faerie_forage",
+      "edible_flower_item",
+      "season_spring",
+      "magical_flower_item",
+      "color_orange"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Arctic_Fox",
+    "name": "Wildflour.SASS_Arctic_Fox",
+    "displayName": {
+      "en": "Wildflour.SASS_Arctic_Fox",
+      "zh": "北极狐"
+    },
+    "description": {
+      "en": "这是毛地黄的一个稀有品种，毒性极强。",
+      "zh": "这是毛地黄的一个稀有品种，毒性极强。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 80,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 8,
+      "x": 128,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": -85,
+    "contextTags": [
+      "faerie_forage",
+      "poisonous_flower_item",
+      "magical_flower_item",
+      "season_spring",
+      "season_winter",
+      "seedmaker_banned",
+      "color_pink"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Avalon_Mist_Flower",
+    "name": "Wildflour.SASS_Avalon_Mist_Flower",
+    "displayName": {
+      "en": "Wildflour.SASS_Avalon_Mist_Flower",
+      "zh": "阿瓦隆雾花"
+    },
+    "description": {
+      "en": "这是一种来源不明的神秘花朵。它似乎在湖边生长得很好。",
+      "zh": "这是一种来源不明的神秘花朵。它似乎在湖边生长得很好。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 295,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 33,
+      "x": 144,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 15,
+    "contextTags": [
+      "faerie_forage",
+      "edible_flower_item",
+      "magical_flower_item",
+      "season_spring",
+      "color_blue"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Avalune",
+    "name": "Wildflour.SASS_Avalune",
+    "displayName": {
+      "en": "Wildflour.SASS_Avalune",
+      "zh": "阿瓦莲"
+    },
+    "description": {
+      "en": "这是一种色彩极为艳丽的羽扇豆花品种。是送给精灵族的绝佳礼物。",
+      "zh": "这是一种色彩极为艳丽的羽扇豆花品种。是送给精灵族的绝佳礼物。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 60,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 10,
+      "x": 160,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 5,
+    "contextTags": [
+      "faerie_forage",
+      "edible_flower_item",
+      "magical_flower_item",
+      "season_spring",
+      "season_winter",
+      "seedmaker_banned",
+      "color_light_cyan"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Daisy",
+    "name": "Wildflour.SASS_Daisy",
+    "displayName": {
+      "en": "Wildflour.SASS_Daisy",
+      "zh": "雏菊"
+    },
+    "description": {
+      "en": "一种小巧雅致的白色花朵。",
+      "zh": "一种小巧雅致的白色花朵。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 35,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 96,
+      "x": 0,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 5,
+    "contextTags": [
+      "faerie_forage",
+      "edible_flower_item",
+      "season_spring",
+      "magical_flower_item",
+      "color_white"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Dream_Spinner",
+    "name": "Wildflour.SASS_Dream_Spinner",
+    "displayName": {
+      "en": "Wildflour.SASS_Dream_Spinner",
+      "zh": "造梦师"
+    },
+    "description": {
+      "en": "相传，小精灵们会把这东西放在孩子们的枕头底下，以此守护他们的梦境。",
+      "zh": "相传，小精灵们会把这东西放在孩子们的枕头底下，以此守护他们的梦境。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 225,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 19,
+      "x": 304,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 15,
+    "contextTags": [
+      "faerie_forage",
+      "edible_flower_item",
+      "magical_flower_item",
+      "season_summer",
+      "color_pink"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Elysian_Field_Flower",
+    "name": "Wildflour.SASS_Elysian_Field_Flower",
+    "displayName": {
+      "en": "Wildflour.SASS_Elysian_Field_Flower",
+      "zh": "乐土之花"
+    },
+    "description": {
+      "en": "这是一朵璀璨夺目的金色花朵，它从乐土的田野中被摘下，而后被偷偷地带到了这个世界。",
+      "zh": "这是一朵璀璨夺目的金色花朵，它从乐土的田野中被摘下，而后被偷偷地带到了这个世界。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 195,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 18,
+      "x": 288,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 15,
+    "contextTags": [
+      "faerie_forage",
+      "edible_flower_item",
+      "magical_flower_item",
+      "season_spring",
+      "color_gold"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Faerie_Folly",
+    "name": "Wildflour.SASS_Faerie_Folly",
+    "displayName": {
+      "en": "Wildflour.SASS_Faerie_Folly",
+      "zh": "精灵幻梦"
+    },
+    "description": {
+      "en": "这是一种鲜艳的粉红色花朵，通常被当作精灵族之间象征友谊与善意的信物。",
+      "zh": "这是一种鲜艳的粉红色花朵，通常被当作精灵族之间象征友谊与善意的信物。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 265,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 23,
+      "x": 368,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 15,
+    "contextTags": [
+      "faerie_forage",
+      "edible_flower_item",
+      "magical_flower_item",
+      "season_summer",
+      "color_pink"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Fallen_Stars",
+    "name": "Wildflour.SASS_Fallen_Stars",
+    "displayName": {
+      "en": "Wildflour.SASS_Fallen_Stars",
+      "zh": "流星"
+    },
+    "description": {
+      "en": "这束花常常在夏至被当作表达爱意的信物送出。",
+      "zh": "这束花常常在夏至被当作表达爱意的信物送出。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 265,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 38,
+      "x": 224,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 15,
+    "contextTags": [
+      "faerie_forage",
+      "magical_flower_item",
+      "season_summer",
+      "color_gold"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Hibiscus",
+    "name": "Wildflour.SASS_Hibiscus",
+    "displayName": {
+      "en": "Wildflour.SASS_Hibiscus",
+      "zh": "木槿"
+    },
+    "description": {
+      "en": "一种色彩鲜艳的热带攀援花卉，可食用。",
+      "zh": "一种色彩鲜艳的热带攀援花卉，可食用。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 40,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 97,
+      "x": 16,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 7,
+    "contextTags": [
+      "faerie_forage",
+      "edible_flower_item",
+      "season_spring",
+      "magical_flower_item",
+      "color_orange"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Kiss_Of_Tamra",
+    "name": "Wildflour.SASS_Kiss_Of_Tamra",
+    "displayName": {
+      "en": "Wildflour.SASS_Kiss_Of_Tamra",
+      "zh": "塔姆拉之吻"
+    },
+    "description": {
+      "en": "这朵花甚至能温暖最冰冷的心。",
+      "zh": "这朵花甚至能温暖最冰冷的心。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 275,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 29,
+      "x": 80,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 15,
+    "contextTags": [
+      "faerie_forage",
+      "magical_flower_item",
+      "edible_flower_item",
+      "season_summer",
+      "color_cyan"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Lily",
+    "name": "Wildflour.SASS_Lily",
+    "displayName": {
+      "en": "Wildflour.SASS_Lily",
+      "zh": "百合"
+    },
+    "description": {
+      "en": "夏季常见的亮粉色花朵，可食用。",
+      "zh": "夏季常见的亮粉色花朵，可食用。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 180,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 100,
+      "x": 64,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 7,
+    "contextTags": [
+      "faerie_forage",
+      "edible_flower_item",
+      "season_spring",
+      "magical_flower_item",
+      "color_salmon"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Nasturtium",
+    "name": "Wildflour.SASS_Nasturtium",
+    "displayName": {
+      "en": "Wildflour.SASS_Nasturtium",
+      "zh": "旱金莲"
+    },
+    "description": {
+      "en": "花色从红色到黄色不等，是备受推崇的沙拉可食用装饰配料。",
+      "zh": "花色从红色到黄色不等，是备受推崇的沙拉可食用装饰配料。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 50,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 98,
+      "x": 32,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 7,
+    "contextTags": [
+      "faerie_forage",
+      "edible_flower_item",
+      "season_spring",
+      "magical_flower_item",
+      "color_red"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Peony",
+    "name": "Wildflour.SASS_Peony",
+    "displayName": {
+      "en": "Wildflour.SASS_Peony",
+      "zh": "牡丹"
+    },
+    "description": {
+      "en": "一种优雅丰腴的粉色花朵，可食用。",
+      "zh": "一种优雅丰腴的粉色花朵，可食用。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 155,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 99,
+      "x": 48,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 7,
+    "contextTags": [
+      "faerie_forage",
+      "edible_flower_item",
+      "season_spring",
+      "magical_flower_item",
+      "color_pink"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Phoenix_Fire",
+    "name": "Wildflour.SASS_Phoenix_Fire",
+    "displayName": {
+      "en": "Wildflour.SASS_Phoenix_Fire",
+      "zh": "凤凰之火"
+    },
+    "description": {
+      "en": "据说，这朵鲜红色的花会在凤凰浴火化为灰烬之后，于灰烬中绽放。",
+      "zh": "据说，这朵鲜红色的花会在凤凰浴火化为灰烬之后，于灰烬中绽放。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 290,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 28,
+      "x": 64,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 15,
+    "contextTags": [
+      "faerie_forage",
+      "edible_flower_item",
+      "magical_flower_item",
+      "season_fall",
+      "color_red"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Pixie_Breath",
+    "name": "Wildflour.SASS_Pixie_Breath",
+    "displayName": {
+      "en": "Wildflour.SASS_Pixie_Breath",
+      "zh": "精灵之息"
+    },
+    "description": {
+      "en": "这朵花似乎就在你的眼前在粉色和紫色之间变幻。",
+      "zh": "这朵花似乎就在你的眼前在粉色和紫色之间变幻。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 60,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 12,
+      "x": 192,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 5,
+    "contextTags": [
+      "faerie_forage",
+      "edible_flower_item",
+      "magical_flower_item",
+      "seedmaker_banned",
+      "season_spring",
+      "season_summer",
+      "color_iridium"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Sylvan_Sigh",
+    "name": "Wildflour.SASS_Sylvan_Sigh",
+    "displayName": {
+      "en": "Wildflour.SASS_Sylvan_Sigh",
+      "zh": "林间幽叹"
+    },
+    "description": {
+      "en": "这是一种娇美的粉红色花朵，常常能看到它在轻柔的夏日微风中飘荡。",
+      "zh": "这是一种娇美的粉红色花朵，常常能看到它在轻柔的夏日微风中飘荡。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 250,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 34,
+      "x": 160,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 15,
+    "contextTags": [
+      "faerie_forage",
+      "edible_flower_item",
+      "magical_flower_item",
+      "season_summer",
+      "color_pink"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Smile_Of_Shumus",
+    "name": "Wildflour.SASS_Smile_Of_Shumus",
+    "displayName": {
+      "en": "Wildflour.SASS_Smile_Of_Shumus",
+      "zh": "星烁之吻"
+    },
+    "description": {
+      "en": "这是一种即使在最黑暗的日子里也能带来光明的花。",
+      "zh": "这是一种即使在最黑暗的日子里也能带来光明的花。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 200,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 37,
+      "x": 208,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 15,
+    "contextTags": [
+      "faerie_forage",
+      "magical_flower_item",
+      "edible_flower_item",
+      "season_fall",
+      "color_dark_blue"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Snapdragon",
+    "name": "Wildflour.SASS_Snapdragon",
+    "displayName": {
+      "en": "Wildflour.SASS_Snapdragon",
+      "zh": "金鱼草"
+    },
+    "description": {
+      "en": "一种娇俏的桃粉色花朵，名字更是可爱。可食用。",
+      "zh": "一种娇俏的桃粉色花朵，名字更是可爱。可食用。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 155,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 101,
+      "x": 80,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 7,
+    "contextTags": [
+      "faerie_forage",
+      "edible_flower_item",
+      "season_spring",
+      "magical_flower_item",
+      "color_pink"
+    ]
+  },
+  {
+    "id": "Wildflour.SASS_Titania_Bell",
+    "name": "Wildflour.SASS_Titania_Bell",
+    "displayName": {
+      "en": "Wildflour.SASS_Titania_Bell",
+      "zh": "泰坦妮亚之铃"
+    },
+    "description": {
+      "en": "孩子们声称在这些花附近能听到铃铛的响声和欢笑声。",
+      "zh": "孩子们声称在这些花附近能听到铃铛的响声和欢笑声。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 235,
+    "sprite": {
+      "texture": "Mods/Wildflour.SASS/Objects",
+      "index": 24,
+      "x": 0,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 15,
+    "contextTags": [
+      "faerie_forage",
+      "edible_flower_item",
+      "magical_flower_item",
+      "season_winter",
+      "color_pale_cyan"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Tagetes",
+    "name": "Tagetes",
+    "displayName": {
+      "en": "Tagetes",
+      "zh": "万寿菊"
+    },
+    "description": {
+      "en": "一种观赏花，颜色从黄色到红色皆有。",
+      "zh": "一种观赏花，颜色从黄色到红色皆有。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 40,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 9,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_flower",
+      "mt_vapius_plant",
+      "color_orange",
+      "edible_flower_item",
+      "flower_item"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_BlueMorningGlory",
+    "name": "Blue Morning Glory",
+    "displayName": {
+      "en": "Blue Morning Glory",
+      "zh": "蓝色牵牛花"
+    },
+    "description": {
+      "en": "一种犹如普通杂草的观赏花卉。",
+      "zh": "一种犹如普通杂草的观赏花卉。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 35,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 3,
+      "x": 48,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": -3,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_flower",
+      "mt_vapius_plant",
+      "color_blue",
+      "flower_item"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_PinkMorningGlory",
+    "name": "Pink Morning Glory",
+    "displayName": {
+      "en": "Pink Morning Glory",
+      "zh": "粉色牵牛花"
+    },
+    "description": {
+      "en": "一种犹如普通杂草的观赏花卉。",
+      "zh": "一种犹如普通杂草的观赏花卉。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 35,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 4,
+      "x": 64,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": -3,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_flower",
+      "mt_vapius_plant",
+      "color_pink",
+      "flower_item"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Nymphea",
+    "name": "Nymphea",
+    "displayName": {
+      "en": "Nymphea",
+      "zh": "睡莲"
+    },
+    "description": {
+      "en": "一种美丽的花，半透明的花瓣在阳光下闪闪发光。",
+      "zh": "一种美丽的花，半透明的花瓣在阳光下闪闪发光。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 110,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 5,
+      "x": 80,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": -15,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_flower",
+      "mt_vapius_plant",
+      "color_purple",
+      "flower_item"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_StarShapedFlower",
+    "name": "Star Shaped Flower",
+    "displayName": {
+      "en": "Star Shaped Flower",
+      "zh": "星形花"
+    },
+    "description": {
+      "en": "一种带有五瓣的粉色花，有着让人联想到杏子的香味。",
+      "zh": "一种带有五瓣的粉色花，有着让人联想到杏子的香味。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 484,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 6,
+      "x": 96,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 8,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_flower",
+      "mt_vapius_plant",
+      "stellar_plant",
+      "stellar_item",
+      "color_pink",
+      "edible_flower_item",
+      "flower_item"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_CloudFeather",
+    "name": "Cloud Feather",
+    "displayName": {
+      "en": "Cloud Feather",
+      "zh": "云羽草"
+    },
+    "description": {
+      "en": "一种奇怪的灌木，细长的茎上长着小花。",
+      "zh": "一种奇怪的灌木，细长的茎上长着小花。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 164,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 9,
+      "x": 144,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 20,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_flower",
+      "mt_vapius_plant",
+      "stellar_plant",
+      "stellar_item",
+      "color_pink",
+      "edible_flower_item",
+      "flower_item"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_OrangeBlossom",
+    "name": "Orange Blossom",
+    "displayName": {
+      "en": "Orange Blossom",
+      "zh": "橙花"
+    },
+    "description": {
+      "en": "淡雅的香味经常用于香水制作和某些菜肴的调味中。",
+      "zh": "淡雅的香味经常用于香水制作和某些菜肴的调味中。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 200,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 17,
+      "x": 272,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 5,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_plant",
+      "mt_vapius_flower",
+      "color_white"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Primrose",
+    "name": "Primrose",
+    "displayName": {
+      "en": "Primrose",
+      "zh": "报春花"
+    },
+    "description": {
+      "en": "早春盛开的野花。",
+      "zh": "早春盛开的野花。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 145,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 18,
+      "x": 288,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 7,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_plant",
+      "mt_vapius_flower",
+      "color_blue",
+      "flower_item"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Hellebore",
+    "name": "Hellebore",
+    "displayName": {
+      "en": "Hellebore",
+      "zh": "铁筷子花"
+    },
+    "description": {
+      "en": "能在寒冷的气候中茁壮成长，甚至在冬天也能开花。",
+      "zh": "能在寒冷的气候中茁壮成长，甚至在冬天也能开花。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 140,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 19,
+      "x": 304,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": -35,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_plant",
+      "mt_vapius_flower",
+      "color_purple",
+      "flower_item"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Fugacine",
+    "name": "Fugacine",
+    "displayName": {
+      "en": "Fugacine",
+      "zh": "刹那花"
+    },
+    "description": {
+      "en": "这种花因其花期短暂而得名。有些品种可供食用。",
+      "zh": "这种花因其花期短暂而得名。有些品种可供食用。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 296,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 20,
+      "x": 320,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 33,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_plant",
+      "mt_vapius_flower",
+      "color_orange",
+      "edible_flower_item",
+      "flower_item"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Elfcup",
+    "name": "Elfcup",
+    "displayName": {
+      "en": "Elfcup",
+      "zh": "精灵杯"
+    },
+    "description": {
+      "en": "具有剧毒。在传说中，是长耳精灵们会使用此花来当杯子畅饮。因其含有的某种药用成分而受到追捧。",
+      "zh": "具有剧毒。在传说中，是长耳精灵们会使用此花来当杯子畅饮。因其含有的某种药用成分而受到追捧。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 963,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 22,
+      "x": 352,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": -65,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_plant",
+      "mt_vapius_flower",
+      "color_cyan",
+      "flower_item"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_SweetMyriadin",
+    "name": "Sweet Myriadin",
+    "displayName": {
+      "en": "Sweet Myriadin",
+      "zh": "百香花"
+    },
+    "description": {
+      "en": "摇晃时，会散发出让人联想到雪后清新空气的气味。花瓣可用于泡制放松身心的茶。",
+      "zh": "摇晃时，会散发出让人联想到雪后清新空气的气味。花瓣可用于泡制放松身心的茶。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 1020,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 25,
+      "x": 16,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 28,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_plant",
+      "mt_vapius_flower",
+      "color_blue",
+      "edible_flower_item",
+      "flower_item"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Neralbane",
+    "name": "Neralbane",
+    "displayName": {
+      "en": "Neralbane",
+      "zh": "隐祸花"
+    },
+    "description": {
+      "en": "由于花的颜色淡薄，因此能躲避饥饿动物的视线。",
+      "zh": "由于花的颜色淡薄，因此能躲避饥饿动物的视线。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 786,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 27,
+      "x": 48,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": -22,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_plant",
+      "mt_vapius_flower",
+      "color_black",
+      "flower_item"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_RedBouquet",
+    "name": "Red Bouquet",
+    "displayName": {
+      "en": "Red Bouquet",
+      "zh": "毒红花束"
+    },
+    "description": {
+      "en": "其红花含有刺激性，因此应避免使用在花束中。更多的是用来制造驱虫剂。",
+      "zh": "其红花含有刺激性，因此应避免使用在花束中。更多的是用来制造驱虫剂。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 264,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 28,
+      "x": 64,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": -55,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_plant",
+      "mt_vapius_flower",
+      "color_red",
+      "flower_item"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_BalmcreekCarillon",
+    "name": "Balmcreek Carillon",
+    "displayName": {
+      "en": "Balmcreek Carillon",
+      "zh": "馥郁溪钟花"
+    },
+    "description": {
+      "en": "其大花冠中可以用于隐藏身影，所以吸引了不少昆虫停留。",
+      "zh": "其大花冠中可以用于隐藏身影，所以吸引了不少昆虫停留。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 886,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 29,
+      "x": 80,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 15,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_plant",
+      "mt_vapius_flower",
+      "color_yellow",
+      "flower_item"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_GoblinGentian",
+    "name": "Goblin Gentian",
+    "displayName": {
+      "en": "Goblin Gentian",
+      "zh": "哥布林的龙胆草"
+    },
+    "description": {
+      "en": "经常出现在废墟或废弃地方。",
+      "zh": "经常出现在废墟或废弃地方。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 63,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 30,
+      "x": 96,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": -3,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_plant",
+      "mt_vapius_flower",
+      "color_pink",
+      "flower_item"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_VelvetIris",
+    "name": "Velvet Iris",
+    "displayName": {
+      "en": "Velvet Iris",
+      "zh": "丝绒鸢尾花"
+    },
+    "description": {
+      "en": "一种芳香扑鼻的花。该植物的某些部分能用于香水和美容产品的制作中。",
+      "zh": "一种芳香扑鼻的花。该植物的某些部分能用于香水和美容产品的制作中。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 153,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 31,
+      "x": 112,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_plant",
+      "mt_vapius_flower",
+      "color_purple",
+      "flower_item"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_Cosmos",
+    "name": "Cosmos",
+    "displayName": {
+      "en": "Cosmos",
+      "zh": "波斯菊"
+    },
+    "description": {
+      "en": "有着如蕾丝状的叶子，并且可以长得很高。",
+      "zh": "有着如蕾丝状的叶子，并且可以长得很高。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 250,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 32,
+      "x": 128,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 2,
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_plant",
+      "mt_vapius_flower",
+      "stellar_plant",
+      "stellar_item",
+      "color_white",
+      "flower_item"
+    ]
+  },
+  {
+    "id": "Lumisteria.MtVapius_CasalotierFlower",
+    "name": "CasalotierFlower",
+    "displayName": {
+      "en": "CasalotierFlower",
+      "zh": "蓝庭百脉花"
+    },
+    "description": {
+      "en": "一种蓝色的花。常被用来给饮品调出漂亮的颜色，不过会略带苦味。",
+      "zh": "一种蓝色的花。常被用来给饮品调出漂亮的颜色，不过会略带苦味。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 213,
+    "sprite": {
+      "texture": "Mods/Lumisteria.MtVapius/Plants",
+      "index": 37,
+      "x": 208,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "mt_vapius",
+      "mt_vapius_plant",
+      "mt_vapius_flower",
+      "color_blue",
+      "edible_flower_item",
+      "flower_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_Vanilla",
+    "name": "Cornucopia_Vanilla",
+    "displayName": {
+      "en": "Cornucopia_Vanilla",
+      "zh": "香草"
+    },
+    "description": {
+      "en": "毫无疑问是世界上最知名的口味之一。谁想要冰淇淋？",
+      "zh": "毫无疑问是世界上最知名的口味之一。谁想要冰淇淋？"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 150,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 270,
+      "x": 96,
+      "y": 176,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "spice_item",
+      "color_white",
+      "season_spring",
+      "cornucopia_bush_produce",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_essential",
+      "modid_cornucopia.morecrops",
+      "vanilla_item",
+      "vanilla_bean_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_CanolaFlower",
+    "name": "Cornucopia_CanolaFlower",
+    "displayName": {
+      "en": "Cornucopia_CanolaFlower",
+      "zh": "油菜花"
+    },
+    "description": {
+      "en": "一种可用于制作油的花。",
+      "zh": "一种可用于制作油的花。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 40,
+    "sprite": {
+      "texture": "Cornucopia.MoreCrops/Objects",
+      "index": 156,
+      "x": 192,
+      "y": 96,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "color_yellow",
+      "season_spring",
+      "season_summer",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedcrops",
+      "modid_cornucopia.morecrops",
+      "canola_flower_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_BlueMist",
+    "name": "Cornucopia_BlueMist",
+    "displayName": {
+      "en": "Cornucopia_BlueMist",
+      "zh": "蓝绣线菊"
+    },
+    "description": {
+      "en": "这是一种深受年轻女士喜爱的花卉，原产于矿物质丰富的山谷。",
+      "zh": "这是一种深受年轻女士喜爱的花卉，原产于矿物质丰富的山谷。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 30,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 2,
+      "x": 32,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "color_blue",
+      "season_summer",
+      "dye_medium",
+      "edible_flower_item",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_essentialflowers",
+      "modid_cornucopia.moreflowers",
+      "blue_mist_item",
+      "borage_item",
+      "starflower_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_Chrysanthemum",
+    "name": "Cornucopia_Chrysanthemum",
+    "displayName": {
+      "en": "Cornucopia_Chrysanthemum",
+      "zh": "野菊"
+    },
+    "description": {
+      "en": "饱满的康乃馨般的花朵，散发着令人陶醉的香味，让人联想到泥土和草本植物。",
+      "zh": "饱满的康乃馨般的花朵，散发着令人陶醉的香味，让人联想到泥土和草本植物。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 80,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 146,
+      "x": 32,
+      "y": 96,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "color_yellow",
+      "season_fall",
+      "dye_medium",
+      "edible_flower_item",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_essentialflowers",
+      "modid_cornucopia.moreflowers",
+      "chrysanthemum_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_Iris",
+    "name": "Cornucopia_Iris",
+    "displayName": {
+      "en": "Cornucopia_Iris",
+      "zh": "鸢尾"
+    },
+    "description": {
+      "en": "常用于花艺，这种花传递着智慧或希望。",
+      "zh": "常用于花艺，这种花传递着智慧或希望。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 90,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 36,
+      "x": 192,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": -20,
+    "contextTags": [
+      "color_dark_purple",
+      "season_fall",
+      "dye_medium",
+      "poisonous_item",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_essentialflowers",
+      "modid_cornucopia.moreflowers",
+      "iris_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_Lily",
+    "name": "Cornucopia_Lily",
+    "displayName": {
+      "en": "Cornucopia_Lily",
+      "zh": "百合"
+    },
+    "description": {
+      "en": "据说生长在遥远沙漠中的一条大河边。",
+      "zh": "据说生长在遥远沙漠中的一条大河边。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 90,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 123,
+      "x": 48,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "color_white",
+      "season_summer",
+      "dye_medium",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_essentialflowers",
+      "modid_cornucopia.moreflowers",
+      "lily_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_Lotus",
+    "name": "Cornucopia_Lotus",
+    "displayName": {
+      "en": "Cornucopia_Lotus",
+      "zh": "莲花"
+    },
+    "description": {
+      "en": "从最深的淤泥中绽放的莲花才是最美的。",
+      "zh": "从最深的淤泥中绽放的莲花才是最美的。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 150,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 34,
+      "x": 160,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "color_pink",
+      "season_summer",
+      "dye_medium",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_essentialflowers",
+      "modid_cornucopia.moreflowers",
+      "lotus_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_MorningGlory",
+    "name": "Cornucopia_MorningGlory",
+    "displayName": {
+      "en": "Cornucopia_MorningGlory",
+      "zh": "牵牛花"
+    },
+    "description": {
+      "en": "以清晨绽放而闻名，颜色淡雅，长在缠绕的藤蔓上。",
+      "zh": "以清晨绽放而闻名，颜色淡雅，长在缠绕的藤蔓上。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 110,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 32,
+      "x": 128,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_blue",
+      "season_spring",
+      "dye_medium",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_essentialflowers",
+      "modid_cornucopia.moreflowers",
+      "morning_glory_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_Orchid",
+    "name": "Cornucopia_Orchid",
+    "displayName": {
+      "en": "Cornucopia_Orchid",
+      "zh": "兰花"
+    },
+    "description": {
+      "en": "养花人眼中声名狼藉的花卉。它们需要高级护理。",
+      "zh": "养花人眼中声名狼藉的花卉。它们需要高级护理。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 300,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 129,
+      "x": 144,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "color_dark_pink",
+      "season_summer",
+      "season_fall",
+      "dye_medium",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_essentialflowers",
+      "modid_cornucopia.moreflowers",
+      "orchid_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_Pansy",
+    "name": "Cornucopia_Pansy",
+    "displayName": {
+      "en": "Cornucopia_Pansy",
+      "zh": "三色堇"
+    },
+    "description": {
+      "en": "一种色彩丰富的花卉，常用于美化环境。",
+      "zh": "一种色彩丰富的花卉，常用于美化环境。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 50,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 152,
+      "x": 128,
+      "y": 96,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "color_yellow",
+      "season_spring",
+      "dye_medium",
+      "edible_flower_item",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_essentialflowers",
+      "modid_cornucopia.moreflowers",
+      "pansy_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_PinkCat",
+    "name": "Cornucopia_PinkCat",
+    "displayName": {
+      "en": "Cornucopia_PinkCat",
+      "zh": "荆芥"
+    },
+    "description": {
+      "en": "这种花有薄荷的香味。",
+      "zh": "这种花有薄荷的香味。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 30,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 12,
+      "x": 192,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "color_pink",
+      "season_spring",
+      "dye_medium",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_essentialflowers",
+      "modid_cornucopia.moreflowers",
+      "pink_cat_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_Rose",
+    "name": "Cornucopia_Rose",
+    "displayName": {
+      "en": "Cornucopia_Rose",
+      "zh": "玫瑰"
+    },
+    "description": {
+      "en": "玫瑰不因名字而改变其芬芳。",
+      "zh": "玫瑰不因名字而改变其芬芳。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 290,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 120,
+      "x": 0,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "color_red",
+      "season_spring",
+      "season_summer",
+      "season_fall",
+      "dye_medium",
+      "edible_flower_item",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_essentialflowers",
+      "modid_cornucopia.moreflowers",
+      "rose_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_BeeBalm",
+    "name": "Cornucopia_BeeBalm",
+    "displayName": {
+      "en": "Cornucopia_BeeBalm",
+      "zh": "蜜蜂香脂"
+    },
+    "description": {
+      "en": "可食用的小型花朵，能吸引蜜蜂、蝴蝶和蜂鸟！",
+      "zh": "可食用的小型花朵，能吸引蜜蜂、蝴蝶和蜂鸟！"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 30,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 8,
+      "x": 128,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "color_dark_pink",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "bee_balm_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_Bluebonnet",
+    "name": "Cornucopia_Bluebonnet",
+    "displayName": {
+      "en": "Cornucopia_Bluebonnet",
+      "zh": "蓝花楹"
+    },
+    "description": {
+      "en": "高大的蓝色羽扇豆花，花尖呈白色。气味香甜，但不浓烈。",
+      "zh": "高大的蓝色羽扇豆花，花尖呈白色。气味香甜，但不浓烈。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 30,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 38,
+      "x": 224,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": -20,
+    "contextTags": [
+      "color_blue",
+      "season_spring",
+      "dye_medium",
+      "poisonous_item",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "bluebonnet_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_Buttercup",
+    "name": "Cornucopia_Buttercup",
+    "displayName": {
+      "en": "Cornucopia_Buttercup",
+      "zh": "毛茛"
+    },
+    "description": {
+      "en": "黄毛茛有一种温暖的香味。",
+      "zh": "黄毛茛有一种温暖的香味。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 25,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 26,
+      "x": 32,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": -20,
+    "contextTags": [
+      "color_yellow",
+      "season_summer",
+      "dye_medium",
+      "poisonous_item",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "buttercup_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_CalicoRose",
+    "name": "Cornucopia_CalicoRose",
+    "displayName": {
+      "en": "Cornucopia_CalicoRose",
+      "zh": "卡里科玫瑰"
+    },
+    "description": {
+      "en": "一种仙人掌植物的可食用花朵。",
+      "zh": "一种仙人掌植物的可食用花朵。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 400,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 86,
+      "x": 224,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "color_pink",
+      "dye_medium",
+      "cornucopia_bush_produce",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "cactus_flower_item",
+      "rose_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_Camellia",
+    "name": "Cornucopia_Camellia",
+    "displayName": {
+      "en": "Cornucopia_Camellia",
+      "zh": "山茶花"
+    },
+    "description": {
+      "en": "生长在茶树上。山茶花通常是情意的象征。",
+      "zh": "生长在茶树上。山茶花通常是情意的象征。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 90,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 30,
+      "x": 96,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "color_white",
+      "season_spring",
+      "dye_medium",
+      "edible_flower_item",
+      "cornucopia_bush_produce",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "camellia_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_Carnation",
+    "name": "Cornucopia_Carnation",
+    "displayName": {
+      "en": "Cornucopia_Carnation",
+      "zh": "康乃馨"
+    },
+    "description": {
+      "en": "一种常用于正式场合并佩戴在西装上的花。",
+      "zh": "一种常用于正式场合并佩戴在西装上的花。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 80,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 132,
+      "x": 192,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "color_red",
+      "season_spring",
+      "season_summer",
+      "dye_medium",
+      "edible_flower_item",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "carnation_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_Chamomile",
+    "name": "Cornucopia_Chamomile",
+    "displayName": {
+      "en": "Cornucopia_Chamomile",
+      "zh": "洋甘菊"
+    },
+    "description": {
+      "en": "像雏菊一样的白色花朵，散发着类似苹果或菠萝的香味。",
+      "zh": "像雏菊一样的白色花朵，散发着类似苹果或菠萝的香味。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 35,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 4,
+      "x": 64,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "color_white",
+      "season_spring",
+      "dye_medium",
+      "edible_flower_item",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "chamomile_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_ClarySage",
+    "name": "Cornucopia_ClarySage",
+    "displayName": {
+      "en": "Cornucopia_ClarySage",
+      "zh": "克拉里鼠尾草"
+    },
+    "description": {
+      "en": "美丽的紫粉色花序，散发出令人愉悦的香味。",
+      "zh": "美丽的紫粉色花序，散发出令人愉悦的香味。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 30,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 6,
+      "x": 96,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "color_purple",
+      "season_summer",
+      "dye_medium",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "clary_sage_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_Clematis",
+    "name": "Cornucopia_Clematis",
+    "displayName": {
+      "en": "Cornucopia_Clematis",
+      "zh": "铁线莲"
+    },
+    "description": {
+      "en": "一种带有深紫色调的奇特花朵。",
+      "zh": "一种带有深紫色调的奇特花朵。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 110,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 24,
+      "x": 0,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": -20,
+    "contextTags": [
+      "color_dark_purple",
+      "season_fall",
+      "dye_medium",
+      "poisonous_item",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "clematis_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_Dahlia",
+    "name": "Cornucopia_Dahlia",
+    "displayName": {
+      "en": "Cornucopia_Dahlia",
+      "zh": "大丽花"
+    },
+    "description": {
+      "en": "一种丛生的花，有彩虹般的颜色。",
+      "zh": "一种丛生的花，有彩虹般的颜色。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 50,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 143,
+      "x": 368,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_orange",
+      "season_fall",
+      "dye_medium",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "dahlia_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_Daisy",
+    "name": "Cornucopia_Daisy",
+    "displayName": {
+      "en": "Cornucopia_Daisy",
+      "zh": "雏菊"
+    },
+    "description": {
+      "en": "一种气味简单的常见花卉。深受儿童喜爱。",
+      "zh": "一种气味简单的常见花卉。深受儿童喜爱。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 15,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 28,
+      "x": 64,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "color_white",
+      "season_summer",
+      "dye_medium",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "daisy_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_FairyDuster",
+    "name": "Cornucopia_FairyDuster",
+    "displayName": {
+      "en": "Cornucopia_FairyDuster",
+      "zh": "艳红合欢"
+    },
+    "description": {
+      "en": "据说它看起来像仙女的裙子。这是一种来自遥远干旱平原的植物。",
+      "zh": "据说它看起来像仙女的裙子。这是一种来自遥远干旱平原的植物。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 40,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 18,
+      "x": 288,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_pink",
+      "season_fall",
+      "dye_medium",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "fairy_duster_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_Freesia",
+    "name": "Cornucopia_Freesia",
+    "displayName": {
+      "en": "Cornucopia_Freesia",
+      "zh": "小苍兰"
+    },
+    "description": {
+      "en": "以层层叠叠的花蕾而闻名的芳香花朵。",
+      "zh": "以层层叠叠的花蕾而闻名的芳香花朵。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 80,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 149,
+      "x": 80,
+      "y": 96,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "color_dark_pink",
+      "season_fall",
+      "dye_medium",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "freesia_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_Geranium",
+    "name": "Cornucopia_Geranium",
+    "displayName": {
+      "en": "Cornucopia_Geranium",
+      "zh": "天竺葵"
+    },
+    "description": {
+      "en": "一种结实的花朵，花朵简单而鲜艳。",
+      "zh": "一种结实的花朵，花朵简单而鲜艳。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 80,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 68,
+      "x": 320,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "color_red",
+      "season_fall",
+      "dye_medium",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "geranium_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_Honeysuckle",
+    "name": "Cornucopia_Honeysuckle",
+    "displayName": {
+      "en": "Cornucopia_Honeysuckle",
+      "zh": "金银花"
+    },
+    "description": {
+      "en": "芳香的黄色花朵，花朵内含有甜露。",
+      "zh": "芳香的黄色花朵，花朵内含有甜露。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 110,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 20,
+      "x": 320,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_yellow",
+      "season_spring",
+      "season_summer",
+      "dye_medium",
+      "edible_flower_item",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "honeysuckle_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_Hyacinth",
+    "name": "Cornucopia_Hyacinth",
+    "displayName": {
+      "en": "Cornucopia_Hyacinth",
+      "zh": "风信子"
+    },
+    "description": {
+      "en": "一种气味奇特的花。它的气味能驱赶老鼠和鹿。",
+      "zh": "一种气味奇特的花。它的气味能驱赶老鼠和鹿。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 80,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 126,
+      "x": 96,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_dark_purple",
+      "season_spring",
+      "dye_medium",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "hyacinth_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_Hydrangea",
+    "name": "Cornucopia_Hydrangea",
+    "displayName": {
+      "en": "Cornucopia_Hydrangea",
+      "zh": "绣球花"
+    },
+    "description": {
+      "en": "一簇香甜的花朵，花朵艳丽。",
+      "zh": "一簇香甜的花朵，花朵艳丽。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 80,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 155,
+      "x": 176,
+      "y": 96,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": -20,
+    "contextTags": [
+      "color_light_cyan",
+      "season_summer",
+      "dye_medium",
+      "poisonous_item",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "hydrangea_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_Larkspur",
+    "name": "Cornucopia_Larkspur",
+    "displayName": {
+      "en": "Cornucopia_Larkspur",
+      "zh": "飞燕草"
+    },
+    "description": {
+      "en": "许多小花围绕着粗壮的茎，构成了这种花朵。",
+      "zh": "许多小花围绕着粗壮的茎，构成了这种花朵。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 90,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 135,
+      "x": 240,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": -20,
+    "contextTags": [
+      "color_cyan",
+      "season_spring",
+      "dye_medium",
+      "poisonous_item",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "larkspur_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_Lavender",
+    "name": "Cornucopia_Lavender",
+    "displayName": {
+      "en": "Cornucopia_Lavender",
+      "zh": "薰衣草"
+    },
+    "description": {
+      "en": "一种气味宜人的草药。非常令人放松和舒缓。",
+      "zh": "一种气味宜人的草药。非常令人放松和舒缓。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 30,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 14,
+      "x": 224,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_purple",
+      "season_summer",
+      "dye_medium",
+      "edible_flower_item",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "lavender_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_Lilac",
+    "name": "Cornucopia_Lilac",
+    "displayName": {
+      "en": "Cornucopia_Lilac",
+      "zh": "紫丁香"
+    },
+    "description": {
+      "en": "一种非常芳香的花，嗯…有着紫丁香的颜色。",
+      "zh": "一种非常芳香的花，嗯…有着紫丁香的颜色。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 80,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 80,
+      "x": 128,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "color_purple",
+      "season_spring",
+      "season_summer",
+      "dye_medium",
+      "edible_flower_item",
+      "cornucopia_bush_produce",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "lilac_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_Lupine",
+    "name": "Cornucopia_Lupine",
+    "displayName": {
+      "en": "Cornucopia_Lupine",
+      "zh": "羽扇豆"
+    },
+    "description": {
+      "en": "一种高大、鲜艳的花朵，有多种颜色。",
+      "zh": "一种高大、鲜艳的花朵，有多种颜色。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 50,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 140,
+      "x": 320,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": -20,
+    "contextTags": [
+      "color_pale_violet_red",
+      "season_summer",
+      "dye_medium",
+      "poisonous_item",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "lupine_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_Peony",
+    "name": "Cornucopia_Peony",
+    "displayName": {
+      "en": "Cornucopia_Peony",
+      "zh": "牡丹"
+    },
+    "description": {
+      "en": "颜色鲜艳的流行花卉。",
+      "zh": "颜色鲜艳的流行花卉。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 110,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 66,
+      "x": 288,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "color_pink",
+      "season_spring",
+      "dye_medium",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "peony_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_Petunia",
+    "name": "Cornucopia_Petunia",
+    "displayName": {
+      "en": "Cornucopia_Petunia",
+      "zh": "矮牵牛"
+    },
+    "description": {
+      "en": "一种在黄昏时散发出最佳香气的花。",
+      "zh": "一种在黄昏时散发出最佳香气的花。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 50,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 64,
+      "x": 256,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": -20,
+    "contextTags": [
+      "color_pink",
+      "season_summer",
+      "dye_medium",
+      "poisonous_item",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "petunia_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_PurpleConeflower",
+    "name": "Cornucopia_PurpleConeflower",
+    "displayName": {
+      "en": "Cornucopia_PurpleConeflower",
+      "zh": "紫锥花"
+    },
+    "description": {
+      "en": "一种可爱的紫色锥形花，带有宜人的甜味，也被称为紫锥菊。",
+      "zh": "一种可爱的紫色锥形花，带有宜人的甜味，也被称为紫锥菊。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 60,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 22,
+      "x": 352,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "color_purple",
+      "season_fall",
+      "dye_medium",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "coneflower_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_RoseFall",
+    "name": "Cornucopia_RoseFall",
+    "displayName": {
+      "en": "Cornucopia_RoseFall",
+      "zh": "秋日玫瑰"
+    },
+    "description": {
+      "en": "玫瑰不因名字而改变其芬芳。",
+      "zh": "玫瑰不因名字而改变其芬芳。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 290,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 74,
+      "x": 32,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "color_dark_pink",
+      "season_fall",
+      "dye_medium",
+      "edible_flower_item",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "rose_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_RosePrismatic",
+    "name": "Cornucopia_RosePrismatic",
+    "displayName": {
+      "en": "Cornucopia_RosePrismatic",
+      "zh": "五彩玫瑰"
+    },
+    "description": {
+      "en": "玫瑰不因名字而改变其芬芳。",
+      "zh": "玫瑰不因名字而改变其芬芳。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 1500,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 78,
+      "x": 96,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "color_prismatic",
+      "season_spring",
+      "season_summer",
+      "season_fall",
+      "dye_medium",
+      "edible_flower_item",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_exclusive",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "rose_item",
+      "prismatic_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_RoseSpring",
+    "name": "Cornucopia_RoseSpring",
+    "displayName": {
+      "en": "Cornucopia_RoseSpring",
+      "zh": "春日玫瑰"
+    },
+    "description": {
+      "en": "玫瑰不因名字而改变其芬芳。",
+      "zh": "玫瑰不因名字而改变其芬芳。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 290,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 70,
+      "x": 352,
+      "y": 32,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "color_white",
+      "season_spring",
+      "dye_medium",
+      "edible_flower_item",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "rose_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_RoseSummer",
+    "name": "Cornucopia_RoseSummer",
+    "displayName": {
+      "en": "Cornucopia_RoseSummer",
+      "zh": "夏日玫瑰"
+    },
+    "description": {
+      "en": "玫瑰不因名字而改变其芬芳。",
+      "zh": "玫瑰不因名字而改变其芬芳。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 290,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 72,
+      "x": 0,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "color_yellow",
+      "season_summer",
+      "dye_medium",
+      "edible_flower_item",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "rose_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_RoseWinter",
+    "name": "Cornucopia_RoseWinter",
+    "displayName": {
+      "en": "Cornucopia_RoseWinter",
+      "zh": "冬日玫瑰"
+    },
+    "description": {
+      "en": "玫瑰不因名字而改变其芬芳。",
+      "zh": "玫瑰不因名字而改变其芬芳。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 290,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 76,
+      "x": 64,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "color_blue",
+      "season_winter",
+      "dye_medium",
+      "edible_flower_item",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "rose_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_Violet",
+    "name": "Cornucopia_Violet",
+    "displayName": {
+      "en": "Cornucopia_Violet",
+      "zh": "紫罗兰"
+    },
+    "description": {
+      "en": "一种喜爱阴凉的紫色小花。",
+      "zh": "一种喜爱阴凉的紫色小花。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 30,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 10,
+      "x": 160,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "color_dark_purple",
+      "season_spring",
+      "dye_medium",
+      "edible_flower_item",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "violet_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_Wolfsbane",
+    "name": "Cornucopia_Wolfsbane",
+    "displayName": {
+      "en": "Cornucopia_Wolfsbane",
+      "zh": "狼毒乌头"
+    },
+    "description": {
+      "en": "一种有毒的钟形花，呈深紫色。",
+      "zh": "一种有毒的钟形花，呈深紫色。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 140,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 84,
+      "x": 192,
+      "y": 48,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": -20,
+    "contextTags": [
+      "color_purple",
+      "season_summer",
+      "dye_medium",
+      "poisonous_item",
+      "cornucopia_crop_produce",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "wolfsbane_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_CorpseFlowerPetal",
+    "name": "Cornucopia_CorpseFlowerPetal",
+    "displayName": {
+      "en": "Cornucopia_CorpseFlowerPetal",
+      "zh": "巨花魔芋花瓣"
+    },
+    "description": {
+      "en": "花瓣如此之大，如果它不那么难闻的话，甚至可以当毯子用。",
+      "zh": "花瓣如此之大，如果它不那么难闻的话，甚至可以当毯子用。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 240,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 139,
+      "x": 304,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": -20,
+    "contextTags": [
+      "color_red",
+      "season_summer",
+      "poisonous_item",
+      "cornucopia_wildtree_produce",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "corpse_flower_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_Hibiscus",
+    "name": "Cornucopia_Hibiscus",
+    "displayName": {
+      "en": "Cornucopia_Hibiscus",
+      "zh": "芙蓉"
+    },
+    "description": {
+      "en": "一种鲜红色的花朵，最适合在热带气候中生长。它闻起来非常香甜。",
+      "zh": "一种鲜红色的花朵，最适合在热带气候中生长。它闻起来非常香甜。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 75,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 262,
+      "x": 352,
+      "y": 160,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "color_red",
+      "edible_flower_item",
+      "season_summer",
+      "cornucopia_fruittree_produce",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "hibiscus_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_Jasmine",
+    "name": "Cornucopia_Jasmine",
+    "displayName": {
+      "en": "Cornucopia_Jasmine",
+      "zh": "茉莉"
+    },
+    "description": {
+      "en": "这是一种甜蜜的，香气浓烈的的花朵。",
+      "zh": "这是一种甜蜜的，香气浓烈的的花朵。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 40,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 264,
+      "x": 0,
+      "y": 176,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_white",
+      "season_fall",
+      "cornucopia_fruittree_produce",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "jasmine_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_Magnolia",
+    "name": "Cornucopia_Magnolia",
+    "displayName": {
+      "en": "Cornucopia_Magnolia",
+      "zh": "玉兰"
+    },
+    "description": {
+      "en": "一种优雅的花朵，生长在阴凉的树上。",
+      "zh": "一种优雅的花朵，生长在阴凉的树上。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 60,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 260,
+      "x": 320,
+      "y": 160,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": 18,
+    "contextTags": [
+      "color_white",
+      "edible_flower_item",
+      "season_spring",
+      "cornucopia_fruittree_produce",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "magnolia_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_Wisteria",
+    "name": "Cornucopia_Wisteria",
+    "displayName": {
+      "en": "Cornucopia_Wisteria",
+      "zh": "紫藤"
+    },
+    "description": {
+      "en": "一簇特别芬芳的紫色花朵。",
+      "zh": "一簇特别芬芳的紫色花朵。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 60,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 268,
+      "x": 64,
+      "y": 176,
+      "width": 16,
+      "height": 16
+    },
+    "edibility": -20,
+    "contextTags": [
+      "color_purple",
+      "poisonous_item",
+      "season_spring",
+      "cornucopia_fruittree_produce",
+      "cornucopia_rarity_common",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "wisteria_item"
+    ]
+  },
+  {
+    "id": "Cornucopia_YlangYlang",
+    "name": "Cornucopia_YlangYlang",
+    "displayName": {
+      "en": "Cornucopia_YlangYlang",
+      "zh": "依兰"
+    },
+    "description": {
+      "en": "在香水和芳香疗法中备受推崇的花朵。",
+      "zh": "在香水和芳香疗法中备受推崇的花朵。"
+    },
+    "type": "Flower",
+    "category": -80,
+    "price": 75,
+    "sprite": {
+      "texture": "Cornucopia.MoreFlowers/Objects",
+      "index": 266,
+      "x": 32,
+      "y": 176,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_yellow",
+      "season_summer",
+      "cornucopia_fruittree_produce",
+      "cornucopia_rarity_rare",
+      "cornucopia_pack_extendedflowers",
+      "modid_cornucopia.moreflowers",
+      "ylang_ylang_item"
+    ]
+  }
+]

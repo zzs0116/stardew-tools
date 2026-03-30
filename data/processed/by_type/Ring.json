@@ -1,0 +1,1165 @@
+[
+  {
+    "id": "516",
+    "name": "Small Glow Ring",
+    "displayName": {
+      "en": "Small Glow Ring",
+      "zh": "小型光辉戒指"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:SmallGlowRing_Description]",
+      "zh": "发出微小而又恒定的光。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 100,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 516,
+      "x": 192,
+      "y": 336,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_yellow",
+      "ring_item"
+    ]
+  },
+  {
+    "id": "517",
+    "name": "Glow Ring",
+    "displayName": {
+      "en": "Glow Ring",
+      "zh": "光辉戒指"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:GlowRing_Description]",
+      "zh": "发出非常绚丽的光芒。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 200,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 517,
+      "x": 208,
+      "y": 336,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_yellow",
+      "ring_item"
+    ]
+  },
+  {
+    "id": "518",
+    "name": "Small Magnet Ring",
+    "displayName": {
+      "en": "Small Magnet Ring",
+      "zh": "小型磁铁戒指"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:SmallMagnetRing_Description]",
+      "zh": "些许增加你收集物品的半径。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 100,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 518,
+      "x": 224,
+      "y": 336,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_gray",
+      "ring_item"
+    ]
+  },
+  {
+    "id": "519",
+    "name": "Magnet Ring",
+    "displayName": {
+      "en": "Magnet Ring",
+      "zh": "磁铁戒指"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:MagnetRing_Description]",
+      "zh": "增加你收集物品的半径。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 200,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 519,
+      "x": 240,
+      "y": 336,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_gray",
+      "ring_item"
+    ]
+  },
+  {
+    "id": "520",
+    "name": "Slime Charmer Ring",
+    "displayName": {
+      "en": "Slime Charmer Ring",
+      "zh": "史莱姆克星戒指"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:SlimeCharmerRing_Description]",
+      "zh": "防止史莱姆的破坏。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 700,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 520,
+      "x": 256,
+      "y": 336,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_green",
+      "ring_item"
+    ]
+  },
+  {
+    "id": "521",
+    "name": "Warrior Ring",
+    "displayName": {
+      "en": "Warrior Ring",
+      "zh": "战士戒指"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:WarriorRing_Description]",
+      "zh": "在杀死怪物后，偶尔输送“战士能量”给佩戴者。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 1500,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 521,
+      "x": 272,
+      "y": 336,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_sand",
+      "ring_item"
+    ]
+  },
+  {
+    "id": "522",
+    "name": "Vampire Ring",
+    "displayName": {
+      "en": "Vampire Ring",
+      "zh": "吸血戒指"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:VampireRing_Description]",
+      "zh": "每次杀死一个怪物后获得一点生命值。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 1500,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 522,
+      "x": 288,
+      "y": 336,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_red",
+      "ring_item"
+    ]
+  },
+  {
+    "id": "523",
+    "name": "Savage Ring",
+    "displayName": {
+      "en": "Savage Ring",
+      "zh": "野蛮人戒指"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:SavageRing_Description]",
+      "zh": "当你杀死一个怪物后获得一点加速。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 1500,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 523,
+      "x": 304,
+      "y": 336,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_sand",
+      "ring_item"
+    ]
+  },
+  {
+    "id": "524",
+    "name": "Ring of Yoba",
+    "displayName": {
+      "en": "Ring of Yoba",
+      "zh": "由巴的戒指"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:RingofYoba_Description]",
+      "zh": "偶尔为佩戴者抵挡伤害。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 1500,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 524,
+      "x": 320,
+      "y": 336,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_gold",
+      "ring_item"
+    ]
+  },
+  {
+    "id": "525",
+    "name": "Sturdy Ring",
+    "displayName": {
+      "en": "Sturdy Ring",
+      "zh": "结实戒指"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:SturdyRing_Description]",
+      "zh": "减少负状态影响持续时间的一半。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 1500,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 525,
+      "x": 336,
+      "y": 336,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_cyan",
+      "ring_item"
+    ]
+  },
+  {
+    "id": "526",
+    "name": "Burglar's Ring",
+    "displayName": {
+      "en": "Burglar's Ring",
+      "zh": "窃贼戒指"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:BurglarsRing_Description]",
+      "zh": "怪物有很大机会掉落战利品。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 1500,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 526,
+      "x": 352,
+      "y": 336,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_jade",
+      "ring_item"
+    ]
+  },
+  {
+    "id": "527",
+    "name": "Iridium Band",
+    "displayName": {
+      "en": "Iridium Band",
+      "zh": "铱环"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:IridiumBand_Description]",
+      "zh": "光辉，吸引物品，增加 10% 的攻击伤害。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 2000,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 527,
+      "x": 368,
+      "y": 336,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_iridium",
+      "ring_item"
+    ]
+  },
+  {
+    "id": "528",
+    "name": "Jukebox Ring",
+    "displayName": {
+      "en": "Jukebox Ring",
+      "zh": "点唱机戒指"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:JukeboxRing_Description]",
+      "zh": "随机播放你已听过的音乐类型。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 200,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 528,
+      "x": 0,
+      "y": 352,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_black",
+      "ring_item"
+    ]
+  },
+  {
+    "id": "529",
+    "name": "Amethyst Ring",
+    "displayName": {
+      "en": "Amethyst Ring",
+      "zh": "紫水晶戒指"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:AmethystRing_Description]",
+      "zh": "增加 10% 的击退率。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 200,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 529,
+      "x": 16,
+      "y": 352,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_purple",
+      "ring_item"
+    ]
+  },
+  {
+    "id": "530",
+    "name": "Topaz Ring",
+    "displayName": {
+      "en": "Topaz Ring",
+      "zh": "黄水晶戒指"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:TopazRing_Description]",
+      "zh": "戴着这个会感觉安全一点点。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 200,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 530,
+      "x": 32,
+      "y": 352,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_orange",
+      "ring_item"
+    ]
+  },
+  {
+    "id": "531",
+    "name": "Aquamarine Ring",
+    "displayName": {
+      "en": "Aquamarine Ring",
+      "zh": "海蓝宝石戒指"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:AquamarineRing_Description]",
+      "zh": "增加 10% 的致命一击机会。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 400,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 531,
+      "x": 48,
+      "y": 352,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_cyan",
+      "ring_item"
+    ]
+  },
+  {
+    "id": "532",
+    "name": "Jade Ring",
+    "displayName": {
+      "en": "Jade Ring",
+      "zh": "翡翠戒指"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:JadeRing_Description]",
+      "zh": "增加 10% 的致命一击能量。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 400,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 532,
+      "x": 64,
+      "y": 352,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_jade",
+      "ring_item"
+    ]
+  },
+  {
+    "id": "533",
+    "name": "Emerald Ring",
+    "displayName": {
+      "en": "Emerald Ring",
+      "zh": "绿宝石戒指"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:EmeraldRing_Description]",
+      "zh": "增加 10% 的武器速度。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 600,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 533,
+      "x": 80,
+      "y": 352,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_green",
+      "ring_item"
+    ]
+  },
+  {
+    "id": "534",
+    "name": "Ruby Ring",
+    "displayName": {
+      "en": "Ruby Ring",
+      "zh": "红宝石戒指"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:RubyRing_Description]",
+      "zh": "增加 10% 的攻击。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 600,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 534,
+      "x": 96,
+      "y": 352,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_red",
+      "ring_item"
+    ]
+  },
+  {
+    "id": "801",
+    "name": "Wedding Ring",
+    "displayName": {
+      "en": "Wedding Ring",
+      "zh": "结婚戒指"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:WeddingRing_Description]",
+      "zh": "祖祖城的古老传统……用来向另一位农夫求婚。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 2000,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 801,
+      "x": 144,
+      "y": 528,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_iridium"
+    ]
+  },
+  {
+    "id": "810",
+    "name": "Crabshell Ring",
+    "displayName": {
+      "en": "Crabshell Ring",
+      "zh": "蟹壳戒指"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:CrabshellRing_Description]",
+      "zh": "戒指的顶部是由附魔的蟹壳制成的。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 2000,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 810,
+      "x": 288,
+      "y": 528,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown",
+      "ring_item"
+    ]
+  },
+  {
+    "id": "811",
+    "name": "Napalm Ring",
+    "displayName": {
+      "en": "Napalm Ring",
+      "zh": "燃烧弹戒指"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:NapalmRing_Description]",
+      "zh": "当你击败敌人时，它们会爆炸。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 2000,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 811,
+      "x": 304,
+      "y": 528,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_orange",
+      "ring_item"
+    ]
+  },
+  {
+    "id": "839",
+    "name": "Thorns Ring",
+    "displayName": {
+      "en": "Thorns Ring",
+      "zh": "荆棘戒指"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:ThornsRing_Description]",
+      "zh": "当敌人对你造成伤害时，他们也将受到伤害。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 200,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 839,
+      "x": 368,
+      "y": 544,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_sand",
+      "ring_item"
+    ]
+  },
+  {
+    "id": "859",
+    "name": "Lucky Ring",
+    "displayName": {
+      "en": "Lucky Ring",
+      "zh": "幸运戒指"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:LuckyRing_Description]",
+      "zh": "象征月亮的标志，据说可以给佩戴它的人带来好运。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 200,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 859,
+      "x": 304,
+      "y": 560,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_gold",
+      "ring_item"
+    ]
+  },
+  {
+    "id": "860",
+    "name": "Hot Java Ring",
+    "displayName": {
+      "en": "Hot Java Ring",
+      "zh": "热咖啡戒指"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:HotJavaRing_Description]",
+      "zh": "大幅增加狩猎怪物时找到咖啡饮料的概率。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 200,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 860,
+      "x": 320,
+      "y": 560,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_sand",
+      "ring_item"
+    ]
+  },
+  {
+    "id": "861",
+    "name": "Protection Ring",
+    "displayName": {
+      "en": "Protection Ring",
+      "zh": "保护戒指"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:ProtectionRing_Description]",
+      "zh": "在受到伤害后，保持一定时间的无敌状态。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 200,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 861,
+      "x": 336,
+      "y": 560,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_gray",
+      "ring_item"
+    ]
+  },
+  {
+    "id": "862",
+    "name": "Soul Sapper Ring",
+    "displayName": {
+      "en": "Soul Sapper Ring",
+      "zh": "吸魂戒指"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:SoulSapperRing_Description]",
+      "zh": "每次杀死一个怪物，都会获得一点能量。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 200,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 862,
+      "x": 352,
+      "y": 560,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_yellow_green",
+      "ring_item"
+    ]
+  },
+  {
+    "id": "863",
+    "name": "Phoenix Ring",
+    "displayName": {
+      "en": "Phoenix Ring",
+      "zh": "凤凰戒指"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:PhoenixRing_Description]",
+      "zh": "在战斗中被击倒后恢复些许生命值，一天仅限一次。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 200,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 863,
+      "x": 368,
+      "y": 560,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_gold",
+      "ring_item"
+    ]
+  },
+  {
+    "id": "880",
+    "name": "Combined Ring",
+    "displayName": {
+      "en": "Combined Ring",
+      "zh": "组合戒指"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:CombinedRing_Description]",
+      "zh": "……"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 100,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 880,
+      "x": 256,
+      "y": 576,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "ring_item"
+    ]
+  },
+  {
+    "id": "887",
+    "name": "Immunity Band",
+    "displayName": {
+      "en": "Immunity Band",
+      "zh": "免疫指环"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:ImmunityBand_Description]",
+      "zh": "戒指的顶部是由附魔的紫色毛绒制成的。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 500,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 887,
+      "x": 368,
+      "y": 576,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_iridium",
+      "ring_item"
+    ]
+  },
+  {
+    "id": "888",
+    "name": "Glowstone Ring",
+    "displayName": {
+      "en": "Glowstone Ring",
+      "zh": "辉石戒指"
+    },
+    "description": {
+      "en": "[LocalizedText Strings\\Objects:GlowstoneRing_Description]",
+      "zh": "散发出稳定的光芒，并增加收集物品的范围。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 200,
+    "sprite": {
+      "texture": "Maps/springobjects",
+      "index": 888,
+      "x": 0,
+      "y": 592,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_gold",
+      "ring_item"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Mermaid's_Bracelet",
+    "name": "Mermaid's Bracelet",
+    "displayName": {
+      "en": "Mermaid's Bracelet",
+      "zh": "美人鱼手镯"
+    },
+    "description": {
+      "en": "饱含一段你在深海的记忆。",
+      "zh": "饱含一段你在深海的记忆。"
+    },
+    "type": "Ring",
+    "category": -96,
+    "price": 0,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Mermaid's Bracelet",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Rafseazz.RSVCP_Glove_of_the_Assassin",
+    "name": "Glove of the Assassin",
+    "displayName": {
+      "en": "Glove of the Assassin",
+      "zh": "刺客手套"
+    },
+    "description": {
+      "en": "可以隐藏你行踪的手套，戴上后可以减少敌人的警戒范围！（穿戴在戒指栏）",
+      "zh": "可以隐藏你行踪的手套，戴上后可以减少敌人的警戒范围！（穿戴在戒指栏）"
+    },
+    "type": "Ring",
+    "category": -96,
+    "price": 15000,
+    "sprite": {
+      "texture": "Mods/Rafseazz.RSVCP/Objects/Objects",
+      "index": 36,
+      "x": 192,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Rafseazz.RSVCP_The_Beautiful_Serpent_s_Ring",
+    "name": "The Beautiful Serpent's Ring",
+    "displayName": {
+      "en": "The Beautiful Serpent's Ring",
+      "zh": "美蛇之戒"
+    },
+    "description": {
+      "en": "从灵界召唤一个灵魂到你身边。",
+      "zh": "从灵界召唤一个灵魂到你身边。"
+    },
+    "type": "Ring",
+    "category": -96,
+    "price": 15000,
+    "sprite": {
+      "texture": "Mods/Rafseazz.RSVCP/Objects/Objects",
+      "index": 118,
+      "x": 352,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Rafseazz.RSVCP_The_Fairy_Doe_Fox_s_Ring",
+    "name": "The Fairy Doe Fox's Ring",
+    "displayName": {
+      "en": "The Fairy Doe Fox's Ring",
+      "zh": "仙狐之戒"
+    },
+    "description": {
+      "en": "召唤一只狐狸精到你身边。",
+      "zh": "召唤一只狐狸精到你身边。"
+    },
+    "type": "Ring",
+    "category": -96,
+    "price": 15000,
+    "sprite": {
+      "texture": "Mods/Rafseazz.RSVCP/Objects/Objects",
+      "index": 119,
+      "x": 368,
+      "y": 64,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "Rafseazz.RSVCP_The_Ring_of_the_Ridge_Deities",
+    "name": "The Ring of the Ridge Deities",
+    "displayName": {
+      "en": "The Ring of the Ridge Deities",
+      "zh": "岭神之戒"
+    },
+    "description": {
+      "en": "雾气开始散去……",
+      "zh": "雾气开始散去……"
+    },
+    "type": "Ring",
+    "category": -96,
+    "price": 15000,
+    "sprite": {
+      "texture": "Mods/Rafseazz.RSVCP/Objects/Objects",
+      "index": 120,
+      "x": 0,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "MadDog.HashtagBearFam_Regen_WeakRingI",
+    "name": "MadDog.HashtagBearFam_Regen_WeakRingI",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_Regen_WeakRingI",
+      "zh": "虚弱之戒 I"
+    },
+    "description": {
+      "en": "知识蕴含力量。冈纳经过多次试验，最终锻造出这枚生命戒指。",
+      "zh": "知识蕴含力量。冈纳经过多次试验，最终锻造出这枚生命戒指。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/NonWeaponEquipment",
+      "index": 27,
+      "x": 48,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "ring_item",
+      "trash_bear_ignore",
+      "color_blue"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_Regen_WeakRingII",
+    "name": "MadDog.HashtagBearFam_Regen_WeakRingII",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_Regen_WeakRingII",
+      "zh": "虚弱之戒 II"
+    },
+    "description": {
+      "en": "知识增长带来全新力量。冈纳历经新的尝试，锻造出这枚能量戒指。",
+      "zh": "知识增长带来全新力量。冈纳历经新的尝试，锻造出这枚能量戒指。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/NonWeaponEquipment",
+      "index": 28,
+      "x": 64,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "ring_item",
+      "trash_bear_ignore",
+      "color_purple"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_Regen_WeakRingIII",
+    "name": "MadDog.HashtagBearFam_Regen_WeakRingIII",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_Regen_WeakRingIII",
+      "zh": "虚弱之戒 III"
+    },
+    "description": {
+      "en": "冈纳仍然不太确定自己在做什么，但这枚戒指能同时恢复生命与能量。",
+      "zh": "冈纳仍然不太确定自己在做什么，但这枚戒指能同时恢复生命与能量。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/NonWeaponEquipment",
+      "index": 29,
+      "x": 80,
+      "y": 16,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "ring_item",
+      "color_prismatic"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_Stuffed_Kraken",
+    "name": "MadDog.HashtagBearFam_Stuffed_Kraken",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_Stuffed_Kraken",
+      "zh": "冈纳的海怪毛绒玩偶"
+    },
+    "description": {
+      "en": "冈纳的海怪朋友毛绒玩具，精心手缝的多触手造型。你感觉被它那多条保护性的触手紧紧包裹，无比安全。",
+      "zh": "冈纳的海怪朋友毛绒玩具，精心手缝的多触手造型。你感觉被它那多条保护性的触手紧紧包裹，无比安全。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/NonWeaponEquipment",
+      "index": 6,
+      "x": 96,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "ring_item",
+      "trash_bear_ignore",
+      "color_dark_purple"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_Stuffed_Bear",
+    "name": "MadDog.HashtagBearFam_Stuffed_Bear",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_Stuffed_Bear",
+      "zh": "西格的毛绒熊玩偶"
+    },
+    "description": {
+      "en": "西格在戈特洛收到的毛绒棕熊玩偶，蓬松圆润。抱着它你感觉能徒手劈开山岳。",
+      "zh": "西格在戈特洛收到的毛绒棕熊玩偶，蓬松圆润。抱着它你感觉能徒手劈开山岳。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/NonWeaponEquipment",
+      "index": 7,
+      "x": 112,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "ring_item",
+      "trash_bear_ignore",
+      "color_dark_brown"
+    ]
+  },
+  {
+    "id": "MadDog.HashtagBearFam_Stuffed_Dog",
+    "name": "MadDog.HashtagBearFam_Stuffed_Dog",
+    "displayName": {
+      "en": "MadDog.HashtagBearFam_Stuffed_Dog",
+      "zh": "特伦的小狗毛绒玩偶"
+    },
+    "description": {
+      "en": "特伦童年爱犬造型的垂耳毛绒狗玩具，尾巴可摆动。拿着它你感觉能追风逐电。",
+      "zh": "特伦童年爱犬造型的垂耳毛绒狗玩具，尾巴可摆动。拿着它你感觉能追风逐电。"
+    },
+    "type": "Ring",
+    "category": 0,
+    "price": 1,
+    "sprite": {
+      "texture": "Mods/MadDogBearFam/NonWeaponEquipment",
+      "index": 8,
+      "x": 128,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "ring_item",
+      "color_sand",
+      "trash_bear_ignore"
+    ]
+  },
+  {
+    "id": "DN.SnS_adventureguildbadge",
+    "name": "DN.SnS_adventureguildbadge",
+    "displayName": {
+      "en": "DN.SnS_adventureguildbadge",
+      "zh": "探险家公会会员徽章"
+    },
+    "description": {
+      "en": "盾形的、手工锻造的公会成员标志。数字 23 刻在背面。",
+      "zh": "盾形的、手工锻造的公会成员标志。数字 23 刻在背面。"
+    },
+    "type": "Ring",
+    "category": -96,
+    "price": 0,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 6,
+      "x": 96,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "DN.SnS_pressedcrocus",
+    "name": "DN.SnS_pressedcrocus",
+    "displayName": {
+      "en": "DN.SnS_pressedcrocus",
+      "zh": "压制的番红花"
+    },
+    "description": {
+      "en": "一朵干花，夹在森最心爱的书的书页之间。",
+      "zh": "一朵干花，夹在森最心爱的书的书页之间。"
+    },
+    "type": "Ring",
+    "category": -96,
+    "price": 0,
+    "sprite": {
+      "texture": "Textures/DN.SnS/SnSObjects",
+      "index": 133,
+      "x": 208,
+      "y": 80,
+      "width": 16,
+      "height": 16
+    }
+  }
+]

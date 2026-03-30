@@ -1,0 +1,126 @@
+[
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Rusty_Blade",
+    "name": "Rusty Blade",
+    "displayName": {
+      "en": "Rusty Blade",
+      "zh": "生锈的剑"
+    },
+    "description": {
+      "en": "它曾经属于一个探险家……",
+      "zh": "它曾经属于一个探险家……"
+    },
+    "type": "MonsterLoot",
+    "category": -28,
+    "price": 200,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Rusty Blade",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_brown"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Swirl_Stone",
+    "name": "Swirl Stone",
+    "displayName": {
+      "en": "Swirl Stone",
+      "zh": "涡卷石"
+    },
+    "description": {
+      "en": "？？？",
+      "zh": ""
+    },
+    "type": "MonsterLoot",
+    "category": -28,
+    "price": 8500,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Swirl Stone",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Void_Pebble",
+    "name": "Void Pebble",
+    "displayName": {
+      "en": "Void Pebble",
+      "zh": "虚空水晶"
+    },
+    "description": {
+      "en": "虽然很小，但密度很大，摸起来很烫。",
+      "zh": "虽然很小，但密度很大，摸起来很烫。"
+    },
+    "type": "MonsterLoot",
+    "category": -28,
+    "price": 300,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Void Pebble",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_black"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Void_Shard",
+    "name": "Void Shard",
+    "displayName": {
+      "en": "Void Shard",
+      "zh": "虚空碎片"
+    },
+    "description": {
+      "en": "这块石头被黑魔法所吞噬。",
+      "zh": "这块石头被黑魔法所吞噬。"
+    },
+    "type": "MonsterLoot",
+    "category": -28,
+    "price": 10000,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Void Shard",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    },
+    "contextTags": [
+      "color_black"
+    ]
+  },
+  {
+    "id": "FlashShifter.StardewValleyExpandedCP_Void_Soul",
+    "name": "Void Soul",
+    "displayName": {
+      "en": "Void Soul",
+      "zh": "虚空灵魂"
+    },
+    "description": {
+      "en": "一种被腐化的生命精华。它是制造药水的关键原料。",
+      "zh": "一种被腐化的生命精华。它是制造药水的关键原料。"
+    },
+    "type": "MonsterLoot",
+    "category": -28,
+    "price": 150,
+    "sprite": {
+      "texture": "Mods/FlashShifter.StardewValleyExpandedCP/Void Soul",
+      "index": 0,
+      "x": 0,
+      "y": 0,
+      "width": 16,
+      "height": 16
+    }
+  }
+]
