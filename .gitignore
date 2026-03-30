@@ -3,3 +3,10 @@ node_modules
 *.pyc
 __pycache__
 .alma-snapshots
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
