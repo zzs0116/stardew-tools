@@ -1,0 +1,63 @@
+{
+	"Format": "2.0.0",
+
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/Texture",
+			"FromFile": "assets/MagicWorkbench.png"
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/BigCraftables",
+			"Entries": {
+				"{{ModId}}_Bench": {
+					"Name": "{{ModId}}_Bench",
+					"DisplayName": "{{i18n:mw.name}}",
+					"Description": "{{i18n:mw.description}}",
+					"Price": 0,
+					"Fragility": 0,
+					"CanBePlacedIndoors": true,
+					"CanBePlacedOutdoors": true,
+					"IsLamp": false,
+					"Texture": "Mods/{{ModId}}/Texture",
+					"SpriteIndex": 0,
+					"CustomFields": {
+						"leclair.bettercrafting_PerformAction": "leclair.bettercrafting_OpenMenu FALSE TRUE"
+					}
+				}
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Entries": {
+				"{{ModId}}_Bench": "(BC)208 1 (O)709 10 (O)768 20 (O)336 3/Home/{{ModId}}_Bench/true/null/{{i18n:mw.name}}"
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			"Entries": {
+				"{{ModId}}_BenchMail": "[letterbg 2]@-^I've noticed that you're using one of Robin's Workbenches.^^Enclosed, you'll find blueprints to improve your workbench with arcane engineering. Use them well.^ -M. Rasmodius, Wizard %item craftingRecipe {{ModId}}_Bench %%"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_SendMail": {
+					"Id": "{{ModId}}_SendMail",
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_HAS_MAIL Current WizardReward2, leclair.bettercrafting_HAS_WORKBENCH",
+					"Action": "AddMail Current {{ModId}}_BenchMail",
+					"MarkActionApplied": true
+				}
+			}
+		}
+	]
+}

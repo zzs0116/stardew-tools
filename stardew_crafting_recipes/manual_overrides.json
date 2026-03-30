@@ -1,0 +1,436 @@
+{
+    "Warp Totem: Desert": {
+        "解锁条件": "沙漠商人处购买",
+        "解锁条件描述": "在卡利科沙漠的绿洲商店，价格为铱锭（10）"
+    },
+    "Warp Totem: Island": {
+        "解锁条件": "火山里的矮人商店购买",
+        "解锁条件描述": "姜岛火山地牢第5层的矮人商店，需要先获得矮人翻译指南才能交易"
+    },
+    "Warp Totem: Ridgeside": {
+        "名称": "传送图腾：里奇赛德村",
+        "解锁条件": "完成\"地质研究\"特殊订单",
+        "解锁条件描述": "阿圭尔"
+    },
+    "EastScarp_Scarp_Warp_Totem": {
+        "名称": "传送图腾：东斯卡普",
+        "解锁条件": "东斯卡普旅店购买"
+    },
+    "TenebrousNova.EliDylan.CP_JunimoTotem": {
+        "解锁条件": "伊莱10心剧情后获得"
+    },
+    "skellady.SBVCP_WarpTotemSunberry": {
+        "解锁条件": "往返阳莓路30次（不同的日期）后由法师传授"
+    },
+    "Grass Starter": {
+        "解锁条件": "皮埃尔杂货店购买",
+        "解锁条件描述": "1000g"
+    },
+    "Blue Grass Starter": {
+        "解锁条件": "齐先生的核桃房购买",
+        "解锁条件描述": "齐钻（40）"
+    },
+    "Big Chest": {
+        "解锁条件": "罗宾的商店购买",
+        "解锁条件描述": "5000g"
+    },
+    "Stone Chest": {
+        "解锁条件": "完成\"罗宾的资源活动\"特殊订单"
+    },
+    "Big Stone Chest": {
+        "解锁条件": "矿井-矮人商店购买",
+        "解锁条件描述": "5000g"
+    },
+    "Deluxe Scarecrow": {
+        "解锁条件": "集齐所有珍奇乌鸦"
+    },
+    "Cask": {
+        "解锁条件": "升级解锁地窖后获得"
+    },
+    "Dehydrator": {
+        "解锁条件": "皮埃尔杂货店购买",
+        "解锁条件描述": "10000g"
+    },
+    "Garden Pot": {
+        "解锁条件": "修复温室后触发艾芙琳相关剧情后获得"
+    },
+    "Fish Smoker": {
+        "解锁条件": "威利的商店购买",
+        "解锁条件描述": "10000g"
+    },
+    "Mini-Jukebox": {
+        "解锁条件": "格斯（5心事件）"
+    },
+    "Flute Block": {
+        "解锁条件": "罗宾（6心事件）"
+    },
+    "Drum Block": {
+        "解锁条件": "罗宾（6心事件）"
+    },
+    "Mystic Tree Seed": {
+        "解锁条件": "采集技能 Lv.精通"
+    },
+    "Hyper Speed-Gro": {
+        "解锁条件": "齐先生的核桃房购买",
+        "解锁条件描述": "齐钻（30）"
+    },
+    "Deluxe Fertilizer": {
+        "解锁条件": "齐先生的核桃房购买",
+        "解锁条件描述": "齐钻（20）"
+    },
+    "Deluxe Retaining Soil": {
+        "解锁条件": "姜岛商人处购买",
+        "解锁条件描述": "火山晶石（50）"
+    },
+    "Ancient Seeds": {
+        "解锁条件": "将古代种子捐赠给博物馆后获得"
+    },
+    "Fiber Seeds": {
+        "解锁条件": "完成\"社区清理\"特殊订单",
+        "解锁条件描述": "莱纳斯"
+    },
+    "Tea Sapling": {
+        "解锁条件": "卡洛琳（2心事件）后一天获得"
+    },
+    "Treasure Totem": {
+        "解锁条件": "采集技能 Lv.精通"
+    },
+    "Statue Of Blessings": {
+        "解锁条件": "耕种技能 Lv.精通"
+    },
+    "Statue Of The Dwarf King": {
+        "解锁条件": "采矿技能 Lv.精通"
+    },
+    "Jack-O-Lantern": {
+        "解锁条件": "万灵节购买",
+        "解锁条件描述": "2000g"
+    },
+    "Wild Bait": {
+        "解锁条件": "莱纳斯（4心事件）"
+    },
+    "Challenge Bait": {
+        "解锁条件": "钓鱼技能 Lv.精通"
+    },
+    "Wedding Ring": {
+        "解锁条件": "旅行商人处购买",
+        "解锁条件描述": "500g"
+    },
+    "Tub o' Flowers": {
+        "解锁条件": "花舞节购买",
+        "解锁条件描述": "250g"
+    },
+    "Wooden Brazier": {
+        "解锁条件": "罗宾的商店购买",
+        "解锁条件描述": "250g"
+    },
+    "Wicked Statue": {
+        "解锁条件": "科罗布斯处购买",
+        "解锁条件描述": "10000g"
+    },
+    "Stone Brazier": {
+        "解锁条件": "罗宾的商店购买",
+        "解锁条件描述": "400g"
+    },
+    "Gold Brazier": {
+        "解锁条件": "罗宾的商店购买",
+        "解锁条件描述": "1000g"
+    },
+    "Stump Brazier": {
+        "解锁条件": "罗宾的商店购买",
+        "解锁条件描述": "800g"
+    },
+    "Carved Brazier": {
+        "解锁条件": "罗宾的商店购买",
+        "解锁条件描述": "2000g"
+    },
+    "Skull Brazier": {
+        "解锁条件": "罗宾的商店购买",
+        "解锁条件描述": "3000g"
+    },
+    "Barrel Brazier": {
+        "解锁条件": "罗宾的商店购买",
+        "解锁条件描述": "800g"
+    },
+    "Marble Brazier": {
+        "解锁条件": "罗宾的商店购买",
+        "解锁条件描述": "5000g"
+    },
+    "Wood Lamp-post": {
+        "解锁条件": "罗宾的商店购买",
+        "解锁条件描述": "500g"
+    },
+    "Iron Lamp-post": {
+        "解锁条件": "罗宾的商店购买",
+        "解锁条件描述": "1000g"
+    },
+    "Fairy Dust": {
+        "解锁条件": "完成\"海盗的妻子\"任务后获得"
+    },
+    "Quality Bobber": {
+        "解锁条件": "完成\"需要多汁的虫子！\"特殊订单",
+        "解锁条件描述": "威利"
+    },
+    "Monster Musk": {
+        "解锁条件": "完成\"五彩胶冻\"特殊订单",
+        "解锁条件描述": "法师"
+    },
+    "Mini-Obelisk": {
+        "解锁条件": "完成\"奇特物质\"特殊订单",
+        "解锁条件描述": "法师"
+    },
+    "Farm Computer": {
+        "解锁条件": "完成\"生态平衡\"或\"水生物泛滥\"特殊订单",
+        "解锁条件描述": "德米特里厄斯"
+    },
+    "Ostrich Incubator": {
+        "解锁条件": "蜗牛教授赠予",
+        "解锁条件描述": "完成\"岛屿办事处捐赠\"和\"岛屿调查\"任务后由蜗牛教授给予"
+    },
+    "Geode Crusher": {
+        "解锁条件": "完成\"洞穴巡查\"特殊订单",
+        "解锁条件描述": "克林特"
+    },
+    "Solar Panel": {
+        "解锁条件": "完成\"岛屿食材\"特殊订单",
+        "解锁条件描述": "卡洛琳（需解锁姜岛）"
+    },
+    "Bone Mill": {
+        "解锁条件": "完成\"历史的碎片\"特殊订单",
+        "解锁条件描述": "冈瑟"
+    },
+    "Heavy Tapper": {
+        "解锁条件": "齐先生的核桃房购买",
+        "解锁条件描述": "齐钻（20）"
+    },
+    "Hopper": {
+        "解锁条件": "齐先生的核桃房购买",
+        "解锁条件描述": "齐钻（50）"
+    },
+    "Magic Bait": {
+        "解锁条件": "齐先生的核桃房购买",
+        "解锁条件描述": "齐钻（20）"
+    },
+    "leclair.bcmagicbench_Bench": {
+        "解锁条件": "完成法师的\"奇特物质\"特殊订单",
+        "解锁条件描述": "需拥有罗宾的工作台制作配方"
+    },
+    "Small Hardwood Fence": {
+        "解锁条件": "罗宾的商店购买",
+        "解锁条件描述": "7000g"
+    },
+    "FlashShifter.StardewValleyExpandedCP_Marsh_Tonic": {
+        "解锁条件": "仆从（4心事件）"
+    },
+    "skellady.SBVCP_MineralGrinder": {
+        "解锁条件": "赛拉斯（4心好感）",
+        "解锁条件描述": "皮普和佩普的商店有概率出售，价格为1250-12500g"
+    },
+    "skellady.SBVCP_AlchemyTable": {
+        "解锁条件": "黛亚拉（4心好感）",
+        "解锁条件描述": "皮普和佩普的商店有概率出售，价格为1250-12500g"
+    },
+    "DN.SnS_ancientamaranth.seed": {
+        "解锁条件": "德鲁伊技能 Lv.1"
+    },
+    "DN.SnS_ancientepiphyticfern.seed": {
+        "解锁条件": "德鲁伊技能 Lv.1"
+    },
+    "DN.SnS_glowingpolyporemushrooms.seed": {
+        "解锁条件": "德鲁伊技能 Lv.2"
+    },
+    "DN.SnS_ancientwildfairyrose.seed": {
+        "解锁条件": "德鲁伊技能 Lv.3"
+    },
+    "DN.SnS_ancientelderberry.seed": {
+        "解锁条件": "德鲁伊技能 Lv.4"
+    },
+    "DN.SnS_ancientbottlegourd.seed": {
+        "解锁条件": "德鲁伊技能 Lv.6"
+    },
+    "DN.SnS_ancientgiantappleberry.seed": {
+        "解锁条件": "德鲁伊技能 Lv.7"
+    },
+    "DN.SnS_ancientazuredetura.seed": {
+        "解锁条件": "德鲁伊技能 Lv.8"
+    },
+    "DN.SnS_ancientglowinghuckleberry.seed": {
+        "解锁条件": "德鲁伊技能 Lv.9"
+    },
+    "DN.SnS_ClothArmor": {
+        "解锁条件": "奇械师技能 Lv.1"
+    },
+    "DN.SnS_CopperArmor": {
+        "解锁条件": "奇械师技能 Lv.3"
+    },
+    "DN.SnS_IronArmor": {
+        "解锁条件": "奇械师技能 Lv.4"
+    },
+    "DN.SnS_GoldArmor": {
+        "解锁条件": "奇械师技能 Lv.7"
+    },
+    "DN.SnS_IridiumArmor": {
+        "解锁条件": "奇械师技能 Lv.8"
+    },
+    "DN.SnS_RadioactiveArmor": {
+        "解锁条件": "奇械师技能 Lv.9"
+    },
+    "DN.SnS_StygiumArmor": {
+        "解锁条件": "奇械师技能 Lv.9"
+    },
+    "DN.SnS_ElysiumArmor": {
+        "解锁条件": "奇械师技能 Lv.9"
+    },
+    "DN.SnS_Arrow": {
+        "解锁条件": "奇械师技能 Lv.1"
+    },
+    "DN.SnS_FirestormArrow": {
+        "解锁条件": "奇械师技能 Lv.2"
+    },
+    "DN.SnS_IcicleArrow": {
+        "解锁条件": "奇械师技能 Lv.2"
+    },
+    "DN.SnS_RicochetArrow": {
+        "解锁条件": "奇械师技能 Lv.8"
+    },
+    "DN.SnS_WindwakerArrow": {
+        "解锁条件": "奇械师技能 Lv.6"
+    },
+    "DN.SnS_LightbringerArrow": {
+        "解锁条件": "奇械师技能 Lv.9"
+    },
+    "DN.SnS_Bullet": {
+        "解锁条件": "奇械师技能 Lv.1"
+    },
+    "DN.SnS_FirestormBullet": {
+        "解锁条件": "奇械师技能 Lv.2"
+    },
+    "DN.SnS_IcicleBullet": {
+        "解锁条件": "奇械师技能 Lv.2"
+    },
+    "DN.SnS_RicochetBullet": {
+        "解锁条件": "奇械师技能 Lv.8"
+    },
+    "DN.SnS_WindwakerBullet": {
+        "解锁条件": "奇械师技能 Lv.6"
+    },
+    "DN.SnS_LightbringerBullet": {
+        "解锁条件": "奇械师技能 Lv.9"
+    },
+    "DN.SnS_TeleportCircle": {
+        "解锁条件": "法术之道 Lv.4"
+    },
+    "DN.SnS_ElysiumBlade": {
+        "解锁条件": "师鬃酒馆购买"
+    },
+    "DN.SnS_oldfashionedfermenter": {
+        "解锁条件": "西瑞斯赠予",
+        "解锁条件描述": "剑与魔法第四章之后"
+    },
+    "Bouquet": {
+        "解锁条件": "花舞节购买",
+        "解锁条件描述": "1000g"
+    },
+    "Lumisteria.MtVapius_JewelerWorkshop": {
+        "解锁条件": "雾呜山集市纳文小摊处购买",
+        "解锁条件描述": "魔法糖冰棍（1）"
+    },
+    "Lumisteria.MtVapius_MaturingShelves": {
+        "解锁条件": "雾呜山集市莫伊拉小摊处购买",
+        "解锁条件描述": "雾呜山峰硬币（30）+ 5000g"
+    },
+    "Lemurkat.EastScarp_GlassTile": {
+        "解锁条件": "东斯卡普旅店购买",
+        "解锁条件描述": "750g"
+    },
+    "Lumisteria.MtVapius_OwlCarving": {
+        "解锁条件": "雾呜山集市莫伊拉小摊处购买",
+        "解锁条件描述": "雾呜山峰硬币（10）+ 1000g"
+    },
+    "DN.SnS_ancientsweettealeaves.seed": {
+        "解锁条件": "待补充"
+    },
+    "DN.SnS_mushroomtreeseed": {
+        "解锁条件": "待补充"
+    },
+    "DN.SnS_Bow": {
+        "解锁条件": "待补充"
+    },
+    "DN.SnS_farafieldsnack": {
+        "解锁条件": "师鬃酒馆购买",
+        "解锁条件描述": "待补充"
+    },
+    "Wood Floor": {
+        "解锁条件": "罗宾的商店购买",
+        "解锁条件描述": "100g"
+    },
+    "Rustic Plank Floor": {
+        "解锁条件": "罗宾的商店购买",
+        "解锁条件描述": "200g"
+    },
+    "Brick Floor": {
+        "解锁条件": "罗宾的商店购买",
+        "解锁条件描述": "500g"
+    },
+    "Straw Floor": {
+        "解锁条件": "罗宾的商店购买",
+        "解锁条件描述": "200g"
+    },
+    "Crystal Floor": {
+        "解锁条件": "科罗布斯处购买",
+        "解锁条件描述": "500g"
+    },
+    "Stepping Stone Path": {
+        "解锁条件": "罗宾的商店购买",
+        "解锁条件描述": "100g"
+    },
+    "Weathered Floor": {
+        "解锁条件": "矿井-矮人商店购买",
+        "解锁条件描述": "500g"
+    },
+    "Stone Floor": {
+        "解锁条件": "罗宾的商店购买",
+        "解锁条件描述": "100g"
+    },
+    "Crystal Path": {
+        "解锁条件": "罗宾的商店购买",
+        "解锁条件描述": "200g"
+    },
+    "Stone Walkway Floor": {
+        "解锁条件": "罗宾的商店购买",
+        "解锁条件描述": "200g"
+    },
+    "Furnace": {
+        "解锁条件": "收集第一颗铜矿石后获得",
+        "解锁条件描述": "克林特"
+    },
+    "Heavy Furnace": {
+        "解锁条件": "采矿技能 Lv.精通"
+    },
+    "Mini-Forge": {
+        "解锁条件": "战斗技能 Lv.精通"
+    },
+    "Anvil": {
+        "解锁条件": "战斗技能 Lv.精通"
+    },
+    "Lumisteria.MtVapius_CompostBin": {
+        "解锁条件": "艾丝特（5心好感）"
+    },
+    "Dark Sign": {
+        "解锁条件": "科罗布斯（3心好感）"
+    },
+    "Lumisteria.MtVapius_CandyMaker": {
+        "解锁条件": "捐献给博物馆\"火水晶\"和\"破损的手表\"后获得",
+        "解锁条件描述": "海莉娅赠予"
+    },
+    "Lumisteria.MtVapius_GemPolisher": {
+        "解锁条件": "琥珀洞中获取"
+    },
+    "Lumisteria.MtVapius_InsectHotel": {
+        "解锁条件": "雾呜山集市艾丝特小摊处购买",
+        "解锁条件描述": "星形花（1）"
+    },
+    "Fishing Elixir": {
+        "解锁条件": "任务解锁",
+        "解锁条件描述": "威利的 \"老爸的灵药\" 任务"
+    }
+}
